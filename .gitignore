@@ -1,34 +1,38 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.so
+*.egg-info/
 
 # Virtual environments
+.venv/
 venv/
-.env/
+env/
 
 # IDE
 .vscode/
 .idea/
 
-# Logs
-outputs/logs/
-*.log
-
-# Downloaded data
-data/raw/
-data/cache/
-data/processed/
-
-# Reports
-outputs/reports/
-outputs/figures/
-
-# macOS
+# OS
 .DS_Store
-
-# Linux
-*~
-
-# Windows
 Thumbs.db
+
+# Logs
+*.log
+outputs/logs/
+
+# Generated data
+data/genomes/
+data/genes/
+data/alignments/
+data/raw/
+data/reports/
+data/primers/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.tmp
