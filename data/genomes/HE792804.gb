@@ -1,0 +1,55 @@
+LOCUS       HE792804                 434 bp    DNA     linear   VRT 07-JUN-2012
+DEFINITION  Oreochromis niloticus partial cytb gene for cytochrome b, isolate
+            OrNi1.
+ACCESSION   HE792804
+VERSION     HE792804.2
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1
+  AUTHORS   Mendlova,M., Desdevises,Y., Civanova,K., Pariselle,A. and
+            Simkova,A.
+  TITLE     Monogeneans of west african cichlid fish: evolution and
+            cophylogenetic interactions
+  JOURNAL   PLoS ONE 7 (5), E37268 (2012)
+   PUBMED   22662139
+REFERENCE   2  (bases 1 to 434)
+  AUTHORS   Mendlova,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAR-2012) Dept. of Botany and Zoology, Masaryk
+            University, Faculty of Science, Kotlarska 2, 61137, CZECH REPUBLIC
+  REMARK    revised by author [11-APR-2012]
+FEATURES             Location/Qualifiers
+     source          1..434
+                     /organism="Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="OrNi1"
+                     /db_xref="taxon:8128"
+     gene            <1..>412
+                     /gene="cytb"
+     CDS             <1..>412
+                     /gene="cytb"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CCG55470.2"
+                     /translation="YSTTKTMMANLRKTHPLLKIANDALVDLPAPSNISVWWNFGSLL
+                     GLCLAAQILTGLFLAMHYTSDIATAFSSITHICRDVNYGWLIRNMHANGASFFFICIY
+                     LHIGRGLYYGSYLYKETWNIGVILLLLTMMTAFVG"
+ORIGIN      
+        1 ttattcaact acaaaaacaa taatggccaa cctccgaaaa acccaccccc tcctaaaaat
+       61 cgcaaacgac gctctagttg acctcccagc tccctcaaac atctccgtct gatggaattt
+      121 tggatctcta ctaggactct gcctagcagc ccaaatccta acaggcctct ttctagccat
+      181 acactatacc tccgacatcg ccacagcctt ctcctccatc acccacatct gtcgagacgt
+      241 aaactatggc tgactcattc gaaacataca cgccaatggc gcatcctttt tcttcatttg
+      301 tatttacctc cacatcgggc gaggcctata ctacggctct tacctgtaca aagaaacctg
+      361 aaacattgga gttatcctcc tcctcttaac cataataaca gccttcgtag gctacgtcct
+      421 cccatgagga caaa
+//
+

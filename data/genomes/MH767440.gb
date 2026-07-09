@@ -1,0 +1,62 @@
+LOCUS       MH767440                 473 bp    DNA     linear   VRT 10-APR-2019
+DEFINITION  Oreochromis niloticus isolate KMC10 cytochrome b (cytB) gene,
+            partial cds; mitochondrial.
+ACCESSION   MH767440
+VERSION     MH767440.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 473)
+  AUTHORS   Simkova,A., Rehulkova,E., Rasoloariniaina,J.R., Jorissen,M.W.P.,
+            Scholz,T., Faltynkova,A., Masova,S. and Vanhove,M.P.M.
+  TITLE     Transmission of parasites from introduced tilapias: a new threat to
+            endemic Malagasy ichthyofauna
+  JOURNAL   Biol. Invasions 21 (3), 803-819 (2019)
+REFERENCE   2  (bases 1 to 473)
+  AUTHORS   Simkova,A., Rehulkova,E., Rasoloariniaina,J.R., Jorissen,M.W.P.,
+            Scholz,T., Faltynkova,A., Masova,S. and Vanhove,M.P.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-AUG-2018) Dept. of Botany and Zoology, Masaryk
+            University, Faculty of Science, Kotlarska 2, Brno 611 37, Czech
+            Republic
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..473
+                     /organism="Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="KMC10"
+                     /db_xref="taxon:8128"
+                     /geo_loc_name="Madagascar: National Park Ankarafantsika"
+                     /PCR_primers="fwd_name: l14725, fwd_seq:
+                     cgaagcttgatatgaaaaaccatcgttg, rev_name: cichlidae_cytb_1r,
+                     rev_seq: wrackgyagcvcctcagaatgaya"
+     gene            <1..>473
+                     /gene="cytB"
+     CDS             52..>473
+                     /gene="cytB"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="QBX05275.1"
+                     /translation="MANLRKTHPLLKIANDALVDLPAPSNISVWWNFGSLLGLCLAAQ
+                     ILTGLFLAMHYTSDIATAFSSVAHICRDVNYGWLIRNMHANGASFFFICIYLHIGRGL
+                     YYGSYLYKETWNIGVILLLLTMMTAFVGYVLPWGQMSF"
+ORIGIN      
+        1 tcgaagcttg atatgaaaaa ccatcgttgt tattcaacta caaaaacaat aatggctaac
+       61 ctccgaaaaa cccacccact cctaaaaatt gcaaacgacg cactagttga cctcccagcc
+      121 ccctcaaaca tttccgtttg atgaaacttt ggatctctac taggcctctg tctagccgcc
+      181 caaatcctga caggcctttt cctagccata cactatactt ccgacatcgc cacagccttc
+      241 tcctccgttg cccatatttg tcgagatgta aactacggct gactcattcg aaacatacat
+      301 gccaacggcg catctttctt cttcatttgt atttatctcc acatcggacg aggcttatat
+      361 tacggctctt acctgtacaa agaaacctga aacattggag tcattctcct cctcctaact
+      421 ataataacag ccttcgtagg ctacgtcctc ccatgaggac aaatgtcatt ctg
+//
+

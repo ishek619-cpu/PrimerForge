@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: primerforge
+Version: 0.1.0
+Summary: Species-specific PCR primer discovery platform
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: biopython>=1.87
+Requires-Dist: requests>=2.34
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: rich>=15.0
+Requires-Dist: typer>=0.16
+Dynamic: license-file

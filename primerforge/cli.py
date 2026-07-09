@@ -1,40 +1,36 @@
 """
-PrimerForge Command Line Interface
+PrimerForge command line interface.
 """
 
 from pathlib import Path
 
 import typer
 
-from primerforge import __version__
 from primerforge.core.pipeline import Pipeline
 
 app = typer.Typer(
-    help="PrimerForge - Species-specific PCR primer discovery platform"
+    add_completion=False,
 )
 
 
 @app.command()
-def version():
+def run(
+    config: Path,
+):
     """
-    Show PrimerForge version.
+    Run PrimerForge.
     """
-    typer.echo("PrimerForge")
-    typer.echo(f"Version: {__version__}")
 
+    pipeline = Pipeline()
 
-@app.command()
-def run(config: Path):
-    """
-    Run the complete PrimerForge pipeline.
-    """
-    pipeline = Pipeline(config)
-    pipeline.run()
+    pipeline.run(config)
 
 
 def main():
+
     app()
 
 
 if __name__ == "__main__":
+
     main()

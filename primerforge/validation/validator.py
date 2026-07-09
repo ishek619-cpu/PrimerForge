@@ -14,15 +14,14 @@ from primerforge.primer.snp_optimizer import SNPOptimizer
 
 class PrimerValidator:
     """
-    Validate primer pairs.
+    Validate primer pairs using thermodynamics,
+    conservation and SNP analysis.
     """
 
     def __init__(self):
 
         self.thermo = ThermoAnalyzer()
-
         self.conservation = PrimerConservation()
-
         self.snp = SNPOptimizer()
 
     def validate(
@@ -32,25 +31,20 @@ class PrimerValidator:
         snps: list[SNP],
     ):
 
-        pair.forward = self.thermo.evaluate(
-            pair.forward,
-        )
-
-        pair.reverse = self.thermo.evaluate(
-            pair.reverse,
-        )
+        pair.forward = self.thermo.evaluate(pair.forward)
+        pair.reverse = self.thermo.evaluate(pair.reverse)
 
         heterodimer = self.thermo.heterodimer(
             pair.forward,
             pair.reverse,
         )
 
-        forward_conservation = self.conservation.evaluate(
+        forward = self.conservation.evaluate(
             pair.forward,
             alignment,
         )
 
-        reverse_conservation = self.conservation.evaluate(
+        reverse = self.conservation.evaluate(
             pair.reverse,
             alignment,
         )
@@ -81,8 +75,8 @@ class PrimerValidator:
         )
 
         conservation = (
-            forward_conservation["coverage"] +
-            reverse_conservation["coverage"]
+            forward["coverage"] +
+            reverse["coverage"]
         ) / 2.0
 
         snp = (
@@ -98,10 +92,8 @@ class PrimerValidator:
 
         if final >= 90:
             status = "PASS"
-
         elif final >= 75:
             status = "WARNING"
-
         else:
             status = "FAIL"
 
@@ -112,10 +104,9 @@ class PrimerValidator:
                 2,
             ),
 
-            "conservation": round(
-                conservation,
-                2,
-            ),
+            "forward_conservation": forward,
+
+            "reverse_conservation": reverse,
 
             "snp_score": round(
                 snp,

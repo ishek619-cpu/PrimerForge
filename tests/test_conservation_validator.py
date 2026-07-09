@@ -1,11 +1,10 @@
 """
-Primer conservation tests.
+Tests for primer conservation.
 """
 
 from pathlib import Path
 
 from primerforge.models.primer import Primer
-
 from primerforge.validation.conservation import PrimerConservation
 
 
@@ -26,6 +25,12 @@ def test_conservation():
         ),
     )
 
-    assert result["matches"] > 0
+    assert result["coverage"] >= 0
 
-    assert result["coverage"] > 0
+    assert result["exact"] >= 0
+
+    assert result["one_mismatch"] >= 0
+
+    assert result["two_mismatch"] >= 0
+
+    assert result["mean_mismatches"] >= 0

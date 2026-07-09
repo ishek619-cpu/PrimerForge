@@ -1,5 +1,5 @@
 """
-PrimerForge complete pipeline.
+Complete PrimerForge pipeline.
 """
 
 from pathlib import Path
@@ -8,31 +8,44 @@ from primerforge.config.config import Config
 from primerforge.primer.discovery import PrimerDiscovery
 from primerforge.analysis.snps import SNPFinder
 from primerforge.validation.validator import PrimerValidator
+
 from primerforge.report.csv import CSVReport
+from primerforge.report.json import JSONReport
+from primerforge.report.html import HTMLReport
+from primerforge.report.excel import ExcelReport
 
 
 class Pipeline:
+    """
+    Main PrimerForge pipeline.
+    """
 
-    def __init__(
-        self,
-        config_file,
-    ):
-
-        self.config = Config(
-            Path(config_file),
-        )
+    def __init__(self):
 
         self.discovery = PrimerDiscovery()
 
-        self.validator = PrimerValidator()
-
         self.snpfinder = SNPFinder()
 
-        self.report = CSVReport()
+        self.validator = PrimerValidator()
 
-    def run(self):
+        self.csv = CSVReport()
 
-        reference = Path(
+        self.json = JSONReport()
+
+        self.html = HTMLReport()
+
+        self.excel = ExcelReport()
+
+    def run(
+        self,
+        config_file: Path,
+    ):
+
+        config = Config(
+            config_file,
+        )
+
+        gene = Path(
             "data/genes/NC_013663_CYTB.fasta"
         )
 
@@ -41,7 +54,7 @@ class Pipeline:
         )
 
         pairs = self.discovery.discover(
-            reference,
+            gene,
         )
 
         snps = self.snpfinder.find(
@@ -52,36 +65,72 @@ class Pipeline:
 
         for pair in pairs:
 
-            result = self.validator.validate(
+            self.validator.validate(
                 pair,
                 alignment,
                 snps,
             )
 
-            pair.score = result["final_score"]
+            validated.append(
+                pair,
+            )
 
-            validated.append(pair)
-
-        validated.sort(
-            key=lambda x: x.score,
-            reverse=True,
+        results = Path(
+            "results"
         )
 
-        self.report.write(
+        self.csv.write(
             validated,
-            Path(
-                "results/primers.csv"
-            ),
+            results / "primers.csv",
+        )
+
+        self.json.write(
+            validated,
+            results / "primers.json",
+        )
+
+        self.html.write(
+            validated,
+            results / "index.html",
+        )
+
+        self.excel.write(
+            validated,
+            results / "primers.xlsx",
         )
 
         print()
 
         print("=" * 60)
+
         print("PrimerForge completed successfully")
+
         print("=" * 60)
+
         print()
 
-        print(f"Primer pairs : {len(validated)}")
-        print(f"Best score   : {validated[0].score:.2f}")
-        print("CSV report   : results/primers.csv")
+        print(
+            f"Primer pairs : {len(validated)}"
+        )
+
+        if validated:
+
+            print(
+                f"Best score   : {validated[0].score:.2f}"
+            )
+
+        print()
+
+        print("Reports generated")
+
+        print("-----------------")
+
+        print("CSV   : results/primers.csv")
+
+        print("JSON  : results/primers.json")
+
+        print("HTML  : results/index.html")
+
+        print("Excel : results/primers.xlsx")
+
         print()

@@ -1,5 +1,5 @@
 """
-Primer conservation validation.
+Primer conservation analysis.
 """
 
 from pathlib import Path
@@ -10,16 +10,14 @@ from primerforge.models.primer import Primer
 
 
 class PrimerConservation:
-
     """
-    Evaluate how well a primer is conserved across an alignment.
+    Analyse primer conservation across an alignment.
     """
 
     def evaluate(
         self,
         primer: Primer,
         alignment: Path,
-        mismatches: int = 1,
     ):
 
         aln = AlignIO.read(
@@ -27,50 +25,69 @@ class PrimerConservation:
             "fasta",
         )
 
-        primer_seq = primer.sequence.upper()
+        sequence = primer.sequence.upper()
 
-        length = len(primer_seq)
+        length = len(sequence)
 
-        matches = 0
+        exact = 0
+        one = 0
+        two = 0
+
+        mismatches = []
 
         for record in aln:
 
-            sequence = str(record.seq).upper()
+            target = str(
+                record.seq[
+                    primer.start:
+                    primer.start + length
+                ]
+            ).upper()
 
-            found = False
-
-            for i in range(
-                len(sequence) - length + 1
-            ):
-
-                target = sequence[i:i + length]
-
-                diff = sum(
-                    a != b
-                    for a, b in zip(
-                        primer_seq,
-                        target,
-                    )
+            diff = sum(
+                a != b
+                for a, b in zip(
+                    sequence,
+                    target,
                 )
+            )
 
-                if diff <= mismatches:
+            mismatches.append(diff)
 
-                    found = True
+            if diff == 0:
 
-                    break
+                exact += 1
 
-            if found:
+            elif diff == 1:
 
-                matches += 1
+                one += 1
+
+            elif diff == 2:
+
+                two += 1
+
+        coverage = (
+            (exact + one)
+            / len(aln)
+            * 100
+        )
 
         return {
 
-            "matches": matches,
+            "exact": exact,
 
-            "total": len(aln),
+            "one_mismatch": one,
+
+            "two_mismatch": two,
 
             "coverage": round(
-                matches / len(aln) * 100,
+                coverage,
+                2,
+            ),
+
+            "mean_mismatches": round(
+                sum(mismatches)
+                / len(mismatches),
                 2,
             ),
 

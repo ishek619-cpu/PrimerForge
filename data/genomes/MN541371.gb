@@ -1,0 +1,61 @@
+LOCUS       MN541371                 577 bp    DNA     linear   VRT 13-JAN-2021
+DEFINITION  Oreochromis niloticus isolate HL67 cytochrome b (cytb) gene,
+            partial cds; mitochondrial.
+ACCESSION   MN541371
+VERSION     MN541371.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 577)
+  AUTHORS   Nguyen,T.T., Truong,O.T. and Dang,B.T.
+  TITLE     Species diversity and phylogenetic relationships of common
+            freshwater fish in highland, Vietnam based on molecular marker
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 577)
+  AUTHORS   Nguyen,T.T., Truong,O.T. and Dang,B.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2019) Division of Aquaculture Biotechnology and
+            Vaccination, Research Institute for Aquaculture No. 3, 02 Dang Tat
+            Street, Vinh Hai, Nha Trang, Khanh Hoa 65000, Viet Nam
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..577
+                     /organism="Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="HL67"
+                     /db_xref="taxon:8128"
+                     /geo_loc_name="Viet Nam: Dak Lak"
+                     /collection_date="20-Mar-2016"
+     gene            <1..>577
+                     /gene="cytb"
+     CDS             <1..>577
+                     /gene="cytb"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="QQL94415.1"
+                     /translation="NGASFFFICIYLHIGRGLYYGSYLYKETWNIGVILLLLTMMTAF
+                     VGYVLPWGQMSFWGATVITNLLSAVPYIGNSLVQWIWGGFSVDNATLTRFFAFHFLFP
+                     FIIAAATMVHLIFLHETGSNNPTGLTSDADKISFHPYFSYKDLLGFAILLIALISLAL
+                     FSPNLLGDPDNFTPANPLVTPPHIKPEWYFLF"
+ORIGIN      
+        1 caacggcgca tccttcttct tcatttgtat ttatcttcac attgggcgag gcctgtacta
+       61 cggctcctac ctgtacaaag aaacctgaaa cattggagtt atcctcctcc tcctaactat
+      121 aataacagcc ttcgtgggtt acgtcctccc atgaggacaa atgtcatttt gaggtgctac
+      181 tgtcattact aaccttctct ctgcagttcc ttacattgga aattccttag tccaatgaat
+      241 ctgagggggg ttctccgtag ataatgccac cttaactcgc tttttcgcct tccatttcct
+      301 ctttcccttc atcattgcag ccgcaacaat agttcaccta atctttctcc acgaaactgg
+      361 ttctaataac cccacaggcc taacctcaga cgccgacaaa atttcattcc acccctactt
+      421 ctcttataaa gatttgttag gtttcgcaat tcttttaatt gccctcattt ctttagctct
+      481 cttttccccc aatctgctcg gtgaccccga caacttcacc cccgcaaacc ctctagttac
+      541 ccctccccac attaaacccg aatgatattt cctattt
+//
+

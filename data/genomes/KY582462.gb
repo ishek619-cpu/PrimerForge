@@ -1,0 +1,67 @@
+LOCUS       KY582462                 604 bp    DNA     linear   VRT 17-APR-2017
+DEFINITION  Oreochromis niloticus isolate O2 cytochrome b (cytb) gene, partial
+            cds; mitochondrial.
+ACCESSION   KY582462
+VERSION     KY582462.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 604)
+  AUTHORS   Lukas,J., Jourdan,J., Kalinkat,G., Emde,S., Miesen,F.W.,
+            Juengling,H., Cocchiararo,B. and Bierbach,D.
+  TITLE     Notes on feral populations of four cichlid species in an
+            artificially heated stream in Germany including the first record of
+            Pelmatolapia ('Tilapia') mariae (Boulenger, 1899) in Europe
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 604)
+  AUTHORS   Lukas,J., Jourdan,J., Kalinkat,G., Emde,S., Miesen,F.W.,
+            Juengling,H., Cocchiararo,B. and Bierbach,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2017) Conservation Genetics, Senckenberg Research
+            Institute and Natural History Museum Frankfurt, Clamecystrasse 12,
+            Gelnhausen, Hessen 63571, Germany
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..604
+                     /organism="Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="O2"
+                     /isolation_source="stream"
+                     /db_xref="taxon:8128"
+                     /geo_loc_name="Germany"
+                     /lat_lon="51.00 N 6.68 E"
+                     /collection_date="01-Sep-2016"
+     gene            <1..>604
+                     /gene="cytb"
+     CDS             <1..>604
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="ARH13827.1"
+                     /translation="DALIDLPAPSNISVWWNFGSLLGLCLAAQILTGLFLAMHYTSDI
+                     ATAFSSVAHICRDVNYGWLIRNMHANGASFFFICIYLHIGRGLYYGSYLYKETWNIGV
+                     VLLLLTMMTAFVGYVLPWGQMSFWGATVITNLLSAVPYIGNSLVQWIWGGFSVDNATL
+                     TRFFAFHFLLPFIIAAATMVHLIFLHETGSNNPTGLNSDAD"
+ORIGIN      
+        1 gatgctctaa ttgatctccc agccccctca aacatttccg tttgatgaaa ctttgggtct
+       61 ctactaggcc tttgtctagc cgcccaaatc ctaacaggcc ttttcctagc catacactac
+      121 acctccgaca tcgccacagc cttctcctcc gttgcccaca tttgtcgaga cgtaaactac
+      181 ggctgactca tccgaaacat acatgccaat ggcgcatctt tcttctttat ttgtatttat
+      241 ctccacattg gtcgaggcct gtactacggc tcctacctgt acaaagaaac ctgaaacatt
+      301 ggcgttgtcc ttctccttct aactataata acagctttcg taggttacgt cctcccatga
+      361 ggacaaatat cattctgagg tgctaccgtc attaccaacc ttctctccgc agttccttac
+      421 attggcaatt ccttagttca atgaatctga ggcgggttct ccgtagacaa tgccacccta
+      481 actcgctttt ttgccttcca tttccttctc cccttcatca ttgcagccgc aacaatagtt
+      541 cacctaattt ttcttcacga aactggatct aacaatccca caggcctaaa ctcagacgct
+      601 gaca
+//
+

@@ -1,0 +1,5 @@
+biopython>=1.87
+requests>=2.34
+pyyaml>=6.0
+rich>=15.0
+typer>=0.16
