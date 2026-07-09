@@ -2,12 +2,21 @@
 __pycache__/
 *.py[cod]
 *.so
-*.egg-info/
 
 # Virtual environments
+.env
 .venv/
 venv/
-env/
+
+# Conda
+conda-meta/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
 
 # IDE
 .vscode/
@@ -17,22 +26,19 @@ env/
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-outputs/logs/
+# Generated outputs
+results/
+logs/
+tmp/
 
-# Generated data
-data/genomes/
-data/genes/
-data/alignments/
-data/raw/
-data/reports/
-data/primers/
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
+# BLAST databases
+data/blast/*.nhr
+data/blast/*.nin
+data/blast/*.nsq
+data/blast/*.ndb
+data/blast/*.not
+data/blast/*.ntf
+data/blast/*.nto
 
 # Misc
-*.tmp
+*.log
