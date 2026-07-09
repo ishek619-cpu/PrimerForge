@@ -1,7 +1,7 @@
 """
 PrimerForge Alignment Engine
 
-Runs MUSCLE on FASTA files.
+Automatically combines FASTA files and aligns them with MUSCLE.
 """
 
 from pathlib import Path
@@ -11,30 +11,60 @@ from primerforge.core.logger import get_logger
 
 
 class AlignmentEngine:
-    """
-    Perform multiple sequence alignments using MUSCLE.
-    """
 
     def __init__(self):
 
         self.logger = get_logger(__name__)
+
+    def combine_fastas(
+        self,
+        fasta_dir: Path,
+        output_fasta: Path,
+    ) -> Path:
+
+        fasta_files = sorted(
+            fasta_dir.glob("*.fasta")
+        )
+
+        if len(fasta_files) == 0:
+            raise FileNotFoundError(
+                "No FASTA files found."
+            )
+
+        output_fasta.parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        with open(output_fasta, "w") as outfile:
+
+            for fasta in fasta_files:
+
+                self.logger.info(
+                    f"Adding {fasta.name}"
+                )
+
+                with open(fasta) as infile:
+
+                    outfile.write(infile.read())
+
+                    if not infile.read().endswith("\n"):
+                        outfile.write("\n")
+
+        self.logger.info(
+            f"Combined {len(fasta_files)} FASTA files"
+        )
+
+        return output_fasta
 
     def run_muscle(
         self,
         input_fasta: Path,
         output_fasta: Path,
     ) -> Path:
-        """
-        Run MUSCLE alignment.
-        """
 
         self.logger.info(
-            f"Running MUSCLE on {input_fasta}"
-        )
-
-        output_fasta.parent.mkdir(
-            parents=True,
-            exist_ok=True,
+            f"Running MUSCLE"
         )
 
         command = [
@@ -55,4 +85,3 @@ class AlignmentEngine:
         )
 
         return output_fasta
-
