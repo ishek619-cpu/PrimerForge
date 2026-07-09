@@ -1,0 +1,26 @@
+"""
+Primer3 default settings.
+"""
+
+PRIMER3_SETTINGS = {
+
+    "PRIMER_OPT_SIZE": 20,
+    "PRIMER_MIN_SIZE": 18,
+    "PRIMER_MAX_SIZE": 25,
+
+    "PRIMER_OPT_TM": 60.0,
+    "PRIMER_MIN_TM": 58.0,
+    "PRIMER_MAX_TM": 62.0,
+
+    "PRIMER_MIN_GC": 40.0,
+    "PRIMER_MAX_GC": 60.0,
+
+    "PRIMER_MAX_POLY_X": 4,
+
+    "PRIMER_SALT_MONOVALENT": 50.0,
+    "PRIMER_DNA_CONC": 50.0,
+
+    "PRIMER_NUM_RETURN": 20,
+
+    "PRIMER_PRODUCT_SIZE_RANGE": [[80,150]],
+}
