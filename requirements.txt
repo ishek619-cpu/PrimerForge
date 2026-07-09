@@ -1,0 +1,9 @@
+biopython>=1.85
+typer>=0.16
+rich>=14.0
+pyyaml>=6.0
+requests>=2.32
+pandas>=2.3
+openpyxl>=3.1
+primer3-py>=2.2
+pytest>=8.0
