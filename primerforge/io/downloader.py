@@ -23,6 +23,9 @@ class SequenceMetadata:
 
 
 class NCBIDownloader:
+    """
+    Download sequence data from NCBI.
+    """
 
     def __init__(
         self,
@@ -31,7 +34,6 @@ class NCBIDownloader:
     ):
 
         self.output_dir = output_dir
-
         self.output_dir.mkdir(
             parents=True,
             exist_ok=True,
@@ -88,20 +90,48 @@ class NCBIDownloader:
         accessions = []
 
         for record in records:
+            accessions.append(record["Caption"])
 
-            accession = record["Caption"]
-
-            accessions.append(accession)
-
-        self.logger.info(f"Retrieved {len(accessions)} accession numbers")
+        self.logger.info(
+            f"Retrieved {len(accessions)} accession numbers"
+        )
 
         return accessions
 
     def download_genbank(
         self,
         accession: str,
-    ):
-        raise NotImplementedError
+    ) -> Path:
+
+        self.logger.info(
+            f"Downloading GenBank record: {accession}"
+        )
+
+        handle = Entrez.efetch(
+            db="nucleotide",
+            id=accession,
+            rettype="gb",
+            retmode="text",
+        )
+
+        text = handle.read()
+
+        handle.close()
+
+        outfile = self.output_dir / f"{accession}.gb"
+
+        with open(
+            outfile,
+            "w",
+            encoding="utf-8",
+        ) as out:
+            out.write(text)
+
+        self.logger.info(
+            f"Saved {outfile}"
+        )
+
+        return outfile
 
     def download_fasta(
         self,
