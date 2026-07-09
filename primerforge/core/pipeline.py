@@ -1,116 +1,87 @@
 """
-PrimerForge Pipeline Engine
+PrimerForge complete pipeline.
 """
 
 from pathlib import Path
 
-from primerforge.analysis.align import AlignmentEngine
-from primerforge.analysis.conservation import ConservationAnalyzer
-from primerforge.analysis.extract import GeneExtractor
-from primerforge.core.config import load_config
-from primerforge.core.logger import get_logger
-from primerforge.io.downloader import NCBIDownloader
+from primerforge.config.config import Config
+from primerforge.primer.discovery import PrimerDiscovery
+from primerforge.analysis.snps import SNPFinder
+from primerforge.validation.validator import PrimerValidator
+from primerforge.report.csv import CSVReport
 
 
 class Pipeline:
 
     def __init__(
         self,
-        config_file: Path,
+        config_file,
     ):
 
-        self.config = load_config(config_file)
-
-        self.logger = get_logger(__name__)
-
-        self.downloader = NCBIDownloader(
-            Path("data/genomes"),
-            email="ishek619@gmail.com",
+        self.config = Config(
+            Path(config_file),
         )
 
-        self.extractor = GeneExtractor()
+        self.discovery = PrimerDiscovery()
 
-        self.aligner = AlignmentEngine()
+        self.validator = PrimerValidator()
 
-        self.conservation = ConservationAnalyzer()
+        self.snpfinder = SNPFinder()
+
+        self.report = CSVReport()
 
     def run(self):
 
-        self.logger.info("=" * 60)
-        self.logger.info("PrimerForge Pipeline")
-        self.logger.info("=" * 60)
-
-        target = self.config.reference_taxon
-
-        marker = self.config.marker.gene
-
-        self.logger.info(f"Searching {target.name}")
-
-        ids = self.downloader.search_taxon(
-            target.rank,
-            target.name,
-            marker,
-            self.config.download.max_records,
+        reference = Path(
+            "data/genes/NC_013663_CYTB.fasta"
         )
 
-        self.logger.info(f"Retrieved {len(ids)} records")
-
-        accessions = self.downloader.fetch_accessions(ids)
-
-        self.logger.info(
-            f"Retrieved {len(accessions)} accessions"
+        alignment = Path(
+            "data/alignments/alignment.fasta"
         )
 
-        genes_dir = Path("data/genes")
-        genomes_dir = Path("data/genomes")
-        alignments_dir = Path("data/alignments")
-
-        genes_dir.mkdir(parents=True, exist_ok=True)
-        genomes_dir.mkdir(parents=True, exist_ok=True)
-        alignments_dir.mkdir(parents=True, exist_ok=True)
-
-        for accession in accessions:
-
-            gb = self.downloader.download_genbank(
-                accession,
-            )
-
-            gene = self.extractor.extract_gene(
-                gb,
-                marker,
-            )
-
-            if gene is None:
-                self.logger.warning(
-                    f"{accession}: {marker} not found"
-                )
-                continue
-
-            self.extractor.save_gene(
-                gene,
-                genes_dir,
-            )
-
-        self.logger.info("Combining FASTA files")
-
-        combined = self.aligner.combine_fastas(
-            genes_dir,
-            alignments_dir / "all_sequences.fasta",
+        pairs = self.discovery.discover(
+            reference,
         )
 
-        self.logger.info("Running MUSCLE")
-
-        alignment = self.aligner.run_muscle(
-            combined,
-            alignments_dir / "alignment.fasta",
-        )
-
-        self.logger.info("Calculating conservation")
-
-        self.conservation.summary(
+        snps = self.snpfinder.find(
             alignment,
         )
 
-        self.logger.info("=" * 60)
-        self.logger.info("Pipeline completed successfully")
-        self.logger.info("=" * 60)
+        validated = []
+
+        for pair in pairs:
+
+            result = self.validator.validate(
+                pair,
+                alignment,
+                snps,
+            )
+
+            pair.score = result["final_score"]
+
+            validated.append(pair)
+
+        validated.sort(
+            key=lambda x: x.score,
+            reverse=True,
+        )
+
+        self.report.write(
+            validated,
+            Path(
+                "results/primers.csv"
+            ),
+        )
+
+        print()
+
+        print("=" * 60)
+        print("PrimerForge completed successfully")
+        print("=" * 60)
+        print()
+
+        print(f"Primer pairs : {len(validated)}")
+        print(f"Best score   : {validated[0].score:.2f}")
+        print("CSV report   : results/primers.csv")
+        print()
