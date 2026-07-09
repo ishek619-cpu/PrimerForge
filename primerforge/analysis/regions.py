@@ -1,72 +1,81 @@
 """
-PrimerForge Diagnostic Region Discovery Engine
+Candidate region discovery.
 """
 
-from pathlib import Path
-
-from Bio import AlignIO
+from primerforge.models.conservation import ConservationProfile
+from primerforge.models.region import Region
+from primerforge.models.snp import SNP
 
 
 class RegionFinder:
     """
-    Finds conserved regions surrounding species-specific SNPs.
+    Discover candidate primer regions around informative SNPs.
     """
 
-    def __init__(self):
-        pass
-
-    def find_candidate_regions(
+    def __init__(
         self,
-        alignment_file: Path,
-        snps: list,
         flank: int = 25,
+        minimum_conservation: float = 0.95,
     ):
 
-        alignment = AlignIO.read(
-            alignment_file,
-            "fasta",
-        )
+        self.flank = flank
+        self.minimum_conservation = minimum_conservation
 
-        length = alignment.get_alignment_length()
+    def find(
+        self,
+        profile: ConservationProfile,
+        snps: list[SNP],
+    ) -> list[Region]:
 
-        candidates = []
+        regions = []
 
         for snp in snps:
 
-            position = snp["position"] - 1
-
-            start = max(0, position - flank)
-
-            end = min(length, position + flank + 1)
-
-            candidates.append(
-                {
-                    "snp_position": position + 1,
-                    "start": start + 1,
-                    "end": end,
-                    "length": end - start,
-                }
+            start = max(
+                0,
+                snp.position - self.flank,
             )
 
-        return candidates
+            end = min(
+                profile.alignment_length - 1,
+                snp.position + self.flank,
+            )
+
+            scores = profile.scores[start:end + 1]
+
+            if not scores:
+                continue
+
+            if min(scores) < self.minimum_conservation:
+                continue
+
+            regions.append(
+                Region(
+                    snp_position=snp.position,
+                    start=start,
+                    end=end,
+                    length=end - start + 1,
+                )
+            )
+
+        return regions
 
     def summary(
         self,
-        alignment_file: Path,
-        snps: list,
+        profile: ConservationProfile,
+        snps: list[SNP],
     ):
 
-        candidates = self.find_candidate_regions(
-            alignment_file,
+        regions = self.find(
+            profile,
             snps,
         )
 
         print()
 
-        print(f"Candidate regions : {len(candidates)}")
+        print(f"SNPs              : {len(snps)}")
+        print(f"Candidate regions : {len(regions)}")
 
         print()
 
-        for region in candidates[:20]:
-
-            print(region)
+        return regions
