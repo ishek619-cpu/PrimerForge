@@ -1,13 +1,12 @@
 """
 PrimerForge NCBI Downloader
-
-Downloads sequence data and metadata from NCBI.
 """
 
 from dataclasses import dataclass
 from pathlib import Path
 
 from Bio import Entrez
+from Bio import SeqIO
 
 from primerforge.core.logger import get_logger
 
@@ -23,9 +22,6 @@ class SequenceMetadata:
 
 
 class NCBIDownloader:
-    """
-    Download sequence data from NCBI.
-    """
 
     def __init__(
         self,
@@ -103,9 +99,7 @@ class NCBIDownloader:
         accession: str,
     ) -> Path:
 
-        self.logger.info(
-            f"Downloading GenBank record: {accession}"
-        )
+        self.logger.info(f"Downloading GenBank: {accession}")
 
         handle = Entrez.efetch(
             db="nucleotide",
@@ -120,27 +114,83 @@ class NCBIDownloader:
 
         outfile = self.output_dir / f"{accession}.gb"
 
-        with open(
-            outfile,
-            "w",
-            encoding="utf-8",
-        ) as out:
+        with open(outfile, "w", encoding="utf-8") as out:
             out.write(text)
 
-        self.logger.info(
-            f"Saved {outfile}"
-        )
+        self.logger.info(f"Saved {outfile}")
 
         return outfile
 
     def download_fasta(
         self,
         accession: str,
-    ):
-        raise NotImplementedError
+    ) -> Path:
 
-    def save_metadata(
+        self.logger.info(f"Downloading FASTA: {accession}")
+
+        handle = Entrez.efetch(
+            db="nucleotide",
+            id=accession,
+            rettype="fasta",
+            retmode="text",
+        )
+
+        text = handle.read()
+
+        handle.close()
+
+        outfile = self.output_dir / f"{accession}.fasta"
+
+        with open(outfile, "w", encoding="utf-8") as out:
+            out.write(text)
+
+        self.logger.info(f"Saved {outfile}")
+
+        return outfile
+
+    def extract_metadata(
         self,
-        metadata: SequenceMetadata,
-    ):
-        raise NotImplementedError
+        genbank_file: Path,
+    ) -> SequenceMetadata:
+
+        record = SeqIO.read(genbank_file, "genbank")
+
+        accession = record.id
+
+        organism = record.annotations.get(
+            "organism",
+            "Unknown",
+        )
+
+        length = len(record.seq)
+
+        topology = record.annotations.get(
+            "topology",
+            "Unknown",
+        )
+
+        molecule = record.annotations.get(
+            "molecule_type",
+            "Unknown",
+        )
+
+        gene = "Unknown"
+
+        for feature in record.features:
+
+            if feature.type == "gene":
+
+                if "gene" in feature.qualifiers:
+
+                    gene = feature.qualifiers["gene"][0]
+
+                    break
+
+        return SequenceMetadata(
+            accession=accession,
+            organism=organism,
+            gene=gene,
+            length=length,
+            topology=topology,
+            molecule=molecule,
+        )
