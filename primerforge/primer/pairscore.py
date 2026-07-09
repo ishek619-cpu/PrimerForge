@@ -3,52 +3,90 @@ Primer pair scoring engine.
 """
 
 from primerforge.models.pair import PrimerPair
+from primerforge.primer3.thermo import ThermoAnalyzer
 
 
 class PrimerPairScorer:
     """
-    Score and rank primer pairs.
+    Score and rank primer pairs using thermodynamic properties.
     """
 
-    def score(self, pair: PrimerPair) -> PrimerPair:
+    def __init__(self):
+
+        self.thermo = ThermoAnalyzer()
+
+    def score(
+        self,
+        pair: PrimerPair,
+    ) -> PrimerPair:
+
+        pair.forward = self.thermo.evaluate(
+            pair.forward,
+        )
+
+        pair.reverse = self.thermo.evaluate(
+            pair.reverse,
+        )
+
+        heterodimer = self.thermo.heterodimer(
+            pair.forward,
+            pair.reverse,
+        )
 
         score = 100.0
 
-        # Tm difference
-        dtm = abs(pair.forward.tm - pair.reverse.tm)
-        score -= dtm * 5
+        dtm = abs(
+            pair.forward.tm -
+            pair.reverse.tm
+        )
 
-        # GC difference
-        dgc = abs(pair.forward.gc - pair.reverse.gc)
+        score -= dtm * 5.0
+
+        dgc = abs(
+            pair.forward.gc -
+            pair.reverse.gc
+        )
+
         score -= dgc * 0.5
 
-        # Product size
-        if not (80 <= pair.product_size <= 250):
+        if not (
+            80 <= pair.product_size <= 250
+        ):
             score -= 20
 
-        # GC clamps
         if pair.forward.gc_clamp:
             score += 2
 
         if pair.reverse.gc_clamp:
             score += 2
 
-        # Hairpins
         score -= pair.forward.hairpin_score
         score -= pair.reverse.hairpin_score
 
-        # Self dimers
         score -= pair.forward.self_dimer_score
         score -= pair.reverse.self_dimer_score
 
-        pair.score = round(score, 2)
+        score -= heterodimer
+
+        pair.score = round(
+            max(score, 0.0),
+            2,
+        )
 
         return pair
 
-    def rank(self, pairs):
+    def rank(
+        self,
+        pairs,
+    ):
+
+        scored = [
+            self.score(pair)
+            for pair in pairs
+        ]
 
         return sorted(
-            [self.score(p) for p in pairs],
-            key=lambda p: p.score,
+            scored,
+            key=lambda pair: pair.score,
             reverse=True,
         )

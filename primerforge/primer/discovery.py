@@ -1,7 +1,5 @@
 """
-Primer discovery engine.
-
-Designs, pairs, deduplicates and ranks primers.
+Complete primer discovery workflow.
 """
 
 from pathlib import Path
@@ -12,6 +10,7 @@ from primerforge.primer3.designer import Primer3Designer
 from primerforge.primer.pair import PrimerPairGenerator
 from primerforge.primer.pairscore import PrimerPairScorer
 from primerforge.primer.deduplicate import PrimerPairDeduplicator
+from primerforge.specificity.blastdb import BlastDatabase
 
 
 class PrimerDiscovery:
@@ -19,33 +18,41 @@ class PrimerDiscovery:
     Complete primer discovery workflow.
     """
 
-    def __init__(self):
+    def __init__(
+        self,
+        min_product: int = 80,
+        max_product: int = 250,
+    ):
 
         self.designer = Primer3Designer()
 
         self.generator = PrimerPairGenerator(
-            min_product=80,
-            max_product=250,
+            min_product=min_product,
+            max_product=max_product,
         )
-
-        self.scorer = PrimerPairScorer()
 
         self.deduplicator = PrimerPairDeduplicator()
 
+        self.scorer = PrimerPairScorer()
+
+        self.blastdb = BlastDatabase()
+
     def discover(
         self,
-        fasta: Path,
+        reference_fasta: Path,
     ):
 
         record = next(
             SeqIO.parse(
-                fasta,
+                reference_fasta,
                 "fasta",
             )
         )
 
+        sequence = str(record.seq)
+
         forward, reverse = self.designer.design(
-            str(record.seq)
+            sequence,
         )
 
         pairs = self.generator.generate(
@@ -57,8 +64,28 @@ class PrimerDiscovery:
             pairs,
         )
 
-        ranked = self.scorer.rank(
+        pairs = self.scorer.rank(
             pairs,
         )
 
-        return ranked
+        return pairs
+
+    def discover_from_database(
+        self,
+        reference_fasta: Path,
+        alignment_fasta: Path,
+        database_prefix: str = "data/blast/primerforge",
+    ):
+
+        database_prefix = str(database_prefix)
+
+        self.blastdb.build(
+            alignment_fasta,
+            database_prefix,
+        )
+
+        # BLAST database is created for later validation.
+        # Primer scoring no longer depends on BLAST.
+        return self.discover(
+            reference_fasta,
+        )
