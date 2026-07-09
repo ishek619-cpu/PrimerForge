@@ -1,127 +1,97 @@
 """
-PrimerForge Species-Specific SNP Discovery Engine
+SNP discovery from multiple sequence alignments.
 """
 
 from pathlib import Path
 
 from Bio import AlignIO
 
+from primerforge.models.snp import SNP
+
 
 class SNPFinder:
 
-    def __init__(self):
-        pass
-
-    def find_variable_sites(
+    def find(
         self,
         alignment_file: Path,
-    ):
+        gap_threshold: float = 0.2,
+    ) -> list[SNP]:
 
         alignment = AlignIO.read(
             alignment_file,
             "fasta",
         )
 
-        variable_sites = []
+        nseq = len(alignment)
 
-        alignment_length = alignment.get_alignment_length()
+        length = alignment.get_alignment_length()
 
-        for position in range(alignment_length):
+        snps = []
 
-            column = alignment[:, position]
+        for position in range(length):
 
-            bases = set(column)
+            counts = {}
 
-            bases.discard("-")
-            bases.discard("N")
-            bases.discard("?")
+            gaps = 0
 
-            if len(bases) > 1:
+            for record in alignment:
 
-                variable_sites.append(position)
+                base = record.seq[position].upper()
 
-        return alignment, variable_sites
+                if base == "-":
+                    gaps += 1
+                    continue
 
-    def find_species_specific_snps(
-        self,
-        alignment_file: Path,
-        reference_name: str,
-    ):
+                counts[base] = counts.get(base, 0) + 1
 
-        alignment, variable_sites = self.find_variable_sites(
-            alignment_file
-        )
-
-        reference = None
-
-        others = []
-
-        for record in alignment:
-
-            if reference_name.lower() in record.description.lower():
-
-                reference = record
-
-            else:
-
-                others.append(record)
-
-        if reference is None:
-
-            raise ValueError(
-                f"{reference_name} not found in alignment."
-            )
-
-        specific = []
-
-        for position in variable_sites:
-
-            ref_base = reference.seq[position]
-
-            if ref_base in "-N?":
+            if gaps / nseq > gap_threshold:
                 continue
 
-            unique = True
+            if len(counts) <= 1:
+                continue
 
-            for record in others:
+            reference = max(
+                counts,
+                key=counts.get,
+            )
 
-                base = record.seq[position]
+            alternatives = [
+                b
+                for b in counts
+                if b != reference
+            ]
 
-                if base == ref_base:
-
-                    unique = False
-                    break
-
-            if unique:
-
-                specific.append(
-                    {
-                        "position": position + 1,
-                        "reference": ref_base,
-                    }
+            snps.append(
+                SNP(
+                    position=position,
+                    reference=reference,
+                    alternatives=alternatives,
+                    counts=counts,
                 )
+            )
 
-        return specific
+        return snps
 
     def summary(
         self,
         alignment_file: Path,
-        reference_name: str,
     ):
 
-        snps = self.find_species_specific_snps(
+        snps = self.find(
             alignment_file,
-            reference_name,
+        )
+
+        alignment = AlignIO.read(
+            alignment_file,
+            "fasta",
         )
 
         print()
 
-        print(f"Reference : {reference_name}")
-
-        print(f"Species-specific SNPs : {len(snps)}")
+        print(f"Sequences : {len(alignment)}")
+        print(f"Alignment : {alignment.get_alignment_length()} bp")
+        print(f"SNPs      : {len(snps)}")
 
         print()
 
-        for snp in snps[:20]:
-
-            print(snp)
+        return snps
