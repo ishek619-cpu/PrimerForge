@@ -4,6 +4,8 @@ PrimerForge Pipeline Engine
 
 from pathlib import Path
 
+from primerforge.analysis.align import AlignmentEngine
+from primerforge.analysis.conservation import ConservationAnalyzer
 from primerforge.analysis.extract import GeneExtractor
 from primerforge.core.config import load_config
 from primerforge.core.logger import get_logger
@@ -28,6 +30,10 @@ class Pipeline:
 
         self.extractor = GeneExtractor()
 
+        self.aligner = AlignmentEngine()
+
+        self.conservation = ConservationAnalyzer()
+
     def run(self):
 
         self.logger.info("=" * 60)
@@ -38,9 +44,7 @@ class Pipeline:
 
         marker = self.config.marker.gene
 
-        self.logger.info(
-            f"Searching {target.name}"
-        )
+        self.logger.info(f"Searching {target.name}")
 
         ids = self.downloader.search_taxon(
             target.rank,
@@ -49,15 +53,21 @@ class Pipeline:
             self.config.download.max_records,
         )
 
-        self.logger.info(
-            f"Retrieved {len(ids)} records"
-        )
+        self.logger.info(f"Retrieved {len(ids)} records")
 
         accessions = self.downloader.fetch_accessions(ids)
 
         self.logger.info(
             f"Retrieved {len(accessions)} accessions"
         )
+
+        genes_dir = Path("data/genes")
+        genomes_dir = Path("data/genomes")
+        alignments_dir = Path("data/alignments")
+
+        genes_dir.mkdir(parents=True, exist_ok=True)
+        genomes_dir.mkdir(parents=True, exist_ok=True)
+        alignments_dir.mkdir(parents=True, exist_ok=True)
 
         for accession in accessions:
 
@@ -70,9 +80,37 @@ class Pipeline:
                 marker,
             )
 
+            if gene is None:
+                self.logger.warning(
+                    f"{accession}: {marker} not found"
+                )
+                continue
+
             self.extractor.save_gene(
                 gene,
-                Path("data/genes"),
+                genes_dir,
             )
 
-        self.logger.info("Pipeline complete.")
+        self.logger.info("Combining FASTA files")
+
+        combined = self.aligner.combine_fastas(
+            genes_dir,
+            alignments_dir / "all_sequences.fasta",
+        )
+
+        self.logger.info("Running MUSCLE")
+
+        alignment = self.aligner.run_muscle(
+            combined,
+            alignments_dir / "alignment.fasta",
+        )
+
+        self.logger.info("Calculating conservation")
+
+        self.conservation.summary(
+            alignment,
+        )
+
+        self.logger.info("=" * 60)
+        self.logger.info("Pipeline completed successfully")
+        self.logger.info("=" * 60)
