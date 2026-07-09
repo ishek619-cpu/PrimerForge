@@ -6,37 +6,37 @@ from pathlib import Path
 
 from Bio import AlignIO
 
+from primerforge.models.conservation import ConservationProfile
+
 
 class ConservationAnalyzer:
     """
-    Calculate conservation across a multiple sequence alignment.
+    Analyze sequence conservation in a multiple sequence alignment.
     """
 
-    def load_alignment(self, alignment_file: Path):
+    def calculate(
+        self,
+        alignment_file: Path,
+    ) -> ConservationProfile:
 
-        return AlignIO.read(
+        alignment = AlignIO.read(
             alignment_file,
             "fasta",
         )
 
-    def conservation_scores(
-        self,
-        alignment,
-    ) -> list[float]:
-
-        scores = []
+        nseq = len(alignment)
 
         length = alignment.get_alignment_length()
 
-        nseq = len(alignment)
+        scores = []
 
-        for column in range(length):
+        for position in range(length):
 
             counts = {}
 
             for record in alignment:
 
-                base = record.seq[column]
+                base = record.seq[position].upper()
 
                 if base == "-":
                     continue
@@ -44,37 +44,42 @@ class ConservationAnalyzer:
                 counts[base] = counts.get(base, 0) + 1
 
             if not counts:
-
                 scores.append(0.0)
-
                 continue
 
-            maximum = max(counts.values())
+            scores.append(
+                max(counts.values()) / nseq
+            )
 
-            scores.append(maximum / nseq)
-
-        return scores
+        return ConservationProfile(
+            alignment_length=length,
+            number_of_sequences=nseq,
+            scores=scores,
+        )
 
     def summary(
         self,
         alignment_file: Path,
-    ):
+    ) -> ConservationProfile:
 
-        alignment = self.load_alignment(
-            alignment_file
-        )
-
-        scores = self.conservation_scores(
-            alignment
+        profile = self.calculate(
+            alignment_file,
         )
 
         print()
-
-        print(f"Sequences : {len(alignment)}")
-        print(f"Length    : {alignment.get_alignment_length()}")
 
         print(
-            f"Average conservation : {sum(scores)/len(scores):.3f}"
+            f"Sequences : {profile.number_of_sequences}"
+        )
+
+        print(
+            f"Length    : {profile.alignment_length}"
+        )
+
+        print(
+            f"Average conservation : {profile.average:.3f}"
         )
 
         print()
+
+        return profile

@@ -14,12 +14,12 @@ class RegionFinder:
 
     def __init__(
         self,
-        flank: int = 25,
-        minimum_conservation: float = 0.95,
+        flank: int = 125,
+        minimum_average_conservation: float = 0.70,
     ):
 
         self.flank = flank
-        self.minimum_conservation = minimum_conservation
+        self.minimum_average_conservation = minimum_average_conservation
 
     def find(
         self,
@@ -46,7 +46,9 @@ class RegionFinder:
             if not scores:
                 continue
 
-            if min(scores) < self.minimum_conservation:
+            average = sum(scores) / len(scores)
+
+            if average < self.minimum_average_conservation:
                 continue
 
             regions.append(

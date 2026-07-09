@@ -1,72 +1,45 @@
 """
-Primer3 interface.
+Primer3 design engine.
 """
-
-from pathlib import Path
-from typing import List
 
 import primer3
 
-from primerforge.models.primer import Primer
+from primerforge.primer3.parser import Primer3Parser
+from primerforge.primer3.settings import PRIMER3_SETTINGS
 
 
 class Primer3Designer:
+    """
+    Interface to Primer3.
+    """
+
+    def __init__(self):
+        self.parser = Primer3Parser()
 
     def design(
         self,
         template: str,
         product_size=(80, 150),
-    ) -> List[Primer]:
+    ):
+        """
+        Design primers for a DNA template.
+        """
 
-        result = primer3.bindings.designPrimers(
-            {
+        settings = PRIMER3_SETTINGS.copy()
+
+        settings["PRIMER_PRODUCT_SIZE_RANGE"] = [
+            list(product_size)
+        ]
+
+        result = primer3.bindings.design_primers(
+            seq_args={
                 "SEQUENCE_TEMPLATE": template,
             },
-            {
-                "PRIMER_OPT_SIZE": 20,
-                "PRIMER_MIN_SIZE": 18,
-                "PRIMER_MAX_SIZE": 25,
-
-                "PRIMER_OPT_TM": 60.0,
-                "PRIMER_MIN_TM": 58.0,
-                "PRIMER_MAX_TM": 62.0,
-
-                "PRIMER_MIN_GC": 40,
-                "PRIMER_MAX_GC": 60,
-
-                "PRIMER_PRODUCT_SIZE_RANGE":
-                    [list(product_size)],
-
-                "PRIMER_NUM_RETURN": 20,
-            },
+            global_args=settings,
         )
 
-        primers = []
+        forward = self.parser.parse_left(result)
 
-        count = result["PRIMER_LEFT_NUM_RETURNED"]
+        reverse = self.parser.parse_right(result)
 
-        for i in range(count):
-
-            seq = result[f"PRIMER_LEFT_{i}_SEQUENCE"]
-
-            start, length = result[f"PRIMER_LEFT_{i}"]
-
-            tm = result[f"PRIMER_LEFT_{i}_TM"]
-
-            gc = result[f"PRIMER_LEFT_{i}_GC_PERCENT"]
-
-            primers.append(
-
-                Primer(
-                    sequence=seq,
-                    start=start + 1,
-                    end=start + length,
-                    strand="+",
-                    length=length,
-                    tm=tm,
-                    gc=gc,
-                )
-
-            )
-
-        return primers
+        return forward, reverse
