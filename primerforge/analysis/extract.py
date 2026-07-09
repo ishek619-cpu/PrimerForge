@@ -18,7 +18,6 @@ class GeneExtractor:
     """
 
     def __init__(self):
-
         self.logger = get_logger(__name__)
 
     def extract_gene(
@@ -30,10 +29,7 @@ class GeneExtractor:
         Extract a gene from a GenBank file.
         """
 
-        record = SeqIO.read(
-            genbank_file,
-            "genbank",
-        )
+        record = SeqIO.read(genbank_file, "genbank")
 
         for feature in record.features:
 
@@ -59,33 +55,24 @@ class GeneExtractor:
 
     def save_gene(
         self,
-        gene_record: SeqRecord,
+        record: SeqRecord,
         output_dir: Path,
     ) -> Path:
         """
-        Save extracted gene as FASTA.
+        Save a gene sequence to FASTA using the accession number.
         """
 
-        output_dir.mkdir(
-            parents=True,
-            exist_ok=True,
-        )
+        output_dir = Path(output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
 
-        filename = (
-            gene_record.description.replace(" ", "_")
-            + ".fasta"
-        )
+        accession = record.id.split(".")[0]
 
-        outfile = output_dir / filename
+        gene = record.description.split()[-1]
 
-        SeqIO.write(
-            gene_record,
-            outfile,
-            "fasta",
-        )
+        output_file = output_dir / f"{accession}_{gene}.fasta"
 
-        self.logger.info(
-            f"Saved {outfile}"
-        )
+        SeqIO.write(record, output_file, "fasta")
 
-        return outfile
+        self.logger.info(f"Saved {output_file}")
+
+        return output_file
