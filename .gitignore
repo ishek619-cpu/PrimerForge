@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+outputs/logs/
+*.log
+
+# Downloaded data
+data/raw/
+data/cache/
+data/processed/
+
+# Reports
+outputs/reports/
+outputs/figures/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db

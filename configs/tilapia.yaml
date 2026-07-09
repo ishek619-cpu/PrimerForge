@@ -1,0 +1,27 @@
+project:
+  name: Nile Tilapia Primer Discovery
+  version: 0.1.0
+
+target:
+  species: "Oreochromis niloticus"
+
+marker:
+  gene: "CYTB"
+
+database:
+  source: "NCBI"
+  db: "nucleotide"
+
+download:
+  include_related_species: true
+  max_records: 1000
+
+primer:
+  min_length: 20
+  max_length: 24
+  min_tm: 58
+  max_tm: 62
+  min_gc: 40
+  max_gc: 60
+  min_product: 80
+  max_product: 150
