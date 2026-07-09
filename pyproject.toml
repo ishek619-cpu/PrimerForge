@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "primerforge"
+version = "0.1.0"
+description = "Species-specific PCR primer discovery platform"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "biopython>=1.87",
+    "requests>=2.34",
+    "pyyaml>=6.0",
+    "rich>=15.0",
+    "typer>=0.16",
+]
+
+[project.scripts]
+primerforge = "primerforge.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["primerforge*"]
+exclude = [
+    "data*",
+    "outputs*",
+    "configs*",
+    "docs*",
+    "tests*",
+    "scripts*",
+]

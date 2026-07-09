@@ -1,16 +1,16 @@
 """
-PrimerForge CLI
-
-Entry point for all PrimerForge commands.
+PrimerForge Command Line Interface
 """
 
-from typing import Optional
+from pathlib import Path
 
 import typer
-from rich import print
+
+from primerforge import __version__
+from primerforge.core.pipeline import Pipeline
 
 app = typer.Typer(
-    help="PrimerForge - Automated species-specific primer discovery"
+    help="PrimerForge - Species-specific PCR primer discovery platform"
 )
 
 
@@ -19,23 +19,22 @@ def version():
     """
     Show PrimerForge version.
     """
-    print("[bold green]PrimerForge[/bold green]")
-    print("Version: 0.1.0")
+    typer.echo("PrimerForge")
+    typer.echo(f"Version: {__version__}")
 
 
 @app.command()
-def download(
-    species: str = typer.Option(..., help="Target species"),
-    gene: str = typer.Option(..., help="Target gene"),
-):
+def run(config: Path):
     """
-    Download sequences from NCBI.
+    Run the complete PrimerForge pipeline.
     """
-    print(f"[cyan]Species:[/cyan] {species}")
-    print(f"[cyan]Gene:[/cyan] {gene}")
-    print()
-    print("Download module not implemented yet.")
+    pipeline = Pipeline(config)
+    pipeline.run()
+
+
+def main():
+    app()
 
 
 if __name__ == "__main__":
-    app()
+    main()
