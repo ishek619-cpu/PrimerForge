@@ -14,6 +14,8 @@ from primerforge.analysis.snps import SNPFinder
 
 from primerforge.primer.discovery import PrimerDiscovery
 
+from primerforge.specificity.engine import SpecificityEngine
+
 from primerforge.validation.validator import PrimerValidator
 
 from primerforge.report.csv import CSVReport
@@ -125,10 +127,39 @@ class Pipeline:
             alignment,
         )
 
+        #
+        # Build BLAST database
+        #
+
+        print("Building BLAST database...")
+
+        blast_db = "results/blast/primerforge"
+
+        self.discovery.blastdb.build(
+            alignment,
+            blast_db,
+        )
+
+        #
+        # Create specificity engine
+        #
+
+        print("Creating specificity engine...")
+
+        engine = SpecificityEngine(
+            database=blast_db,
+            target_species=config.organism,
+        )
+
+        #
+        # Discover primers
+        #
+
         print("Designing primers...")
 
         pairs = self.discovery.discover(
             target_merged,
+            specificity_engine=engine,
         )
 
         validated = []

@@ -10,7 +10,9 @@ from primerforge.primer3.designer import Primer3Designer
 from primerforge.primer.pair import PrimerPairGenerator
 from primerforge.primer.pairscore import PrimerPairScorer
 from primerforge.primer.deduplicate import PrimerPairDeduplicator
+
 from primerforge.specificity.blastdb import BlastDatabase
+from primerforge.specificity.engine import SpecificityEngine
 
 
 class PrimerDiscovery:
@@ -37,9 +39,17 @@ class PrimerDiscovery:
 
         self.blastdb = BlastDatabase()
 
+        #
+        # Optional specificity engine.
+        # Created by the pipeline when a BLAST
+        # database and target species are available.
+        #
+        self.specificity = None
+
     def discover(
         self,
         reference_fasta: Path,
+        specificity_engine: SpecificityEngine | None = None,
     ):
 
         record = next(
@@ -63,6 +73,24 @@ class PrimerDiscovery:
         pairs = self.deduplicator.deduplicate(
             pairs,
         )
+
+        #
+        # Optional species-specificity evaluation.
+        #
+        engine = specificity_engine or self.specificity
+
+        if engine is not None:
+
+            blast_dir = Path(
+                "results/blast"
+            )
+
+            for pair in pairs:
+
+                engine.evaluate_pair(
+                    pair,
+                    blast_dir,
+                )
 
         #
         # Initial ranking only.
@@ -94,7 +122,9 @@ class PrimerDiscovery:
         database_prefix: str = "data/blast/primerforge",
     ):
 
-        database_prefix = str(database_prefix)
+        database_prefix = str(
+            database_prefix,
+        )
 
         self.blastdb.build(
             alignment_fasta,
