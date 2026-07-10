@@ -4,20 +4,23 @@ BLAST output parser.
 
 from pathlib import Path
 
+from primerforge.specificity.models import BlastHit
+
 
 class BlastParser:
     """
-    Parse BLAST tabular output.
+    Parse BLAST tabular output into BlastHit objects.
     """
 
     def parse(
         self,
         blast_output: Path,
-    ):
+    ) -> list[BlastHit]:
 
         hits = []
 
         if not blast_output.exists():
+
             return hits
 
         with open(blast_output) as handle:
@@ -25,40 +28,45 @@ class BlastParser:
             for line in handle:
 
                 if not line.strip():
+
                     continue
 
                 fields = line.rstrip().split("\t")
 
                 hits.append(
-                    {
 
-                        "query": fields[0],
+                    BlastHit(
 
-                        "subject": fields[1],
+                        accession=fields[1],
 
-                        "identity": float(fields[2]),
+                        species=fields[1],
 
-                        "length": int(fields[3]),
+                        identity=float(fields[2]),
 
-                        "mismatches": int(fields[4]),
+                        coverage=100.0,
 
-                        "gapopen": int(fields[5]),
+                        alignment_length=int(fields[3]),
 
-                        "query_start": int(fields[6]),
+                        mismatches=int(fields[4]),
 
-                        "query_end": int(fields[7]),
+                        gap_opens=int(fields[5]),
 
-                        "subject_start": int(fields[8]),
+                        qstart=int(fields[6]),
 
-                        "subject_end": int(fields[9]),
+                        qend=int(fields[7]),
 
-                        "evalue": float(fields[10]),
+                        sstart=int(fields[8]),
 
-                        "bitscore": float(fields[11]),
+                        send=int(fields[9]),
 
-                        "strand": fields[12],
+                        strand=fields[12],
 
-                    }
+                        bitscore=float(fields[11]),
+
+                        evalue=float(fields[10]),
+
+                    )
+
                 )
 
         return hits

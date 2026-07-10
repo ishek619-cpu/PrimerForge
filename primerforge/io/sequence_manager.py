@@ -39,10 +39,20 @@ class SequenceManager:
             f"Downloading {organism} {gene}..."
         )
 
-        fasta = self.downloader.fetch(
-            organism=organism,
+        accessions = self.downloader.search(
+            species=organism,
             gene=gene,
-            max_records=max_records,
+            limit=max_records,
+        )
+
+        output = self.cache.path(
+            organism,
+            gene,
+        )
+
+        fasta = self.downloader.fetch(
+            accessions,
+            output,
         )
 
         self.cache.store(

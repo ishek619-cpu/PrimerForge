@@ -3,6 +3,7 @@ Sequence cache.
 """
 
 from pathlib import Path
+import shutil
 
 
 class SequenceCache:
@@ -57,3 +58,48 @@ class SequenceCache:
             species,
             gene,
         )
+
+    def find(
+        self,
+        species: str,
+        gene: str,
+    ) -> Path | None:
+
+        cache_file = self.path(
+            species,
+            gene,
+        )
+
+        if cache_file.exists():
+            return cache_file
+
+        return None
+
+    def store(
+        self,
+        species: str,
+        gene: str,
+        fasta: Path,
+    ) -> Path:
+        """
+        Store a FASTA file in the cache.
+
+        If the file is already at the cache location,
+        nothing is copied.
+        """
+
+        destination = self.path(
+            species,
+            gene,
+        )
+
+        fasta = Path(fasta)
+
+        if fasta.resolve() != destination.resolve():
+
+            shutil.copy2(
+                fasta,
+                destination,
+            )
+
+        return destination

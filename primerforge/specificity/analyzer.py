@@ -2,98 +2,131 @@
 Primer specificity analysis.
 """
 
+from pathlib import Path
+
+from primerforge.models.primer import Primer
+
 from primerforge.specificity.blast import BlastRunner
+from primerforge.specificity.parser import BlastParser
+from primerforge.specificity.scorer import SpecificityScorer
+from primerforge.specificity.models import (
+    BlastHit,
+    OffTargetHit,
+    SpecificityResult,
+)
 
 
 class SpecificityAnalyzer:
     """
-    Analyse BLAST hits for primer specificity.
+    Analyse primer specificity using BLAST.
     """
 
     def __init__(self):
 
         self.blast = BlastRunner()
 
+        self.parser = BlastParser()
+
+        self.scorer = SpecificityScorer()
+
     def analyse(
         self,
-        primer,
-        database,
-    ):
+        primer: Primer,
+        database: str,
+        blast_output: Path,
+        target_species: str,
+    ) -> SpecificityResult:
 
-        hits = self.blast.search(
-            primer.sequence,
-            database,
+        self.blast.search(
+
+            query=blast_output.with_suffix(".fa"),
+
+            database=database,
+
+            output=blast_output,
+
         )
 
-        perfect = 0
-        offtargets = 0
-        best_identity = 0.0
-        best_coverage = 0.0
+        hits = self.parser.parse(
+            blast_output,
+        )
+
+        target_hits = []
+
+        off_target_hits = []
 
         for hit in hits:
 
-            identity = hit.get(
-                "identity",
-                0.0,
-            )
+            if target_species.lower() in hit.species.lower():
 
-            coverage = hit.get(
-                "coverage",
-                0.0,
-            )
+                target_hits.append(
+                    hit,
+                )
 
-            if identity > best_identity:
+            else:
 
-                best_identity = identity
+                off_target_hits.append(
 
-            if coverage > best_coverage:
+                    OffTargetHit(
 
-                best_coverage = coverage
+                        accession=hit.accession,
 
-            if identity == 100.0:
+                        species=hit.species,
 
-                perfect += 1
+                        identity=hit.identity,
 
-            elif identity >= 90.0:
+                        coverage=hit.coverage,
 
-                offtargets += 1
+                        alignment_length=hit.alignment_length,
 
-        score = 100.0
+                        mismatches=hit.mismatches,
 
-        score -= offtargets * 5
+                        gap_opens=hit.gap_opens,
 
-        if perfect > 1:
+                        qstart=hit.qstart,
 
-            score -= (
-                perfect - 1
-            ) * 10
+                        qend=hit.qend,
 
-        score = max(
-            score,
-            0,
+                        sstart=hit.sstart,
+
+                        send=hit.send,
+
+                        strand=hit.strand,
+
+                        bitscore=hit.bitscore,
+
+                        evalue=hit.evalue,
+
+                        three_prime_mismatches=hit.three_prime_mismatches,
+
+                        penalty=100.0 - hit.identity,
+
+                    )
+
+                )
+
+        specificity = self.scorer.score(
+            hits,
         )
 
-        return {
+        return SpecificityResult(
 
-            "hits": len(hits),
+            forward_hits=hits,
 
-            "perfect_hits": perfect,
+            reverse_hits=[],
 
-            "offtargets": offtargets,
+            target_hits=target_hits,
 
-            "best_identity": round(
-                best_identity,
-                2,
+            off_target_hits=off_target_hits,
+
+            specificity_score=specificity,
+
+            passed=specificity >= 90.0,
+
+            rejection_reason=(
+                None
+                if specificity >= 90.0
+                else "Low species specificity"
             ),
 
-            "best_coverage": round(
-                best_coverage,
-                2,
-            ),
-
-            "score": round(
-                score,
-                2,
-            ),
-
-        }
+        )
