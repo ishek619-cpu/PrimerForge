@@ -6,89 +6,96 @@ from pathlib import Path
 
 from Bio import AlignIO
 
-from primerforge.models.primer import Primer
-
 
 class PrimerConservation:
     """
-    Analyse primer conservation across an alignment.
+    Evaluate primer conservation from a multiple sequence alignment.
     """
 
     def evaluate(
         self,
-        primer: Primer,
+        primer,
         alignment: Path,
-    ):
+    ) -> dict:
 
         aln = AlignIO.read(
             alignment,
             "fasta",
         )
 
-        sequence = primer.sequence.upper()
+        length = len(primer.sequence)
 
-        length = len(sequence)
+        best_score = -1.0
+        best_start = -1
 
-        exact = 0
-        one = 0
-        two = 0
+        conservation = []
 
-        mismatches = []
+        for start in range(
+            aln.get_alignment_length() - length + 1
+        ):
 
-        for record in aln:
+            matches = 0
+            total = 0
 
-            target = str(
-                record.seq[
-                    primer.start:
-                    primer.start + length
+            for i in range(length):
+
+                column = aln[:, start + i]
+
+                bases = [
+                    b
+                    for b in column
+                    if b != "-"
                 ]
-            ).upper()
 
-            diff = sum(
-                a != b
-                for a, b in zip(
-                    sequence,
-                    target,
+                if not bases:
+                    continue
+
+                total += 1
+
+                most_common = max(
+                    set(bases),
+                    key=bases.count,
+                )
+
+                freq = (
+                    bases.count(
+                        most_common,
+                    )
+                    / len(bases)
+                )
+
+                matches += freq
+
+            score = (
+                matches / total * 100
+                if total
+                else 0.0
+            )
+
+            conservation.append(
+                round(
+                    score,
+                    2,
                 )
             )
 
-            mismatches.append(diff)
+            if score > best_score:
 
-            if diff == 0:
+                best_score = score
 
-                exact += 1
-
-            elif diff == 1:
-
-                one += 1
-
-            elif diff == 2:
-
-                two += 1
-
-        coverage = (
-            (exact + one)
-            / len(aln)
-            * 100
-        )
+                best_start = start
 
         return {
 
-            "exact": exact,
+            "best_start": best_start,
 
-            "one_mismatch": one,
+            "window_length": length,
 
-            "two_mismatch": two,
-
-            "coverage": round(
-                coverage,
+            "best_score": round(
+                best_score,
                 2,
             ),
 
-            "mean_mismatches": round(
-                sum(mismatches)
-                / len(mismatches),
-                2,
-            ),
+            "profile": conservation,
 
         }

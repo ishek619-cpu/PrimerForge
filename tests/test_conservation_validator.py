@@ -5,7 +5,9 @@ Tests for primer conservation.
 from pathlib import Path
 
 from primerforge.models.primer import Primer
-from primerforge.validation.conservation import PrimerConservation
+from primerforge.validation.conservation import (
+    PrimerConservation,
+)
 
 
 def test_conservation():
@@ -21,16 +23,25 @@ def test_conservation():
     result = PrimerConservation().evaluate(
         primer,
         Path(
-            "data/alignments/alignment.fasta"
+            "data/alignments/alignment.fasta",
         ),
     )
 
-    assert result["coverage"] >= 0
+    assert "best_start" in result
 
-    assert result["exact"] >= 0
+    assert "window_length" in result
 
-    assert result["one_mismatch"] >= 0
+    assert "best_score" in result
 
-    assert result["two_mismatch"] >= 0
+    assert "profile" in result
 
-    assert result["mean_mismatches"] >= 0
+    assert result["window_length"] == 20
+
+    assert isinstance(
+        result["profile"],
+        list,
+    )
+
+    assert len(result["profile"]) > 0
+
+    assert result["best_score"] >= 0.0

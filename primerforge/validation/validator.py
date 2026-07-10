@@ -1,28 +1,58 @@
 """
-Complete primer validation engine.
+Primer validation.
 """
 
 from pathlib import Path
 
+from primerforge.analysis.snps import SNPFinder
 from primerforge.models.pair import PrimerPair
 from primerforge.models.snp import SNP
-
 from primerforge.primer3.thermo import ThermoAnalyzer
 from primerforge.validation.conservation import PrimerConservation
-from primerforge.primer.snp_optimizer import SNPOptimizer
+
+
+class SNPScorer:
+    """
+    Score primers against known SNPs.
+    """
+
+    def score(
+        self,
+        primer,
+        snps: list[SNP],
+    ) -> float:
+
+        if not snps:
+            return 100.0
+
+        overlapping = 0
+
+        for snp in snps:
+
+            if primer.start <= snp.position <= primer.end:
+                overlapping += 1
+
+        return round(
+            max(
+                0.0,
+                100.0 - overlapping * 10.0,
+            ),
+            2,
+        )
 
 
 class PrimerValidator:
     """
-    Validate primer pairs using thermodynamics,
-    conservation and SNP analysis.
+    Validate primer pairs.
     """
 
     def __init__(self):
 
         self.thermo = ThermoAnalyzer()
+
         self.conservation = PrimerConservation()
-        self.snp = SNPOptimizer()
+
+        self.snp = SNPScorer()
 
     def validate(
         self,
@@ -32,6 +62,7 @@ class PrimerValidator:
     ):
 
         pair.forward = self.thermo.evaluate(pair.forward)
+
         pair.reverse = self.thermo.evaluate(pair.reverse)
 
         heterodimer = self.thermo.heterodimer(
@@ -49,24 +80,12 @@ class PrimerValidator:
             alignment,
         )
 
-        forward_snp = self.snp.score(
-            pair.forward,
-            snps,
-        )
-
-        reverse_snp = self.snp.score(
-            pair.reverse,
-            snps,
-        )
-
         thermo = 100.0
 
         thermo -= pair.forward.hairpin_score
         thermo -= pair.reverse.hairpin_score
-
         thermo -= pair.forward.self_dimer_score
         thermo -= pair.reverse.self_dimer_score
-
         thermo -= heterodimer
 
         thermo = max(
@@ -75,49 +94,43 @@ class PrimerValidator:
         )
 
         conservation = (
-            forward["coverage"] +
-            reverse["coverage"]
+            forward["best_score"]
+            + reverse["best_score"]
         ) / 2.0
 
         snp = (
-            forward_snp +
-            reverse_snp
+            self.snp.score(pair.forward, snps)
+            + self.snp.score(pair.reverse, snps)
         ) / 2.0
 
-        final = (
-            thermo * 0.40 +
-            conservation * 0.40 +
-            snp * 0.20
+        final_score = round(
+            thermo * 0.5
+            + conservation * 0.3
+            + snp * 0.2,
+            2,
         )
 
-        if final >= 90:
-            status = "PASS"
-        elif final >= 75:
-            status = "WARNING"
-        else:
-            status = "FAIL"
+        pair.score = final_score
 
         return {
 
-            "thermodynamics": round(
+            "thermo": round(
                 thermo,
                 2,
             ),
 
-            "forward_conservation": forward,
+            "conservation": round(
+                conservation,
+                2,
+            ),
 
-            "reverse_conservation": reverse,
-
-            "snp_score": round(
+            "snp": round(
                 snp,
                 2,
             ),
 
-            "final_score": round(
-                final,
-                2,
-            ),
+            "score": final_score,
 
-            "status": status,
+            "final_score": final_score,
 
         }
