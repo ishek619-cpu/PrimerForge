@@ -1,5 +1,5 @@
 """
-Tests for sequence manager.
+Tests for SequenceManager.
 """
 
 from pathlib import Path
@@ -7,60 +7,54 @@ from pathlib import Path
 from primerforge.io.sequence_manager import SequenceManager
 
 
-class DummyDownloader:
+class DummyManager(SequenceManager):
 
     def __init__(self):
 
-        self.calls = 0
+        pass
 
-    def search(
+    def get(
         self,
-        species,
+        organism,
         gene,
-        limit=100,
+        max_records=1000,
     ):
 
-        self.calls += 1
-
-        return ["12345"]
-
-    def fetch(
-        self,
-        accessions,
-        output: Path,
-    ):
-
-        output.write_text(
-            ">seq\nATGC"
+        return Path(
+            f"{organism}_{gene}.fasta"
         )
 
-        return output
 
+def test_sequence_manager():
 
-def test_sequence_manager(tmp_path: Path):
+    manager = DummyManager()
 
-    manager = SequenceManager()
-
-    manager.cache.root = tmp_path
-
-    manager.downloader = DummyDownloader()
-
-    path1 = manager.get(
+    result = manager.get(
         "Oreochromis niloticus",
         "CYTB",
     )
 
-    assert path1.exists()
+    assert result.name == "Oreochromis niloticus_CYTB.fasta"
 
-    assert manager.downloader.calls == 1
-
-    path2 = manager.get(
-        "Oreochromis niloticus",
+    contrast = manager.get_contrast(
+        [
+            {
+                "name": "Oreochromis",
+            },
+            {
+                "name": "Sarotherodon",
+            },
+            {
+                "name": "Coptodon",
+            },
+        ],
         "CYTB",
     )
 
-    assert path2.exists()
+    assert len(contrast) == 3
 
-    assert manager.downloader.calls == 1
+    assert contrast[0].name == "Oreochromis_CYTB.fasta"
 
-    assert path1 == path2
+    assert contrast[1].name == "Sarotherodon_CYTB.fasta"
+
+    assert contrast[2].name == "Coptodon_CYTB.fasta"

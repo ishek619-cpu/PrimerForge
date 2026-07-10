@@ -5,11 +5,17 @@ Complete PrimerForge pipeline.
 from pathlib import Path
 
 from primerforge.config.config import Config
+
 from primerforge.io.sequence_manager import SequenceManager
+from primerforge.io.merge import FASTAMerger
+
 from primerforge.analysis.align import MAFFTAligner
 from primerforge.analysis.snps import SNPFinder
+
 from primerforge.primer.discovery import PrimerDiscovery
+
 from primerforge.validation.validator import PrimerValidator
+
 from primerforge.report.csv import CSVReport
 from primerforge.report.json import JSONReport
 from primerforge.report.html import HTMLReport
@@ -17,57 +23,117 @@ from primerforge.report.excel import ExcelReport
 
 
 class Pipeline:
+    """
+    Complete PrimerForge workflow.
+    """
 
     def __init__(self):
 
         self.sequence_manager = SequenceManager()
+
+        self.merger = FASTAMerger()
+
         self.aligner = MAFFTAligner()
+
         self.snpfinder = SNPFinder()
+
         self.discovery = PrimerDiscovery()
+
         self.validator = PrimerValidator()
 
         self.csv = CSVReport()
+
         self.json = JSONReport()
+
         self.html = HTMLReport()
+
         self.excel = ExcelReport()
 
-    def run(self, config_file: Path):
-
-        print("STEP 1 - Loading config")
+    def run(
+        self,
+        config_file: Path,
+    ):
 
         config = Config(config_file)
 
-        print("STEP 2 - Download/cache sequences")
+        print("Downloading target sequences...")
 
-        gene = self.sequence_manager.get(
+        target = self.sequence_manager.get(
             config.organism,
             config.gene,
+            config.download.get(
+                "max_records",
+                1000,
+            ),
         )
 
-        print("STEP 3 - Alignment")
+        print("Downloading contrast taxa...")
 
-        alignment = Path("results/alignment.fasta")
+        contrast = self.sequence_manager.get_contrast(
+            config.contrast_taxa,
+            config.gene,
+            config.download.get(
+                "max_records",
+                1000,
+            ),
+        )
+
+        results = Path("results")
+
+        results.mkdir(
+            exist_ok=True,
+        )
+
+        #
+        # Merge FASTA files
+        #
+
+        target_merged = results / "target.fasta"
+
+        self.merger.merge(
+            [target],
+            target_merged,
+        )
+
+        contrast_merged = results / "contrast.fasta"
+
+        self.merger.merge(
+            contrast,
+            contrast_merged,
+        )
+
+        print()
+
+        print(f"Target FASTA   : {target_merged}")
+
+        print(f"Contrast FASTA : {contrast_merged}")
+
+        alignment = results / "alignment.fasta"
+
+        print()
+
+        print("Running MAFFT...")
 
         self.aligner.align(
-            gene,
+            target_merged,
             alignment,
         )
 
-        print("STEP 4 - SNP discovery")
+        print("Finding SNPs...")
 
         snps = self.snpfinder.find(
             alignment,
         )
 
-        print("STEP 5 - Primer discovery")
+        print("Designing primers...")
 
         pairs = self.discovery.discover(
-            gene,
+            target_merged,
         )
 
-        print("STEP 6 - Validation")
-
         validated = []
+
+        print("Validating primers...")
 
         for pair in pairs:
 
@@ -77,16 +143,70 @@ class Pipeline:
                 snps,
             )
 
-            validated.append(pair)
+            validated.append(
+                pair,
+            )
 
-        print("STEP 7 - Reports")
+        self.csv.write(
+            validated,
+            results / "primers.csv",
+        )
 
-        results = Path("results")
-        results.mkdir(exist_ok=True)
+        self.json.write(
+            validated,
+            results / "primers.json",
+        )
 
-        self.csv.write(validated, results / "primers.csv")
-        self.json.write(validated, results / "primers.json")
-        self.html.write(validated, results / "index.html")
-        self.excel.write(validated, results / "primers.xlsx")
+        self.html.write(
+            validated,
+            results / "index.html",
+        )
 
-        print("DONE")
+        self.excel.write(
+            validated,
+            results / "primers.xlsx",
+        )
+
+        print()
+
+        print("=" * 60)
+
+        print("PrimerForge completed successfully")
+
+        print("=" * 60)
+
+        print()
+
+        print(f"Species      : {config.organism}")
+
+        print(f"Marker       : {config.gene}")
+
+        print(f"Target FASTA : {target_merged}")
+
+        print(f"Contrast     : {len(contrast)} datasets")
+
+        print(f"Alignment    : {alignment}")
+
+        print(f"Primer pairs : {len(validated)}")
+
+        if validated:
+
+            print(
+                f"Best score   : {validated[0].score:.2f}"
+            )
+
+        print()
+
+        print("Reports")
+
+        print("-------")
+
+        print("CSV   :", results / "primers.csv")
+
+        print("JSON  :", results / "primers.json")
+
+        print("HTML  :", results / "index.html")
+
+        print("Excel :", results / "primers.xlsx")
+
+        print()

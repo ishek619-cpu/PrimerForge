@@ -1,122 +1,181 @@
 """
-Primer pair scoring engine.
+Primer pair ranking.
 """
 
 from primerforge.models.pair import PrimerPair
-from primerforge.primer3.thermo import ThermoAnalyzer
-from primerforge.specificity.validator import SpecificityValidator
-from primerforge.specificity.pair_analyzer import (
-    PrimerPairSpecificity,
-)
 
 
 class PrimerPairScorer:
     """
-    Score and rank primer pairs.
+    Multi-criteria primer pair scoring.
     """
-
-    def __init__(self):
-
-        self.thermo = ThermoAnalyzer()
-
-        self.validator = SpecificityValidator()
-
-        self.pair_specificity = PrimerPairSpecificity()
 
     def score(
         self,
         pair: PrimerPair,
-        database: str | None = None,
-    ) -> PrimerPair:
+        validation: dict,
+        specificity: dict | None = None,
+        multiplex: dict | None = None,
+    ) -> float:
 
-        pair.forward = self.thermo.evaluate(
-            pair.forward,
+        thermo = validation.get(
+            "thermo",
+            100.0,
         )
 
-        pair.reverse = self.thermo.evaluate(
-            pair.reverse,
+        conservation = validation.get(
+            "conservation",
+            100.0,
         )
 
-        heterodimer = self.thermo.heterodimer(
-            pair.forward,
-            pair.reverse,
+        snp = validation.get(
+            "snp",
+            100.0,
         )
 
-        score = 100.0
-
-        dtm = abs(
-            pair.forward.tm -
-            pair.reverse.tm
-        )
-
-        score -= dtm * 5.0
-
-        dgc = abs(
-            pair.forward.gc -
-            pair.reverse.gc
-        )
-
-        score -= dgc * 0.5
-
-        if not (
-            80 <= pair.product_size <= 250
-        ):
-            score -= 20
-
-        if pair.forward.gc_clamp:
-            score += 2
-
-        if pair.reverse.gc_clamp:
-            score += 2
-
-        score -= pair.forward.hairpin_score
-        score -= pair.reverse.hairpin_score
-
-        score -= pair.forward.self_dimer_score
-        score -= pair.reverse.self_dimer_score
-
-        score -= heterodimer
-
-        if database is not None:
-
-            pair.score = round(
-                max(score, 0.0),
-                2,
-            )
-
-            pair = self.pair_specificity.annotate(
-                pair,
-                database,
-            )
-
+        #
+        # Product size
+        #
+        if 80 <= pair.product_size <= 150:
+            product = 100.0
+        elif 151 <= pair.product_size <= 200:
+            product = 90.0
+        elif 60 <= pair.product_size <= 250:
+            product = 80.0
         else:
+            product = 50.0
 
-            pair.score = round(
-                max(score, 0.0),
-                2,
+        #
+        # Tm balance
+        #
+        tm_difference = abs(
+            pair.forward.tm
+            - pair.reverse.tm
+        )
+
+        tm_balance = max(
+            0.0,
+            100.0 - tm_difference * 20.0,
+        )
+
+        #
+        # GC balance
+        #
+        gc_difference = abs(
+            pair.forward.gc
+            - pair.reverse.gc
+        )
+
+        gc_balance = max(
+            0.0,
+            100.0 - gc_difference * 5.0,
+        )
+
+        #
+        # Specificity
+        #
+        specificity_score = (
+            specificity.get(
+                "specificity",
+                100.0,
             )
+            if specificity
+            else 100.0
+        )
 
-        return pair
+        #
+        # Multiplex
+        #
+        multiplex_score = (
+            multiplex.get(
+                "compatibility",
+                100.0,
+            )
+            if multiplex
+            else 100.0
+        )
+
+        final_score = (
+
+            thermo * 0.25 +
+
+            conservation * 0.20 +
+
+            snp * 0.15 +
+
+            product * 0.10 +
+
+            tm_balance * 0.10 +
+
+            gc_balance * 0.05 +
+
+            specificity_score * 0.10 +
+
+            multiplex_score * 0.05
+
+        )
+
+        pair.score = round(
+            final_score,
+            2,
+        )
+
+        #
+        # Save score breakdown
+        #
+        pair.breakdown = {
+
+            "thermo": round(
+                thermo,
+                2,
+            ),
+
+            "conservation": round(
+                conservation,
+                2,
+            ),
+
+            "snp": round(
+                snp,
+                2,
+            ),
+
+            "product": round(
+                product,
+                2,
+            ),
+
+            "tm_balance": round(
+                tm_balance,
+                2,
+            ),
+
+            "gc_balance": round(
+                gc_balance,
+                2,
+            ),
+
+            "specificity": round(
+                specificity_score,
+                2,
+            ),
+
+            "multiplex": round(
+                multiplex_score,
+                2,
+            ),
+
+        }
+
+        return pair.score
 
     def rank(
         self,
-        pairs,
-        database: str | None = None,
-    ):
-
-        scored = [
-
-            self.score(
-                pair,
-                database,
-            )
-
-            for pair in pairs
-
-        ]
+        pairs: list[PrimerPair],
+    ) -> list[PrimerPair]:
 
         return sorted(
-            scored,
+            pairs,
             key=lambda pair: pair.score,
             reverse=True,
         )

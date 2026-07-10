@@ -1,5 +1,5 @@
 """
-Sequence manager.
+Sequence management for PrimerForge.
 """
 
 from pathlib import Path
@@ -10,7 +10,7 @@ from primerforge.io.downloader import NCBIDownloader
 
 class SequenceManager:
     """
-    Download sequences only when necessary.
+    Manage downloading and caching of target sequences.
     """
 
     def __init__(self):
@@ -21,26 +21,60 @@ class SequenceManager:
 
     def get(
         self,
-        species: str,
+        organism: str,
         gene: str,
+        max_records: int = 1000,
     ) -> Path:
 
-        path = self.cache.path(
-            species,
+        cached = self.cache.find(
+            organism,
             gene,
         )
 
-        if path.exists():
-            return path
+        if cached is not None:
 
-        ids = self.downloader.search(
-            species,
+            return cached
+
+        print(
+            f"Downloading {organism} {gene}..."
+        )
+
+        fasta = self.downloader.fetch(
+            organism=organism,
+            gene=gene,
+            max_records=max_records,
+        )
+
+        self.cache.store(
+            organism,
+            gene,
+            fasta,
+        )
+
+        return self.cache.find(
+            organism,
             gene,
         )
 
-        self.downloader.fetch(
-            ids,
-            path,
-        )
+    def get_contrast(
+        self,
+        taxa: list,
+        gene: str,
+        max_records: int = 1000,
+    ) -> list[Path]:
 
-        return path
+        files = []
+
+        for taxon in taxa:
+
+            organism = taxon["name"]
+
+            files.append(
+                self.get(
+                    organism,
+                    gene,
+                    max_records=max_records,
+                )
+            )
+
+        return files

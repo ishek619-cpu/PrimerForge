@@ -2,7 +2,7 @@
 Primer pair model.
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from primerforge.models.primer import Primer
 
@@ -19,3 +19,7 @@ class PrimerPair:
     product_size: int
 
     score: float = 0.0
+
+    breakdown: dict = field(
+        default_factory=dict,
+    )

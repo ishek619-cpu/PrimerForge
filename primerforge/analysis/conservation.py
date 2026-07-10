@@ -1,85 +1,101 @@
 """
-Alignment conservation analysis.
+Conserved region discovery.
 """
 
 from pathlib import Path
 
 from Bio import AlignIO
 
-from primerforge.models.conservation import ConservationProfile
+from primerforge.models.region import Region
 
 
-class ConservationAnalyzer:
+class ConservedRegionFinder:
     """
-    Analyze sequence conservation in a multiple sequence alignment.
+    Find highly conserved windows in a multiple sequence alignment.
     """
 
-    def calculate(
+    def find(
         self,
-        alignment_file: Path,
-    ) -> ConservationProfile:
+        alignment: Path,
+        window: int = 120,
+        threshold: float = 95.0,
+    ) -> list[Region]:
 
-        alignment = AlignIO.read(
-            alignment_file,
+        aln = AlignIO.read(
+            alignment,
             "fasta",
         )
 
-        nseq = len(alignment)
+        length = aln.get_alignment_length()
 
-        length = alignment.get_alignment_length()
+        regions = []
 
-        scores = []
+        for start in range(
+            length - window + 1
+        ):
 
-        for position in range(length):
+            score = 0.0
 
-            counts = {}
+            for column in range(
+                start,
+                start + window,
+            ):
 
-            for record in alignment:
+                bases = [
+                    b
+                    for b in aln[:, column]
+                    if b != "-"
+                ]
 
-                base = record.seq[position].upper()
-
-                if base == "-":
+                if not bases:
                     continue
 
-                counts[base] = counts.get(base, 0) + 1
+                most_common = max(
+                    set(bases),
+                    key=bases.count,
+                )
 
-            if not counts:
-                scores.append(0.0)
-                continue
+                score += (
+                    bases.count(most_common)
+                    / len(bases)
+                )
 
-            scores.append(
-                max(counts.values()) / nseq
-            )
+            score = (
+                score / window
+            ) * 100.0
 
-        return ConservationProfile(
-            alignment_length=length,
-            number_of_sequences=nseq,
-            scores=scores,
-        )
+            if score >= threshold:
 
-    def summary(
+                regions.append(
+                    Region(
+                        start=start,
+                        end=start + window - 1,
+                        score=round(
+                            score,
+                            2,
+                        ),
+                    )
+                )
+
+        return regions
+
+    def best(
         self,
-        alignment_file: Path,
-    ) -> ConservationProfile:
+        alignment: Path,
+        window: int = 120,
+    ) -> Region | None:
 
-        profile = self.calculate(
-            alignment_file,
+        regions = self.find(
+            alignment,
+            window=window,
+            threshold=0.0,
         )
 
-        print()
+        if not regions:
 
-        print(
-            f"Sequences : {profile.number_of_sequences}"
+            return None
+
+        return max(
+            regions,
+            key=lambda r: r.score,
         )
-
-        print(
-            f"Length    : {profile.alignment_length}"
-        )
-
-        print(
-            f"Average conservation : {profile.average:.3f}"
-        )
-
-        print()
-
-        return profile

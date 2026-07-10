@@ -64,6 +64,23 @@ class PrimerDiscovery:
             pairs,
         )
 
+        #
+        # Initial ranking only.
+        # Validation later computes the real score.
+        #
+        for pair in pairs:
+
+            validation = {
+                "thermo": 100.0,
+                "conservation": 100.0,
+                "snp": 100.0,
+            }
+
+            self.scorer.score(
+                pair,
+                validation,
+            )
+
         pairs = self.scorer.rank(
             pairs,
         )
@@ -84,8 +101,6 @@ class PrimerDiscovery:
             database_prefix,
         )
 
-        # BLAST database is created for later validation.
-        # Primer scoring no longer depends on BLAST.
         return self.discover(
             reference_fasta,
         )

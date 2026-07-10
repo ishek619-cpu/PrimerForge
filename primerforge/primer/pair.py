@@ -32,15 +32,43 @@ class PrimerPairGenerator:
 
             for reverse in reverse_primers:
 
+                #
+                # Correct orientation
+                #
                 if reverse.start <= forward.end:
                     continue
 
-                product = reverse.end - forward.start + 1
+                product = (
+                    reverse.end
+                    - forward.start
+                    + 1
+                )
 
+                #
+                # Product size filter
+                #
                 if product < self.min_product:
                     continue
 
                 if product > self.max_product:
+                    continue
+
+                #
+                # Primer Tm compatibility
+                #
+                if abs(
+                    forward.tm
+                    - reverse.tm
+                ) > 2.0:
+                    continue
+
+                #
+                # Primer GC compatibility
+                #
+                if abs(
+                    forward.gc
+                    - reverse.gc
+                ) > 15.0:
                     continue
 
                 pairs.append(
@@ -50,5 +78,25 @@ class PrimerPairGenerator:
                         product_size=product,
                     )
                 )
+
+        #
+        # Best-balanced primer pairs first
+        #
+        pairs.sort(
+            key=lambda pair: (
+                abs(
+                    pair.forward.tm
+                    - pair.reverse.tm
+                ),
+                abs(
+                    pair.forward.gc
+                    - pair.reverse.gc
+                ),
+                abs(
+                    pair.product_size
+                    - 120
+                ),
+            )
+        )
 
         return pairs
