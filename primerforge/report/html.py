@@ -26,7 +26,16 @@ class HTMLReport:
 
         rows = ""
 
-        for i, pair in enumerate(pairs, start=1):
+        for i, pair in enumerate(
+            pairs,
+            start=1,
+        ):
+
+            passed = (
+                "✅ PASS"
+                if pair.passed_specificity
+                else "❌ FAIL"
+            )
 
             rows += f"""
 <tr>
@@ -38,6 +47,10 @@ class HTMLReport:
 <td>{pair.reverse.tm:.2f}</td>
 <td>{pair.forward.gc:.1f}</td>
 <td>{pair.reverse.gc:.1f}</td>
+<td>{pair.population_conservation:.2f}</td>
+<td>{pair.population_coverage:.2f}</td>
+<td>{pair.specificity_score:.2f}</td>
+<td>{passed}</td>
 <td>{pair.score:.2f}</td>
 </tr>
 """
@@ -45,8 +58,11 @@ class HTMLReport:
         html = f"""
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <meta charset="utf-8">
+
 <title>PrimerForge Report</title>
 
 <style>
@@ -81,6 +97,16 @@ tr:nth-child(even){{
     background:#f5f5f5;
 }}
 
+.pass {{
+    color:green;
+    font-weight:bold;
+}}
+
+.fail {{
+    color:red;
+    font-weight:bold;
+}}
+
 </style>
 
 </head>
@@ -110,7 +136,11 @@ Primer pairs found:
 <th>Reverse Tm</th>
 <th>Forward GC%</th>
 <th>Reverse GC%</th>
-<th>Score</th>
+<th>Population Conservation</th>
+<th>Population Coverage</th>
+<th>Specificity Score</th>
+<th>Specificity</th>
+<th>Overall Score</th>
 </tr>
 
 {rows}
@@ -118,6 +148,7 @@ Primer pairs found:
 </table>
 
 </body>
+
 </html>
 """
 
@@ -125,3 +156,5 @@ Primer pairs found:
             html,
             encoding="utf-8",
         )
+
+        return output
