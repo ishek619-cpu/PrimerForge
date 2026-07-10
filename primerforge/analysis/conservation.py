@@ -99,3 +99,42 @@ class ConservedRegionFinder:
             regions,
             key=lambda r: r.score,
         )
+
+    def primer_conservation(
+        self,
+        primer: str,
+        alignment: Path,
+        start: int,
+    ) -> float:
+        """
+        Estimate conservation of a primer across all sequences
+        in the alignment.
+        """
+
+        aln = AlignIO.read(
+            alignment,
+            "fasta",
+        )
+
+        matches = 0
+
+        total = len(aln)
+
+        end = start + len(primer)
+
+        for record in aln:
+
+            sequence = str(record.seq)
+
+            if sequence[start:end] == primer:
+
+                matches += 1
+
+        if total == 0:
+
+            return 0.0
+
+        return round(
+            matches / total * 100.0,
+            2,
+        )
