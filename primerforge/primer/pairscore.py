@@ -72,16 +72,26 @@ class PrimerPairScorer:
         )
 
         #
-        # Specificity
+        # Species specificity
         #
-        specificity_score = (
-            specificity.get(
+
+        if pair.passed_specificity:
+
+            specificity_score = pair.specificity_score
+
+        else:
+
+            specificity_score = 0.0
+
+        #
+        # Optional override
+        #
+        if specificity is not None:
+
+            specificity_score = specificity.get(
                 "specificity",
-                100.0,
+                specificity_score,
             )
-            if specificity
-            else 100.0
-        )
 
         #
         # Multiplex
@@ -95,6 +105,10 @@ class PrimerPairScorer:
             else 100.0
         )
 
+        #
+        # Final weighted score
+        #
+
         final_score = (
 
             thermo * 0.25 +
@@ -103,13 +117,13 @@ class PrimerPairScorer:
 
             snp * 0.15 +
 
+            specificity_score * 0.15 +
+
             product * 0.10 +
 
-            tm_balance * 0.10 +
+            tm_balance * 0.05 +
 
             gc_balance * 0.05 +
-
-            specificity_score * 0.10 +
 
             multiplex_score * 0.05
 
@@ -120,9 +134,6 @@ class PrimerPairScorer:
             2,
         )
 
-        #
-        # Save score breakdown
-        #
         pair.breakdown = {
 
             "thermo": round(
@@ -137,6 +148,11 @@ class PrimerPairScorer:
 
             "snp": round(
                 snp,
+                2,
+            ),
+
+            "specificity": round(
+                specificity_score,
                 2,
             ),
 
@@ -155,15 +171,12 @@ class PrimerPairScorer:
                 2,
             ),
 
-            "specificity": round(
-                specificity_score,
-                2,
-            ),
-
             "multiplex": round(
                 multiplex_score,
                 2,
             ),
+
+            "final_score": pair.score,
 
         }
 
