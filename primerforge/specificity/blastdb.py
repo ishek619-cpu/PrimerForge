@@ -1,5 +1,5 @@
 """
-Create local BLAST databases.
+BLAST database utilities.
 """
 
 import subprocess
@@ -8,23 +8,33 @@ from pathlib import Path
 
 class BlastDatabase:
     """
-    Build a nucleotide BLAST database.
+    Create nucleotide BLAST databases.
     """
 
-    def build(
+    def create(
         self,
         fasta: Path,
-        database: str,
-    ):
+        output: Path,
+    ) -> Path:
+
+        output.parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
 
         cmd = [
+
             "makeblastdb",
+
             "-in",
             str(fasta),
+
             "-dbtype",
             "nucl",
+
             "-out",
-            database,
+            str(output),
+
         ]
 
         subprocess.run(
@@ -32,4 +42,27 @@ class BlastDatabase:
             check=True,
         )
 
-        return database
+        return output
+
+    def exists(
+        self,
+        database: Path,
+    ) -> bool:
+
+        extensions = (
+
+            ".nhr",
+
+            ".nin",
+
+            ".nsq",
+
+        )
+
+        return all(
+
+            (database.with_suffix(ext)).exists()
+
+            for ext in extensions
+
+        )

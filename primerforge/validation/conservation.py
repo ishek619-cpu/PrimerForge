@@ -12,15 +12,39 @@ class PrimerConservation:
     Evaluate primer conservation from a multiple sequence alignment.
     """
 
+    def __init__(self):
+
+        self._alignment = None
+
+        self._alignment_path = None
+
+    def _load_alignment(
+        self,
+        alignment: Path,
+    ):
+
+        if (
+            self._alignment is None
+            or self._alignment_path != alignment
+        ):
+
+            self._alignment = AlignIO.read(
+                alignment,
+                "fasta",
+            )
+
+            self._alignment_path = alignment
+
+        return self._alignment
+
     def evaluate(
         self,
         primer,
         alignment: Path,
     ) -> dict:
 
-        aln = AlignIO.read(
+        aln = self._load_alignment(
             alignment,
-            "fasta",
         )
 
         length = len(primer.sequence)
@@ -58,9 +82,7 @@ class PrimerConservation:
                 )
 
                 freq = (
-                    bases.count(
-                        most_common,
-                    )
+                    bases.count(most_common)
                     / len(bases)
                 )
 
@@ -73,10 +95,7 @@ class PrimerConservation:
             )
 
             conservation.append(
-                round(
-                    score,
-                    2,
-                )
+                round(score, 2)
             )
 
             if score > best_score:
