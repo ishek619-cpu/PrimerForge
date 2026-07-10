@@ -4,20 +4,29 @@ Primer pair scoring engine.
 
 from primerforge.models.pair import PrimerPair
 from primerforge.primer3.thermo import ThermoAnalyzer
+from primerforge.specificity.validator import SpecificityValidator
+from primerforge.specificity.pair_analyzer import (
+    PrimerPairSpecificity,
+)
 
 
 class PrimerPairScorer:
     """
-    Score and rank primer pairs using thermodynamic properties.
+    Score and rank primer pairs.
     """
 
     def __init__(self):
 
         self.thermo = ThermoAnalyzer()
 
+        self.validator = SpecificityValidator()
+
+        self.pair_specificity = PrimerPairSpecificity()
+
     def score(
         self,
         pair: PrimerPair,
+        database: str | None = None,
     ) -> PrimerPair:
 
         pair.forward = self.thermo.evaluate(
@@ -68,21 +77,42 @@ class PrimerPairScorer:
 
         score -= heterodimer
 
-        pair.score = round(
-            max(score, 0.0),
-            2,
-        )
+        if database is not None:
+
+            pair.score = round(
+                max(score, 0.0),
+                2,
+            )
+
+            pair = self.pair_specificity.annotate(
+                pair,
+                database,
+            )
+
+        else:
+
+            pair.score = round(
+                max(score, 0.0),
+                2,
+            )
 
         return pair
 
     def rank(
         self,
         pairs,
+        database: str | None = None,
     ):
 
         scored = [
-            self.score(pair)
+
+            self.score(
+                pair,
+                database,
+            )
+
             for pair in pairs
+
         ]
 
         return sorted(

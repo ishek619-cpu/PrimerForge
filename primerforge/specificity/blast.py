@@ -11,7 +11,10 @@ class BlastRunner:
     Execute blastn-short searches.
     """
 
-    def __init__(self, threads: int = 4):
+    def __init__(
+        self,
+        threads: int = 4,
+    ):
 
         self.threads = threads
 
@@ -21,6 +24,23 @@ class BlastRunner:
         database: str,
         output: Path,
     ) -> Path:
+
+        outfmt = (
+            "6 "
+            "qseqid "
+            "sseqid "
+            "pident "
+            "length "
+            "mismatch "
+            "gapopen "
+            "qstart "
+            "qend "
+            "sstart "
+            "send "
+            "evalue "
+            "bitscore "
+            "sstrand"
+        )
 
         cmd = [
 
@@ -36,13 +56,14 @@ class BlastRunner:
             database,
 
             "-outfmt",
-            "6",
+            outfmt,
 
             "-num_threads",
             str(self.threads),
 
             "-out",
             str(output),
+
         ]
 
         subprocess.run(

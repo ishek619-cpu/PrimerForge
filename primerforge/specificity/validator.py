@@ -5,8 +5,8 @@ Primer specificity validation.
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
 from Bio import SeqIO
 
 from primerforge.specificity.blast import BlastRunner
@@ -15,6 +15,9 @@ from primerforge.specificity.scorer import SpecificityScorer
 
 
 class SpecificityValidator:
+    """
+    Validate primer specificity using BLAST.
+    """
 
     def __init__(self):
 
@@ -24,11 +27,11 @@ class SpecificityValidator:
 
         self.scorer = SpecificityScorer()
 
-    def validate(
+    def blast_hits(
         self,
         sequence: str,
         database: str,
-    ) -> float:
+    ):
 
         with TemporaryDirectory() as tmp:
 
@@ -54,10 +57,21 @@ class SpecificityValidator:
                 output,
             )
 
-            hits = self.parser.parse(
+            return self.parser.parse(
                 output,
             )
 
-            return self.scorer.score(
-                hits,
-            )
+    def validate(
+        self,
+        sequence: str,
+        database: str,
+    ) -> float:
+
+        hits = self.blast_hits(
+            sequence,
+            database,
+        )
+
+        return self.scorer.score(
+            hits,
+        )

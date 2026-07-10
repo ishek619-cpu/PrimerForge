@@ -10,18 +10,50 @@ from primerforge.specificity.pair_analyzer import (
 )
 
 
+class DummyScorer:
+
+    def score(self, hits):
+
+        return hits[0]["score"]
+
+
 class DummyValidator:
 
-    def validate(
+    def __init__(self):
+
+        self.scorer = DummyScorer()
+
+    def blast_hits(
         self,
         sequence,
         database,
     ):
 
         if sequence.startswith("AAA"):
-            return 100.0
 
-        return 90.0
+            return [
+
+                {
+                    "score": 100.0,
+                    "subject": "chr1",
+                    "query_start": 100,
+                    "query_end": 120,
+                    "identity": 100.0,
+                }
+
+            ]
+
+        return [
+
+            {
+                "score": 90.0,
+                "subject": "chr1",
+                "query_start": 250,
+                "query_end": 270,
+                "identity": 90.0,
+            }
+
+        ]
 
 
 def test_pair_specificity():
@@ -62,6 +94,8 @@ def test_pair_specificity():
 
     assert result["reverse_score"] == 90.0
 
+    assert len(result["products"]) == 1
+
     assert result["pair_score"] == 95.0
 
     assert result["passed"] is True
@@ -72,10 +106,3 @@ def test_pair_specificity():
     )
 
     assert pair.score == 76.0
-
-    result = analyzer.evaluate(
-        pair,
-        "dummy",
-    )
-
-    assert result["passed"] is True
