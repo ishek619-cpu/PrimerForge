@@ -8,6 +8,9 @@ from primerforge.models.pair import PrimerPair
 
 from primerforge.specificity.analyzer import SpecificityAnalyzer
 from primerforge.specificity.models import SpecificityResult
+from primerforge.specificity.pair_validator import (
+    PairSpecificityValidator,
+)
 
 
 class SpecificityEngine:
@@ -27,6 +30,8 @@ class SpecificityEngine:
 
         self.analyzer = SpecificityAnalyzer()
 
+        self.pair_validator = PairSpecificityValidator()
+
     def evaluate_pair(
         self,
         pair: PrimerPair,
@@ -38,6 +43,9 @@ class SpecificityEngine:
             exist_ok=True,
         )
 
+        #
+        # Analyse forward primer
+        #
         forward_result = self.analyzer.analyse(
             primer=pair.forward,
             database=self.database,
@@ -45,6 +53,9 @@ class SpecificityEngine:
             target_species=self.target_species,
         )
 
+        #
+        # Analyse reverse primer
+        #
         reverse_result = self.analyzer.analyse(
             primer=pair.reverse,
             database=self.database,
@@ -52,6 +63,9 @@ class SpecificityEngine:
             target_species=self.target_species,
         )
 
+        #
+        # Combine into a single result
+        #
         specificity = min(
             forward_result.specificity_score,
             reverse_result.specificity_score,
@@ -78,12 +92,34 @@ class SpecificityEngine:
             rejection_reason=(
                 None
                 if passed
-                else "Primer pair failed specificity"
+                else "Primer failed specificity"
             ),
         )
 
+        #
+        # Attach result to the primer pair
+        #
+        pair.specificity_result = result
         pair.specificity_score = specificity
         pair.passed_specificity = passed
-        pair.specificity_result = result
+
+        #
+        # Perform pair-level PCR specificity validation
+        #
+        pair_result = self.pair_validator.validate(
+            pair,
+        )
+
+        if not pair_result["passed"]:
+
+            pair.passed_specificity = False
+
+            pair.specificity_score = 0.0
+
+            result.passed = False
+
+            result.rejection_reason = (
+                "Potential off-target PCR amplification"
+            )
 
         return result
