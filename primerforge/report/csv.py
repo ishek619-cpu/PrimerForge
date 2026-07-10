@@ -9,7 +9,6 @@ from primerforge.models.pair import PrimerPair
 
 
 class CSVReport:
-
     """
     Export primer pairs to CSV.
     """
@@ -38,13 +37,31 @@ class CSVReport:
                 [
                     "Rank",
                     "Score",
+
                     "Forward",
                     "Reverse",
+
                     "Tm(F)",
                     "Tm(R)",
+
                     "GC(F)",
                     "GC(R)",
+
+                    "Product(bp)",
+
+                    "Population Conservation",
+                    "Population Coverage",
+
+                    "Specificity Score",
+                    "Specificity Passed",
+
+                    "Thermo",
+                    "Conservation",
+                    "SNP",
                     "Product",
+                    "Tm Balance",
+                    "GC Balance",
+                    "Multiplex",
                 ]
             )
 
@@ -53,17 +70,75 @@ class CSVReport:
                 start=1,
             ):
 
+                breakdown = pair.breakdown
+
                 writer.writerow(
                     [
                         rank,
                         pair.score,
+
                         pair.forward.sequence,
                         pair.reverse.sequence,
+
                         round(pair.forward.tm, 2),
                         round(pair.reverse.tm, 2),
+
                         round(pair.forward.gc, 2),
                         round(pair.reverse.gc, 2),
+
                         pair.product_size,
+
+                        round(
+                            pair.population_conservation,
+                            2,
+                        ),
+
+                        round(
+                            pair.population_coverage,
+                            2,
+                        ),
+
+                        round(
+                            pair.specificity_score,
+                            2,
+                        ),
+
+                        pair.passed_specificity,
+
+                        breakdown.get(
+                            "thermo",
+                            "",
+                        ),
+
+                        breakdown.get(
+                            "conservation",
+                            "",
+                        ),
+
+                        breakdown.get(
+                            "snp",
+                            "",
+                        ),
+
+                        breakdown.get(
+                            "product",
+                            "",
+                        ),
+
+                        breakdown.get(
+                            "tm_balance",
+                            "",
+                        ),
+
+                        breakdown.get(
+                            "gc_balance",
+                            "",
+                        ),
+
+                        breakdown.get(
+                            "multiplex",
+                            "",
+                        ),
                     ]
                 )
 
