@@ -14,22 +14,43 @@ class PrimerPair:
     Represents a PCR primer pair.
     """
 
+    #
+    # Primer information
+    #
+
     forward: Primer
     reverse: Primer
 
     product_size: int
 
-    # Overall ranking score
+    #
+    # Overall ranking
+    #
+
     score: float = 0.0
 
-    # Score contribution from each module
     breakdown: dict = field(
         default_factory=dict,
     )
 
-    # Species-specificity
+    #
+    # Species specificity
+    #
+
     specificity_score: float = 100.0
 
     passed_specificity: bool = True
 
     specificity_result: SpecificityResult | None = None
+
+    #
+    # Population-aware conservation
+    #
+
+    population_conservation: float = 100.0
+
+    population_coverage: float = 100.0
+
+    population_result: dict = field(
+        default_factory=dict,
+    )
