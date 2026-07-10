@@ -4,69 +4,76 @@ BLAST output parser.
 
 from pathlib import Path
 
-from primerforge.specificity.models import BlastHit
-
 
 class BlastParser:
     """
-    Parse BLAST tabular output into BlastHit objects.
+    Parse BLAST tabular output.
     """
 
     def parse(
         self,
         blast_output: Path,
-    ) -> list[BlastHit]:
+    ):
 
         hits = []
 
         if not blast_output.exists():
-
             return hits
 
-        with open(blast_output) as handle:
+        with open(
+            blast_output,
+            encoding="utf-8",
+        ) as handle:
 
             for line in handle:
 
-                if not line.strip():
+                line = line.strip()
 
+                if not line:
                     continue
 
-                fields = line.rstrip().split("\t")
+                fields = line.split("\t")
+
+                if len(fields) < 15:
+                    continue
 
                 hits.append(
+                    {
 
-                    BlastHit(
+                        "query": fields[0],
 
-                        accession=fields[1],
+                        "subject": fields[1],
 
-                        species=fields[1],
+                        "identity": float(fields[2]),
 
-                        identity=float(fields[2]),
+                        "length": int(fields[3]),
 
-                        coverage=100.0,
+                        "mismatches": int(fields[4]),
 
-                        alignment_length=int(fields[3]),
+                        "gapopen": int(fields[5]),
 
-                        mismatches=int(fields[4]),
+                        "query_start": int(fields[6]),
 
-                        gap_opens=int(fields[5]),
+                        "query_end": int(fields[7]),
 
-                        qstart=int(fields[6]),
+                        "subject_start": int(fields[8]),
 
-                        qend=int(fields[7]),
+                        "subject_end": int(fields[9]),
 
-                        sstart=int(fields[8]),
+                        #
+                        # NEW
+                        #
+                        "query_sequence": fields[10],
 
-                        send=int(fields[9]),
+                        "subject_sequence": fields[11],
 
-                        strand=fields[12],
+                        "evalue": float(fields[12]),
 
-                        bitscore=float(fields[11]),
+                        "bitscore": float(fields[13]),
 
-                        evalue=float(fields[10]),
+                        "strand": fields[14],
 
-                    )
-
+                    }
                 )
 
         return hits

@@ -37,6 +37,8 @@ class BlastRunner:
             "qend "
             "sstart "
             "send "
+            "qseq "
+            "sseq "
             "evalue "
             "bitscore "
             "sstrand"

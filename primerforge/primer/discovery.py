@@ -6,13 +6,11 @@ from pathlib import Path
 
 from Bio import SeqIO
 
-from primerforge.primer3.designer import Primer3Designer
-from primerforge.primer.pair import PrimerPairGenerator
-from primerforge.primer.pairscore import PrimerPairScorer
-from primerforge.primer.deduplicate import PrimerPairDeduplicator
-
 from primerforge.analysis.population import PopulationAnalyzer
-
+from primerforge.pipeline.validator import PrimerValidationPipeline
+from primerforge.primer.deduplicate import PrimerPairDeduplicator
+from primerforge.primer.pair import PrimerPairGenerator
+from primerforge.primer3.designer import Primer3Designer
 from primerforge.specificity.blastdb import BlastDatabase
 from primerforge.specificity.engine import SpecificityEngine
 
@@ -37,9 +35,9 @@ class PrimerDiscovery:
 
         self.deduplicator = PrimerPairDeduplicator()
 
-        self.scorer = PrimerPairScorer()
-
         self.population = PopulationAnalyzer()
+
+        self.validator = PrimerValidationPipeline()
 
         self.blastdb = BlastDatabase()
 
@@ -55,6 +53,9 @@ class PrimerDiscovery:
         alignment_fasta: Path | None = None,
     ):
 
+        #
+        # Load reference sequence
+        #
         record = next(
             SeqIO.parse(
                 reference_fasta,
@@ -64,15 +65,24 @@ class PrimerDiscovery:
 
         sequence = str(record.seq)
 
+        #
+        # Design primers
+        #
         forward, reverse = self.designer.design(
             sequence,
         )
 
+        #
+        # Generate candidate primer pairs
+        #
         pairs = self.generator.generate(
             forward,
             reverse,
         )
 
+        #
+        # Remove duplicate pairs
+        #
         pairs = self.deduplicator.deduplicate(
             pairs,
         )
@@ -112,41 +122,15 @@ class PrimerDiscovery:
                 }
 
         #
-        # Species specificity
+        # Complete validation pipeline
         #
         engine = specificity_engine or self.specificity
 
-        if engine is not None:
-
-            blast_dir = Path(
-                "results/blast"
-            )
-
-            for pair in pairs:
-
-                engine.evaluate_pair(
-                    pair,
-                    blast_dir,
-                )
-
-        #
-        # Initial ranking
-        #
-        for pair in pairs:
-
-            validation = {
-                "thermo": 100.0,
-                "conservation": 100.0,
-                "snp": 100.0,
-            }
-
-            self.scorer.score(
-                pair,
-                validation,
-            )
-
-        pairs = self.scorer.rank(
-            pairs,
+        pairs = self.validator.validate(
+            pairs=pairs,
+            reference_fasta=reference_fasta,
+            alignment_fasta=alignment_fasta,
+            specificity_engine=engine,
         )
 
         return pairs
@@ -168,6 +152,6 @@ class PrimerDiscovery:
         )
 
         return self.discover(
-            reference_fasta,
+            reference_fasta=reference_fasta,
             alignment_fasta=alignment_fasta,
         )

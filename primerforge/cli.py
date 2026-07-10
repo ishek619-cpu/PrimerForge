@@ -1,36 +1,130 @@
 """
-PrimerForge command line interface.
+PrimerForge command-line interface.
 """
 
-from pathlib import Path
+from __future__ import annotations
 
-import typer
+import argparse
+import sys
 
-from primerforge.core.pipeline import Pipeline
-
-app = typer.Typer(
-    add_completion=False,
-)
+from primerforge.commands.design import run_design
+from primerforge.commands.report import run_report
+from primerforge.commands.validate import run_validate
 
 
-@app.command()
-def run(
-    config: Path,
-):
+def build_parser() -> argparse.ArgumentParser:
     """
-    Run PrimerForge.
+    Build the command-line parser.
     """
 
-    pipeline = Pipeline()
+    parser = argparse.ArgumentParser(
+        prog="primerforge",
+        description="PrimerForge: Advanced PCR primer design and validation platform.",
+    )
 
-    pipeline.run(config)
+    subparsers = parser.add_subparsers(
+        dest="command",
+        required=True,
+    )
+
+    #
+    # Design command
+    #
+    design = subparsers.add_parser(
+        "design",
+        help="Design primer pairs.",
+    )
+
+    design.add_argument(
+        "--reference",
+        required=True,
+        help="Reference FASTA file.",
+    )
+
+    design.add_argument(
+        "--alignment",
+        required=False,
+        help="Population alignment FASTA.",
+    )
+
+    design.add_argument(
+        "--output",
+        default="results",
+        help="Output directory.",
+    )
+
+    design.set_defaults(func=run_design)
+
+    #
+    # Validate command
+    #
+    validate = subparsers.add_parser(
+        "validate",
+        help="Validate existing primer pairs.",
+    )
+
+    validate.add_argument(
+        "--input",
+        required=True,
+        help="Primer input file.",
+    )
+
+    validate.add_argument(
+        "--reference",
+        required=True,
+        help="Reference FASTA.",
+    )
+
+    validate.add_argument(
+        "--alignment",
+        required=False,
+        help="Population alignment.",
+    )
+
+    validate.add_argument(
+        "--output",
+        default="results",
+        help="Output directory.",
+    )
+
+    validate.set_defaults(func=run_validate)
+
+    #
+    # Report command
+    #
+    report = subparsers.add_parser(
+        "report",
+        help="Generate reports.",
+    )
+
+    report.add_argument(
+        "--input",
+        required=True,
+        help="Input results.",
+    )
+
+    report.add_argument(
+        "--output",
+        default="results",
+        help="Output directory.",
+    )
+
+    report.set_defaults(func=run_report)
+
+    return parser
 
 
-def main():
+def main() -> int:
+    """
+    CLI entry point.
+    """
 
-    app()
+    parser = build_parser()
+
+    args = parser.parse_args()
+
+    return args.func(args)
 
 
 if __name__ == "__main__":
-
-    main()
+    sys.exit(main())

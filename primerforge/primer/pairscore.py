@@ -3,12 +3,19 @@ Primer pair ranking.
 """
 
 from primerforge.models.pair import PrimerPair
+from primerforge.thermodynamics.nearest_neighbor import (
+    NearestNeighborCalculator,
+)
 
 
 class PrimerPairScorer:
     """
     Multi-criteria primer pair scoring.
     """
+
+    def __init__(self):
+
+        self.nn = NearestNeighborCalculator()
 
     def score(
         self,
@@ -32,11 +39,6 @@ class PrimerPairScorer:
             "snp",
             100.0,
         )
-
-        #
-        # Population conservation
-        #
-        population = pair.population_conservation
 
         #
         # Product size
@@ -80,25 +82,18 @@ class PrimerPairScorer:
         # Species specificity
         #
         if pair.passed_specificity:
-
             specificity_score = pair.specificity_score
-
         else:
-
             specificity_score = 0.0
 
-        #
-        # Optional override
-        #
         if specificity is not None:
-
             specificity_score = specificity.get(
                 "specificity",
                 specificity_score,
             )
 
         #
-        # Multiplex compatibility
+        # Multiplex
         #
         multiplex_score = (
             multiplex.get(
@@ -110,27 +105,48 @@ class PrimerPairScorer:
         )
 
         #
+        # Nearest-neighbor thermodynamics
+        #
+        forward_nn = self.nn.calculate(
+            pair.forward.sequence,
+        )
+
+        reverse_nn = self.nn.calculate(
+            pair.reverse.sequence,
+        )
+
+        tm_nn_difference = abs(
+            forward_nn.tm
+            - reverse_nn.tm
+        )
+
+        nn_score = max(
+            0.0,
+            100.0 - tm_nn_difference,
+        )
+
+        #
         # Final weighted score
         #
         final_score = (
 
-            thermo * 0.25 +
+            thermo * 0.20 +
 
-            conservation * 0.15 +
-
-            population * 0.10 +
+            conservation * 0.20 +
 
             snp * 0.15 +
 
-            specificity_score * 0.10 +
+            specificity_score * 0.15 +
+
+            nn_score * 0.10 +
 
             product * 0.10 +
 
-            tm_balance * 0.10 +
+            tm_balance * 0.05 +
 
-            gc_balance * 0.05 +
+            gc_balance * 0.03 +
 
-            multiplex_score * 0.05
+            multiplex_score * 0.02
 
         )
 
@@ -139,9 +155,6 @@ class PrimerPairScorer:
             2,
         )
 
-        #
-        # Score breakdown
-        #
         pair.breakdown = {
 
             "thermo": round(
@@ -154,11 +167,6 @@ class PrimerPairScorer:
                 2,
             ),
 
-            "population": round(
-                population,
-                2,
-            ),
-
             "snp": round(
                 snp,
                 2,
@@ -166,6 +174,11 @@ class PrimerPairScorer:
 
             "specificity": round(
                 specificity_score,
+                2,
+            ),
+
+            "nearest_neighbor": round(
+                nn_score,
                 2,
             ),
 

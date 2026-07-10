@@ -6,6 +6,9 @@ from dataclasses import dataclass, field
 
 from primerforge.models.primer import Primer
 from primerforge.specificity.models import SpecificityResult
+from primerforge.thermodynamics.nearest_neighbor import (
+    ThermodynamicResult,
+)
 
 
 @dataclass(slots=True)
@@ -52,5 +55,45 @@ class PrimerPair:
     population_coverage: float = 100.0
 
     population_result: dict = field(
+        default_factory=dict,
+    )
+
+    #
+    # Nearest-neighbor thermodynamics
+    #
+
+    forward_nn: ThermodynamicResult | None = None
+
+    reverse_nn: ThermodynamicResult | None = None
+
+    #
+    # Coverage analysis
+    #
+
+    coverage: dict = field(
+        default_factory=dict,
+    )
+
+    #
+    # Off-target risk
+    #
+
+    risk: dict = field(
+        default_factory=dict,
+    )
+
+    #
+    # Predicted PCR products
+    #
+
+    predicted_products: list = field(
+        default_factory=list,
+    )
+
+    #
+    # Future extensions
+    #
+
+    metadata: dict = field(
         default_factory=dict,
     )

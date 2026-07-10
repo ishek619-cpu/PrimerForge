@@ -7,12 +7,18 @@ from pathlib import Path
 from Bio import AlignIO
 
 from primerforge.models.region import Region
+from primerforge.alignment.coordinate_mapper import CoordinateMapper
+from primerforge.analysis.primer_match import PrimerMatcher
 
 
 class ConservedRegionFinder:
     """
     Find highly conserved windows in a multiple sequence alignment.
     """
+
+    def __init__(self):
+
+        self.last_statistics = {}
 
     def find(
         self,
@@ -92,7 +98,6 @@ class ConservedRegionFinder:
         )
 
         if not regions:
-
             return None
 
         return max(
@@ -105,10 +110,12 @@ class ConservedRegionFinder:
         primer: str,
         alignment: Path,
         start: int,
+        max_mismatches: int = 1,
     ) -> float:
         """
-        Estimate conservation of a primer across all sequences
-        in the alignment.
+        Estimate primer conservation using
+        reference→alignment coordinate mapping
+        and gap-aware primer matching.
         """
 
         aln = AlignIO.read(
@@ -116,25 +123,99 @@ class ConservedRegionFinder:
             "fasta",
         )
 
-        matches = 0
+        if len(aln) == 0:
+            return 0.0
 
-        total = len(aln)
+        #
+        # Convert Primer3 reference coordinate
+        # into alignment coordinate.
+        #
+        mapper = CoordinateMapper(
+            alignment,
+        )
 
-        end = start + len(primer)
+        try:
 
-        for record in aln:
+            alignment_start = (
+                mapper.reference_to_alignment(
+                    start,
+                )
+            )
 
-            sequence = str(record.seq)
+        except ValueError:
 
-            if sequence[start:end] == primer:
-
-                matches += 1
-
-        if total == 0:
+            #
+            # Invalid coordinate.
+            #
+            self.last_statistics = {
+                "matched_sequences": 0,
+                "total_sequences": len(aln),
+                "mean_identity": 0.0,
+                "mean_mismatches": 0.0,
+            }
 
             return 0.0
 
+        matcher = PrimerMatcher(
+            max_mismatches=max_mismatches,
+        )
+
+        matched = 0
+
+        identities = []
+
+        mismatches = []
+
+        for record in aln:
+
+            result = matcher.match(
+                primer=primer,
+                sequence=str(record.seq),
+                start=alignment_start,
+            )
+
+            identities.append(
+                result.identity,
+            )
+
+            mismatches.append(
+                result.mismatches,
+            )
+
+            if result.matched:
+                matched += 1
+
+        conservation = (
+            matched
+            / len(aln)
+            * 100.0
+        )
+
+        self.last_statistics = {
+
+            "matched_sequences": matched,
+
+            "total_sequences": len(aln),
+
+            "mean_identity": round(
+                sum(identities)
+                / len(identities),
+                2,
+            ),
+
+            "mean_mismatches": round(
+                sum(mismatches)
+                / len(mismatches),
+                2,
+            ),
+
+            "conservation": round(
+                conservation,
+                2,
+            ),
+        }
+
         return round(
-            matches / total * 100.0,
+            conservation,
             2,
         )
