@@ -11,6 +11,8 @@ from primerforge.primer.pair import PrimerPairGenerator
 from primerforge.primer.pairscore import PrimerPairScorer
 from primerforge.primer.deduplicate import PrimerPairDeduplicator
 
+from primerforge.analysis.population import PopulationAnalyzer
+
 from primerforge.specificity.blastdb import BlastDatabase
 from primerforge.specificity.engine import SpecificityEngine
 
@@ -37,12 +39,12 @@ class PrimerDiscovery:
 
         self.scorer = PrimerPairScorer()
 
+        self.population = PopulationAnalyzer()
+
         self.blastdb = BlastDatabase()
 
         #
         # Optional specificity engine.
-        # Created by the pipeline when a BLAST
-        # database and target species are available.
         #
         self.specificity = None
 
@@ -50,6 +52,7 @@ class PrimerDiscovery:
         self,
         reference_fasta: Path,
         specificity_engine: SpecificityEngine | None = None,
+        alignment_fasta: Path | None = None,
     ):
 
         record = next(
@@ -75,7 +78,41 @@ class PrimerDiscovery:
         )
 
         #
-        # Optional species-specificity evaluation.
+        # Population analysis
+        #
+        if alignment_fasta is not None:
+
+            for pair in pairs:
+
+                forward_result = self.population.analyse(
+                    primer=pair.forward.sequence,
+                    alignment=alignment_fasta,
+                    start=pair.forward.start,
+                )
+
+                reverse_result = self.population.analyse(
+                    primer=pair.reverse.sequence,
+                    alignment=alignment_fasta,
+                    start=pair.reverse.start,
+                )
+
+                pair.population_conservation = min(
+                    forward_result["population_conservation"],
+                    reverse_result["population_conservation"],
+                )
+
+                pair.population_coverage = min(
+                    forward_result["population_coverage"],
+                    reverse_result["population_coverage"],
+                )
+
+                pair.population_result = {
+                    "forward": forward_result,
+                    "reverse": reverse_result,
+                }
+
+        #
+        # Species specificity
         #
         engine = specificity_engine or self.specificity
 
@@ -93,8 +130,7 @@ class PrimerDiscovery:
                 )
 
         #
-        # Initial ranking only.
-        # Validation later computes the real score.
+        # Initial ranking
         #
         for pair in pairs:
 
@@ -133,4 +169,5 @@ class PrimerDiscovery:
 
         return self.discover(
             reference_fasta,
+            alignment_fasta=alignment_fasta,
         )
