@@ -34,6 +34,11 @@ class PrimerPairScorer:
         )
 
         #
+        # Population conservation
+        #
+        population = pair.population_conservation
+
+        #
         # Product size
         #
         if 80 <= pair.product_size <= 150:
@@ -74,7 +79,6 @@ class PrimerPairScorer:
         #
         # Species specificity
         #
-
         if pair.passed_specificity:
 
             specificity_score = pair.specificity_score
@@ -94,7 +98,7 @@ class PrimerPairScorer:
             )
 
         #
-        # Multiplex
+        # Multiplex compatibility
         #
         multiplex_score = (
             multiplex.get(
@@ -108,20 +112,21 @@ class PrimerPairScorer:
         #
         # Final weighted score
         #
-
         final_score = (
 
             thermo * 0.25 +
 
-            conservation * 0.20 +
+            conservation * 0.15 +
+
+            population * 0.10 +
 
             snp * 0.15 +
 
-            specificity_score * 0.15 +
+            specificity_score * 0.10 +
 
             product * 0.10 +
 
-            tm_balance * 0.05 +
+            tm_balance * 0.10 +
 
             gc_balance * 0.05 +
 
@@ -134,6 +139,9 @@ class PrimerPairScorer:
             2,
         )
 
+        #
+        # Score breakdown
+        #
         pair.breakdown = {
 
             "thermo": round(
@@ -143,6 +151,11 @@ class PrimerPairScorer:
 
             "conservation": round(
                 conservation,
+                2,
+            ),
+
+            "population": round(
+                population,
                 2,
             ),
 
