@@ -53,8 +53,60 @@ def test_json_report(tmp_path):
 
     assert len(data) == 1
 
-    assert data[0]["forward"] == "ATGCATGCATGCATGCATGC"
+    #
+    # Forward primer
+    #
+    assert (
+        data[0]["forward"]["sequence"]
+        == "ATGCATGCATGCATGCATGC"
+    )
 
-    assert data[0]["product_size"] == 120
+    assert (
+        data[0]["forward"]["tm"]
+        == 60.0
+    )
 
-    assert data[0]["score"] == 94.2
+    assert (
+        data[0]["forward"]["gc"]
+        == 50.0
+    )
+
+    #
+    # Reverse primer
+    #
+    assert (
+        data[0]["reverse"]["sequence"]
+        == "CGATCGATCGATCGATCGAT"
+    )
+
+    assert (
+        data[0]["reverse"]["tm"]
+        == 60.5
+    )
+
+    assert (
+        data[0]["reverse"]["gc"]
+        == 55.0
+    )
+
+    #
+    # General information
+    #
+    assert (
+        data[0]["product_size"]
+        == 120
+    )
+
+    assert (
+        data[0]["score"]
+        == 94.2
+    )
+
+    #
+    # New Sprint 5 fields
+    #
+    assert "population" in data[0]
+
+    assert "specificity" in data[0]
+
+    assert "score_breakdown" in data[0]
