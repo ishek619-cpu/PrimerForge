@@ -15,11 +15,17 @@ def test_pcr_product_prediction():
 
             "subject": "chr1",
 
-            "query_start": 100,
+            "subject_start": 100,
 
-            "query_end": 120,
+            "subject_end": 120,
+
+            "query_start": 1,
+
+            "query_end": 20,
 
             "identity": 100.0,
+
+            "strand": "plus",
 
         }
 
@@ -31,11 +37,17 @@ def test_pcr_product_prediction():
 
             "subject": "chr1",
 
-            "query_start": 250,
+            "subject_start": 250,
 
-            "query_end": 270,
+            "subject_end": 270,
+
+            "query_start": 1,
+
+            "query_end": 20,
 
             "identity": 99.0,
+
+            "strand": "minus",
 
         }
 
@@ -57,8 +69,20 @@ def test_pcr_product_prediction():
 
     assert len(products) == 1
 
-    assert products[0].size == 171
+    product = products[0]
 
-    assert products[0].chromosome == "chr1"
+    assert product.chromosome == "chr1"
 
-    assert products[0].identity == 99.0
+    assert product.forward_start == 100
+
+    assert product.forward_end == 120
+
+    assert product.reverse_start == 250
+
+    assert product.reverse_end == 270
+
+    assert product.size == 171
+
+    assert product.identity == 99.0
+
+    assert product.strand == "plus"

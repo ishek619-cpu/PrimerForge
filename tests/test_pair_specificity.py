@@ -34,11 +34,23 @@ class DummyValidator:
             return [
 
                 {
+
                     "score": 100.0,
+
                     "subject": "chr1",
-                    "query_start": 100,
-                    "query_end": 120,
+
+                    "query_start": 1,
+
+                    "query_end": 20,
+
+                    "subject_start": 100,
+
+                    "subject_end": 120,
+
                     "identity": 100.0,
+
+                    "strand": "plus",
+
                 }
 
             ]
@@ -46,11 +58,23 @@ class DummyValidator:
         return [
 
             {
+
                 "score": 90.0,
+
                 "subject": "chr1",
-                "query_start": 250,
-                "query_end": 270,
+
+                "query_start": 1,
+
+                "query_end": 20,
+
+                "subject_start": 250,
+
+                "subject_end": 270,
+
                 "identity": 90.0,
+
+                "strand": "minus",
+
             }
 
         ]
@@ -95,6 +119,8 @@ def test_pair_specificity():
     assert result["reverse_score"] == 90.0
 
     assert len(result["products"]) == 1
+
+    assert result["products"][0].size == 171
 
     assert result["pair_score"] == 95.0
 

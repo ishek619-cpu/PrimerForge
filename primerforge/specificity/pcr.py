@@ -8,19 +8,24 @@ from dataclasses import dataclass
 @dataclass(slots=True)
 class PCRProduct:
 
+    chromosome: str
+
     forward_start: int
+
+    forward_end: int
+
+    reverse_start: int
 
     reverse_end: int
 
-    size: int
+    strand: str
 
-    chromosome: str
+    size: int
 
     identity: float
 
 
 class PCRProductFinder:
-
     """
     Predict PCR products from BLAST hits.
     """
@@ -39,61 +44,65 @@ class PCRProductFinder:
 
             for r in reverse_hits:
 
-                if (
-                    f["subject"] !=
-                    r["subject"]
-                ):
+                if f["subject"] != r["subject"]:
                     continue
 
-                if (
-                    f["query_start"] >=
-                    r["query_start"]
-                ):
+                if f["strand"] != "plus":
                     continue
 
-                size = (
+                if r["strand"] != "minus":
+                    continue
 
-                    r["query_end"]
-
-                    -
-
-                    f["query_start"]
-
-                    +
-
-                    1
-
+                start = min(
+                    f["subject_start"],
+                    f["subject_end"],
                 )
 
-                if (
-                    size < min_size
-                    or
-                    size > max_size
-                ):
+                end = max(
+                    r["subject_start"],
+                    r["subject_end"],
+                )
+
+                if end <= start:
+                    continue
+
+                size = end - start + 1
+
+                if size < min_size:
+                    continue
+
+                if size > max_size:
                     continue
 
                 products.append(
 
                     PCRProduct(
 
-                        forward_start=f["query_start"],
+                        chromosome=f["subject"],
 
-                        reverse_end=r["query_end"],
+                        forward_start=f["subject_start"],
+
+                        forward_end=f["subject_end"],
+
+                        reverse_start=r["subject_start"],
+
+                        reverse_end=r["subject_end"],
+
+                        strand="plus",
 
                         size=size,
 
-                        chromosome=f["subject"],
-
                         identity=min(
-
                             f["identity"],
-
                             r["identity"],
-
                         ),
 
                     )
 
                 )
+
+        products.sort(
+            key=lambda x: x.size,
+        )
 
         return products
