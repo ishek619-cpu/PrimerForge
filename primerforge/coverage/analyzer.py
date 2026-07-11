@@ -6,6 +6,7 @@ from pathlib import Path
 
 from Bio import SeqIO
 
+from primerforge.analysis.primer_match import PrimerMatcher
 from primerforge.models.pair import PrimerPair
 
 
@@ -19,7 +20,9 @@ class CoverageAnalyzer:
         max_mismatches: int = 0,
     ):
 
-        self.max_mismatches = max_mismatches
+        self.matcher = PrimerMatcher(
+            max_mismatches=max_mismatches,
+        )
 
     def _matches(
         self,
@@ -27,45 +30,18 @@ class CoverageAnalyzer:
         sequence: str,
     ) -> bool:
 
-        primer = primer.upper()
+        #
+        # Search every possible alignment position.
+        #
+        for start in range(len(sequence)):
 
-        sequence = sequence.upper()
-
-        length = len(primer)
-
-        if len(sequence) < length:
-
-            return False
-
-        for start in range(
-
-            len(sequence)
-
-            - length
-
-            + 1
-
-        ):
-
-            window = sequence[
-                start:
-                start + length
-            ]
-
-            mismatches = sum(
-
-                1
-
-                for a, b in zip(
-                    primer,
-                    window,
-                )
-
-                if a != b
-
+            result = self.matcher.match(
+                primer=primer,
+                sequence=sequence,
+                start=start,
             )
 
-            if mismatches <= self.max_mismatches:
+            if result.matched:
 
                 return True
 
@@ -93,23 +69,17 @@ class CoverageAnalyzer:
             total += 1
 
             sequence = str(
-                record.seq
+                record.seq,
             )
 
             forward = self._matches(
-
                 pair.forward.sequence,
-
                 sequence,
-
             )
 
             reverse = self._matches(
-
                 pair.reverse.sequence,
-
                 sequence,
-
             )
 
             if forward:
@@ -134,6 +104,12 @@ class CoverageAnalyzer:
 
                 "pair": 0.0,
 
+                "forward_count": 0,
+
+                "reverse_count": 0,
+
+                "pair_count": 0,
+
                 "total": 0,
 
             }
@@ -141,39 +117,24 @@ class CoverageAnalyzer:
         return {
 
             "forward": round(
-
                 forward_matches
-
                 / total
-
                 * 100,
-
                 2,
-
             ),
 
             "reverse": round(
-
                 reverse_matches
-
                 / total
-
                 * 100,
-
                 2,
-
             ),
 
             "pair": round(
-
                 pair_matches
-
                 / total
-
                 * 100,
-
                 2,
-
             ),
 
             "forward_count": forward_matches,
