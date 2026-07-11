@@ -1,5 +1,8 @@
 """
 Species collection workflow.
+
+Creates the complete species-specific dataset required for
+PrimerForge.
 """
 
 from __future__ import annotations
@@ -7,20 +10,21 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
-from primerforge.species.aligner import MAFFTAligner
-from primerforge.species.cleaner import SequenceCleaner
-from primerforge.species.diagnostics import DiagnosticFinder
-from primerforge.species.downloader import SpeciesDownloader
-from primerforge.species.markers import MarkerDatabase
-from primerforge.species.relatives import RelativeFinder
-from primerforge.species.taxonomy import TaxonomyResolver
+from primerforge.species.downloader import (
+    SpeciesDownloader,
+)
+
+from primerforge.species.taxonomy import (
+    TaxonomyResolver,
+)
+
+from primerforge.species.relatives import (
+    RelativeSpeciesFinder,
+)
 
 
 @dataclass(slots=True)
 class SpeciesDataset:
-    """
-    Complete dataset used for species-specific primer design.
-    """
 
     species: str
 
@@ -28,158 +32,87 @@ class SpeciesDataset:
 
     taxonomy: object
 
-    relatives: list
+    genus: str
 
-    target_fasta: Path
+    target_result: object
 
-    relative_fastas: list[Path]
-
-    cleaned_target: Path
-
-    cleaned_relatives: list[Path]
-
-    alignment: Path
-
-    diagnostics: list
+    relative_species: list[str]
 
 
 class SpeciesCollector:
-    """
-    Complete workflow for collecting all data required for
-    species-specific primer design.
-    """
 
-    def __init__(self):
+    def __init__(
 
-        self.taxonomy = TaxonomyResolver()
+        self,
 
-        self.relatives = RelativeFinder()
+        email: str,
 
-        self.markers = MarkerDatabase()
+        api_key: str | None = None,
 
-        self.downloader = SpeciesDownloader()
+    ):
 
-        self.cleaner = SequenceCleaner()
+        self.taxonomy = TaxonomyResolver(
 
-        self.aligner = MAFFTAligner()
+            email=email,
 
-        self.diagnostics = DiagnosticFinder()
+            api_key=api_key,
+
+        )
+
+        self.relatives = RelativeSpeciesFinder(
+
+            email=email,
+
+            api_key=api_key,
+
+        )
+
+        self.downloader = SpeciesDownloader(
+
+            email=email,
+
+            api_key=api_key,
+
+        )
 
     def collect(
+
         self,
+
         species: str,
+
         marker: str,
-        output: Path,
+
+        output_directory: Path,
+
     ) -> SpeciesDataset:
 
-        output.mkdir(
-            parents=True,
-            exist_ok=True,
-        )
-
-        #
-        # Resolve taxonomy
-        #
         taxonomy = self.taxonomy.resolve(
+
             species,
+
         )
 
-        #
-        # Find relatives
-        #
-        relatives = self.relatives.find(
+        genus = self.relatives.genus(
+
             taxonomy,
+
         )
 
-        #
-        # Download target sequences
-        #
-        target_fasta = self.downloader.download(
+        relative_ids = self.relatives.search(
+
+            genus,
+
+        )
+
+        target = self.downloader.download(
+
             species=species,
+
             marker=marker,
-            output=output / "target.fasta",
-        )
 
-        #
-        # Download relatives
-        #
-        relative_fastas = []
+            output_directory=output_directory,
 
-        for relative in relatives:
-
-            fasta = self.downloader.download(
-                species=relative,
-                marker=marker,
-                output=output / f"{relative.replace(' ','_')}.fasta",
-            )
-
-            relative_fastas.append(
-                fasta,
-            )
-
-        #
-        # Clean target
-        #
-        cleaned_target = self.cleaner.clean(
-            target_fasta,
-            output / "target.cleaned.fasta",
-        )
-
-        #
-        # Clean relatives
-        #
-        cleaned_relatives = []
-
-        for fasta in relative_fastas:
-
-            cleaned = self.cleaner.clean(
-                fasta,
-                fasta.with_suffix(".cleaned.fasta"),
-            )
-
-            cleaned_relatives.append(
-                cleaned,
-            )
-
-        #
-        # Merge all cleaned FASTA files
-        #
-        merged = output / "merged.fasta"
-
-        with merged.open(
-            "w",
-            encoding="utf-8",
-        ) as out:
-
-            out.write(
-                cleaned_target.read_text(
-                    encoding="utf-8",
-                )
-            )
-
-            for fasta in cleaned_relatives:
-
-                out.write(
-                    fasta.read_text(
-                        encoding="utf-8",
-                    )
-                )
-
-        #
-        # Alignment
-        #
-        alignment = output / "alignment.fasta"
-
-        self.aligner.align(
-            merged,
-            alignment,
-        )
-
-        #
-        # Diagnostic SNPs
-        #
-        diagnostics = self.diagnostics.find(
-            alignment,
         )
 
         return SpeciesDataset(
@@ -190,18 +123,10 @@ class SpeciesCollector:
 
             taxonomy=taxonomy,
 
-            relatives=relatives,
+            genus=genus,
 
-            target_fasta=target_fasta,
+            target_result=target,
 
-            relative_fastas=relative_fastas,
-
-            cleaned_target=cleaned_target,
-
-            cleaned_relatives=cleaned_relatives,
-
-            alignment=alignment,
-
-            diagnostics=diagnostics,
+            relative_species=relative_ids,
 
         )
