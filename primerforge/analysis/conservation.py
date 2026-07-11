@@ -6,9 +6,8 @@ from pathlib import Path
 
 from Bio import AlignIO
 
-from primerforge.models.region import Region
-from primerforge.alignment.coordinate_mapper import CoordinateMapper
 from primerforge.analysis.primer_match import PrimerMatcher
+from primerforge.models.region import Region
 
 
 class ConservedRegionFinder:
@@ -48,12 +47,17 @@ class ConservedRegionFinder:
             ):
 
                 bases = [
+
                     b
+
                     for b in aln[:, column]
+
                     if b != "-"
+
                 ]
 
                 if not bases:
+
                     continue
 
                 most_common = max(
@@ -62,8 +66,13 @@ class ConservedRegionFinder:
                 )
 
                 score += (
-                    bases.count(most_common)
+
+                    bases.count(
+                        most_common,
+                    )
+
                     / len(bases)
+
                 )
 
             score = (
@@ -73,6 +82,7 @@ class ConservedRegionFinder:
             if score >= threshold:
 
                 regions.append(
+
                     Region(
                         start=start,
                         end=start + window - 1,
@@ -81,6 +91,7 @@ class ConservedRegionFinder:
                             2,
                         ),
                     )
+
                 )
 
         return regions
@@ -98,6 +109,7 @@ class ConservedRegionFinder:
         )
 
         if not regions:
+
             return None
 
         return max(
@@ -113,9 +125,8 @@ class ConservedRegionFinder:
         max_mismatches: int = 1,
     ) -> float:
         """
-        Estimate primer conservation using
-        reference→alignment coordinate mapping
-        and gap-aware primer matching.
+        Estimate primer conservation using an
+        alignment coordinate.
         """
 
         aln = AlignIO.read(
@@ -124,35 +135,6 @@ class ConservedRegionFinder:
         )
 
         if len(aln) == 0:
-            return 0.0
-
-        #
-        # Convert Primer3 reference coordinate
-        # into alignment coordinate.
-        #
-        mapper = CoordinateMapper(
-            alignment,
-        )
-
-        try:
-
-            alignment_start = (
-                mapper.reference_to_alignment(
-                    start,
-                )
-            )
-
-        except ValueError:
-
-            #
-            # Invalid coordinate.
-            #
-            self.last_statistics = {
-                "matched_sequences": 0,
-                "total_sequences": len(aln),
-                "mean_identity": 0.0,
-                "mean_mismatches": 0.0,
-            }
 
             return 0.0
 
@@ -171,7 +153,7 @@ class ConservedRegionFinder:
             result = matcher.match(
                 primer=primer,
                 sequence=str(record.seq),
-                start=alignment_start,
+                start=start,
             )
 
             identities.append(
@@ -183,12 +165,17 @@ class ConservedRegionFinder:
             )
 
             if result.matched:
+
                 matched += 1
 
         conservation = (
+
             matched
+
             / len(aln)
+
             * 100.0
+
         )
 
         self.last_statistics = {
@@ -213,6 +200,7 @@ class ConservedRegionFinder:
                 conservation,
                 2,
             ),
+
         }
 
         return round(
