@@ -7,6 +7,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from primerforge.primer.discovery import PrimerDiscovery
+from primerforge.reference.reference import Reference
 
 from primerforge.report.csv import CSVReport
 from primerforge.report.excel import ExcelReport
@@ -24,12 +25,24 @@ def run_design(args) -> int:
     print("PrimerForge")
     print("=" * 60)
 
-    reference = Path(args.reference)
+    reference_fasta = Path(args.reference)
 
     alignment = (
         Path(args.alignment)
         if args.alignment
         else None
+    )
+
+    annotation = (
+        Path(args.annotation)
+        if getattr(args, "annotation", None)
+        else None
+    )
+
+    gene = getattr(
+        args,
+        "gene",
+        None,
     )
 
     output = Path(args.output)
@@ -39,12 +52,74 @@ def run_design(args) -> int:
         exist_ok=True,
     )
 
-    print(f"Reference : {reference}")
+    print(f"Reference : {reference_fasta}")
 
     if alignment is not None:
         print(f"Alignment : {alignment}")
 
+    if annotation is not None:
+        print(f"Annotation: {annotation}")
+
+    if gene:
+        print(f"Gene       : {gene}")
+
     print(f"Output     : {output}")
+
+    print()
+
+    #
+    # Build Reference object
+    #
+    reference = Reference(
+        fasta=reference_fasta,
+        alignment=alignment,
+        annotation=annotation,
+    )
+
+    #
+    # Show annotation summary
+    #
+    if reference.has_annotation:
+
+        print(
+            f"Loaded {len(reference.genes)} annotated features."
+        )
+
+        if gene:
+
+            feature = reference.get_gene(
+                gene,
+            )
+
+            if feature is None:
+
+                print()
+
+                print(
+                    f"ERROR: Gene '{gene}' was not found."
+                )
+
+                print()
+
+                print(
+                    "Available genes:"
+                )
+
+                for name in reference.gene_names():
+
+                    print(
+                        f"  - {name}"
+                    )
+
+                return 1
+
+            print(
+                f"Target gene : {feature.name}"
+            )
+
+            print(
+                f"Coordinates : {feature.start}-{feature.end}"
+            )
 
     print()
 
@@ -52,12 +127,19 @@ def run_design(args) -> int:
 
     discovery = PrimerDiscovery()
 
+    #
+    # NOTE:
+    # Gene-aware discovery will be implemented next.
+    # For now the Reference object is already available.
+    #
     pairs = discovery.discover(
-        reference_fasta=reference,
-        alignment_fasta=alignment,
+        reference_fasta=reference.fasta,
+        alignment_fasta=reference.alignment,
     )
 
-    print(f"Found {len(pairs)} primer pairs.")
+    print(
+        f"Found {len(pairs)} primer pairs."
+    )
 
     print()
 
@@ -105,10 +187,21 @@ def run_design(args) -> int:
 
     print("Reports")
 
-    print(f"  HTML  : {output/'primerforge_report.html'}")
-    print(f"  CSV   : {output/'primerforge_report.csv'}")
-    print(f"  JSON  : {output/'primerforge_report.json'}")
-    print(f"  Excel : {output/'primerforge_report.xlsx'}")
+    print(
+        f"  HTML  : {output/'primerforge_report.html'}"
+    )
+
+    print(
+        f"  CSV   : {output/'primerforge_report.csv'}"
+    )
+
+    print(
+        f"  JSON  : {output/'primerforge_report.json'}"
+    )
+
+    print(
+        f"  Excel : {output/'primerforge_report.xlsx'}"
+    )
 
     print()
 
