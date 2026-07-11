@@ -10,6 +10,7 @@ from primerforge.analysis.iupac import (
     identity,
     mismatch_count,
 )
+from primerforge.reference.coordinates import Coordinate
 
 
 @dataclass(frozen=True, slots=True)
@@ -28,13 +29,14 @@ class PrimerMatch:
 
     matched: bool
 
+    coordinate: Coordinate | None = None
+
 
 class PrimerMatcher:
     """
     Gap-aware primer matcher.
 
-    Alignment coordinates are interpreted in alignment space.
-    Gaps are ignored when reconstructing the biological sequence.
+    Coordinates are interpreted in alignment space.
     """
 
     def __init__(
@@ -49,14 +51,15 @@ class PrimerMatcher:
         sequence: str,
         start: int,
         primer_length: int,
-    ) -> str:
-        """
-        Extract primer-length sequence while ignoring gaps.
-        """
+    ) -> tuple[str, Coordinate]:
 
         ungapped = []
 
         index = start
+
+        alignment_start = index + 1
+
+        alignment_end = alignment_start
 
         while (
             index < len(sequence)
@@ -66,11 +69,28 @@ class PrimerMatcher:
             base = sequence[index]
 
             if base != "-":
-                ungapped.append(base)
+
+                ungapped.append(
+                    base,
+                )
+
+                alignment_end = index + 1
 
             index += 1
 
-        return "".join(ungapped)
+        coordinate = Coordinate(
+
+            start=alignment_start,
+
+            end=alignment_end,
+
+            system="alignment",
+
+        )
+
+        return "".join(
+            ungapped,
+        ), coordinate
 
     def match(
         self,
@@ -79,39 +99,62 @@ class PrimerMatcher:
         start: int,
     ) -> PrimerMatch:
 
-        region = self.extract_region(
+        region, coordinate = self.extract_region(
+
             sequence,
+
             start,
+
             len(primer),
+
         )
 
-        #
-        # Sequence ended before primer finished.
-        #
         if len(region) != len(primer):
 
             return PrimerMatch(
+
                 aligned_primer=primer,
+
                 aligned_sequence=region,
+
                 identity=0.0,
+
                 mismatches=len(primer),
+
                 matched=False,
+
+                coordinate=coordinate,
+
             )
 
         mm = mismatch_count(
+
             primer,
+
             region,
+
         )
 
         ident = identity(
+
             primer,
+
             region,
+
         )
 
         return PrimerMatch(
+
             aligned_primer=primer,
+
             aligned_sequence=region,
+
             identity=ident,
+
             mismatches=mm,
+
             matched=mm <= self.max_mismatches,
+
+            coordinate=coordinate,
+
         )
