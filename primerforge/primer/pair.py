@@ -33,70 +33,119 @@ class PrimerPairGenerator:
             for reverse in reverse_primers:
 
                 #
+                # Use universal coordinates
+                #
+                forward_start = (
+                    forward.coordinate.start
+                )
+
+                forward_end = (
+                    forward.coordinate.end
+                )
+
+                reverse_start = (
+                    reverse.coordinate.start
+                )
+
+                reverse_end = (
+                    reverse.coordinate.end
+                )
+
+                #
                 # Correct orientation
                 #
-                if reverse.start <= forward.end:
+                if reverse_start <= forward_end:
+
                     continue
 
+                #
+                # Product size
+                #
                 product = (
-                    reverse.end
-                    - forward.start
+
+                    reverse_end
+
+                    - forward_start
+
                     + 1
+
                 )
 
                 #
                 # Product size filter
                 #
                 if product < self.min_product:
+
                     continue
 
                 if product > self.max_product:
+
                     continue
 
                 #
                 # Primer Tm compatibility
                 #
                 if abs(
+
                     forward.tm
+
                     - reverse.tm
+
                 ) > 2.0:
+
                     continue
 
                 #
                 # Primer GC compatibility
                 #
                 if abs(
+
                     forward.gc
+
                     - reverse.gc
+
                 ) > 15.0:
+
                     continue
 
                 pairs.append(
+
                     PrimerPair(
+
                         forward=forward,
+
                         reverse=reverse,
+
                         product_size=product,
+
                     )
+
                 )
 
         #
         # Best-balanced primer pairs first
         #
         pairs.sort(
+
             key=lambda pair: (
+
                 abs(
                     pair.forward.tm
                     - pair.reverse.tm
                 ),
+
                 abs(
                     pair.forward.gc
                     - pair.reverse.gc
                 ),
+
                 abs(
                     pair.product_size
                     - 120
                 ),
+
             )
+
         )
 
         return pairs
