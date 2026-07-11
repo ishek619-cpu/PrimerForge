@@ -4,13 +4,13 @@ Complete primer discovery workflow.
 
 from pathlib import Path
 
-from Bio import SeqIO
-
 from primerforge.analysis.population import PopulationAnalyzer
 from primerforge.pipeline.validator import PrimerValidationPipeline
 from primerforge.primer.deduplicate import PrimerPairDeduplicator
 from primerforge.primer.pair import PrimerPairGenerator
 from primerforge.primer3.designer import Primer3Designer
+from primerforge.reference.mapper import CoordinateMapper
+from primerforge.reference.reference import Reference
 from primerforge.specificity.blastdb import BlastDatabase
 from primerforge.specificity.engine import SpecificityEngine
 
@@ -41,9 +41,6 @@ class PrimerDiscovery:
 
         self.blastdb = BlastDatabase()
 
-        #
-        # Optional specificity engine.
-        #
         self.specificity = None
 
     def discover(
@@ -54,26 +51,33 @@ class PrimerDiscovery:
     ):
 
         #
-        # Load reference sequence
+        # Build universal Reference object
         #
-        record = next(
-            SeqIO.parse(
-                reference_fasta,
-                "fasta",
-            )
+        reference = Reference(
+            fasta=reference_fasta,
+            alignment=alignment_fasta,
         )
 
-        sequence = str(record.seq)
+        #
+        # Build coordinate mapper if an alignment exists
+        #
+        mapper = None
+
+        if reference.has_alignment:
+
+            mapper = CoordinateMapper(
+                reference,
+            )
 
         #
         # Design primers
         #
         forward, reverse = self.designer.design(
-            sequence,
+            reference.sequence,
         )
 
         #
-        # Generate candidate primer pairs
+        # Generate primer pairs
         #
         pairs = self.generator.generate(
             forward,
@@ -81,7 +85,7 @@ class PrimerDiscovery:
         )
 
         #
-        # Remove duplicate pairs
+        # Remove duplicates
         #
         pairs = self.deduplicator.deduplicate(
             pairs,
@@ -90,20 +94,28 @@ class PrimerDiscovery:
         #
         # Population analysis
         #
-        if alignment_fasta is not None:
+        if mapper is not None:
 
             for pair in pairs:
 
+                alignment_forward = mapper.reference_to_alignment(
+                    pair.forward.coordinate,
+                )
+
+                alignment_reverse = mapper.reference_to_alignment(
+                    pair.reverse.coordinate,
+                )
+
                 forward_result = self.population.analyse(
                     primer=pair.forward.sequence,
-                    alignment=alignment_fasta,
-                    start=pair.forward.start,
+                    alignment=reference.alignment,
+                    start=alignment_forward.start,
                 )
 
                 reverse_result = self.population.analyse(
                     primer=pair.reverse.sequence,
-                    alignment=alignment_fasta,
-                    start=pair.reverse.start,
+                    alignment=reference.alignment,
+                    start=alignment_reverse.start,
                 )
 
                 pair.population_conservation = min(
@@ -117,8 +129,11 @@ class PrimerDiscovery:
                 )
 
                 pair.population_result = {
+
                     "forward": forward_result,
+
                     "reverse": reverse_result,
+
                 }
 
         #
@@ -128,8 +143,8 @@ class PrimerDiscovery:
 
         pairs = self.validator.validate(
             pairs=pairs,
-            reference_fasta=reference_fasta,
-            alignment_fasta=alignment_fasta,
+            reference_fasta=reference.fasta,
+            alignment_fasta=reference.alignment,
             specificity_engine=engine,
         )
 
