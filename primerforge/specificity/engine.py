@@ -5,7 +5,7 @@ Species-specific primer evaluation engine.
 from pathlib import Path
 
 from primerforge.models.pair import PrimerPair
-
+from primerforge.reference.coordinates import Coordinate
 from primerforge.specificity.analyzer import SpecificityAnalyzer
 from primerforge.specificity.models import SpecificityResult
 from primerforge.specificity.pair_validator import (
@@ -44,7 +44,7 @@ class SpecificityEngine:
         )
 
         #
-        # Analyse forward primer
+        # Forward primer
         #
         forward_result = self.analyzer.analyse(
             primer=pair.forward,
@@ -54,7 +54,7 @@ class SpecificityEngine:
         )
 
         #
-        # Analyse reverse primer
+        # Reverse primer
         #
         reverse_result = self.analyzer.analyse(
             primer=pair.reverse,
@@ -64,7 +64,16 @@ class SpecificityEngine:
         )
 
         #
-        # Combine into a single result
+        # Pair coordinate
+        #
+        pair.coordinate = Coordinate(
+            start=pair.forward.coordinate.start,
+            end=pair.reverse.coordinate.end,
+            system=pair.forward.coordinate.system,
+        )
+
+        #
+        # Combine primer results
         #
         specificity = min(
             forward_result.specificity_score,
@@ -73,44 +82,54 @@ class SpecificityEngine:
 
         passed = (
             forward_result.passed
-            and reverse_result.passed
+            and
+            reverse_result.passed
         )
 
         result = SpecificityResult(
+
             forward_hits=forward_result.forward_hits,
+
             reverse_hits=reverse_result.forward_hits,
+
             target_hits=(
                 forward_result.target_hits
-                + reverse_result.target_hits
+                +
+                reverse_result.target_hits
             ),
+
             off_target_hits=(
                 forward_result.off_target_hits
-                + reverse_result.off_target_hits
+                +
+                reverse_result.off_target_hits
             ),
+
             specificity_score=specificity,
+
             passed=passed,
+
             rejection_reason=(
                 None
                 if passed
                 else "Primer failed specificity"
             ),
+
         )
 
-        #
-        # Attach result to the primer pair
-        #
         pair.specificity_result = result
+
         pair.specificity_score = specificity
+
         pair.passed_specificity = passed
 
         #
-        # Perform pair-level PCR specificity validation
+        # Pair-level validation
         #
-        pair_result = self.pair_validator.validate(
+        validation = self.pair_validator.validate(
             pair,
         )
 
-        if not pair_result["passed"]:
+        if not validation["passed"]:
 
             pair.passed_specificity = False
 
