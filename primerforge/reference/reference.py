@@ -9,16 +9,17 @@ from pathlib import Path
 
 from Bio import SeqIO
 
+from primerforge.reference.annotation import (
+    AnnotationParser,
+    Gene,
+)
+
 
 @dataclass(slots=True)
 class Reference:
     """
-    Represents the reference sequence used throughout PrimerForge.
-
-    Every major module (primer discovery, population analysis,
-    specificity, PCR prediction, reporting) should receive a
-    Reference object instead of separate FASTA, alignment and
-    annotation paths.
+    Represents a biological reference sequence together with
+    its alignment and annotation.
     """
 
     ####################################################################
@@ -32,7 +33,7 @@ class Reference:
     annotation: Path | None = None
 
     ####################################################################
-    # Metadata
+    # Sequence information
     ####################################################################
 
     accession: str = ""
@@ -42,6 +43,10 @@ class Reference:
     sequence: str = ""
 
     length: int = 0
+
+    ####################################################################
+    # Biological metadata
+    ####################################################################
 
     species: str = ""
 
@@ -54,11 +59,22 @@ class Reference:
     )
 
     ####################################################################
+    # Annotation
+    ####################################################################
+
+    genes: list[Gene] = field(
+        default_factory=list,
+    )
+
+    ####################################################################
     # Initialization
     ####################################################################
 
     def __post_init__(self):
 
+        #
+        # Validate FASTA
+        #
         if not self.fasta.exists():
 
             raise FileNotFoundError(
@@ -87,8 +103,23 @@ class Reference:
         if self.length == 0:
 
             raise ValueError(
-                "Reference sequence is empty.",
+                "Reference sequence is empty."
             )
+
+        #
+        # Load annotation (optional)
+        #
+        self.genes = []
+
+        if self.annotation is not None:
+
+            if self.annotation.exists():
+
+                parser = AnnotationParser()
+
+                self.genes = parser.load(
+                    self.annotation,
+                )
 
     ####################################################################
     # Properties
@@ -102,7 +133,9 @@ class Reference:
     @property
     def has_annotation(self) -> bool:
 
-        return self.annotation is not None
+        return len(
+            self.genes,
+        ) > 0
 
     @property
     def has_metadata(self) -> bool:
@@ -112,7 +145,40 @@ class Reference:
         ) > 0
 
     ####################################################################
-    # Utility methods
+    # Annotation helpers
+    ####################################################################
+
+    def get_gene(
+        self,
+        name: str,
+    ) -> Gene | None:
+
+        for gene in self.genes:
+
+            if gene.name.lower() == name.lower():
+
+                return gene
+
+        return None
+
+    def gene_names(
+        self,
+    ) -> list[str]:
+
+        return sorted(
+
+            {
+
+                gene.name
+
+                for gene in self.genes
+
+            }
+
+        )
+
+    ####################################################################
+    # Summary
     ####################################################################
 
     def summary(self) -> dict:
@@ -135,7 +201,15 @@ class Reference:
 
             "annotation": self.annotation,
 
+            "genes": len(
+                self.genes,
+            ),
+
         }
+
+    ####################################################################
+    # Convenience
+    ####################################################################
 
     def __len__(self):
 
@@ -144,7 +218,13 @@ class Reference:
     def __repr__(self):
 
         return (
+
             f"Reference("
+
             f"accession='{self.accession}', "
-            f"length={self.length})"
+
+            f"length={self.length}, "
+
+            f"genes={len(self.genes)})"
+
         )

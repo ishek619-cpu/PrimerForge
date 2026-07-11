@@ -44,9 +44,9 @@ class ReferenceValidator:
             )
 
         #
-        # Alignment exists
+        # Alignment validation
         #
-        if reference.has_alignment:
+        if reference.alignment is not None:
 
             if not reference.alignment.exists():
 
@@ -77,19 +77,23 @@ class ReferenceValidator:
                     )
 
         #
-        # Annotation exists
+        # Annotation validation
         #
-        if (
-            reference.has_annotation
-            and
-            not reference.annotation.exists()
-        ):
+        # Annotation is optional, but if the user
+        # supplies a path it must exist.
+        #
+        if reference.annotation is not None:
 
-            messages.append(
-                "Annotation file does not exist."
-            )
+            if not reference.annotation.exists():
+
+                messages.append(
+                    "Annotation file does not exist."
+                )
 
         return ValidationResult(
+
             passed=len(messages) == 0,
+
             messages=messages,
+
         )
