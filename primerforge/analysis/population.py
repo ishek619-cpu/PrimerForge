@@ -7,6 +7,7 @@ from pathlib import Path
 from primerforge.analysis.conservation import (
     ConservedRegionFinder,
 )
+from primerforge.reference.coordinates import Coordinate
 
 
 class PopulationAnalyzer:
@@ -23,8 +24,28 @@ class PopulationAnalyzer:
         self,
         primer: str,
         alignment: Path,
-        start: int,
+        start: int | None = None,
+        coordinate: Coordinate | None = None,
     ) -> dict:
+        """
+        Evaluate primer conservation across an alignment.
+
+        Either a start coordinate or a Coordinate object
+        may be supplied.
+        """
+
+        #
+        # New coordinate-aware API
+        #
+        if coordinate is not None:
+
+            start = coordinate.start
+
+        if start is None:
+
+            raise ValueError(
+                "Either start or coordinate must be provided."
+            )
 
         conservation = self.conservation.primer_conservation(
             primer=primer,
