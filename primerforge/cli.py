@@ -27,12 +27,13 @@ def build_parser() -> argparse.ArgumentParser:
         required=True,
     )
 
-    #
-    # Design command
-    #
+    ####################################################################
+    # DESIGN
+    ####################################################################
+
     design = subparsers.add_parser(
         "design",
-        help="Design primer pairs.",
+        help="Design PCR primer pairs.",
     )
 
     design.add_argument(
@@ -43,8 +44,17 @@ def build_parser() -> argparse.ArgumentParser:
 
     design.add_argument(
         "--alignment",
-        required=False,
         help="Population alignment FASTA.",
+    )
+
+    design.add_argument(
+        "--annotation",
+        help="GenBank annotation (.gb/.gbk).",
+    )
+
+    design.add_argument(
+        "--gene",
+        help="Design primers for a specific annotated gene (e.g. COI, CYTB, 12S).",
     )
 
     design.add_argument(
@@ -53,14 +63,17 @@ def build_parser() -> argparse.ArgumentParser:
         help="Output directory.",
     )
 
-    design.set_defaults(func=run_design)
+    design.set_defaults(
+        func=run_design,
+    )
 
-    #
-    # Validate command
-    #
+    ####################################################################
+    # VALIDATE
+    ####################################################################
+
     validate = subparsers.add_parser(
         "validate",
-        help="Validate existing primer pairs.",
+        help="Validate primer pairs.",
     )
 
     validate.add_argument(
@@ -77,8 +90,12 @@ def build_parser() -> argparse.ArgumentParser:
 
     validate.add_argument(
         "--alignment",
-        required=False,
         help="Population alignment.",
+    )
+
+    validate.add_argument(
+        "--annotation",
+        help="GenBank annotation.",
     )
 
     validate.add_argument(
@@ -87,11 +104,14 @@ def build_parser() -> argparse.ArgumentParser:
         help="Output directory.",
     )
 
-    validate.set_defaults(func=run_validate)
+    validate.set_defaults(
+        func=run_validate,
+    )
 
-    #
-    # Report command
-    #
+    ####################################################################
+    # REPORT
+    ####################################################################
+
     report = subparsers.add_parser(
         "report",
         help="Generate reports.",
@@ -109,7 +129,9 @@ def build_parser() -> argparse.ArgumentParser:
         help="Output directory.",
     )
 
-    report.set_defaults(func=run_report)
+    report.set_defaults(
+        func=run_report,
+    )
 
     return parser
 
