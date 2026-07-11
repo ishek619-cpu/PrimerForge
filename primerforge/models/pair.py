@@ -5,6 +5,7 @@ Primer pair model.
 from dataclasses import dataclass, field
 
 from primerforge.models.primer import Primer
+from primerforge.reference.coordinates import Coordinate
 from primerforge.specificity.models import SpecificityResult
 from primerforge.thermodynamics.nearest_neighbor import (
     ThermodynamicResult,
@@ -17,18 +18,25 @@ class PrimerPair:
     Represents a PCR primer pair.
     """
 
-    #
-    # Primer information
-    #
+    ####################################################################
+    # Primers
+    ####################################################################
 
     forward: Primer
+
     reverse: Primer
 
     product_size: int
 
-    #
+    ####################################################################
+    # Universal coordinate
+    ####################################################################
+
+    coordinate: Coordinate | None = None
+
+    ####################################################################
     # Overall ranking
-    #
+    ####################################################################
 
     score: float = 0.0
 
@@ -36,9 +44,9 @@ class PrimerPair:
         default_factory=dict,
     )
 
-    #
+    ####################################################################
     # Species specificity
-    #
+    ####################################################################
 
     specificity_score: float = 100.0
 
@@ -46,9 +54,9 @@ class PrimerPair:
 
     specificity_result: SpecificityResult | None = None
 
-    #
-    # Population-aware conservation
-    #
+    ####################################################################
+    # Population conservation
+    ####################################################################
 
     population_conservation: float = 100.0
 
@@ -58,42 +66,101 @@ class PrimerPair:
         default_factory=dict,
     )
 
-    #
-    # Nearest-neighbor thermodynamics
-    #
+    ####################################################################
+    # Thermodynamics
+    ####################################################################
 
     forward_nn: ThermodynamicResult | None = None
 
     reverse_nn: ThermodynamicResult | None = None
 
-    #
-    # Coverage analysis
-    #
+    ####################################################################
+    # Coverage
+    ####################################################################
 
     coverage: dict = field(
         default_factory=dict,
     )
 
-    #
-    # Off-target risk
-    #
+    ####################################################################
+    # Risk assessment
+    ####################################################################
 
     risk: dict = field(
         default_factory=dict,
     )
 
-    #
-    # Predicted PCR products
-    #
+    ####################################################################
+    # PCR products
+    ####################################################################
 
     predicted_products: list = field(
         default_factory=list,
     )
 
-    #
-    # Future extensions
-    #
+    ####################################################################
+    # Metadata
+    ####################################################################
 
     metadata: dict = field(
         default_factory=dict,
     )
+
+    ####################################################################
+    # Initialization
+    ####################################################################
+
+    def __post_init__(self):
+
+        if self.coordinate is None:
+
+            self.coordinate = Coordinate(
+
+                start=self.forward.coordinate.start,
+
+                end=self.reverse.coordinate.end,
+
+                system=self.forward.coordinate.system,
+
+            )
+
+    ####################################################################
+    # Convenience
+    ####################################################################
+
+    @property
+    def length(self) -> int:
+
+        return self.coordinate.length
+
+    def to_dict(self) -> dict:
+
+        return {
+
+            "forward": self.forward.to_dict(),
+
+            "reverse": self.reverse.to_dict(),
+
+            "product_size": self.product_size,
+
+            "score": self.score,
+
+            "population_conservation": self.population_conservation,
+
+            "population_coverage": self.population_coverage,
+
+            "specificity_score": self.specificity_score,
+
+            "coordinate": self.coordinate.to_dict(),
+
+        }
+
+    def __repr__(self):
+
+        return (
+            f"PrimerPair("
+            f"{self.forward.sequence} / "
+            f"{self.reverse.sequence}, "
+            f"{self.coordinate.start}-"
+            f"{self.coordinate.end})"
+        )
