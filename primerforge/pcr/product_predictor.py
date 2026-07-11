@@ -3,12 +3,13 @@ Predict PCR products from paired BLAST hits.
 """
 
 from primerforge.models.pcr_product import PCRProduct
+from primerforge.reference.coordinates import Coordinate
 from primerforge.specificity.models import BlastHit
 
 
 class PCRProductPredictor:
     """
-    Predict PCR amplification products from a pair of BLAST hits.
+    Predict PCR amplification products from paired BLAST hits.
     """
 
     def __init__(
@@ -28,40 +29,47 @@ class PCRProductPredictor:
     ) -> PCRProduct | None:
 
         #
-        # Primers must align to the same reference.
+        # Both primers must hit the same sequence.
         #
         if forward_hit.accession != reverse_hit.accession:
 
             return None
 
         #
-        # Forward primer must be upstream.
+        # Forward primer must occur before reverse primer.
         #
         if forward_hit.sstart >= reverse_hit.sstart:
 
             return None
 
         #
+        # Represent primer positions using Coordinates.
+        #
+        forward = Coordinate(
+            start=forward_hit.sstart,
+            end=forward_hit.send,
+            system="reference",
+        )
+
+        reverse = Coordinate(
+            start=reverse_hit.sstart,
+            end=reverse_hit.send,
+            system="reference",
+        )
+
+        #
         # Calculate amplicon size.
         #
         product_size = (
-
-            reverse_hit.send
-
-            - forward_hit.sstart
-
+            reverse.end
+            - forward.start
             + 1
-
         )
 
         passed = (
-
             self.min_product
-
             <= product_size
-
             <= self.max_product
-
         )
 
         reason = None
@@ -78,9 +86,9 @@ class PCRProductPredictor:
 
             chromosome=forward_hit.accession,
 
-            forward_start=forward_hit.sstart,
+            forward_start=forward.start,
 
-            reverse_end=reverse_hit.send,
+            reverse_end=reverse.end,
 
             product_size=product_size,
 
