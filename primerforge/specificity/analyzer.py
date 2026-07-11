@@ -10,7 +10,6 @@ from primerforge.specificity.blast import BlastRunner
 from primerforge.specificity.parser import BlastParser
 from primerforge.specificity.scorer import SpecificityScorer
 from primerforge.specificity.models import (
-    BlastHit,
     OffTargetHit,
     SpecificityResult,
 )
@@ -37,9 +36,35 @@ class SpecificityAnalyzer:
         target_species: str,
     ) -> SpecificityResult:
 
+        blast_output.parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        #
+        # Write primer FASTA for BLAST
+        #
+        query = blast_output.with_suffix(".fa")
+
+        with query.open(
+            "w",
+            encoding="utf-8",
+        ) as handle:
+
+            handle.write(
+                f">{primer.sequence}\n"
+            )
+
+            handle.write(
+                f"{primer.sequence}\n"
+            )
+
+        #
+        # Run BLAST
+        #
         self.blast.search(
 
-            query=blast_output.with_suffix(".fa"),
+            query=query,
 
             database=database,
 

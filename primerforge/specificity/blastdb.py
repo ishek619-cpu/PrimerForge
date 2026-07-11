@@ -2,6 +2,8 @@
 BLAST database utilities.
 """
 
+from __future__ import annotations
+
 import subprocess
 from pathlib import Path
 
@@ -43,6 +45,20 @@ class BlastDatabase:
         )
 
         return output
+
+    def build(
+        self,
+        fasta: Path,
+        output: str | Path,
+    ) -> Path:
+        """
+        Backwards-compatible wrapper.
+        """
+
+        return self.create(
+            fasta=fasta,
+            output=Path(output),
+        )
 
     def exists(
         self,

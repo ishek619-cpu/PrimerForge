@@ -43,9 +43,6 @@ class SpecificityEngine:
             exist_ok=True,
         )
 
-        #
-        # Forward primer
-        #
         forward_result = self.analyzer.analyse(
             primer=pair.forward,
             database=self.database,
@@ -53,9 +50,6 @@ class SpecificityEngine:
             target_species=self.target_species,
         )
 
-        #
-        # Reverse primer
-        #
         reverse_result = self.analyzer.analyse(
             primer=pair.reverse,
             database=self.database,
@@ -63,18 +57,12 @@ class SpecificityEngine:
             target_species=self.target_species,
         )
 
-        #
-        # Pair coordinate
-        #
         pair.coordinate = Coordinate(
             start=pair.forward.coordinate.start,
             end=pair.reverse.coordinate.end,
             system=pair.forward.coordinate.system,
         )
 
-        #
-        # Combine primer results
-        #
         specificity = min(
             forward_result.specificity_score,
             reverse_result.specificity_score,
@@ -85,6 +73,28 @@ class SpecificityEngine:
             and
             reverse_result.passed
         )
+
+        validation = self.pair_validator.validate(
+            pair,
+        )
+
+        if not validation["passed"]:
+
+            passed = False
+
+            specificity = 0.0
+
+            rejection = (
+                "Potential off-target PCR amplification"
+            )
+
+        else:
+
+            rejection = (
+                None
+                if passed
+                else "Primer failed specificity"
+            )
 
         result = SpecificityResult(
 
@@ -108,11 +118,7 @@ class SpecificityEngine:
 
             passed=passed,
 
-            rejection_reason=(
-                None
-                if passed
-                else "Primer failed specificity"
-            ),
+            rejection_reason=rejection,
 
         )
 
@@ -121,24 +127,5 @@ class SpecificityEngine:
         pair.specificity_score = specificity
 
         pair.passed_specificity = passed
-
-        #
-        # Pair-level validation
-        #
-        validation = self.pair_validator.validate(
-            pair,
-        )
-
-        if not validation["passed"]:
-
-            pair.passed_specificity = False
-
-            pair.specificity_score = 0.0
-
-            result.passed = False
-
-            result.rejection_reason = (
-                "Potential off-target PCR amplification"
-            )
 
         return result

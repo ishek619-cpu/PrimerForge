@@ -79,23 +79,23 @@ class PrimerValidationPipeline:
                     Path("results/blast"),
                 )
 
+                #
+                # Assess risk without modifying frozen OffTargetHit objects
+                #
+                highest_risk = None
+
                 for hit in result.off_target_hits:
-
-                    hit.three_prime_mismatches = (
-                        self.three_prime.count(hit)
-                    )
-
-                    hit.three_prime_score = (
-                        self.three_prime.score(hit)
-                    )
 
                     risk = self.risk.assess(hit)
 
                     if (
-                        not hasattr(pair, "risk")
-                        or risk["score"] > pair.risk["score"]
+                        highest_risk is None
+                        or risk["score"] > highest_risk["score"]
                     ):
-                        pair.risk = risk
+                        highest_risk = risk
+
+                if highest_risk is not None:
+                    pair.risk = highest_risk
 
             #
             # Initial scoring

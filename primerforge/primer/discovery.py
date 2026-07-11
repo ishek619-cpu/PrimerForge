@@ -24,6 +24,7 @@ class PrimerDiscovery:
         self,
         min_product: int = 80,
         max_product: int = 250,
+        max_candidates: int = 20,
     ):
 
         self.designer = Primer3Designer()
@@ -43,6 +44,11 @@ class PrimerDiscovery:
 
         self.specificity = None
 
+        #
+        # Only validate the best N candidates.
+        #
+        self.max_candidates = max_candidates
+
     def discover(
         self,
         reference_fasta: Path,
@@ -50,17 +56,11 @@ class PrimerDiscovery:
         alignment_fasta: Path | None = None,
     ):
 
-        #
-        # Build universal Reference object
-        #
         reference = Reference(
             fasta=reference_fasta,
             alignment=alignment_fasta,
         )
 
-        #
-        # Build coordinate mapper if an alignment exists
-        #
         mapper = None
 
         if reference.has_alignment:
@@ -70,14 +70,14 @@ class PrimerDiscovery:
             )
 
         #
-        # Design primers
+        # Primer3
         #
         forward, reverse = self.designer.design(
             reference.sequence,
         )
 
         #
-        # Generate primer pairs
+        # Generate pairs
         #
         pairs = self.generator.generate(
             forward,
@@ -92,30 +92,36 @@ class PrimerDiscovery:
         )
 
         #
+        # Generator already sorts pairs by quality.
+        # Keep only the top candidates.
+        #
+        pairs = pairs[: self.max_candidates]
+
+        #
         # Population analysis
         #
         if mapper is not None:
 
             for pair in pairs:
 
-                alignment_forward = mapper.reference_to_alignment(
+                forward_coordinate = mapper.reference_to_alignment(
                     pair.forward.coordinate,
                 )
 
-                alignment_reverse = mapper.reference_to_alignment(
+                reverse_coordinate = mapper.reference_to_alignment(
                     pair.reverse.coordinate,
                 )
 
                 forward_result = self.population.analyse(
                     primer=pair.forward.sequence,
                     alignment=reference.alignment,
-                    start=alignment_forward.start,
+                    start=forward_coordinate.start,
                 )
 
                 reverse_result = self.population.analyse(
                     primer=pair.reverse.sequence,
                     alignment=reference.alignment,
-                    start=alignment_reverse.start,
+                    start=reverse_coordinate.start,
                 )
 
                 pair.population_conservation = min(
@@ -129,15 +135,12 @@ class PrimerDiscovery:
                 )
 
                 pair.population_result = {
-
                     "forward": forward_result,
-
                     "reverse": reverse_result,
-
                 }
 
         #
-        # Complete validation pipeline
+        # Expensive validation only for the top candidates.
         #
         engine = specificity_engine or self.specificity
 

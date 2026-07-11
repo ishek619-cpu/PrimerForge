@@ -9,7 +9,7 @@ from Bio import AlignIO
 
 class PrimerConservation:
     """
-    Evaluate primer conservation from a multiple sequence alignment.
+    Evaluate conservation only at the designed primer position.
     """
 
     def __init__(self):
@@ -47,74 +47,88 @@ class PrimerConservation:
             alignment,
         )
 
-        length = len(primer.sequence)
+        #
+        # Primer coordinate (1-based -> 0-based)
+        #
+        start = primer.coordinate.start - 1
 
-        best_score = -1.0
-        best_start = -1
+        length = len(
+            primer.sequence,
+        )
 
-        conservation = []
+        alignment_length = aln.get_alignment_length()
 
-        for start in range(
-            aln.get_alignment_length() - length + 1
-        ):
+        if start < 0 or start + length > alignment_length:
 
-            matches = 0
-            total = 0
+            return {
+                "best_start": start,
+                "window_length": length,
+                "best_score": 0.0,
+                "profile": [],
+            }
 
-            for i in range(length):
+        matches = 0.0
 
-                column = aln[:, start + i]
+        total = 0
 
-                bases = [
-                    b
-                    for b in column
-                    if b != "-"
-                ]
+        profile = []
 
-                if not bases:
-                    continue
+        for i in range(length):
 
-                total += 1
+            column = aln[:, start + i]
 
-                most_common = max(
-                    set(bases),
-                    key=bases.count,
-                )
+            bases = [
+                b
+                for b in column
+                if b != "-"
+            ]
 
-                freq = (
-                    bases.count(most_common)
-                    / len(bases)
-                )
+            if not bases:
 
-                matches += freq
+                profile.append(0.0)
 
-            score = (
-                matches / total * 100
-                if total
-                else 0.0
+                continue
+
+            total += 1
+
+            most_common = max(
+                set(bases),
+                key=bases.count,
             )
 
-            conservation.append(
-                round(score, 2)
+            freq = (
+                bases.count(most_common)
+                / len(bases)
             )
 
-            if score > best_score:
+            profile.append(
+                round(
+                    freq * 100,
+                    2,
+                )
+            )
 
-                best_score = score
+            matches += freq
 
-                best_start = start
+        score = (
+            matches
+            / total
+            * 100
+            if total
+            else 0.0
+        )
 
         return {
 
-            "best_start": best_start,
+            "best_start": start,
 
             "window_length": length,
 
             "best_score": round(
-                best_score,
+                score,
                 2,
             ),
 
-            "profile": conservation,
+            "profile": profile,
 
         }
