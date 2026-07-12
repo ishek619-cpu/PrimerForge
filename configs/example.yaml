@@ -4,21 +4,10 @@ project:
 
 reference_taxon:
   rank: species
-  name: Oreochromis niloticus
-
-contrast_taxa:
-  - rank: genus
-    name: Oreochromis
-
-  - rank: genus
-    name: Sarotherodon
-
-  - rank: genus
-    name: Coptodon
+  name: Bos taurus
 
 marker:
   gene: CYTB
-
 database:
   source: NCBI
   db: nucleotide
