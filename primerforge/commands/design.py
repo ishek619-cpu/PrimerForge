@@ -7,6 +7,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from primerforge.core.pipeline import Pipeline
+from primerforge.core.species_pipeline import SpeciesPipeline
 
 from primerforge.primer.discovery import PrimerDiscovery
 from primerforge.reference.reference import Reference
@@ -20,11 +21,11 @@ from primerforge.report.json import JSONReport
 def run_design(args) -> int:
 
     #
-    # NEW SPECIES WORKFLOW
+    # Species workflow
     #
     if getattr(args, "config", None):
 
-        pipeline = Pipeline()
+        pipeline = SpeciesPipeline()
 
         pipeline.run(
             Path(args.config),
@@ -33,7 +34,7 @@ def run_design(args) -> int:
         return 0
 
     #
-    # LEGACY FASTA WORKFLOW
+    # Legacy FASTA workflow
     #
 
     print()
@@ -53,12 +54,6 @@ def run_design(args) -> int:
         Path(args.annotation)
         if getattr(args, "annotation", None)
         else None
-    )
-
-    gene = getattr(
-        args,
-        "gene",
-        None,
     )
 
     output = Path(args.output)

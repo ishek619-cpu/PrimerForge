@@ -20,6 +20,10 @@ class TaxonomyRecord:
 
     lineage: list[str]
 
+    lineage_ids: list[str]
+
+    lineage_ranks: list[str]
+
 
 class TaxonomyResolver:
 
@@ -50,9 +54,7 @@ class TaxonomyResolver:
 
         )
 
-        record = Entrez.read(
-            handle,
-        )
+        record = Entrez.read(handle)
 
         handle.close()
 
@@ -81,18 +83,29 @@ class TaxonomyResolver:
 
         )
 
-        records = Entrez.read(
-            handle,
-        )
+        records = Entrez.read(handle)
 
         handle.close()
 
         record = records[0]
 
-        lineage = [
-            x["ScientificName"]
-            for x in record["LineageEx"]
-        ]
+        lineage = []
+        lineage_ids = []
+        lineage_ranks = []
+
+        for item in record["LineageEx"]:
+
+            lineage.append(
+                item["ScientificName"]
+            )
+
+            lineage_ids.append(
+                item["TaxId"]
+            )
+
+            lineage_ranks.append(
+                item["Rank"]
+            )
 
         return TaxonomyRecord(
 
@@ -103,6 +116,10 @@ class TaxonomyResolver:
             rank=record["Rank"],
 
             lineage=lineage,
+
+            lineage_ids=lineage_ids,
+
+            lineage_ranks=lineage_ranks,
 
         )
 

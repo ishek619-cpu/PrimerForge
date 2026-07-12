@@ -28,6 +28,10 @@ download:
   include_partial_sequences: true
   max_records: 1000
 
+ncbi:
+  email: "your_email@example.com"
+  api_key: ""
+
 primer:
   min_length: 20
   max_length: 24

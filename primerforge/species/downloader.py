@@ -11,6 +11,7 @@ from typing import Iterable
 from Bio import Entrez
 from Bio import SeqIO
 
+from primerforge.species.cache import DownloadCache
 from primerforge.species.markers import build_query
 
 
@@ -38,6 +39,10 @@ class SpeciesDownloader:
 
         if api_key:
             Entrez.api_key = api_key
+
+        self.cache = DownloadCache(
+            Path("cache"),
+        )
 
     def search(
         self,
@@ -127,10 +132,33 @@ class SpeciesDownloader:
         output_directory: Path,
     ) -> DownloadResult:
 
-        ids = self.search(
+        cache_file = self.cache.path(
             species,
             marker,
         )
+
+        #
+        # Use cached FASTA if available.
+        #
+        if cache_file.exists():
+
+            print(
+                f"Using cached sequences for {species}"
+            )
+
+            ids = []
+
+        else:
+
+            ids = self.search(
+                species,
+                marker,
+            )
+
+            self.fetch(
+                ids,
+                cache_file,
+            )
 
         directory = (
             output_directory
@@ -147,9 +175,8 @@ class SpeciesDownloader:
 
         fasta = directory / "target.fasta"
 
-        self.fetch(
-            ids,
-            fasta,
+        fasta.write_bytes(
+            cache_file.read_bytes()
         )
 
         return DownloadResult(

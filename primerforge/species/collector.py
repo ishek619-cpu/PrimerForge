@@ -1,12 +1,8 @@
 """
 Species collection workflow.
 
-Phase 1:
-- Resolve taxonomy
-- Find related species
-- Download target species
-- Download related species
-- Merge background FASTA
+Collects, cleans and prepares all datasets required for
+species-specific primer design.
 """
 
 from __future__ import annotations
@@ -15,9 +11,13 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from primerforge.io.merge import FASTAMerger
+from primerforge.species.cleaner import SequenceCleaner
 from primerforge.species.downloader import (
     DownloadResult,
     SpeciesDownloader,
+)
+from primerforge.species.filter import (
+    SpeciesFilter,
 )
 from primerforge.species.relatives import (
     RelativeSpeciesFinder,
@@ -39,7 +39,7 @@ class SpeciesDataset:
 
     taxonomy: object
 
-    genus: str
+    genus: tuple[str, str]
 
     target_result: DownloadResult
 
@@ -52,7 +52,7 @@ class SpeciesDataset:
 
 class SpeciesCollector:
     """
-    Collect all sequence data required for primer design.
+    Collect all sequence data required for primer discovery.
     """
 
     def __init__(
@@ -71,10 +71,14 @@ class SpeciesCollector:
             api_key=api_key,
         )
 
+        self.filter = SpeciesFilter()
+
         self.downloader = SpeciesDownloader(
             email=email,
             api_key=api_key,
         )
+
+        self.cleaner = SequenceCleaner()
 
         self.merger = FASTAMerger()
 
@@ -116,6 +120,17 @@ class SpeciesCollector:
         )
 
         #
+        # Keep only biologically valid species.
+        #
+        relatives = self.filter.filter(
+            relatives,
+        )
+
+        print(
+            f"After biological filtering: {len(relatives)} species."
+        )
+
+        #
         # Download target
         #
         print(
@@ -129,7 +144,27 @@ class SpeciesCollector:
         )
 
         #
-        # Download background species
+        # Clean target FASTA
+        #
+        target_clean = (
+            output_directory
+            / species.replace(" ", "_")
+            / "target.cleaned.fasta"
+        )
+
+        kept = self.cleaner.clean(
+            target.output_fasta,
+            target_clean,
+        )
+
+        print(
+            f"Target sequences kept: {kept}"
+        )
+
+        target.output_fasta = target_clean
+
+        #
+        # Download background
         #
         print(
             "Downloading related species..."
@@ -142,17 +177,40 @@ class SpeciesCollector:
         )
 
         #
-        # Merge all background FASTA files
+        # Clean every background FASTA
+        #
+        cleaned_fastas = []
+
+        for result in background:
+
+            cleaned = result.output_fasta.with_suffix(
+                ".cleaned.fasta"
+            )
+
+            kept = self.cleaner.clean(
+                result.output_fasta,
+                cleaned,
+            )
+
+            if kept == 0:
+                continue
+
+            result.output_fasta = cleaned
+
+            cleaned_fastas.append(
+                cleaned
+            )
+
+        #
+        # Merge cleaned background FASTAs
         #
         background_fasta = (
             output_directory
-            / "background.fasta"
+            / "background.cleaned.fasta"
         )
 
         self.merger.merge(
-            self.downloader.fasta_files(
-                background,
-            ),
+            cleaned_fastas,
             background_fasta,
         )
 

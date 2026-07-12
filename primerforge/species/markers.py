@@ -1,5 +1,5 @@
 """
-Supported genetic markers and their GenBank synonyms.
+Supported genetic markers and their GenBank search queries.
 """
 
 from __future__ import annotations
@@ -19,23 +19,21 @@ MARKERS = {
 
     "CYTB": [
         "CYTB",
-        "CYTOCHROME B",
-        "cytochrome b",
         "cytb",
+        "cytochrome b",
+        "CYTOCHROME B",
     ],
 
     "12S": [
         "12S",
         "12S rRNA",
         "12S ribosomal RNA",
-        "small subunit ribosomal RNA",
     ],
 
     "16S": [
         "16S",
         "16S rRNA",
         "16S ribosomal RNA",
-        "large subunit ribosomal RNA",
     ],
 
     "18S": [
@@ -50,13 +48,10 @@ MARKERS = {
         "ITS2",
         "internal transcribed spacer",
     ],
-
 }
 
 
-def marker_synonyms(
-    marker: str,
-) -> list[str]:
+def marker_synonyms(marker: str) -> list[str]:
 
     marker = marker.upper()
 
@@ -79,11 +74,17 @@ def build_query(
     )
 
     marker_query = " OR ".join(
-        f'"{name}"'
+        f'"{name}"[Title]'
         for name in synonyms
     )
 
     return (
         f'"{species}"[Organism] '
-        f'AND ({marker_query})'
+        f'AND ({marker_query}) '
+        f'AND mitochondrion[Filter] '
+        f'NOT ("whole genome"[Title] '
+        f'OR chromosome[Title] '
+        f'OR scaffold[Title] '
+        f'OR contig[Title] '
+        f'OR WGS[Title])'
     )
