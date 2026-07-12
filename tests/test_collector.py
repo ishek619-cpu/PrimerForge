@@ -2,6 +2,8 @@
 Species collector tests.
 """
 
+from pathlib import Path
+
 from primerforge.species.collector import SpeciesDataset
 
 
@@ -19,7 +21,11 @@ def test_dataset():
 
         target_result=None,
 
-        relative_species=[],
+        background_results=[],
+
+        target_fasta=Path("target.fasta"),
+
+        background_fasta=Path("background.fasta"),
 
     )
 
@@ -29,4 +35,8 @@ def test_dataset():
 
     assert dataset.genus == "Oreochromis"
 
-    assert dataset.relative_species == []
+    assert dataset.background_results == []
+
+    assert dataset.target_fasta.name == "target.fasta"
+
+    assert dataset.background_fasta.name == "background.fasta"
