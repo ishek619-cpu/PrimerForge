@@ -1,8 +1,5 @@
 """
 NCBI species sequence downloader.
-
-Downloads all sequences for a target species and marker
-using the NCBI Entrez E-utilities.
 """
 
 from __future__ import annotations
@@ -40,7 +37,6 @@ class SpeciesDownloader:
         Entrez.email = email
 
         if api_key:
-
             Entrez.api_key = api_key
 
     def search(
@@ -48,10 +44,6 @@ class SpeciesDownloader:
         species: str,
         marker: str,
     ) -> list[str]:
-        """
-        Search GenBank for all nucleotide accessions
-        matching a species and marker.
-        """
 
         query = build_query(
             species,
@@ -59,24 +51,16 @@ class SpeciesDownloader:
         )
 
         handle = Entrez.esearch(
-
             db="nucleotide",
-
             term=query,
-
             retmax=100000,
-
         )
 
-        record = Entrez.read(
-            handle,
-        )
+        record = Entrez.read(handle)
 
         handle.close()
 
-        return list(
-            record["IdList"],
-        )
+        return list(record["IdList"])
 
     def fetch(
         self,
@@ -84,18 +68,13 @@ class SpeciesDownloader:
         output: Path,
         batch_size: int = 500,
     ) -> Path:
-        """
-        Download FASTA sequences in batches.
-        """
 
         output.parent.mkdir(
             parents=True,
             exist_ok=True,
         )
 
-        ids = list(
-            accessions,
-        )
+        ids = list(accessions)
 
         if not ids:
 
@@ -111,42 +90,33 @@ class SpeciesDownloader:
             encoding="utf-8",
         ) as out_handle:
 
-            for i in range(
+            for start in range(
                 0,
                 len(ids),
                 batch_size,
             ):
 
                 batch = ids[
-                    i:i + batch_size
+                    start:start + batch_size
                 ]
 
                 handle = Entrez.efetch(
-
                     db="nucleotide",
-
                     id=",".join(batch),
-
                     rettype="fasta",
-
                     retmode="text",
-
                 )
 
-                records = list(
+                SeqIO.write(
                     SeqIO.parse(
                         handle,
                         "fasta",
-                    )
-                )
-
-                handle.close()
-
-                SeqIO.write(
-                    records,
+                    ),
                     out_handle,
                     "fasta",
                 )
+
+                handle.close()
 
         return output
 
@@ -164,18 +134,18 @@ class SpeciesDownloader:
 
         directory = (
             output_directory
-            /
-            species.replace(
+            / species.replace(
                 " ",
                 "_",
             )
         )
 
-        fasta = (
-            directory
-            /
-            "target.fasta"
+        directory.mkdir(
+            parents=True,
+            exist_ok=True,
         )
+
+        fasta = directory / "target.fasta"
 
         self.fetch(
             ids,
@@ -193,3 +163,45 @@ class SpeciesDownloader:
             output_fasta=fasta,
 
         )
+
+    def download_many(
+        self,
+        species_list: list[str],
+        marker: str,
+        output_directory: Path,
+    ) -> list[DownloadResult]:
+
+        results = []
+
+        for species in species_list:
+
+            try:
+
+                result = self.download(
+                    species=species,
+                    marker=marker,
+                    output_directory=output_directory,
+                )
+
+                results.append(result)
+
+            except Exception as exc:
+
+                print(
+                    f"Skipping {species}: {exc}"
+                )
+
+        return results
+
+    def fasta_files(
+        self,
+        downloads: list[DownloadResult],
+    ) -> list[Path]:
+        """
+        Extract FASTA paths from download results.
+        """
+
+        return [
+            result.output_fasta
+            for result in downloads
+        ]
