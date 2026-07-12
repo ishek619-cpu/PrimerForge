@@ -9,6 +9,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from primerforge.models.region import Region
+
 
 @dataclass(slots=True)
 class DiagnosticWindow:
@@ -20,6 +22,22 @@ class DiagnosticWindow:
     end: int
     sequence: str
     diagnostic_sites: list[int]
+
+    @property
+    def length(self) -> int:
+        return self.end - self.start
+
+    def to_region(self) -> Region:
+        """
+        Convert a diagnostic window into a Primer3 Region.
+        """
+
+        return Region(
+            start=self.start,
+            end=self.end,
+            length=self.length,
+            score=float(len(self.diagnostic_sites)),
+        )
 
 
 class DiagnosticWindowBuilder:
