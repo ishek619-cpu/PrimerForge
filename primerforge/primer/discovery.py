@@ -54,6 +54,7 @@ class PrimerDiscovery:
         reference_fasta: Path,
         specificity_engine: SpecificityEngine | None = None,
         alignment_fasta: Path | None = None,
+        region=None,
     ):
 
         reference = Reference(
@@ -73,7 +74,8 @@ class PrimerDiscovery:
         # Primer3
         #
         forward, reverse = self.designer.design(
-            reference.sequence,
+            template=reference.sequence,
+            region=region,
         )
 
         #
