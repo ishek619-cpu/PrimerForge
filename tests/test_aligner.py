@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from primerforge.species.aligner import MAFFTAligner
+from envoprimer.species.aligner import MAFFTAligner
 
 
 def test_aligner():

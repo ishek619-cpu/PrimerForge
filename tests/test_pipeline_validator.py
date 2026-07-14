@@ -4,9 +4,9 @@ Tests for the primer validation pipeline.
 
 from pathlib import Path
 
-from primerforge.models.pair import PrimerPair
-from primerforge.models.primer import Primer
-from primerforge.pipeline.validator import PrimerValidationPipeline
+from envoprimer.models.pair import PrimerPair
+from envoprimer.models.primer import Primer
+from envoprimer.pipeline.validator import PrimerValidationPipeline
 
 
 def test_pipeline_validator(tmp_path: Path):

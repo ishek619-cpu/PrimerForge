@@ -1,0 +1,372 @@
+LOCUS       FJ348061                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis sp. BOLD:AAA8512 voucher FRT-14-1 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348061
+VERSION     FJ348061.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. BOLD:AAA8512
+  ORGANISM  Oreochromis sp. BOLD:AAA8512
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis sp. BOLD:AAA8512"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="FRT-14-1"
+                     /db_xref="BOLD:FISH071-08"
+                     /db_xref="taxon:568497"
+                     /geo_loc_name="Israel"
+                     /lat_lon="32.44 N 35.5147 E"
+                     /collection_date="05-Jun-2007"
+                     /collected_by="Yitzhak Simon"
+                     /identified_by="Andrey Shirak"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62314.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348060                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis sp. BOLD:AAA8512 voucher FRT-14-2 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348060
+VERSION     FJ348060.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. BOLD:AAA8512
+  ORGANISM  Oreochromis sp. BOLD:AAA8512
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis sp. BOLD:AAA8512"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="FRT-14-2"
+                     /db_xref="BOLD:FISH072-08"
+                     /db_xref="taxon:568497"
+                     /geo_loc_name="Israel"
+                     /lat_lon="32.44 N 35.5147 E"
+                     /collection_date="06-Jun-2007"
+                     /collected_by="Yitzhak Simon"
+                     /identified_by="Andrey Shirak"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62313.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348059                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis sp. BOLD:AAA8512 voucher FRT-14-3 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348059
+VERSION     FJ348059.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. BOLD:AAA8512
+  ORGANISM  Oreochromis sp. BOLD:AAA8512
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis sp. BOLD:AAA8512"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="FRT-14-3"
+                     /db_xref="BOLD:FISH073-08"
+                     /db_xref="taxon:568497"
+                     /geo_loc_name="Israel"
+                     /lat_lon="32.44 N 35.5147 E"
+                     /collection_date="07-Jun-2007"
+                     /collected_by="Yitzhak Simon"
+                     /identified_by="Andrey Shirak"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62312.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348058                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis sp. BOLD:AAA8512 voucher FRT-14-4 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348058
+VERSION     FJ348058.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. BOLD:AAA8512
+  ORGANISM  Oreochromis sp. BOLD:AAA8512
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis sp. BOLD:AAA8512"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="FRT-14-4"
+                     /db_xref="BOLD:FISH074-08"
+                     /db_xref="taxon:568497"
+                     /geo_loc_name="Israel"
+                     /lat_lon="32.44 N 35.5147 E"
+                     /collection_date="08-Jun-2007"
+                     /collected_by="Yitzhak Simon"
+                     /identified_by="Andrey Shirak"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62311.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348057                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis sp. BOLD:AAA8512 voucher FRT-14-5 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348057
+VERSION     FJ348057.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. BOLD:AAA8512
+  ORGANISM  Oreochromis sp. BOLD:AAA8512
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis sp. BOLD:AAA8512"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="FRT-14-5"
+                     /db_xref="BOLD:FISH075-08"
+                     /db_xref="taxon:568497"
+                     /geo_loc_name="Israel"
+                     /lat_lon="32.44 N 35.5147 E"
+                     /collection_date="09-Jun-2007"
+                     /collected_by="Yitzhak Simon"
+                     /identified_by="Andrey Shirak"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62310.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348056                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis sp. BOLD:AAA8512 voucher FRT-14-6 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348056
+VERSION     FJ348056.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. BOLD:AAA8512
+  ORGANISM  Oreochromis sp. BOLD:AAA8512
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis sp. BOLD:AAA8512"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="FRT-14-6"
+                     /db_xref="BOLD:FISH076-08"
+                     /db_xref="taxon:568497"
+                     /geo_loc_name="Israel"
+                     /lat_lon="32.44 N 35.5147 E"
+                     /collection_date="10-Jun-2007"
+                     /collected_by="Yitzhak Simon"
+                     /identified_by="Andrey Shirak"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62309.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//

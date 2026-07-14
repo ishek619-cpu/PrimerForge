@@ -1,0 +1,1464 @@
+LOCUS       OP680691                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate BUK288 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680691
+VERSION     OP680691.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BUK288"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44036.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEG"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa ggc
+//
+LOCUS       OP680690                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate BUK285 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680690
+VERSION     OP680690.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BUK285"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44035.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680689                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate BUK278 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680689
+VERSION     OP680689.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BUK278"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44034.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680686                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate BUK272 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680686
+VERSION     OP680686.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BUK272"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44031.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680684                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate BUK268 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680684
+VERSION     OP680684.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BUK268"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44029.1"
+                     /translation="KDIGPPYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaggatatcg gcccccccta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattttttgg ccacccagaa gtc
+//
+LOCUS       OP680681                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate BUK262 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680681
+VERSION     OP680681.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BUK262"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44026.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaggatattg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattcttcgg ccacccagaa gtc
+//
+LOCUS       OP680674                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate KPR202 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680674
+VERSION     OP680674.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="KPR202"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44019.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaggatattg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattcttcgg ccacccagaa gtc
+//
+LOCUS       OP680668                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate KPR182 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680668
+VERSION     OP680668.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="KPR182"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44013.1"
+                     /translation="KDIGTLYVVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatattg gcaccctcta tgtagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattcttcgg ccacccagaa gtc
+//
+LOCUS       OP680663                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate NYM440 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680663
+VERSION     OP680663.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NYM440"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44008.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680662                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate NYM439 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680662
+VERSION     OP680662.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NYM439"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44007.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680661                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate NYM437 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680661
+VERSION     OP680661.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NYM437"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44006.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680659                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate NYM429 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680659
+VERSION     OP680659.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NYM429"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44004.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680658                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate NYM425 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680658
+VERSION     OP680658.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NYM425"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44003.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt aggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680656                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate NYM423 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680656
+VERSION     OP680656.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NYM423"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44001.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680654                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate NYM421 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680654
+VERSION     OP680654.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NYM421"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43999.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtctt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680646                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate NYM136 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680646
+VERSION     OP680646.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NYM136"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43991.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtctt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattcttcgg ccacccagaa gtc
+//
+LOCUS       OP680623                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate LJPP409 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680623
+VERSION     OP680623.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LJPP409"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43968.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680622                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate LJPP408 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680622
+VERSION     OP680622.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LJPP408"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43967.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680621                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate LJPP406 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680621
+VERSION     OP680621.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LJPP406"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43966.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680620                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate LJPP405 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680620
+VERSION     OP680620.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LJPP405"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43965.1"
+                     /translation="KDIGTLYLVLRAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDLAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagttttg cgtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgacctt gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680619                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate LJPP404 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680619
+VERSION     OP680619.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LJPP404"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43964.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680618                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate LJPP401 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680618
+VERSION     OP680618.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LJPP401"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43963.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680610                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate LJP025 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680610
+VERSION     OP680610.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LJP025"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43955.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaagatattg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctcttctcgg agacgaccaa
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgacttcttc ccccctcatt tcttcttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt aggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc ttctatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctataccaa
+      661 cacttattct gattctttgg ccacccagaa gtc
+//
+LOCUS       OP680601                 693 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis jipe isolate KTW004 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680601
+VERSION     OP680601.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis jipe (Jipe tilapia)
+  ORGANISM  Oreochromis jipe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 693)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Oreochromis jipe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="KTW004"
+                     /db_xref="taxon:160801"
+     gene            <1..>693
+                     /gene="COX1"
+     CDS             <1..>693
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43946.1"
+                     /translation="KDIGTLYVVFGAWAGMVGSALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHPEV"
+ORIGIN
+        1 aaggatattg gcaccctcta tgtagtattt ggtgcttgag ccggaatagt aggaagtgca
+       61 ctaagcctcc taattcgggc ggaactaagc caacccggct ctctcctcgg agacgaccag
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gaggttttgg aaactgacta gtaccactta tgattggtgc cccagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta tccccctctc
+      361 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggggtgt catctatttt gggtgcaatt aattttatca caaccattat caatataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgtttt aattaccgca
+      541 gtactactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattcttcgg ccacccagaa gtc
+//

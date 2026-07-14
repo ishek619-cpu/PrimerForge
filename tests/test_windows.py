@@ -2,8 +2,8 @@
 Diagnostic window tests.
 """
 
-from primerforge.models.region import Region
-from primerforge.species.windows import DiagnosticWindow
+from envoprimer.models.region import Region
+from envoprimer.species.windows import DiagnosticWindow
 
 
 def test_to_region():

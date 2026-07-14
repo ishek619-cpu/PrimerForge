@@ -6,10 +6,10 @@ from pathlib import Path
 
 import pytest
 
-from primerforge.reference.coordinates import Coordinate
-from primerforge.reference.exceptions import CoordinateSystemError
-from primerforge.reference.mapper import CoordinateMapper
-from primerforge.reference.reference import Reference
+from envoprimer.reference.coordinates import Coordinate
+from envoprimer.reference.exceptions import CoordinateSystemError
+from envoprimer.reference.mapper import CoordinateMapper
+from envoprimer.reference.reference import Reference
 
 
 def test_reference_to_alignment(tmp_path: Path):

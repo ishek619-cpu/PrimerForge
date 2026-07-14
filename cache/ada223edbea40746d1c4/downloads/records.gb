@@ -1,0 +1,62 @@
+LOCUS       OP983949                 579 bp    DNA     linear   VRT 31-JAN-2024
+DEFINITION  Oreochromis sp. BMN-32 cytochrome c oxidase subunit I (COX1) gene,
+            partial cds; mitochondrial.
+ACCESSION   OP983949
+VERSION     OP983949.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. BMN-32
+  ORGANISM  Oreochromis sp. BMN-32
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 579)
+  AUTHORS   Nascimento,B.M., de Paula,T.S. and Brito,P.M.
+  TITLE     DNA barcode of tilapia fish fillet from the Brazilian market and a
+            standardized COI haplotyping for molecular identification of
+            Oreochromis spp. (Actinopterygii, Cichlidae)
+  JOURNAL   Forensic Sci Int Anim Environ (2022) In press
+REFERENCE   2  (bases 1 to 579)
+  AUTHORS   Nascimento,B.M., de Paula,T.S. and Brito,P.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-DEC-2022) Department of Genetics, Rio de janeiro State
+            University, Rua Sao Francisco Xavier 524, PHLC 205, Rio de Janeiro,
+            RJ 20550013, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..579
+                     /organism="Oreochromis sp. BMN-32"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolation_source="Marketed frozen fillet, Brand #4"
+                     /specimen_voucher="BMN-32"
+                     /db_xref="taxon:3003755"
+                     /haplotype="L1.1"
+                     /geo_loc_name="Brazil: Sao Paulo"
+     gene            <1..>579
+                     /gene="COX1"
+     CDS             <1..>579
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WAL32793.1"
+                     /translation="LIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGN
+                     WLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHA
+                     GPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLS
+                     LPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctaattcggg cagaactaag ccagcccggc tctctcctcg gagacgacca gatttataat
+       61 gtaattgtta cagcacatgc ttttgtaata attttcttta tagtaatgcc aattatgatt
+      121 ggaggctttg gaaactgact agtaccactc atgattggtg ccccagatat ggccttccct
+      181 cgaatgaaca acatgagttt ctgactcctc cctccctcat tcctcctcct cctcgcctca
+      241 tctggagtcg aagcaggtgc cggcacaggg tgaactgttt accccccgct cgcaggcaat
+      301 cttgcccatg ctgggccttc tgtcgactta accatcttct ccctccactt ggccggggtg
+      361 tcatctattc taggcgcaat taatttcatt acaacaatca ttaacatgaa accccccgcc
+      421 atctctcaat atcaaacacc cctatttgta tggtccgttc taattaccgc agtattactt
+      481 cttctatccc tacccgttct tgccgccggc atcacaatac ttctcacaga ccgaaaccta
+      541 aacacaacct tctttgatcc tgccggagga ggagacccc
+//

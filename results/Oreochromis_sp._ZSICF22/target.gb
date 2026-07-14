@@ -1,0 +1,60 @@
+LOCUS       ON165988                 612 bp    DNA     linear   VRT 14-SEP-2022
+DEFINITION  Oreochromis sp. ZSICF22 cytochrome c oxidase subunit I (COX1) gene,
+            partial cds; mitochondrial.
+ACCESSION   ON165988
+VERSION     ON165988.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. ZSICF22
+  ORGANISM  Oreochromis sp. ZSICF22
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 612)
+  AUTHORS   Kundu,S., Pakrashi,A., Singha,D., Tyagi,K., Mishra,S.S., Banerjee,D.
+            and Kumar,V.
+  TITLE     DNA barcoding of fishes from Chilika Lake
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 612)
+  AUTHORS   Kundu,S., Pakrashi,A., Singha,D., Tyagi,K., Mishra,S.S., Banerjee,D.
+            and Kumar,V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-APR-2022) Centre for DNA Taxonomy, Molecular
+            Systematics Division, Zoological Survey of India, M Block, New
+            Alipore, Kolkata, West Bengal 700053, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..612
+                     /organism="Oreochromis sp. ZSICF22"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="ZSICF22"
+                     /db_xref="taxon:2932511"
+     gene            <1..>612
+                     /gene="COX1"
+     CDS             <1..>612
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UOG96811.1"
+                     /translation="MVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMP
+                     IMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPP
+                     LAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLI
+                     TAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILY"
+ORIGIN
+        1 atagtaggaa ctgcattaag cctcctaatt cgggcagaac taagccagcc cggctctctc
+       61 ctcggagacg accagattta taatgtaatt gttacagcac atgctttcgt aataattttc
+      121 tttatagtaa tgccaattat aattggaggt tttggaaact gactagtgcc actaatgatt
+      181 ggtgcaccag acatggcctt ccctcgaata aataacatga gtttttgact cctccccccc
+      241 tcatttctcc ttctcctcgc ctcatccggg gtcgaagcag gggccggtac aggatggact
+      301 gtttatcccc cactcgcagg caatctcgcc catgctgggc cttccgttga cttaaccatc
+      361 ttctccctcc acttggccgg ggtgtcatct attttaggtg caattaattt tattacaacc
+      421 attattaaca taaaaccccc tgccatctcc caatatcaaa cacccctctt tgtatgatcc
+      481 gttctaatta ccgcagtact actcctacta tccctacccg ttcttgccgc cggcatcaca
+      541 atacttctaa cagaccgaaa cctaaacaca accttctttg accctgccgg aggaggagac
+      601 cccatccttt ac
+//

@@ -1,0 +1,1713 @@
+LOCUS       PQ119923                 639 bp    DNA     linear   VRT 06-AUG-2024
+DEFINITION  Oreochromis spilurus strain T15 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ119923
+VERSION     PQ119923.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 639)
+  AUTHORS   Altowairqi,T.K., Shafi,M.E. and Almatry,M.A.
+  TITLE     Isolation and identification of fish spp. from Al Arj Valley at Taif
+            Governorate in KSA
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 639)
+  AUTHORS   Altowairqi,T.K., Shafi,M.E. and Almatry,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2024) Department of Biological science, Faculty of
+            sciences - King Abdulaziz University, Abdullah Alsuleiman, Jeddah,
+            Makkah 21589, Saudi Arabia
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..639
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /strain="T15"
+                     /isolate="T15"
+                     /isolation_source="Al Arj Valley-Taif"
+                     /db_xref="taxon:64544"
+                     /geo_loc_name="Saudi Arabia"
+                     /collected_by="Tahani Khalaf Al Towairqi"
+     gene            <1..>639
+                     /gene="COX1"
+     CDS             <1..>639
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XDL77752.1"
+                     /translation="AGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMV
+                     MPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVY
+                     PPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSV
+                     LITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWF"
+ORIGIN
+        1 agccggaata gtaggaactg cactaagcct tctaattcgg gcagaactaa gccagcccgg
+       61 ctctctcctc ggagacgacc aaatctataa tgtaattgtt acagcacatg ctttcgtaat
+      121 aattttcttt atagtaatac caattatgat tggaggcttt ggaaactgac tagtacccct
+      181 catgattggt gcaccagaca tggccttccc tcgaataaat aacatgagct tttgacttct
+      241 tcccccctca tttcttcttc tcctcgcctc atccggagtc gaagcaggtg ccggcacagg
+      301 atgaactgtt tatcccccac tcgcaggcaa tctcgcccac gctggacctt ctgttgactt
+      361 aaccatcttc tccctccact tggccggggt gtcatctatt ttaggtgcaa ttaattttat
+      421 cacaaccatc attaacatga agccccctgc catctcccaa tatcaaacac ccctatttgt
+      481 gtgatccgtc ctaattaccg cagttctact cctactatcc ctgcccgttc ttgccgccgg
+      541 catcacaata cttctaacgg accgaaatct aaacacaacc ttctttgacc ctgccggagg
+      601 aggagacccc atcctatacc aacacttatt ctgattctt
+//
+LOCUS       PQ119919                 639 bp    DNA     linear   VRT 06-AUG-2024
+DEFINITION  Oreochromis spilurus strain T11 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ119919
+VERSION     PQ119919.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 639)
+  AUTHORS   Altowairqi,T.K., Shafi,M.E. and Almatry,M.A.
+  TITLE     Isolation and identification of fish spp. from Al Arj Valley at Taif
+            Governorate in KSA
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 639)
+  AUTHORS   Altowairqi,T.K., Shafi,M.E. and Almatry,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2024) Department of Biological science, Faculty of
+            sciences - King Abdulaziz University, Abdullah Alsuleiman, Jeddah,
+            Makkah 21589, Saudi Arabia
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..639
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /strain="T11"
+                     /isolate="T11"
+                     /isolation_source="Al Arj Valley-Taif"
+                     /db_xref="taxon:64544"
+                     /geo_loc_name="Saudi Arabia"
+                     /collected_by="Tahani Khalaf Al Towairqi"
+     gene            <1..>639
+                     /gene="COX1"
+     CDS             <1..>639
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XDL77748.1"
+                     /translation="AGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMV
+                     MPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVY
+                     PPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSV
+                     LITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWF"
+ORIGIN
+        1 agccggaata gtaggaactg cactaagcct tctaattcgg gcagaactaa gccagcccgg
+       61 ctctctcctc ggagacgacc aaatctataa tgtaattgtt acagcacatg ctttcgtaat
+      121 aattttcttt atagtaatac caattatgat tggaggcttt ggaaactgac tagtacccct
+      181 catgattggt gcaccagaca tggccttccc tcgaataaat aacatgagct tttgacttct
+      241 tcccccctca tttcttcttc tcctcgcctc atccggagtc gaagcaggtg ccggcacagg
+      301 atgaactgtt tatcccccac tcgcaggcaa tctcgcccac gctggacctt ctgttgactt
+      361 aaccatcttc tccctccact tggccggggt gtcatctatt ttaggtgcaa ttaattttat
+      421 cacaaccatc attaacatga agccccctgc catctcccaa tatcaaacac ccctatttgt
+      481 gtgatccgtc ctaattaccg cagttctact cctactatcc ctgcccgttc ttgccgccgg
+      541 catcacaata cttctaacgg accgaaatct aaacacaacc ttctttgacc ctgccggagg
+      601 aggagacccc atcctatacc aacacttatt ctgattctt
+//
+LOCUS       OP680709                 729 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis spilurus isolate PNG434 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680709
+VERSION     OP680709.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..729
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNG434"
+                     /db_xref="taxon:64544"
+     gene            <1..>729
+                     /gene="COX1"
+     CDS             <1..>729
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44054.1"
+                     /translation="FVKRRLISTNHKDIATLYLVFGAWAGMVGTALSLLIRAELSQPGS
+                     LLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLL
+                     PPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINF
+                     ITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPA
+                     GGGDPILYQHLFWFFGHPEVY"
+ORIGIN
+        1 tttgtaaaac gacggctcat ctcaaccaac cacaaagata tcgccaccct ctatctagta
+       61 tttggtgctt gagccggaat agtaggaact gcactaagcc ttctaattcg ggcagaacta
+      121 agccagcccg gctctctcct cggagacgac caaatctata atgtaattgt tacagcacat
+      181 gctttcgtaa taattttctt tatagtaata ccaattatga ttggaggctt tggaaactga
+      241 ctagtacccc tcatgattgg tgcaccagac atggccttcc ctcgaataaa taacatgagc
+      301 ttttgacttc ttcccccctc atttcttctt ctcctcgcct catccggagt cgaagcaggt
+      361 gccggcacag gatgaactgt ttatccccca ctcgcaggca atctcgccca cgctggacct
+      421 tctgttgact taaccatctt ctccctccac ttggccgggg tgtcatctat tttaggtgca
+      481 attaatttta tcacaaccat tattaacatg aagccccctg ccatctccca atatcaaaca
+      541 cccctatttg tgtgatccgt cctaattacc gcagttctac tcctactatc cctacccgtt
+      601 cttgccgccg gcatcacaat acttctaacg gaccgaaatc taaacacaac cttctttgac
+      661 cctgccggag gaggagaccc catcctatac caacacttat tctgattctt cggccaccca
+      721 gaagtctat
+//
+LOCUS       OP680673                 729 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis spilurus isolate KPR197 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680673
+VERSION     OP680673.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..729
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="KPR197"
+                     /db_xref="taxon:64544"
+     gene            <1..>729
+                     /gene="COX1"
+     CDS             <1..>729
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44018.1"
+                     /translation="FVKRRLISTNHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGS
+                     LLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLL
+                     PPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINF
+                     ITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPA
+                     GGGDPILYQHLFWFFGHPEVY"
+ORIGIN
+        1 tttgtaaaac gacggctcat ctcaaccaac cacaaggata ttggcaccct ctatctagta
+       61 tttggtgctt gagccggaat agtaggaact gcactaagcc ttctaattcg ggcagaacta
+      121 agccagcccg gctctctcct cggagacgac caaatctata atgtaattgt tacagcacat
+      181 gctttcgtaa taattttctt tatagtaata ccaattatga ttggaggctt tggaaactga
+      241 ctagtacccc tcatgattgg tgcaccagac atggccttcc ctcgaataaa taacatgagc
+      301 ttttgacttc ttcccccctc atttcttctt ctcctcgcct catccggagt cgaagcaggt
+      361 gccggcacag gatgaactgt ttatccccca ctcgcaggca atctcgccca cgctggacct
+      421 tctgttgact taaccatctt ctccctccac ttggccgggg tgtcatctat tttaggtgca
+      481 attaatttta tcacaaccat tattaacatg aagccccctg ccatctccca atatcaaaca
+      541 cccctatttg tgtgatccgt cctaattacc gcagttctac tcctactatc cctacccgtt
+      601 cttgccgccg gcatcacaat acttctaacg gaccgaaatc taaacacaac cttctttgac
+      661 cctgccggag gaggagaccc catcctatac caacacttat tctgattctt cggccaccca
+      721 gaagtctat
+//
+LOCUS       OP680672                 729 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis spilurus isolate KPR196 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680672
+VERSION     OP680672.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..729
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="KPR196"
+                     /db_xref="taxon:64544"
+     gene            <1..>729
+                     /gene="COX1"
+     CDS             <1..>729
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44017.1"
+                     /translation="FVKRRLISTNHKDIGTLYVVFGAWAGMVGSALSLLIRAELSQPGS
+                     LLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLL
+                     PPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINF
+                     ITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPA
+                     GGGDPILYQHLFWFFGHPEVY"
+ORIGIN
+        1 tttgtaaaac gacggctcat ctcaaccaac cacaaggata ttggcaccct ctatgtagta
+       61 tttggtgctt gagccggaat agtaggaagt gcactaagcc ttctaattcg ggcagaacta
+      121 agccagcccg gctctctcct cggagacgac caaatctata atgtaattgt tacagcacat
+      181 gctttcgtaa taattttctt tatagtaata ccaattatga ttggaggctt tggaaactga
+      241 ctagtacccc tcatgattgg tgcaccagac atggccttcc ctcgaataaa taacatgagc
+      301 ttttgacttc ttcccccctc atttcttctt ctcctcgcct catccggagt cgaagcaggt
+      361 gccggcacag gatgaactgt ttatccccca ctcgcaggca atctcgccca cgctggacct
+      421 tctgttgact taaccatctt ctccctccac ttggccgggg tgtcatctat tttaggtgca
+      481 attaatttta tcacaaccat tattaacatg aagccccctg ccatctccca atatcaaaca
+      541 cccctatttg tgtgatccgt cctaattacc gcagttctac tcctactatc cctacccgtt
+      601 cttgccgccg gcatcacaat acttctaacg gaccgaaatc taaacacaac cttctttgac
+      661 cctgccggag gaggagaccc catcctatac caacacttat tctgattctt cggccaccca
+      721 gaagtctat
+//
+LOCUS       OP680616                 729 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis spilurus isolate LJP047 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680616
+VERSION     OP680616.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..729
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LJP047"
+                     /db_xref="taxon:64544"
+     gene            <1..>729
+                     /gene="COX1"
+     CDS             <1..>729
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43961.1"
+                     /translation="FVKRRLISTNHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGS
+                     LLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLL
+                     PPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINF
+                     ITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPA
+                     GGGDPILYQHLFWFFGHPEVY"
+ORIGIN
+        1 tttgtaaaac gacggctcat ctcaaccaac cacaaagata ttggcaccct ctatctagta
+       61 tttggtgctt gagccggaat agtaggaact gcactaagcc ttctaattcg ggcagaacta
+      121 agccagcccg gctctctcct cggagacgac caaatctata atgtaattgt tacagcacat
+      181 gctttcgtaa taattttctt tatagtaata ccaattatga ttggaggctt tggaaactga
+      241 ctagtacccc tcatgattgg tgcaccagac atggccttcc ctcgaataaa taacatgagc
+      301 ttttgacttc ttcccccctc atttcttctt ctcctcgcct catccggagt cgaagcaggt
+      361 gccggcacag gatgaactgt ttatccccca ctcgcaggca atctcgccca cgctggacct
+      421 tctgttgact taaccatctt ctccctccac ttggccgggg tgtcatctat tttaggtgca
+      481 attaatttta tcacaaccat cattaacatg aagccccctg ccatctccca atatcaaaca
+      541 cccctatttg tgtgatccgt cctaattacc gcagttctac tcctactatc cctgcccgtt
+      601 cttgccgccg gcatcacaat acttctaacg gaccgaaatc taaacacaac cttctttgac
+      661 cctgccggag gaggagaccc catcctatac caacacttat tctgattctt cggccaccca
+      721 gaagtctat
+//
+LOCUS       OP680607                 729 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis spilurus isolate KTW022 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680607
+VERSION     OP680607.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 729)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..729
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="KTW022"
+                     /db_xref="taxon:64544"
+     gene            <1..>729
+                     /gene="COX1"
+     CDS             <1..>729
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43952.1"
+                     /translation="FVKGRLISTNHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGS
+                     LLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLL
+                     PPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINF
+                     ITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPA
+                     GGGDPILYQHLFWFFGHPEVY"
+ORIGIN
+        1 tttgtaaaag gacggctcat ctcaaccaac cacaaggata ttggcaccct ctatctagta
+       61 tttggtgctt gagccggaat agtaggaact gcactaagcc ttctaattcg ggcagaacta
+      121 agccagcccg gctctctcct cggagacgac caaatctata atgtaattgt tacagcacat
+      181 gctttcgtaa taattttctt tatagtaata ccaattatga ttggaggctt tggaaactga
+      241 ctagtacccc tcatgattgg tgcaccagac atggccttcc ctcgaataaa taacatgagc
+      301 ttttgacttc ttcccccctc atttcttctt ctcctcgcct catccggagt cgaagcaggt
+      361 gccggcacag gatgaactgt ttatccccca ctcgcaggca atctcgccca cgctggacct
+      421 tctgttgact taaccatctt ctccctccac ttggccgggg tgtcatctat tttaggtgca
+      481 attaatttta tcacaaccat tattaacatg aagccccctg ccatctccca atatcaaaca
+      541 cccctatttg tgtgatccgt cctaattacc gcagttctac tcctactatc cctacccgtt
+      601 cttgccgccg gcatcacaat acttctaacg gaccgaaatc taaacacaac cttctttgac
+      661 cctgccggag gaggagaccc catcctatac caacacttat tctgattctt cggccaccca
+      721 gaagtctat
+//
+LOCUS       KX767836                 375 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BS699 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767836
+VERSION     KX767836.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 375)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 375)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..375
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BS699"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>375
+ORIGIN
+        1 attagtgaaa cccccacaaa taattgtcct tgaccttcaa gaaccgttaa cataaaggaa
+       61 tcaactgatg gtgggctctt actacattaa ataatttgaa agtataggat gttgggtact
+      121 tggtatatct tgacatatga gagttgtgtt cggtcttaaa ctatcgttca gtggtactga
+      181 gatgttattg gaatctatca tttattggtt tatgtttccc ttagttataa atgttgatga
+      241 caaatatgtg ggaaaacaat gtatgttttt taagaattgt atgtatttat atataggata
+      301 tgtttgaaat aagataatgg tgataataca tatatgcatt gtattttgca tgaaggcaga
+      361 gcccgcaaag aatag
+//
+LOCUS       KX767835                 372 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BS698 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767835
+VERSION     KX767835.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..372
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BS698"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>372
+ORIGIN
+        1 agtgaaaccc ccacaaataa ttgtccttga ccttcaagaa ccgttaacat aaaggaatca
+       61 actgatggtg ggctcttact acattaaata atttgaaagt ataggatgtt gggtacttgg
+      121 tatatcttga catatgagag ttgtgttcgg tcttaaacta tcgttcagtg gtactgagat
+      181 gttattggaa tctatcattt attggtttat gtttccctta gttataaatg ttgatgacaa
+      241 atatgtggga aaacaatgta tgttttttaa gaattgtatg tatttatata taggatatgt
+      301 ttgaaataag ataatggtga taatacatat atgcattgta ttttgcatga aggcagagcc
+      361 cgcaatgaaa tt
+//
+LOCUS       KX767834                 370 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BS697 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767834
+VERSION     KX767834.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 370)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 370)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..370
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BS697"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>370
+ORIGIN
+        1 gtgaaacccc cacaaataat tgtccttgac cttcaagaac cgttaacata aaggaatcaa
+       61 ctgatggtgg gctcttacta cattaaataa tttgaaagta taggatgttg ggtacttggt
+      121 atatcttgac atatgagagt tgtgttcggt cttaaactat cgttcagtgg tactgagatg
+      181 ttattggaat ctatcattta ttggtttatg tttcccttag ttataaatgt tgatgacaaa
+      241 tatgtgggaa aacaatgtat gttttttaag aattgtatgt atttatatat aggatatgtt
+      301 tgaaataaga taatggtgat aatacatata tgcattgtat tttgcatgaa ggcagagccc
+      361 gcaaagaata
+//
+LOCUS       KX767831                 373 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BS693 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767831
+VERSION     KX767831.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..373
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BS693"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>373
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcag tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccgcaaaga ata
+//
+LOCUS       KX767826                 372 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BS428 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767826
+VERSION     KX767826.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..372
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BS428"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>372
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcag tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccgcaaaga at
+//
+LOCUS       KX767825                 374 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BNG648 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767825
+VERSION     KX767825.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..374
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BNG648"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>374
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcag tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccggcaaag aata
+//
+LOCUS       KX767816                 374 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BN631 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767816
+VERSION     KX767816.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..374
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BN631"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>374
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcaa tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccgcaaaga atag
+//
+LOCUS       KX767814                 377 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BN442 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767814
+VERSION     KX767814.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 377)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 377)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..377
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BN442"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>377
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcag tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccgcaaaga atagttt
+//
+LOCUS       KX767810                 373 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BN432 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767810
+VERSION     KX767810.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..373
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BN432"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>373
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcag tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccgcaaaga ata
+//
+LOCUS       KX767809                 372 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BN431 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767809
+VERSION     KX767809.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..372
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BN431"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>372
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcaa tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccgcaaaga at
+//
+LOCUS       KX767808                 374 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BLR460 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767808
+VERSION     KX767808.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..374
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BLR460"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>374
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcag tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccggcaaag aata
+//
+LOCUS       KX767804                 374 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BLR453 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767804
+VERSION     KX767804.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..374
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BLR453"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>374
+ORIGIN
+        1 ttagtgaaac ccccacaaat aattgtcctt gaccttcaag aaccgttaac ataaaggaat
+       61 caactgatgg tgggctctta ctacattaaa taatttgaaa gtataggatg ttgggtactt
+      121 ggtatatctt gacatatgag agttgtgttc ggtcttaaac tatcgttcag tggtactgag
+      181 atgttattgg aatctatcat ttattggttt atgtttccct tagttataaa tgttgatgac
+      241 aaatatgtgg gaaaacaatg tatgtttttt aagaattgta tgtatttata tataggatat
+      301 gtttgaaata agataatggt gataatacat atatgcattg tattttgcat gaaggcagag
+      361 cccggcaaag aata
+//
+LOCUS       KX767801                 370 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BLR449 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767801
+VERSION     KX767801.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 370)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 370)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..370
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BLR449"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>370
+ORIGIN
+        1 tagtgaaacc cccacaaata attgtccttg accttcaaga accgttaaca taaaggaatc
+       61 aactgatggt gggctcttac tacattaaat aatttgaaag tataggatgt tgggtacttg
+      121 gtatatcttg acatatgaga gttgtgttcg gtcttaaact atcgttcagt ggtactgaga
+      181 tgttattgga atctatcatt tattggttta tgtttccctt agttataaat gttgatgaca
+      241 aatatgtggg aaaacaatgt atgtttttta agaattgtat gtatttatat ataggatatg
+      301 tttgaaataa gataatggtg ataatacata tatgcattgt attttgcatg aaggcagagc
+      361 ccgcaaagaa
+//
+LOCUS       KX767797                 371 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BLB674 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767797
+VERSION     KX767797.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 371)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 371)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..371
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BLB674"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>371
+ORIGIN
+        1 tagtgaaacc cccacaaata attgtccttg accttcaaga accgttaaca taaaggaatc
+       61 aactgatggt gggctcttac tacattaaat aatttgaaag tataggatgt tgggtacttg
+      121 gtatatcttg acatatgaga gttgtgttcg gtcttaaact atcgttcagt ggtactgaga
+      181 tgttattgga atctatcatt tattggttta tgtttccctt agttataaat gttgatgaca
+      241 aatatgtggg aaaacaatgt atgtttttta agaattgtat gtatttatat ataggatatg
+      301 tttgaaataa gataatggtg ataatacata tatgcattgt attttgcatg aaggcagagc
+      361 ccgcaaagaa t
+//
+LOCUS       KX767796                 373 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BKT664 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767796
+VERSION     KX767796.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..373
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BKT664"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>373
+ORIGIN
+        1 attagtgaaa cccccacaaa taattgtcct tgaccttcaa gaaccgttaa cataaaggaa
+       61 tcaactgatg gtgggctctt actacattaa ataatttgaa agtataggat gttgggtact
+      121 tggtatatct tgacatatga gagttgtgtt cggtcttaaa ctatcgttca gtggtactga
+      181 gatgttattg gaatctatca tttattggtt tatgtttccc ttagttataa atgttgatga
+      241 caaatatgtg ggaaaacaat gtatgttttt taagaattgt atgtatttat atataggata
+      301 tgtttgaaat aagataatgg tgataataca tatatgcatt gtattttgca tgaaggcaga
+      361 gcccggcaaa gaa
+//
+LOCUS       KX767794                 372 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BKT471 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767794
+VERSION     KX767794.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..372
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BKT471"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>372
+ORIGIN
+        1 tagtgaaacc cccacaaata attgtccttg accttcaaga accgttaaca taaaggaatc
+       61 aactgatggt gggctcttac tacattaaat aatttgaaag tataggatgt tgggtacttg
+      121 gtatatcttg acatatgaga gttgtgttcg gtcttaaact atcgttcagt ggtactgaga
+      181 tgttattgga atctatcatt tattggttta tgtttccctt agttataaat gttgatgaca
+      241 aatatgtggg aaaacaatgt atgtttttta agaattgtat gtatttatat ataggatatg
+      301 tttgaaataa gataatggtg ataatacata tatgcattgt attttgcatg aaggcagagc
+      361 ccggcaaaga at
+//
+LOCUS       KX767793                 371 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BKT470 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767793
+VERSION     KX767793.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 371)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 371)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..371
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BKT470"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>371
+ORIGIN
+        1 agtgaaaccc ccacgaataa ttgtccttga ccttcaagaa ccgttaacat taaggaatca
+       61 actgatggtg ggctcttact acattaaata tgtgaagtaa ataggatgtt gggtacttgg
+      121 tatatcgaaa cttatgagag ttgtgttcgg tcttaaactg tcgttcagtg gtttttagat
+      181 attgttggaa agttccattt attggtttat gttcttctta gttttgaatg ttgatgacaa
+      241 atatgtggga aaacagtgta tgttttttaa gggttgtatg tatttatata taggatatgt
+      301 ttgaaataaa ataatggtga taatacatat atgcattgcg ttttacatga aggcagagct
+      361 cggcaaagaa t
+//
+LOCUS       KX767791                 371 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BKT468 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767791
+VERSION     KX767791.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 371)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 371)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..371
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BKT468"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>371
+ORIGIN
+        1 tagtgaaacc cccacaaata attgtccttg accttcaaga accgttaaca taaaggaatc
+       61 aactgatggt gggctcttac tacattaaat aatttgaaag tataggatgt tgggtacttg
+      121 gtatatcttg acatatgaga gttgtgttcg gtcttaaact atcgttcaat ggtactgaga
+      181 tgttattgga atctatcatt tattggttta tgtttccctt agttataaat gttgatgaca
+      241 aatatgtggg aaaacaatgt atgtttttta agaattgtat gtatttatat ataggatatg
+      301 tttgaaataa gataatggtg ataatacata tatgcattgt attttgcatg aaggcagagc
+      361 ccgcaaagaa t
+//
+LOCUS       KX767790                 371 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BKT466 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX767790
+VERSION     KX767790.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 371)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 371)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..371
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BKT466"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: l19, fwd_seq: cctgaagtaggaaccagatg,
+                     rev_name: h16498, rev_seq: ccactagctcccaaagcta"
+     D-loop          <1..>371
+ORIGIN
+        1 tagtgaaacc cccacaaata attgtccttg accttcaaga accgttaaca taaaggaatc
+       61 aactgatggt gggctcttac tacattaaat aatttgaaag tataggatgt tgggtacttg
+      121 gtatatcttg acatatgaga gttgtgttcg gtcttaaact atcgttcagt ggtactgaga
+      181 tgttattgga atctatcatt tattggttta tgtttccctt agttataaat gttgatgaca
+      241 aatatgtggg aaaacaatgt atgtttttta agaattgtat gtatttatat ataggatatg
+      301 tttgaaataa gataatggtg ataatacata tatgcattgt attttgcatg aaggcagagc
+      361 ccgcaaagaa t
+//
+LOCUS       KX757705                 374 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BS697 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX757705
+VERSION     KX757705.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..374
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BS697"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: cr_f, fwd_seq:
+                     acccctagctcccaaagcta, rev_name: cr_r, rev_seq:
+                     cctgaagtaggaaccagatg"
+     D-loop          <1..>374
+ORIGIN
+        1 ctattctttg cgggctctgc cttcatgcaa aatacaatgc atatatgtat tatcaccatt
+       61 atcttatttc aaacatatcc tatatataaa tacatacaat tcttaaaaaa catacattgt
+      121 tttcccacat atttgtcatc aacatttata actaagggaa acataaacca ataaatgata
+      181 gattccaata acatctcagt accactgaac gatagtttaa gaccgaacac aactctcata
+      241 tgtcaagata taccaagtac ccaacatcct atactttcaa attatttaat gtagtaagag
+      301 cccaccatca gttgattcct ttatgttaac ggttcttgaa ggtcaaggac aattatttgt
+      361 gggggtttca ctaa
+//
+LOCUS       KX757699                 375 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BN631 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX757699
+VERSION     KX757699.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 375)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 375)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..375
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BN631"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: cr_f, fwd_seq:
+                     acccctagctcccaaagcta, rev_name: cr_r, rev_seq:
+                     cctgaagtaggaaccagatg"
+     D-loop          <1..>375
+ORIGIN
+        1 tattctttgc cgggctctgc cttcatgcaa aatacaatgc atatatgtat tatcaccatt
+       61 atcttatttc aaacatatcc tatatataaa tacatacaat tcttaaaaaa catacattgt
+      121 tttcccacat atttgtcatc aacatttata actaagggaa acataaacca ataaatgata
+      181 gattccaata acatctcagt accattgaac gatagtttaa gaccgaacac aactctcata
+      241 tgtcaagata taccaagtac ccaacatcct atactttcaa attatttaat gtagtaagag
+      301 cccaccatca gttgattcct ttatgttaac ggttcttgaa ggtcaaggac aattatttgt
+      361 gggggtttca ctaat
+//
+LOCUS       KX757697                 374 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BN431 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX757697
+VERSION     KX757697.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 374)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..374
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BN431"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: cr_f, fwd_seq:
+                     acccctagctcccaaagcta, rev_name: cr_r, rev_seq:
+                     cctgaagtaggaaccagatg"
+     D-loop          <1..>374
+ORIGIN
+        1 actatctttg cgggctctgc cttcatgcaa aatacaatgc atatatgtat tatcaccatt
+       61 atcttatttc aaacatatcc tatatataaa tacatacaat tcttaaaaaa catacattgt
+      121 tttcccacat atttgtcatc aacatttata actaagggaa acataaacca ataaatgata
+      181 gattccaata acatctcagt accattgaac gatagtttaa gaccgaacac aactctcata
+      241 tgtcaagata taccaagtac ccaacatcct atactttcaa attatttaat gtagtaagag
+      301 cccaccatca gttgattcct ttatgttaac ggttcttgaa ggtcaaggac aattatttgt
+      361 gggggtttca ctaa
+//
+LOCUS       KX757696                 373 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BLR460 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX757696
+VERSION     KX757696.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..373
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BLR460"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: cr_f, fwd_seq:
+                     acccctagctcccaaagcta, rev_name: cr_r, rev_seq:
+                     cctgaagtaggaaccagatg"
+     D-loop          <1..>373
+ORIGIN
+        1 tattctttgc gggctctgcc ttcatgcaaa atacaatgca tatatgtatt atcaccatta
+       61 tcttatttca aacatatcct atatataaat acatacaatt cttaaaaaac atacattgtt
+      121 ttcccacata tttgtcatca acatttataa ctaagggaaa cataaaccaa taaatgatag
+      181 attccaataa catctcagta ccactgaacg atagtttaag accgaacaca actctcatat
+      241 gtcaagatat accaagtacc caacatccta tactttcaaa ttatttaatg tagtaagagc
+      301 ccaccatcag ttgattcctt tatgttaacg gttcttgaag gtcaaggaca attatttgtg
+      361 ggggtttcac taa
+//
+LOCUS       KX757692                 373 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BLR449 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX757692
+VERSION     KX757692.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 373)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..373
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BLR449"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: cr_f, fwd_seq:
+                     acccctagctcccaaagcta, rev_name: cr_r, rev_seq:
+                     cctgaagtaggaaccagatg"
+     D-loop          <1..>373
+ORIGIN
+        1 tattctttgc gggctctgcc ttcatgcaaa atacaatgca tatatgtatt atcaccatta
+       61 tcttatttca aacatatcct atatataaat acatacaatt cttaaaaaac atacattgtt
+      121 ttcccacata tttgtcatca acatttataa ctaagggaaa cataaaccaa taaatgatag
+      181 attccaataa catctcagta ccactgaacg atagtttaag accgaacaca actctcatat
+      241 gtcaagatat accaagtacc caacatccta tactttcaaa ttatttaatg tagtaagagc
+      301 ccaccatcag ttgattcctt tatgttaacg gttcttgaag gtcaaggaca attatttgtg
+      361 ggggtttcac taa
+//
+LOCUS       KX757688                 372 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BKT471 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX757688
+VERSION     KX757688.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 372)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..372
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BKT471"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: cr_f, fwd_seq:
+                     acccctagctcccaaagcta, rev_name: cr_r, rev_seq:
+                     cctgaagtaggaaccagatg"
+     D-loop          <1..>372
+ORIGIN
+        1 attctttgcg ggctctgcct tcatgcaaaa tacaatgcat atatgtatta tcaccattat
+       61 cttatttcaa acatatccta tatataaata catacaattc ttaaaaaaca tacattgttt
+      121 tcccacatat ttgtcatcaa catttataac taagggaaac ataaaccaat aaatgataga
+      181 ttccaataac atctcagtac cactgaacga tagtttaaga ccgaacacaa ctctcatatg
+      241 tcaagatata ccaagtaccc aacatcctat actttcaaat tatttaatgt agtaagagcc
+      301 caccatcagt tgattccttt atgttaacgg ttcttgaagg tcaaggacaa ttatttgtgg
+      361 gggtttcact aa
+//
+LOCUS       KX757686                 376 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BKT468 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX757686
+VERSION     KX757686.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 376)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 376)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..376
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BKT468"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: cr_f, fwd_seq:
+                     acccctagctcccaaagcta, rev_name: cr_r, rev_seq:
+                     cctgaagtaggaaccagatg"
+     D-loop          <1..>376
+ORIGIN
+        1 actattcttt gcgggctctg ccttcatgca aaatacaatg catatatgta ttatcaccat
+       61 tatcttattt caaacatatc ctatatataa atacatacaa ttcttaaaaa acatacattg
+      121 ttttcccaca tatttgtcat caacatttat aactaaggga aacataaacc aataaatgat
+      181 agattccaat aacatctcag taccattgaa cgatagttta agaccgaaca caactctcat
+      241 atgtcaagat ataccaagta cccaacatcc tatactttca aattatttaa tgtagtaaga
+      301 gcccaccatc agttgattcc tttatgttaa cggttcttga aggtcaagga caattatttg
+      361 tgggggtttc actaat
+//
+LOCUS       KX757685                 370 bp    DNA     linear   VRT 03-SEP-2016
+DEFINITION  Oreochromis spilurus isolate BKT466 D-loop, partial sequence;
+            mitochondrial.
+ACCESSION   KX757685
+VERSION     KX757685.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis spilurus
+  ORGANISM  Oreochromis spilurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 370)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O. and Ndiwa,T.C.
+  TITLE     Identification of introduced tilapia species from aquaculture spills
+            by exclusive mtDNA CO1 and mtDNA control region in Lake Baringo,
+            Kenya
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 370)
+  AUTHORS   Chuhila,Y., Nyingi,D.W., Amugune,N.O., Ndiwa,T.C., Mwaura,A. and
+            Gathua,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-2016) Zoology and Wildlife Conservation,
+            University of Dar Es Salaam, P.O. Box 35064, Dar Es Salaam 255,
+            Tanzania
+FEATURES             Location/Qualifiers
+     source          1..370
+                     /organism="Oreochromis spilurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="BKT466"
+                     /db_xref="taxon:64544"
+                     /tissue_type="muscle"
+                     /geo_loc_name="Kenya: Lake Baringo"
+                     /PCR_primers="fwd_name: cr_f, fwd_seq:
+                     acccctagctcccaaagcta, rev_name: cr_r, rev_seq:
+                     cctgaagtaggaaccagatg"
+     D-loop          <1..>370
+ORIGIN
+        1 ctattctttg cgggctctgc cttcatgcaa aatacaatgc atatatgtat tatcaccatt
+       61 atcttatttc aaacatatcc tatatataaa tacatacaat tcttaaaaaa catacattgt
+      121 tttcccacat atttgtcatc aacatttata actaagggaa acataaacca ataaatgata
+      181 gattccaata acatctcagt accactgaac gatagtttaa gaccgaacac aactctcata
+      241 tgtcaagata taccaagtac ccaacatcct atactttcaa attatttaat gtagtaagag
+      301 cccaccatca gttgattcct ttatgttaac ggttcttgaa ggtcaaggac aattatttgt
+      361 gggggtttca
+//

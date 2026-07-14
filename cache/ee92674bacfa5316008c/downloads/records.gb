@@ -1,0 +1,2650 @@
+LOCUS       PV594501                 675 bp    DNA     linear   VRT 01-MAY-2026
+DEFINITION  Oreochromis sp. isolate 40 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV594501
+VERSION     PV594501.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 675)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Fifty shades of white fish: DNA barcoding reveals widespread
+            misidentification in sushi restaurants from Southern Brazil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 675)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2025) Department of Genetics, Universidade Federal
+            do Rio Grande do Sul (UFRGS), Av. Bento Goncalves, 9500, Porto
+            Alegre, RS 91501-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..675
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="40"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Grande do Sul, Porto Alegre"
+                     /collection_date="2019"
+     gene            <1..>675
+                     /gene="COX1"
+     CDS             <1..>675
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XSG63361.1"
+                     /translation="DIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIV
+                     TAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSG
+                     VEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAI
+                     SQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF
+                     WFF"
+ORIGIN
+        1 gatatcggca ccctctatct agtatttggt gcttgagccg gaatagtagg aactgcacta
+       61 agcctcctaa ttcgggcaga actaagccag cccggctctc ttctcggaga cgaccaaatc
+      121 tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt aataccaatt
+      181 atgattggag gctttggaaa ctgactagta cccctcatga ttggtgcacc agacatggcc
+      241 ttccctcgaa taaataacat gagcttttga cttctccccc cctcatttct tcttcttctc
+      301 gcctcatctg gagtcgaagc aggtgccggc acaggatgga ctgtttatcc cccgctcgca
+      361 ggcaatcttg cccacgctgg accttctgtt gacttaacca tcttctccct ccacttggcc
+      421 ggagtgtcat ctattttagg tgcaattaat tttatcacaa ccattattaa catgaaaccc
+      481 cctgccatct cccaatatca aacaccccta tttgtgtgat ccgtcctaat taccgcagta
+      541 ctactccttc tatccctgcc cgttcttgcc gccggcatca caatacttct aacagaccga
+      601 aacctaaaca caaccttctt tgaccctgcc ggaggaggag accccatcct ataccaacac
+      661 ttattctgat tcttc
+//
+LOCUS       PV594492                 675 bp    DNA     linear   VRT 01-MAY-2026
+DEFINITION  Oreochromis sp. isolate 25 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV594492
+VERSION     PV594492.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 675)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Fifty shades of white fish: DNA barcoding reveals widespread
+            misidentification in sushi restaurants from Southern Brazil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 675)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2025) Department of Genetics, Universidade Federal
+            do Rio Grande do Sul (UFRGS), Av. Bento Goncalves, 9500, Porto
+            Alegre, RS 91501-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..675
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="25"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Grande do Sul, Porto Alegre"
+                     /collection_date="2019"
+     gene            <1..>675
+                     /gene="COX1"
+     CDS             <1..>675
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XSG63352.1"
+                     /translation="DIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIV
+                     TAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSG
+                     VEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAI
+                     SQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF
+                     WFF"
+ORIGIN
+        1 gatatcggca ccctctatct agtatttggt gcttgagccg gaatagtagg aactgcatta
+       61 agcctcctaa ttcgggcaga actaagccag cccggctctc tcctcggaga cgaccagatt
+      121 tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt aatgccaatt
+      181 ataattggag gttttggaaa ctgactagtg ccactaatga ttggtgcacc agacatggcc
+      241 ttccctcgaa taaataacat gagtttttga ctcctccccc cctcatttct ccttctcctc
+      301 gcctcatccg gggtcgaagc aggggccggt acaggatgga ctgtttatcc cccactcgca
+      361 ggcaatctcg cccatgctgg gccttccgtt gacttaacca tcttctccct ccacttggcc
+      421 ggggtgtcat ctattttagg tgcaattaat tttattacaa ccattattaa cataaaaccc
+      481 cctgccatct cccaatatca aacacccctc tttgtatgat ccgttctaat taccgcagta
+      541 ctactcctac tatccctacc cgttcttgcc gccggcatca caatacttct aacagaccga
+      601 aacctaaaca caaccttctt tgaccctgcc ggaggaggag accccatcct ttaccaacac
+      661 ttattctgat tcttc
+//
+LOCUS       PV594491                 680 bp    DNA     linear   VRT 01-MAY-2026
+DEFINITION  Oreochromis sp. isolate 24 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV594491
+VERSION     PV594491.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 680)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Fifty shades of white fish: DNA barcoding reveals widespread
+            misidentification in sushi restaurants from Southern Brazil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 680)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2025) Department of Genetics, Universidade Federal
+            do Rio Grande do Sul (UFRGS), Av. Bento Goncalves, 9500, Porto
+            Alegre, RS 91501-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..680
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="24"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Grande do Sul, Porto Alegre"
+                     /collection_date="2019"
+     gene            <1..>680
+                     /gene="COX1"
+     CDS             <1..>680
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XSG63351.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWF"
+ORIGIN
+        1 tcataaagat atcggcaccc tctatctagt atttggtgct tgagccggaa tagtaggaac
+       61 tgcattaagc ctcctaattc gggcagaact aagccagccc ggctctctcc tcggagacga
+      121 ccagatttat aatgtaattg ttacagcaca tgctttcgta ataattttct ttatagtaat
+      181 gccaattata attggaggtt ttggaaactg actagtgcca ctaatgattg gtgcaccaga
+      241 catggccttc cctcgaataa ataacatgag tttttgactc ctccccccct catttctcct
+      301 tctcctcgcc tcatccgggg tcgaagcagg ggccggtaca ggatggactg tttatccccc
+      361 actcgcaggc aatctcgccc atgctgggcc ttccgttgac ttaaccatct tctccctcca
+      421 cttggccggg gtgtcatcta ttttaggtgc aattaatttt attacaacca ttattaacat
+      481 aaaaccccct gccatctccc aatatcaaac acccctcttt gtatgatccg ttctaattac
+      541 cgcagtacta ctcctactat ccctacccgt tcttgccgcc ggcatcacaa tacttctaac
+      601 agaccgaaac ctaaacacaa ccttctttga ccctgccgga ggaggagacc ccatccttta
+      661 ccaacactta ttctgattct
+//
+LOCUS       PV594488                 674 bp    DNA     linear   VRT 01-MAY-2026
+DEFINITION  Oreochromis sp. isolate 21 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV594488
+VERSION     PV594488.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 674)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Fifty shades of white fish: DNA barcoding reveals widespread
+            misidentification in sushi restaurants from Southern Brazil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 674)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2025) Department of Genetics, Universidade Federal
+            do Rio Grande do Sul (UFRGS), Av. Bento Goncalves, 9500, Porto
+            Alegre, RS 91501-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..674
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="21"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Grande do Sul, Porto Alegre"
+                     /collection_date="2019"
+     gene            <1..>674
+                     /gene="COX1"
+     CDS             <1..>674
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XSG63348.1"
+                     /translation="DIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIV
+                     TAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSG
+                     VEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAI
+                     SQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF
+                     WF"
+ORIGIN
+        1 gatatcggca ccctctatct agtatttggt gcttgagccg gaatagtagg aactgcacta
+       61 agcctcctaa ttcgggcaga actaagccag cccggctctc ttctcggaga cgaccaaatc
+      121 tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt aataccaatt
+      181 atgattggag gctttggaaa ctgactagta cccctcatga ttggtgcacc agacatggcc
+      241 ttccctcgaa taaataacat gagcttttga cttctccccc cctcatttct tcttcttctc
+      301 gcctcatctg gagtcgaagc aggtgccggc acaggatgga ctgtttatcc cccgctcgca
+      361 ggcaatcttg cccacgctgg accttctgtt gacttaacca tcttctccct ccacttggcc
+      421 ggagtgtcat ctattttagg tgcaattaat tttatcacaa ccattattaa catgaaaccc
+      481 cctgccatct cccaatatca aacaccccta tttgtgtgat ccgtcctaat taccgcagta
+      541 ctactccttc tatccctgcc cgttcttgcc gccggcatca caatacttct aacagaccga
+      601 aacctaaaca caaccttctt tgaccctgcc ggaggaggag accccatcct ataccaacac
+      661 ttattctgat tctt
+//
+LOCUS       PV594485                 676 bp    DNA     linear   VRT 01-MAY-2026
+DEFINITION  Oreochromis sp. isolate 18 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV594485
+VERSION     PV594485.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 676)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Fifty shades of white fish: DNA barcoding reveals widespread
+            misidentification in sushi restaurants from Southern Brazil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 676)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2025) Department of Genetics, Universidade Federal
+            do Rio Grande do Sul (UFRGS), Av. Bento Goncalves, 9500, Porto
+            Alegre, RS 91501-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..676
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="18"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Grande do Sul, Porto Alegre"
+                     /collection_date="2019"
+     gene            <1..>676
+                     /gene="COX1"
+     CDS             <1..>676
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XSG63345.1"
+                     /translation="DIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIV
+                     TAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSG
+                     VEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAI
+                     SQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF
+                     WFF"
+ORIGIN
+        1 agatatcggc accctctatc tagtatttgg tgcttgagcc ggaatagtag gaactgcact
+       61 aagcctccta attcgggcag aactaagcca gcccggctct cttctcggag acgaccaaat
+      121 ctataatgta attgttacag cacatgcttt cgtaataatt ttctttatag taataccaat
+      181 tatgattgga ggctttggaa actgactagt acccctcatg attggtgcac cagacatggc
+      241 cttccctcga ataaataaca tgagcttttg acttctcccc ccctcatttc ttcttcttct
+      301 cgcctcatct ggagtcgaag caggtgccgg cacaggatgg actgtttatc ccccgctcgc
+      361 aggcaatctt gcccacgctg gaccttctgt tgacttaacc atcttctccc tccacttggc
+      421 cggagtgtca tctattttag gtgcaattaa ttttatcaca accattatta acatgaaacc
+      481 ccctgccatc tcccaatatc aaacacccct atttgtgtga tccgtcctaa ttaccgcagt
+      541 actactcctt ctatccctgc ccgttcttgc cgccggcatc acaatacttc taacagaccg
+      601 aaacctaaac acaaccttct ttgaccctgc cggaggagga gaccccatcc tataccaaca
+      661 cttattctga ttcttc
+//
+LOCUS       PV594484                 675 bp    DNA     linear   VRT 01-MAY-2026
+DEFINITION  Oreochromis sp. isolate 17 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV594484
+VERSION     PV594484.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 675)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Fifty shades of white fish: DNA barcoding reveals widespread
+            misidentification in sushi restaurants from Southern Brazil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 675)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2025) Department of Genetics, Universidade Federal
+            do Rio Grande do Sul (UFRGS), Av. Bento Goncalves, 9500, Porto
+            Alegre, RS 91501-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..675
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="17"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Grande do Sul, Porto Alegre"
+                     /collection_date="2019"
+     gene            <1..>675
+                     /gene="COX1"
+     CDS             <1..>675
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XSG63344.1"
+                     /translation="DIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIV
+                     TAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSG
+                     VEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAI
+                     SQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF
+                     WF"
+ORIGIN
+        1 agatatcggc accctctatc tagtatttgg tgcttgagcc ggaatagtag gaaccgcgct
+       61 aagcctccta attcgggcag aactaagcca gcccggctct ctcctcggag acgaccagat
+      121 ttataatgta attgttacag cacatgcttt tgtaataatt ttctttatag taatgccaat
+      181 tatgattgga ggctttggaa actgactagt accactcatg attggtgccc cagatatggc
+      241 cttccctcga atgaacaaca tgagtttctg actcctccct ccctcattcc tcctcctcct
+      301 cgcctcatct ggagtcgaag caggtgccgg cacagggtga actgtttacc ccccgctcgc
+      361 aggcaatctt gcccatgctg ggccttctgt cgacttaacc atcttctccc tccacttggc
+      421 cggggtgtca tctattctag gcgcaattaa tttcattaca acaatcatta acatgaaacc
+      481 ccccgccatc tctcaatatc aaacacccct atttgtatgg tccgttctaa ttaccgcagt
+      541 attacttctt ctatccctac ccgttcttgc cgccggcatc acaatacttc tcacagaccg
+      601 aaacctaaac acaaccttct ttgatcctgc cggaggagga gaccccatcc tttaccaaca
+      661 cttattctga ttctt
+//
+LOCUS       PV594482                 694 bp    DNA     linear   VRT 01-MAY-2026
+DEFINITION  Oreochromis sp. isolate 14 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV594482
+VERSION     PV594482.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 694)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Fifty shades of white fish: DNA barcoding reveals widespread
+            misidentification in sushi restaurants from Southern Brazil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 694)
+  AUTHORS   Almeron-Souza,F., Goncalves,L.T. and Fagundes,N.J.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2025) Department of Genetics, Universidade Federal
+            do Rio Grande do Sul (UFRGS), Av. Bento Goncalves, 9500, Porto
+            Alegre, RS 91501-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..694
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="14"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Grande do Sul, Porto Alegre"
+                     /collection_date="2019"
+     gene            <1..>694
+                     /gene="COX1"
+     CDS             <1..>694
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XSG63342.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPE"
+ORIGIN
+        1 tcataaagat atcggcaccc tctatctagt atttggtgct tgagccggaa tagtaggaac
+       61 tgcattaagc ctcctaattc gggcagaact aagccagccc ggctctctcc tcggagacga
+      121 ccagatttat aatgtaattg ttacagcaca tgctttcgta ataattttct ttatagtaat
+      181 gccaattata attggaggtt ttggaaactg actagtgcca ctaatgattg gtgcaccaga
+      241 catggccttc cctcgaataa ataacatgag tttttgactc ctccccccct catttctcct
+      301 tctcctcgcc tcatccgggg tcgaagcagg ggccggtaca ggatggactg tttatccccc
+      361 actcgcaggc aatctcgccc atgctgggcc ttccgttgac ttaaccatct tctccctcca
+      421 cttggccggg gtgtcatcta ttttaggtgc aattaatttt attacaacca ttattaacat
+      481 aaaaccccct gccatctccc aatatcaaac acccctcttt gtatgatccg ttctaattac
+      541 cgcagtacta ctcctactat ccctacccgt tcttgccgcc ggcatcacaa tacttctaac
+      601 agaccgaaac ctaaacacaa ccttctttga ccctgccgga ggaggagacc ccatccttta
+      661 ccaacactta ttctgattct tcggtcaccc tgaa
+//
+LOCUS       PZ051648                 366 bp    DNA     linear   VRT 02-MAR-2026
+DEFINITION  Oreochromis sp. isolate Dj1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PZ051648
+VERSION     PZ051648.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 366)
+  AUTHORS   Jagtap,D.M.
+  TITLE     DNA barcoding of freshwater fish in latur region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 366)
+  AUTHORS   Jagtap,D.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-FEB-2026) Zoology and fishery Science, Rajarshi Shahu
+            Mahavidhyalaya (Empowered autonomous), Latur, Chandra nagar, near
+            bus stand, Latur, Maharashtra 413512, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..366
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Dj1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="India: Maharashtra, Latur"
+                     /collection_date="05-Feb-2026"
+     gene            <1..>366
+                     /gene="COX1"
+     CDS             <1..>366
+                     /gene="COX1"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="YDE65164.1"
+                     /translation="LLLASSGVEAGAGTGWTVYPPLAGNFAHDGPSDDLTIFSLHLAGV
+                     SSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRN
+                     LNTTFFDPAGGGDPILY"
+ORIGIN
+        1 tccttctcct ggcgtcatcc ggggtcgaag caggggccgg tacaggatgg actgtttatc
+       61 ccccactcgc aggcaatttt gcccatgatg ggccttccga tgacttaacc attttctccc
+      121 tccacttggc cggggtgtca tctattttag gtgcaattaa ttttattaca accattatta
+      181 acataaaacc ccctgccatc tcccaatatc aaacacccct ctttgtatga tccgttttaa
+      241 ttaccgcagt actactccta ctatccctac ccgttcttgc cgccggcatc acaatacttt
+      301 taacagaccg aaacctaaac acaaccttct ttgaccctgc cggaggagga gaccccatcc
+      361 tttacc
+//
+LOCUS       PX279124                 519 bp    DNA     linear   VRT 09-SEP-2025
+DEFINITION  Oreochromis sp. voucher EGS002_Oreochromis_sp cytochrome c oxidase
+            subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PX279124
+VERSION     PX279124.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 519)
+  AUTHORS   Guedes,E.S.J. and Koroiva,R.
+  TITLE     Utilizacao de DNA barcoding para identificacao de files de tilapia
+            no mercado publico de rio tinto, paraiba, brasil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 519)
+  AUTHORS   Guedes,E.S.J. and Koroiva,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2025) DEMA, Federal University of Parariba, Av
+            Santa Elisabete, Rio Tinto, Paraiba 58297-000, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..519
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="EGS002_Oreochromis_sp"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Tinto"
+                     /collection_date="Jul-2025"
+     gene            <1..>519
+                     /gene="COX1"
+     CDS             <1..>519
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XZY35562.1"
+                     /translation="MVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLL
+                     ASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMK
+                     PPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILY
+                     QHLFWFFGHP"
+ORIGIN
+        1 tatagtaatg ccaattataa ttggaggttt tggaaactga ctagtgccac taatgattgg
+       61 tgcaccagac atggccttcc ctcgaataaa taacatgagt ttttgactcc tccccccctc
+      121 atttctcctt ctcctcgcct catccggggt cgaagcaggg gccggtacag gatgaactgt
+      181 ttatccccca ctcgcaggca atctcgccca tgctgggcct tccgttgact taaccatctt
+      241 ctccctccac ttggccgggg tgtcatctat tttaggtgca attaatttta ttacaaccat
+      301 tattaacata aaaccccctg ccatctccca atatcaaaca cccctctttg tatgatccgt
+      361 tctaattacc gcagtactac tcctactatc cctacccgtt cttgccgccg gcatcacaat
+      421 acttctaaca gaccgaaacc taaacacaac cttctttgat cctgccggag gaggagaccc
+      481 catcctttac caacacttat tctgattctt cggccaccc
+//
+LOCUS       PX279123                 519 bp    DNA     linear   VRT 09-SEP-2025
+DEFINITION  Oreochromis sp. voucher EGS004_Oreochromis_sp cytochrome c oxidase
+            subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PX279123
+VERSION     PX279123.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 519)
+  AUTHORS   Guedes,E.S.J. and Koroiva,R.
+  TITLE     Utilizacao de DNA barcoding para identificacao de files de tilapia
+            no mercado publico de rio tinto, paraiba, brasil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 519)
+  AUTHORS   Guedes,E.S.J. and Koroiva,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2025) DEMA, Federal University of Parariba, Av
+            Santa Elisabete, Rio Tinto, Paraiba 58297-000, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..519
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="EGS004_Oreochromis_sp"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Tinto"
+                     /collection_date="Jul-2025"
+     gene            <1..>519
+                     /gene="COX1"
+     CDS             <1..>519
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XZY35561.1"
+                     /translation="MVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLL
+                     ASTGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMK
+                     PPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILY
+                     QHLFWFFGHP"
+ORIGIN
+        1 tatagtaatg ccaattatga ttggaggctt tggaaactga ctagtaccac tcatgattgg
+       61 tgccccagat atggccttcc ctcgaatgaa caacatgagt ttctgactcc tccctccctc
+      121 attcctcctc ctcctcgcct caactggagt cgaagcaggt gccggcacag ggtgaactgt
+      181 ttaccccccg ctcgcaggca atcttgccca tgctgggcct tctgtcgact taaccatctt
+      241 ctccctccac ttggccgggg tgtcatctat tctaggcgca attaatttca ttacaacaat
+      301 cattaacatg aaaccccccg ccatctctca atatcaaaca cccctatttg tatggtccgt
+      361 tctaattacc gcagtattac ttcttctatc cctacccgtt cttgccgccg gcatcacaat
+      421 acttctcaca gaccgaaacc taaacacaac cttctttgat cctgccggag gaggagaccc
+      481 catcctttac caacacttat tctgattctt cggccaccc
+//
+LOCUS       PX279122                 519 bp    DNA     linear   VRT 09-SEP-2025
+DEFINITION  Oreochromis sp. voucher EGS003_Oreochromis_sp cytochrome c oxidase
+            subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PX279122
+VERSION     PX279122.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 519)
+  AUTHORS   Guedes,E.S.J. and Koroiva,R.
+  TITLE     Utilizacao de DNA barcoding para identificacao de files de tilapia
+            no mercado publico de rio tinto, paraiba, brasil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 519)
+  AUTHORS   Guedes,E.S.J. and Koroiva,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2025) DEMA, Federal University of Parariba, Av
+            Santa Elisabete, Rio Tinto, Paraiba 58297-000, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..519
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="EGS003_Oreochromis_sp"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Tinto"
+                     /collection_date="Jul-2025"
+     gene            <1..>519
+                     /gene="COX1"
+     CDS             <1..>519
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XZY35560.1"
+                     /translation="MVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLL
+                     ASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMK
+                     PPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILY
+                     QHLFWFFGHP"
+ORIGIN
+        1 tatagtaatg ccaattatga ttggaggctt tggaaactga ctagtaccac tcatgattgg
+       61 tgccccagat atggccttcc ctcgaatgaa caacatgagt ttctgactcc tccctccctc
+      121 attcctcctc ctcctcgcct catctggagt cgaagcaggt gccggcacag ggtgaactgt
+      181 ttaccccccg ctcgcaggca atcttgccca tgctgggcct tctgtcgact taaccatctt
+      241 ctccctccac ttggccgggg tgtcatctat tctaggcgca attaatttca ttacaacaat
+      301 cattaacatg aaaccccccg ccatctctca atatcaaaca cccctatttg tatggtccgt
+      361 tctaattacc gcagtattac ttcttctatc cctacccgtt cttgccgccg gcatcacaat
+      421 acttctcaca gaccgaaacc taaacacaac cttctttgat cctgccggag gaggagaccc
+      481 catcctttac caacacttat tctgattctt cggccaccc
+//
+LOCUS       PX279121                 372 bp    DNA     linear   VRT 09-SEP-2025
+DEFINITION  Oreochromis sp. voucher EGS01_Oreochromis_sp cytochrome c oxidase
+            subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PX279121
+VERSION     PX279121.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 372)
+  AUTHORS   Guedes,E.S.J. and Koroiva,R.
+  TITLE     Utilizacao de DNA barcoding para identificacao de files de tilapia
+            no mercado publico de rio tinto, paraiba, brasil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 372)
+  AUTHORS   Guedes,E.S.J. and Koroiva,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2025) DEMA, Federal University of Parariba, Av
+            Santa Elisabete, Rio Tinto, Paraiba 58297-000, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..372
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="EGS01_Oreochromis_sp"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Brazil: Rio Tinto"
+                     /collection_date="Jul-2025"
+     gene            <1..>372
+                     /gene="COX1"
+     CDS             <1..>372
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XZY35559.1"
+                     /translation="LASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSS
+                     ILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLN
+                     TTFFDPAGGGDPILYQHLFW"
+ORIGIN
+        1 ctcgcctcat ctggagtcga agcaggtgcc ggcacaggat ggactgttta tcccccgctc
+       61 gcaggcaatc ttgcccacgc tggaccttct gttgacttaa ccatcttctc cctccacttg
+      121 gccggagtgt catctatttt aggtgcaatt aattttatca caaccattat taacatgaaa
+      181 ccccctgcca tctcccaata tcaaacaccc ctatttgtgt gatccgtcct aattaccgca
+      241 gtactactcc ttctatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      301 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctataccaa
+      361 cacttattct ga
+//
+LOCUS       PQ525681                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP092 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525681
+VERSION     PQ525681.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP092"
+                     /db_xref="BOLD:NPFSH064-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79839.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ctgcactaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctt ctcggagacg accaaatcta taatgtaatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat gattggaggc
+      181 tttggaaact gactagtacc cctcatgatt ggtgcaccag acatggcctt ccctcgaata
+      241 aataacatga gcttttgact tctccccccc tcatttcttc ttcttctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac aggatggact gtttatcccc cgctcgcagg caatcttgcc
+      361 cacgctggac cttctgttga cttaaccatc ttctccctcc acttggccgg agtgtcatct
+      421 attttaggtg caattaattt tatcacaacc attattaaca tgaaaccccc tgccatctcc
+      481 caatatcaaa cacccctatt tgtgtgatcc gtcctaatta ccgcagtact actccttcta
+      541 tccctgcccg ttcttgccgc cggcatcaca atacttctaa cagaccgaaa cctaaacaca
+      601 accttctttg accctgccgg aggaggagac cccatcctat accaacactt a
+//
+LOCUS       PQ525680                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP093 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525680
+VERSION     PQ525680.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP093"
+                     /db_xref="BOLD:NPFSH065-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79838.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525679                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP094 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525679
+VERSION     PQ525679.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP094"
+                     /db_xref="BOLD:NPFSH066-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79837.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ctgcactaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctt ctcggagacg accaaatcta taatgtaatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat gattggaggc
+      181 tttggaaact gactagtacc cctcatgatt ggtgcaccag acatggcctt ccctcgaata
+      241 aataacatga gcttttgact tctccccccc tcatttcttc ttcttctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac aggatggact gtttatcccc cgctcgcagg caatcttgcc
+      361 cacgctggac cttctgttga cttaaccatc ttctccctcc acttggccgg agtgtcatct
+      421 attttaggtg caattaattt tatcacaacc attattaaca tgaaaccccc tgccatctcc
+      481 caatatcaaa cacccctatt tgtgtgatcc gtcctaatta ccgcagtact actccttcta
+      541 tccctgcccg ttcttgccgc tggcatcaca atacttctaa cagaccgaaa cctaaacaca
+      601 accttctttg accctgccgg aggaggagac cccatcctat accaacactt a
+//
+LOCUS       PQ525678                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP095 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525678
+VERSION     PQ525678.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP095"
+                     /db_xref="BOLD:NPFSH067-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79836.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ctgcactaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctt ctcggagacg accaaatcta taatgtaatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat gattggaggc
+      181 tttggaaact gactagtacc cctcatgatt ggtgcaccag acatggcctt ccctcgaata
+      241 aataacatga gcttttgact tctccccccc tcatttcttc ttcttctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac aggatggact gtttatcccc cgctcgcagg caatcttgcc
+      361 cacgctggac cttctgttga cttaaccatc ttctccctcc acttggccgg agtgtcatct
+      421 attttaggtg caattaattt tatcacaacc atcattaaca tgaaaccccc tgccatctcc
+      481 caatatcaaa cacccctatt tgtgtgatcc gtcctaatta ccgcagtact actccttcta
+      541 tccctgcccg ttcttgccgc tggcatcaca atacttctaa cagaccgaaa cctaaacaca
+      601 accttctttg accctgccgg aggaggagac cccatcctat accaacactt a
+//
+LOCUS       PQ525677                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP096 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525677
+VERSION     PQ525677.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP096"
+                     /db_xref="BOLD:NPFSH068-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79835.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ctgcactaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctt ctcggagacg accaaatcta taatgtaatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat gattggaggc
+      181 tttggaaact gactagtacc cctcatgatt ggtgcaccag acatggcctt ccctcgaata
+      241 aataacatga gcttttgact tctccccccc tcatttcttc ttcttctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac aggatggact gtttatcccc cgctcgcagg caatcttgcc
+      361 cacgctggac cttctgttga cttaaccatc ttctccctcc acttggccgg agtgtcatct
+      421 attttaggtg caattaattt tatcacaacc atcattaaca tgaaaccccc tgccatctcc
+      481 caatatcaaa cacccctatt tgtgtgatcc gtcctaatta ccgcagtact actccttcta
+      541 tccctgcccg ttcttgccgc tggcatcaca atacttctaa cagaccgaaa cctaaacaca
+      601 accttctttg accctgccgg aggaggagac cccatcctat accaacactt a
+//
+LOCUS       PQ525676                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP097 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525676
+VERSION     PQ525676.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP097"
+                     /db_xref="BOLD:NPFSH069-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79834.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525675                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP098 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525675
+VERSION     PQ525675.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP098"
+                     /db_xref="BOLD:NPFSH070-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79833.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525674                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP099 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525674
+VERSION     PQ525674.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP099"
+                     /db_xref="BOLD:NPFSH071-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79832.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatcttgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525673                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP100 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525673
+VERSION     PQ525673.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP100"
+                     /db_xref="BOLD:NPFSH072-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79831.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525672                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP101 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525672
+VERSION     PQ525672.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP101"
+                     /db_xref="BOLD:NPFSH073-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79830.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525671                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP102 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525671
+VERSION     PQ525671.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP102"
+                     /db_xref="BOLD:NPFSH074-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79829.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525670                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP103 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525670
+VERSION     PQ525670.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP103"
+                     /db_xref="BOLD:NPFSH075-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79828.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525669                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP104 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525669
+VERSION     PQ525669.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP104"
+                     /db_xref="BOLD:NPFSH076-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79827.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525668                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP105 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525668
+VERSION     PQ525668.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP105"
+                     /db_xref="BOLD:NPFSH077-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79826.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PQ525667                 651 bp    DNA     linear   VRT 22-AUG-2025
+DEFINITION  Oreochromis sp. voucher NP106 cytochrome oxidase subunit 1 (COI)
+            gene, partial cds; mitochondrial.
+ACCESSION   PQ525667
+VERSION     PQ525667.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P.N., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Munyandamutsa,P.S., Clausnitzer,V., Vranken,N.,
+            Snoeks,J. and Van Steenberge,M.
+  TITLE     An ichthyological borderland: The fishfauna of Nyungwe National Park
+            and surroundings (Rwanda, East Africa)
+  JOURNAL   J Fish Biol (2025) In press
+   PUBMED   40830305
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 651)
+  AUTHORS   Maetens,H., Mukungilwa,P., Kasangaki,A., Boom,A.F.,
+            Nshimiyumuremyi,T., Sanzira munyandamutsa,P., Clausnitzer,V.,
+            Vranken,N., Snoeks,J. and Van steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2024) Vertebrates, Royal Museum for Central
+            Africa, Leuvensesteenweg 13, Tervuren, Tervuren 3080, Belgium
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NP106"
+                     /db_xref="BOLD:NPFSH078-24.COI-5P"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Rwanda: Kamiranzovu River, outlet (bought
+                     from fisherman, probably from the Lake)"
+                     /lat_lon="2.3409 S 29.1187 E"
+                     /collection_date="14-Aug-2022"
+     gene            <1..>651
+                     /gene="COI"
+     CDS             <1..>651
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="XUK79825.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtgggaa ctgcactaag tctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgttatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaatcat aattggagga
+      181 tttgggaact gactagtgcc gcttataatt ggtgccccag acatggcctt ccctcgaata
+      241 aataacatga gtttttgact ccttcccccc tcatttctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggtac aggatgaact gtttacccac cactcgcagg caatctcgcc
+      361 cacgctgggc cttctgttga cttaaccatc ttctccctcc atttggcggg agtgtcatct
+      421 attctaggcg caattaattt tattacaact attattaaca taaaaccccc tgctatttct
+      481 cagtatcaaa cacccctatt tgtgtgatcc gttctaatta ccgcagtact actcctacta
+      541 tccctgcccg ttcttgccgc cggcattaca atacttctaa cagatcgaaa cctcaacaca
+      601 accttctttg accctgccgg aggaggagac cccatccttt accaacactt a
+//
+LOCUS       PV090850                 634 bp    DNA     linear   VRT 23-MAY-2025
+DEFINITION  Oreochromis sp. voucher 16_NF1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV090850
+VERSION     PV090850.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 634)
+  AUTHORS   Duodu,S., Ayiku,A.N.A., Anane-Taabeah,G. and Cudjoe,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2025) Department of Biochemistry, Molecular and
+            Cell Biology, University of Ghana, P.O. Box LG 54, Legon, Accra,
+            Greater Accra 00233, Ghana
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..634
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="16_NF1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: Lake Volta"
+                     /collection_date="07-Nov-2024"
+     gene            <1..>634
+                     /gene="COX1"
+     CDS             <1..>634
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XOG11761.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ctgcactaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctt ctcggagacg accaaatcta taatgtaatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat gattggaggc
+      181 tttggaaact gactagtacc cctcatgatt ggtgcaccag acatggcctt ccctcgaata
+      241 aataacatga gcttttgact tctccccccc tcatttcttc ttcttctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac aggatggact gtttatcccc cgctcgcagg caatcttgcc
+      361 cacgctggac cttctgttga cttaaccatc ttctccctcc acttggccgg agtgtcatct
+      421 attttaggtg caattaattt tatcacaacc attattaaca tgaaaccccc tgccatctcc
+      481 caatatcaaa cacccctatt tgtgtgatcc gtcctaatta ccgcagtact actccttcta
+      541 tccctgcccg ttcttgccgc cggcatcaca atacttctaa cagaccgaaa cctaaacaca
+      601 accttctttg accctgccgg aggaggagac ccca
+//
+LOCUS       PV090849                 634 bp    DNA     linear   VRT 23-MAY-2025
+DEFINITION  Oreochromis sp. voucher 15_NF1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV090849
+VERSION     PV090849.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 634)
+  AUTHORS   Duodu,S., Ayiku,A.N.A., Anane-Taabeah,G. and Cudjoe,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2025) Department of Biochemistry, Molecular and
+            Cell Biology, University of Ghana, P.O. Box LG 54, Legon, Accra,
+            Greater Accra 00233, Ghana
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..634
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="15_NF1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: Lake Volta"
+                     /collection_date="07-Nov-2024"
+     gene            <1..>634
+                     /gene="COX1"
+     CDS             <1..>634
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XOG11760.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ctgcactaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctt ctcggagacg accaaatcta taatgtaatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat gattggaggc
+      181 tttggaaact gactagtacc cctcatgatt ggtgcaccag acatggcctt ccctcgaata
+      241 aataacatga gcttttgact tctccccccc tcatttcttc ttcttctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac aggatggact gtttatcccc cgctcgcagg caatcttgcc
+      361 cacgctggac cttctgttga cttaaccatc ttctccctcc acttggccgg agtgtcatct
+      421 attttaggtg caattaattt tatcacaacc attattaaca tgaaaccccc tgccatctcc
+      481 caatatcaaa cacccctatt tgtgtgatcc gtcctaatta ccgcagtact actccttcta
+      541 tccctgcccg ttcttgccgc cggcatcaca atacttctaa cagaccgaaa cctaaacaca
+      601 accttctttg accctgccgg aggaggagac ccca
+//
+LOCUS       PV090848                 634 bp    DNA     linear   VRT 23-MAY-2025
+DEFINITION  Oreochromis sp. voucher 12_NF1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV090848
+VERSION     PV090848.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 634)
+  AUTHORS   Duodu,S., Ayiku,A.N.A., Anane-Taabeah,G. and Cudjoe,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2025) Department of Biochemistry, Molecular and
+            Cell Biology, University of Ghana, P.O. Box LG 54, Legon, Accra,
+            Greater Accra 00233, Ghana
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..634
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="12_NF1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: Lake Volta"
+                     /collection_date="07-Nov-2024"
+     gene            <1..>634
+                     /gene="COX1"
+     CDS             <1..>634
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XOG11759.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctctatytag tatttggtgc ttgagccgga atagtaggaa ctgcactaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctt ctcggagacg accaaatcta taatgtaatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat gattggaggc
+      181 tttggaaact gactagtacc cctcatgatt ggtgcaccag acatggcctt ccctcgaata
+      241 aataacatga gcttttgact tctccccccc tcatttcttc ttcttctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac aggatggact gtttatcccc cgctcgcagg caatcttgcc
+      361 cacgctggac cttctgttga cttaaccatc ttctccctcc acttggccgg agtgtcatct
+      421 attttaggtg caattaattt tatcacaacc attattaaca tgaaaccccc tgccatctcc
+      481 caatatcaaa cacccctatt tgtgtgatcc gtcctaatta ccgcagtact actccttcta
+      541 tccctgcccg ttcttgccgc cggcatcaca atacttctaa cagaccgaaa cctaaacaca
+      601 accttctttg accctgccgg aggaggagac ccca
+//
+LOCUS       PV090847                 634 bp    DNA     linear   VRT 23-MAY-2025
+DEFINITION  Oreochromis sp. voucher 9_NF1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV090847
+VERSION     PV090847.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 634)
+  AUTHORS   Duodu,S., Ayiku,A.N.A., Anane-Taabeah,G. and Cudjoe,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2025) Department of Biochemistry, Molecular and
+            Cell Biology, University of Ghana, P.O. Box LG 54, Legon, Accra,
+            Greater Accra 00233, Ghana
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..634
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="9_NF1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: Lake Volta"
+                     /collection_date="07-Nov-2024"
+     gene            <1..>634
+                     /gene="COX1"
+     CDS             <1..>634
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XOG11758.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ctgcactaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctt ctcggagacg accaaatcta taatgtaatt
+      121 gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat gattggaggc
+      181 tttggaaact gactagtacc cctcatgatt ggtgcaccag acatggcctt ccctcgaata
+      241 aataacatga gcttttgact tctccccccc tcatttcttc ttcttctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac aggatggact gtttatcccc cgctcgcagg caatcttgcc
+      361 cacgctggac cttctgttga cttaaccatc ttctccctcc acttggccgg agtgtcatct
+      421 attttaggtg caattaattt tatcacaacc attattaaca tgaaaccccc tgccatctcc
+      481 caatatcaaa cacccctatt tgtgtgatcc gtcctaatta ccgcagtact actccttcta
+      541 tccctgcccg ttcttgccgc cggcatcaca atacttctaa cagaccgaaa cctaaacaca
+      601 accttctttg accctgccgg aggaggagac ccca
+//
+LOCUS       PV090846                 634 bp    DNA     linear   VRT 23-MAY-2025
+DEFINITION  Oreochromis sp. voucher 8_NF1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV090846
+VERSION     PV090846.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 634)
+  AUTHORS   Duodu,S., Ayiku,A.N.A., Anane-Taabeah,G. and Cudjoe,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2025) Department of Biochemistry, Molecular and
+            Cell Biology, University of Ghana, P.O. Box LG 54, Legon, Accra,
+            Greater Accra 00233, Ghana
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..634
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="8_NF1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: Lake Volta"
+                     /collection_date="07-Nov-2024"
+     gene            <1..>634
+                     /gene="COX1"
+     CDS             <1..>634
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XOG11757.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ccgcgctaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgtaatt
+      121 gttacagcac atgcttttgt aataattttc tttatagtaa tgccaattat gattggaggc
+      181 tttggaaact gactagtacc actcatgatt ggtgccccag atatggcctt ccctcgaatg
+      241 aacaacatga gtttctgact cctccctccc tcattcctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac agggtgaact gtttaccccc cactcgcagg caatcttgcc
+      361 catgctgggc cttctgtcga cttaaccatc ttctccctcc acttggccgg ggtgtcatct
+      421 attctaggcg caattaattt cattacaaca atcattaaca tgaaaccccc cgccatctct
+      481 caatatcaaa cacccctatt tgtatggtcc gttctaatta ccgcagtatt acttcttcta
+      541 tccctacccg ttcttgccgc cggcatcaca atacttctca cagaccgaaa cctaaacaca
+      601 accttctttg atcctgccgg aggaggagac ccca
+//
+LOCUS       PV090845                 634 bp    DNA     linear   VRT 23-MAY-2025
+DEFINITION  Oreochromis sp. voucher 5_NF1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV090845
+VERSION     PV090845.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 634)
+  AUTHORS   Duodu,S., Ayiku,A.N.A., Anane-Taabeah,G. and Cudjoe,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2025) Department of Biochemistry, Molecular and
+            Cell Biology, University of Ghana, P.O. Box LG 54, Legon, Accra,
+            Greater Accra 00233, Ghana
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..634
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="5_NF1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: Lake Volta"
+                     /collection_date="07-Nov-2024"
+     gene            <1..>634
+                     /gene="COX1"
+     CDS             <1..>634
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XOG11756.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ccgcgctaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgtaatt
+      121 gttacagcac atgcttttgt aataattttc tttatagtaa tgccaattat gattggaggc
+      181 tttggaaact gactagtacc actcatgatt ggtgccccag atatggcctt ccctcgaatg
+      241 aacaacatga gtttctgact cctccctccc tcattcctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac agggtgaact gtttaccccc cgctcgcagg caatcttgcc
+      361 catgctgggc cttctgtcga cttaaccatc ttctccctcc acttggccgg ggtgtcatct
+      421 attctaggcg caattaattt cattacaaca atcattaaca tgaaaccccc cgccatctct
+      481 caatatcaaa cacccctatt tgtatggtcc gttctaatta ccgcagtatt acttcttcta
+      541 tccctacccg ttcttgccgc cggcatcaca atacttctca cagaccgaaa cctaaacaca
+      601 accttctttg atcctgccgg aggaggagac ccca
+//
+LOCUS       PV090843                 634 bp    DNA     linear   VRT 23-MAY-2025
+DEFINITION  Oreochromis sp. voucher 3_NF1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV090843
+VERSION     PV090843.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 634)
+  AUTHORS   Duodu,S., Ayiku,A.N.A., Anane-Taabeah,G. and Cudjoe,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2025) Department of Biochemistry, Molecular and
+            Cell Biology, University of Ghana, P.O. Box LG 54, Legon, Accra,
+            Greater Accra 00233, Ghana
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..634
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="3_NF1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: Lake Volta"
+                     /collection_date="07-Nov-2024"
+     gene            <1..>634
+                     /gene="COX1"
+     CDS             <1..>634
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XOG11754.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ccgcgctaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgtaatt
+      121 gttacagcac atgcttttgt aataattttc tttatagtaa tgccaattat gattggaggc
+      181 tttggaaact gactagtacc actcatgatt ggtgccccag atatggcctt ccctcgaatg
+      241 aacaacatga gtttctgact cctccctccc tcattcctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac agggtgaact gtttaccccc cgctcgcagg caatcttgcc
+      361 catgctgggc cttctgtcga cttaaccatc ttctccctcc acttggccgg ggtgtcatct
+      421 attctaggcg caattaattt cattacaaca atcattaaca tgaaaccccc cgccatctct
+      481 caatatcaaa cacccctatt tgtatggtcc gttctaatta ccgcagtatt acttcttcta
+      541 tccctacccg ttcttgccgc cggcatcaca atacttctca cagaccgaaa cctaaacaca
+      601 accttctttg atcctgccgg aggaggagac ccca
+//
+LOCUS       PV090842                 634 bp    DNA     linear   VRT 23-MAY-2025
+DEFINITION  Oreochromis sp. voucher 2_NF1 cytochrome c oxidase subunit I (COX1)
+            gene, partial cds; mitochondrial.
+ACCESSION   PV090842
+VERSION     PV090842.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 634)
+  AUTHORS   Duodu,S., Ayiku,A.N.A., Anane-Taabeah,G. and Cudjoe,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2025) Department of Biochemistry, Molecular and
+            Cell Biology, University of Ghana, P.O. Box LG 54, Legon, Accra,
+            Greater Accra 00233, Ghana
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..634
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="2_NF1"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: Lake Volta"
+                     /collection_date="07-Nov-2024"
+     gene            <1..>634
+                     /gene="COX1"
+     CDS             <1..>634
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XOG11753.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDP"
+ORIGIN
+        1 ctctatctag tatttggtgc ttgagccgga atagtaggaa ccgcgctaag cctcctaatt
+       61 cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta taatgtaatt
+      121 gttacagcac atgcttttgt aataattttc tttatagtaa tgccaattat gattggaggc
+      181 tttggaaact gactagtacc actcatgatt ggtgccccag atatggcctt ccctcgaatg
+      241 aacaacatga gtttctgact cctccctccc tcattcctcc tcctcctcgc ctcatctgga
+      301 gtcgaagcag gtgccggcac agggtgaact gtttaccccc cgctcgcagg caatcttgcc
+      361 catgctgggc cttctgtcga cttaaccatc ttctccctcc acttggccgg ggtgtcatct
+      421 attctaggcg caattaattt cattacaaca atcattaaca tgaaaccccc cgccatctct
+      481 caatatcaaa cacccctatt tgtatggtcc gttctaatta ccgcagtatt acttcttcta
+      541 tccctacccg ttcttgccgc cggcatcaca atacttctca cagaccgaaa cctaaacaca
+      601 accttctttg atcctgccgg aggaggagac ccca
+//
+LOCUS       PQ049789                 650 bp    DNA     linear   VRT 30-DEC-2024
+DEFINITION  Oreochromis sp. isolate STRI-6621 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ049789
+VERSION     PQ049789.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 650)
+  AUTHORS   Castillo-Cardenas,M.F. and Gonzalez,R.
+  TITLE     Fish DNA barcoding
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 650)
+  AUTHORS   Castillo-Cardenas,M.F. and Gonzalez,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2024) Research Support, Smithsonian Tropical
+            Research Institute, Roosevelt Ave, Ancon, Panama, Panama 07098,
+            Panama
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..650
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="STRI-6621"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Ghana: TORKOR, LAKE VOLTA"
+                     /collection_date="27-Aug-1994"
+                     /collected_by="H. Banford"
+                     /PCR_primers="fwd_name: BOL-COIfishF1, fwd_seq:
+                     tcaacyaatcayaaagatatyggcac, rev_name: BOL-COIfishR1,
+                     rev_seq: acttcygggtgrccraaraatca"
+     gene            <1..>650
+                     /gene="COX1"
+     CDS             <1..>650
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XCZ50627.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPVMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH"
+ORIGIN
+        1 ctttatctcg tatttggtgc atgagccgga atagtaggaa ccgcactcag cctgctaatc
+       61 cgggcagaac taagccagcc cggctctctc cttggagacg atcagatcta caatgttatc
+      121 gttacagcac atgctttcgt gataatcttc tttatagtaa tgccagtcat aattggaggc
+      181 tttggaaact gactagtgcc gcttatgatc ggcgccccag acatggcctt tcctcgaata
+      241 aacaacatga gcttctggct cctccctccc tcttttcttc ttcttctcgc ctcatcaggg
+      301 gtcgaagcag gtgccggcac aggatgaacc gtgtaccctc cactcgcagg caaccttgcc
+      361 cacgcagggc cttctgttga tctaaccatc ttctcccttc atctggcagg ggtgtcctct
+      421 atcctaggcg caatcaattt tatcacaaca attattaaca taaaaccccc tgctatttct
+      481 cagtaccaga cccccctatt tgtatggtct gtcctcatca ccgctgtcct cctgcttcta
+      541 tcactgcctg ttctcgccgc cggcatcaca atgctcctaa cagaccgaaa cctcaacaca
+      601 accttctttg accccgctgg aggaggagac cccatcctct accaacactt
+//
+LOCUS       PQ272469                 652 bp    DNA     linear   VRT 09-SEP-2024
+DEFINITION  Oreochromis sp. isolate P18_COI_ADB0210.fasta cytochrome c oxidase
+            subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ272469
+VERSION     PQ272469.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Freshwater and estuarine fish species of the Pangani and Rufiji
+            river, Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2024) Aquatic Sciences, School of Aquatic Sciences
+            and Fisheries Technology, Kunduchi, Dar es Salaam 60091, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="P18_COI_ADB0210.fasta"
+                     /db_xref="taxon:3139419"
+                     /geo_loc_name="Tanzania:
+                     Tanga,Hale'',''''Tanzania,Pangani,Matakani'',''Pangani
+                     river'' river"
+                     /collection_date="2022-04-09"
+     gene            <1..>652
+                     /gene="COX1"
+     CDS             <1..>652
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XFE80003.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgagccgg aatagtagga actgcactaa gtctccttat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta taattggagg
+      181 gtttggaaac tgactggtgc cacttatgat tggagcacca gacatggcct tccctcgaat
+      241 aaataacatg agtttttgac tccttccccc ctcatttctc cttctcctcg cctcatccgg
+      301 agtcgaagca ggagccggta caggatgaac tgtttatcct cccctcgcag gcaatctcgc
+      361 ccacgctgga ccttctgttg atttgaccat cttttccctc cacttggccg gggtgtcatc
+      421 tattttaggc gcaattaatt ttatcacaac cattattaac ataaaacccc ctgccatctc
+      481 tcaatatcaa acacccctct ttgtgtgatc cgttctaatt accgcagtat tactcctact
+      541 atccctgccc gttcttgccg ccggcatcac aatacttcta acagaccgaa acctaaacac
+      601 aaccttcttt gaccctgccg gaggaggaga ccccatcctt taccaacact ta
+//
+LOCUS       PP661856                 530 bp    DNA     linear   VRT 20-APR-2024
+DEFINITION  Oreochromis sp. isolate Pb216BL cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP661856
+VERSION     PP661856.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 530)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Authentication with DNA Barcode, in Sushi and Sashimi processed fish
+            in the coastal Amazon, reveals commercial fraud and potential health
+            and environmental risks
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 530)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2024) Instituto de Estudos Costeiros, Universidade
+            Federal do Para, Alameda Leandro Ribeiro, Braganca, Para 68600000,
+            Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..530
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Pb216BL"
+                     /db_xref="taxon:3139419"
+     gene            <1..>530
+                     /gene="COX1"
+     CDS             <1..>530
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WZH62240.1"
+                     /translation="YNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMN
+                     NMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSS
+                     ILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLN
+                     TTFFDPAGGGDPIL"
+ORIGIN
+        1 tataatgtaa ttgttacagc acatgctttt gtaataattt tctttatagt aatgccaatt
+       61 atgattggag gctttggaaa ctgactagta ccactcatga ttggtgctcc agatatggcc
+      121 ttccctcgaa tgaacaacat gagtttctga ctcctccctc cctcattcct cctcctcctc
+      181 gcctcatctg gagtcgaagc aggtgccggc acagggtgaa ctgtttaccc cccgctcgca
+      241 ggcaatcttg cccatgctgg gccttctgtc gacttaacca tcttctccct ccacttggcc
+      301 ggggtgtcat ctattctagg cgcaattaat ttcattacaa caatcattaa catgaaaccc
+      361 cccgccatct ctcaatatca aacacctcta tttgtatggt ccgttctaat taccgcagta
+      421 ttacttcttc tatccctacc cgttcttgcc gccggcatca caatacttct cacagaccga
+      481 aacctaaaca caaccttctt tgatcctgcc ggaggaggag accccatcct
+//
+LOCUS       PP661855                 530 bp    DNA     linear   VRT 20-APR-2024
+DEFINITION  Oreochromis sp. isolate Pb215BL cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP661855
+VERSION     PP661855.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 530)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Authentication with DNA Barcode, in Sushi and Sashimi processed fish
+            in the coastal Amazon, reveals commercial fraud and potential health
+            and environmental risks
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 530)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2024) Instituto de Estudos Costeiros, Universidade
+            Federal do Para, Alameda Leandro Ribeiro, Braganca, Para 68600000,
+            Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..530
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Pb215BL"
+                     /db_xref="taxon:3139419"
+     gene            <1..>530
+                     /gene="COX1"
+     CDS             <1..>530
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WZH62239.1"
+                     /translation="YNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMN
+                     NMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSS
+                     ILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLN
+                     TTFFDPAGGGDPIL"
+ORIGIN
+        1 tataatgtaa ttgttacagc acatgctttt gtaataattt tctttatagt aatgccaatt
+       61 atgattggag gctttggaaa ctgactagta ccactcatga ttggtgctcc agatatggcc
+      121 ttccctcgaa tgaacaacat gagtttctga ctcctccctc cctcattcct cctcctcctc
+      181 gcctcatctg gagtcgaagc aggtgccggc acagggtgaa ctgtttaccc cccgctcgca
+      241 ggcaatcttg cccatgctgg gccttctgtc gacttaacca tcttctccct ccacttggcc
+      301 ggggtgtcat ctattctagg cgcaattaat ttcattacaa caatcattaa catgaaaccc
+      361 cccgccatct ctcaatatca aacacctcta tttgtatggt ccgttctaat taccgcagta
+      421 ttacttcttc tatccctacc cgttcttgcc gccggcatca caatacttct cacagaccga
+      481 aacctaaaca caaccttctt tgatcctgcc ggaggaggag accccatcct
+//
+LOCUS       PP661854                 553 bp    DNA     linear   VRT 20-APR-2024
+DEFINITION  Oreochromis sp. isolate Pb205BL cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP661854
+VERSION     PP661854.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 553)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Authentication with DNA Barcode, in Sushi and Sashimi processed fish
+            in the coastal Amazon, reveals commercial fraud and potential health
+            and environmental risks
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 553)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2024) Instituto de Estudos Costeiros, Universidade
+            Federal do Para, Alameda Leandro Ribeiro, Braganca, Para 68600000,
+            Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..553
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Pb205BL"
+                     /db_xref="taxon:3139419"
+     gene            <1..>553
+                     /gene="COX1"
+     CDS             <1..>553
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WZH62238.1"
+                     /translation="YNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMN
+                     NMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSS
+                     ILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLN
+                     TTFFDPAGGGDPILYQHLFWF"
+ORIGIN
+        1 tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt aataccaatt
+       61 atgattggag gctttggaaa ctgactagta cccctcatga ttggtgcacc agacatggcc
+      121 ttccctcgaa taaataacat gagcttttga cttctccccc cctcatttct tcttcttctc
+      181 gcctcatctg gagtcgaagc aggtgccggc acaggatgga ctgtttatcc cccgctcgca
+      241 ggcaatcttg cccacgctgg accttctgtt gacttaacca tcttctccct ccacttggcc
+      301 ggagtgtcat ctattttagg tgcaattaat tttatcacaa ccattattaa catgaaaccc
+      361 cctgccatct cccaatatca aacaccccta tttgtgtgat ccgtcctaat taccgcagta
+      421 ctactccttc tatccctgcc cgttcttgcc gccggcatca caatacttct aacagaccga
+      481 aacctaaaca caaccttctt tgaccctgcc ggaggaggag accccatcct ataccaacac
+      541 ttattctgat tct
+//
+LOCUS       PP661853                 460 bp    DNA     linear   VRT 20-APR-2024
+DEFINITION  Oreochromis sp. isolate Pb206BL cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP661853
+VERSION     PP661853.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 460)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Authentication with DNA Barcode, in Sushi and Sashimi processed fish
+            in the coastal Amazon, reveals commercial fraud and potential health
+            and environmental risks
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 460)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2024) Instituto de Estudos Costeiros, Universidade
+            Federal do Para, Alameda Leandro Ribeiro, Braganca, Para 68600000,
+            Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..460
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Pb206BL"
+                     /db_xref="taxon:3139419"
+     gene            <1..>460
+                     /gene="COX1"
+     CDS             <1..>460
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WZH62237.1"
+                     /translation="YNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMN
+                     NMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSS
+                     ILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGI"
+ORIGIN
+        1 tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt aataccaatt
+       61 atgattggag gctttggaaa ctgactagta cccctcatga ttggtgcacc agacatggcc
+      121 ttccctcgaa taaataacat gagcttttga cttctccccc cctcatttct tcttcttctc
+      181 gcctcatctg gagtcgaagc aggtgccggc acaggatgga ctgtttatcc cccgctcgca
+      241 ggcaatcttg cccacgctgg accttctgtt gacttaacca tcttctccct ccacttggcc
+      301 ggagtgtcat ctattttagg tgcaattaat tttatcacaa ccattattaa catgaaaccc
+      361 cctgccatct cccaatatca aacaccccta tttgtgtgat ccgtcctaat taccgcagta
+      421 ctactccttc tatccctgcc cgttcttgcc gccggcatca
+//
+LOCUS       PP661852                 553 bp    DNA     linear   VRT 20-APR-2024
+DEFINITION  Oreochromis sp. isolate Pb125BL cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP661852
+VERSION     PP661852.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 553)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Authentication with DNA Barcode, in Sushi and Sashimi processed fish
+            in the coastal Amazon, reveals commercial fraud and potential health
+            and environmental risks
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 553)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2024) Instituto de Estudos Costeiros, Universidade
+            Federal do Para, Alameda Leandro Ribeiro, Braganca, Para 68600000,
+            Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..553
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Pb125BL"
+                     /db_xref="taxon:3139419"
+     gene            <1..>553
+                     /gene="COX1"
+     CDS             <1..>553
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WZH62236.1"
+                     /translation="YNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMN
+                     NMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSS
+                     ILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLN
+                     TTFFDPAGGGDPILYQHLFWF"
+ORIGIN
+        1 tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt aataccaatt
+       61 atgattggag gctttggaaa ctgactagta cccctcatga ttggtgcacc agacatggcc
+      121 ttccctcgaa taaataacat gagcttttga cttctccccc cctcatttct tcttcttctc
+      181 gcctcatctg gagtcgaagc aggtgccggc acaggatgga ctgtttatcc cccgctcgca
+      241 ggcaatcttg cccacgctgg accttctgtt gacttaacca tcttctccct ccacttggcc
+      301 ggagtgtcat ctattttagg tgcaattaat tttatcacaa ccattattaa catgaaaccc
+      361 cctgccatct cccaatatca aacaccccta tttgtgtgat ccgtcctaat taccgcagta
+      421 ctactccttc tatccctgcc cgttcttgcc gccggcatca caatacttct aacagaccga
+      481 aacctaaaca caaccttctt tgaccctgcc ggaggaggag accccatcct ataccaacac
+      541 ttattctgat tct
+//
+LOCUS       PP661851                 553 bp    DNA     linear   VRT 20-APR-2024
+DEFINITION  Oreochromis sp. isolate PB124BL cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP661851
+VERSION     PP661851.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp
+  ORGANISM  Oreochromis sp.
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 553)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Authentication with DNA Barcode, in Sushi and Sashimi processed fish
+            in the coastal Amazon, reveals commercial fraud and potential health
+            and environmental risks
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 553)
+  AUTHORS   Santa Brigida,N.C.N., Lutz,I.A.F., Martins,T.S., Santana,P.C.P.,
+            Barbosa,A.J., Sampaio,I., Vallinoto,M. and Evangelista-Gomes,G.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2024) Instituto de Estudos Costeiros, Universidade
+            Federal do Para, Alameda Leandro Ribeiro, Braganca, Para 68600000,
+            Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..553
+                     /organism="Oreochromis sp."
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PB124BL"
+                     /db_xref="taxon:3139419"
+     gene            <1..>553
+                     /gene="COX1"
+     CDS             <1..>553
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WZH62235.1"
+                     /translation="YNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMN
+                     NMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSS
+                     ILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLN
+                     TTFFDPAGGGDPILYQHLFWF"
+ORIGIN
+        1 tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt aataccaatt
+       61 atgattggag gctttggaaa ctgactagta cccctcatga ttggtgcacc agacatggcc
+      121 ttccctcgaa taaataacat gagcttttga cttctccccc cctcatttct tcttcttctc
+      181 gcctcatctg gagtcgaagc aggtgccggc acaggatgga ctgtttatcc cccgctcgca
+      241 ggcaatcttg cccacgctgg accttctgtt gacttaacca tcttctccct ccacttggcc
+      301 ggagtgtcat ctattttagg tgcaattaat tttatcacaa ccattattaa catgaaaccc
+      361 cctgccatct cccaatatca aacaccccta tttgtgtgat ccgtcctaat taccgcagta
+      421 ctactccttc tatccctgcc cgttcttgcc gccggcatca caatacttct aacagaccga
+      481 aacctaaaca caaccttctt tgaccctgcc ggaggaggag accccatcct ataccaacac
+      541 ttattctgat tct
+//

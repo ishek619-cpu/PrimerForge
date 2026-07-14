@@ -1,4 +1,4 @@
-from primerforge.species.markers import (
+from envoprimer.species.markers import (
     marker_synonyms,
     build_query,
 )

@@ -1,0 +1,893 @@
+LOCUS       KU194060                 656 bp    DNA     linear   VRT 28-MAR-2025
+DEFINITION  Oreochromis tanganicae isolate MRAC95.96.P_tag2284 cytochrome c
+            oxidase subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   KU194060
+VERSION     KU194060.2
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis tanganicae
+  ORGANISM  Oreochromis tanganicae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 656)
+  AUTHORS   Breman,F.C., Loix,S., Jordaens,K., Snoeks,J. and Van Steenberge,M.
+  TITLE     Testing the potential of DNA barcoding in vertebrate radiations: the
+            case of the littoral cichlids (Pisces, Perciformes, Cichlidae) from
+            Lake Tanganyika
+  JOURNAL   Mol Ecol Resour 16 (6), 1455-1464 (2016)
+   PUBMED   26990149
+REFERENCE   2  (bases 1 to 656)
+  AUTHORS   Breman,F.C., Loix,S., Jordaens,K., Snoeks,J. and Van Steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-NOV-2015) Zoology, Royal Museum for Central Africa,
+            Leuvensesteenweg 13, Tervuren, Vlaams Brabant 3080, Belgium
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Seqscape v. 5.2
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            On Jan 23, 2025 this sequence version replaced KU194060.1.
+FEATURES             Location/Qualifiers
+     source          1..656
+                     /organism="Oreochromis tanganicae"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="MRAC95.96.P_tag2284"
+                     /isolation_source="Nsumbu village"
+                     /specimen_voucher="MRAC95.96.P_tag2284"
+                     /db_xref="taxon:8142"
+                     /geo_loc_name="Tanzania:Nsumbu village"
+                     /collection_date="1995"
+                     /PCR_primers="fwd_name: FishF2_t1, fwd_seq:
+                     tgtaaaacgacggccagtcgactaatcataaagatatcggcac, rev_name:
+                     VR1d_t1, rev_seq:
+                     caggaaacagctatgactagacttctgggtggccraaraayca"
+     gene            <1..>656
+                     /gene="COI"
+     CDS             <1..>656
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="AMR44960.2"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ccctctatct agtatttggt gcttgagccg gaatagtagg aactgcacta agcctcctaa
+       61 ttcgggcaga actaagccaa cccggctctc tcctcggaga cgaccagatt tataatgtaa
+      121 ttgttacagc acatgctttc gtaataattt tctttatagt aataccaatt ataattggag
+      181 gttttggaaa ctgactagtg ccacttatga ttggtgcacc agacatggcc ttccctcgaa
+      241 taaataacat gagcttttga ctccttcccc cttcatttct ccttctcctt gcctcatccg
+      301 gagtcgaagc aggggctggt acaggatgaa ctgtttatcc cccactcgca ggcaatctcg
+      361 cccacgctgg accttctgtt gatttaacca tcttctccct tcacttggcc ggggtttcat
+      421 ctattttagg cgcaattaat tttattacga ccattattaa cataaaaccc cctgccatct
+      481 ctcaatatca aacacccctc tttgtgtgat ccgtcctaat taccgcagta ctactcctgc
+      541 tatccctgcc cgttcttgcc gccggcatca caatacttct aacagaccga aacctaaaca
+      601 caaccttctt tgaccctgcc ggaggaggag accccatcct ttaccaacac ttattc
+//
+LOCUS       KU194059                 656 bp    DNA     linear   VRT 28-MAR-2025
+DEFINITION  Oreochromis tanganicae isolate MRAC92.81.P.280 cytochrome c oxidase
+            subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   KU194059
+VERSION     KU194059.2
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis tanganicae
+  ORGANISM  Oreochromis tanganicae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 656)
+  AUTHORS   Breman,F.C., Loix,S., Jordaens,K., Snoeks,J. and Van Steenberge,M.
+  TITLE     Testing the potential of DNA barcoding in vertebrate radiations: the
+            case of the littoral cichlids (Pisces, Perciformes, Cichlidae) from
+            Lake Tanganyika
+  JOURNAL   Mol Ecol Resour 16 (6), 1455-1464 (2016)
+   PUBMED   26990149
+REFERENCE   2  (bases 1 to 656)
+  AUTHORS   Breman,F.C., Loix,S., Jordaens,K., Snoeks,J. and Van Steenberge,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-NOV-2015) Zoology, Royal Museum for Central Africa,
+            Leuvensesteenweg 13, Tervuren, Vlaams Brabant 3080, Belgium
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Seqscape v. 5.2
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            On Jan 23, 2025 this sequence version replaced KU194059.1.
+FEATURES             Location/Qualifiers
+     source          1..656
+                     /organism="Oreochromis tanganicae"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="MRAC92.81.P.280"
+                     /isolation_source="Ulwile Island, northern shore"
+                     /specimen_voucher="MRAC92.81.P.280"
+                     /db_xref="taxon:8142"
+                     /geo_loc_name="Tanzania:Ulwile Island, northern shore"
+                     /collection_date="1992"
+                     /PCR_primers="fwd_name: FishF2_t1, fwd_seq:
+                     tgtaaaacgacggccagtcgactaatcataaagatatcggcac, rev_name:
+                     VR1d_t1, rev_seq:
+                     caggaaacagctatgactagacttctgggtggccraaraayca"
+     gene            <1..>656
+                     /gene="COI"
+     CDS             <1..>656
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="AMR44959.2"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ccctctatct agtatttggt gcttgagccg gaatagtagg aactgcacta agcctcctaa
+       61 ttcgggcaga actaagccaa cccggctctc tcctcggaga cgaccagatt tataatgtaa
+      121 ttgttacagc acatgctttc gtaataattt tctttatagt aataccaatt ataattggag
+      181 gttttggaaa ctgactagtg ccacttatga ttggtgcacc agacatggcc ttccctcgaa
+      241 taaataacat gagcttttga ctccttcccc cttcatttct ccttctcctt gcctcatccg
+      301 gagtcgaagc aggggctggt acaggatgaa ctgtttatcc cccactcgca ggcaatctcg
+      361 cccacgctgg accttctgtt gatttaacca tcttctccct tcacttggcc ggggtttcat
+      421 ctattttagg cgcaattaat tttattacga ccattattaa cataaaaccc cctgccatct
+      481 ctcaatatca aacacccctc tttgtgtgat ccgtcctaat taccgcagta ctactcctgc
+      541 tatccctgcc cgttcttgcc gccggcatca caatacttct aacagaccga aacctaaaca
+      601 caaccttctt tgaccctgcc ggaggaggag accccatcct ttaccaacac ttattc
+//
+LOCUS       OW726358                 619 bp    DNA     linear   VRT 05-AUG-2022
+DEFINITION  cytochrome c oxidase subunit I (cox1) gene from SRX6434465, partial
+            cds.
+ACCESSION   OW726358
+VERSION     OW726358.1
+DBLINK      BioProject: PRJEB52443
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis tanganicae
+  ORGANISM  Oreochromis tanganicae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1
+  AUTHORS   Curzon YE,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2022) VOLCANI CENTER, Micha ron Lab, Herzek street
+            Rehovot 7610001, Israel
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: GAP5
+            Coverage              :: 10X
+            Sequencing Technology :: Illumina, HiSeq 2500
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis tanganicae"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolation_source="SAMN12123811"
+                     /db_xref="taxon:8142"
+     CDS             <1..>619
+                     /note="unnamed protein product; cox1"
+                     /codon_start=1
+                     /transl_table=2
+                     /protein_id="CAH2950576.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+     exon            1..619
+                     /note="exon 1"
+ORIGIN
+        1 ggaactgcac taagcctcct aattcgggca gaactaagcc aacccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag tgccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aataaataac atgagctttt gactccttcc cccttcattt
+      241 ctccttctcc ttgcctcatc cggagtcgaa gcaggggctg gtacaggatg aactgtttat
+      301 cccccactcg caggcaatct cgcccacgct ggaccttctg ttgatttaac catcttctcc
+      361 cttcacttgg ccggggtttc atctatttta ggcgcaatta attttattac gaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tctttgtgtg atccgtccta
+      481 attaccgcag tactactcct gctatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagacc gaaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       MK497081                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis tanganicae voucher SAIAB:79856 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497081
+VERSION     MK497081.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis tanganicae
+  ORGANISM  Oreochromis tanganicae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis tanganicae"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="SAIAB:79856"
+                     /db_xref="taxon:8142"
+                     /tissue_type="Fin (right cut)"
+                     /geo_loc_name="Zambia: L. tanganyika, Cape Kachese, Cape
+                     Kachese harbour"
+                     /lat_lon="8.82 S 30.78 E"
+                     /collection_date="2007-08-03"
+                     /collected_by="R. Bills"
+                     /identified_by="R. Bills"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12326.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELIQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaact
+       61 gcactaagcc tcctaattcg ggcagaacta atccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtgccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaataaa taacatgagc ttttgactcc ttcccccttc atttctcctt
+      301 ctccttgcct catccggagt cgaagcaggg gctggtacag gatgaactgt ttatccccca
+      361 ctcgcaggca atctcgccca cgctggacct tctgttgatt taaccatctt ctcccttcac
+      421 ttggccgggg tttcatctat tttaggcgca attaatttta ttacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctctttg tgtgatccgt cctaattacc
+      541 gcagtactac tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cgg
+//
+LOCUS       MK951678               16632 bp    DNA     circular VRT 12-JAN-2020
+DEFINITION  Oreochromis tanganicae mitochondrion, complete genome.
+ACCESSION   MK951678
+VERSION     MK951678.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis tanganicae
+  ORGANISM  Oreochromis tanganicae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 16632)
+  AUTHORS   Bbole,I., Zhao,J., Tang,S. and Katongo,C.
+  TITLE     Fish invasion in Southern African inland waters: Conservation
+            concerns for Oreochromis tanganicae, an endemic species of Lake
+            Tanganyika
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16632)
+  AUTHORS   Bbole,I., Zhao,J., Tang,S. and Katongo,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAY-2019) Laboratory of Freshwater Fisheries Germplasm
+            Resource, Shanghai Ocean University, 999 Hucheng Ring Road,
+            Shanghai, Shanghai 201306, China
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: BioEdit v. 7.2.6
+            Sequencing Technology :: ABI 3730 x l capillary sequencer
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16632
+                     /organism="Oreochromis tanganicae"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:8142"
+                     /geo_loc_name="Zambia"
+     tRNA            1..69
+                     /product="tRNA-Phe"
+     rRNA            70..1013
+                     /product="12S ribosomal RNA"
+     tRNA            1014..1085
+                     /product="tRNA-Val"
+     rRNA            1086..2787
+                     /product="16S ribosomal RNA"
+     tRNA            2788..2861
+                     /product="tRNA-Leu"
+     gene            2862..3836
+                     /gene="ND1"
+     CDS             2862..3836
+                     /gene="ND1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 1"
+                     /protein_id="QHB74916.1"
+                     /translation="MFSTLISSILNPLILIVFVLLAVALLTLVERKVLGYMQLRKGPNV
+                     VGPYGLLQPIADGLKLFLKEPIRPSTSSPVLFLFTPMLALTLALTLWTPMPLPFPMADL
+                     NLGILFILALSSLAVYSILGSGWASNSKYALIGALRAVAQTISYEVSLGLILLNAIIFT
+                     GGFTLQTFSVAQESVWLIFPAWPLAAMWYISTLAETNRAPFDLTEGESELVSGFNVEYA
+                     GGPFALFFLAEYANILLMNTLSATLFLGASILHTTPEITTTNLMIKATLLSVLFLWVRA
+                     SYPRFRYDQLMHLIWKNFLPLTLALVIWHLSLPIALTGLPPQL"
+     tRNA            3840..3909
+                     /product="tRNA-Ile"
+     tRNA            complement(3909..3979)
+                     /product="tRNA-Gln"
+     tRNA            3979..4047
+                     /product="tRNA-Met"
+     gene            4048..5093
+                     /gene="ND2"
+     CDS             4048..5093
+                     /gene="ND2"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:5092..5093,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 2"
+                     /protein_id="QHB74917.1"
+                     /translation="MNPYILAILLFGLGLGTTITFASSHWLLAWMGLEMNTLAIIPLMA
+                     QHHHPRAVEATTKYFLTQATAAATLLFASITNAWLTGQWEIQQITHPLPTTMITLALAL
+                     KIGLAPLHAWLPEVLQGLDLTTGLILSTWQKLAPFALILQIQPSNSTILIILGLASTLI
+                     GGWGGLNQTQLRKILAYSSIAHLGWMILVLQFSPSITLLTLLTYLIMTSSMFLVFKLNK
+                     STNINTLATSWAKAPALTALTPLILLSLGGLPPLTGFMPKWLILQELTKQGLAPTATLA
+                     ALSALLSLYFYLRLSYAMTLTISPNSLLGTTPWRLPSTQLTYPLATSTALTICLLPLTP
+                     AISALLTP"
+     tRNA            5094..5165
+                     /product="tRNA-Trp"
+     tRNA            complement(5167..5235)
+                     /product="tRNA-Ala"
+     tRNA            complement(5237..5309)
+                     /product="tRNA-Asn"
+     tRNA            complement(5343..5408)
+                     /product="tRNA-Cys"
+     tRNA            complement(5409..5478)
+                     /product="tRNA-Tyr"
+     gene            5480..7075
+                     /gene="COX1"
+                     /gene_synonym="COI"
+     CDS             5480..7075
+                     /gene="COX1"
+                     /gene_synonym="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="QHB74914.1"
+                     /translation="MAITRWFFSTNHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPG
+                     SLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWL
+                     LPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAIN
+                     FITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDP
+                     AGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIVAYYAGKKEPFGYMGMVWAMMAIG
+                     LLGFIVWAHHMFTVGMDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGAIKWETPLLW
+                     ALGFIFLFTVGGLTGIVLANSSLDIMLHDTYYVVAHFHYVLSMGAVFAIVAGFVHWFPL
+                     FSGYTLHDTWTKIHFGVMFVGVNLTFFPQHFLGLAGMPRRYSDYPDAYTLWNTISSIGS
+                     MISMVAVIMFLFIIWEAFAAKREVLSVELTATNVEWLHGCPPPYHTFEEPAFVQVQQAW
+                     LDYGKSATAPSKSH"
+     tRNA            complement(7076..7147)
+                     /product="tRNA-Ser"
+     tRNA            7151..7223
+                     /product="tRNA-Asp"
+     gene            7229..7919
+                     /gene="COX2"
+                     /gene_synonym="COII"
+     CDS             7229..7919
+                     /gene="COX2"
+                     /gene_synonym="COII"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:7919,aa:TERM)
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit II"
+                     /protein_id="QHB74918.1"
+                     /translation="MAHPSQLGFQDAASPVMEELLHFHDHALMIVFLISTLVLYIIVAM
+                     VTTKLTNKFILDSQEIEIIWTLLPAIILILIALPSLRILYLMDEINDPHLTIKAMGHQW
+                     YWSYEYTDYEDLGFDSYMVPTQDLTPGQFRLLETDHRMVVPVESPIRILISAEDVLHSW
+                     AVPSLGVKMDAVPGRLNQTAFIASRPGIFYGQCSEICGANHSFMPIVVEAVPLEHFENW
+                     SSLMLEDA"
+     tRNA            7920..7993
+                     /product="tRNA-Lys"
+     gene            7995..8162
+                     /gene="ATP8"
+     CDS             7995..8162
+                     /gene="ATP8"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="ATP synthase F0 subunit 8"
+                     /protein_id="QHB74915.1"
+                     /translation="MPQLNPAPWFAILVFSWLVFLTVIPPKVLAHTFPNNPTLQSTEKP
+                     KTEPWTWPWH"
+     gene            8153..8835
+                     /gene="ATP6"
+     CDS             8153..8835
+                     /gene="ATP6"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:8834..8835,aa:TERM)
+                     /transl_table=2
+                     /product="ATP synthase F0 subunit 6"
+                     /protein_id="QHB74919.1"
+                     /translation="MTLSFFDQFMSPTYLGVPLIALALSLPWILYPKPTTRWLNNRLIT
+                     LQGWFINRFTQQIFQPLSLGGHKWAALLASLMLFLITLNMLGLLPYTFTPTTQLSLNMA
+                     FAVPLWLATVIIGMRNQPTHALGHLLPEGTPTPLIPILIIIETISLFIRPLALGVRLTA
+                     NLTAGHLLIQLIATAAFVLLPLMPTVAILTAVLLFLLTLLEVAVAMIQAYVFVLLLSLY
+                     LQENV"
+     gene            8836..9619
+                     /gene="COX3"
+                     /gene_synonym="COIII"
+     CDS             8836..9619
+                     /gene="COX3"
+                     /gene_synonym="COIII"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:9619,aa:TERM)
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit III"
+                     /protein_id="QHB74920.1"
+                     /translation="MAHQAHAYHMVDPSPWPLTGAVAALLMTSGLAIWMHFHNTTLMTL
+                     GLILLLLTMYQWWRDIIREGTFQGHHTPPVQKGLRYGMILFITSEVFFFLGFFWAFYHS
+                     SLAPTPELGGCWPPTGITPLDPFEVPLLNTAVLLASGVTVTWAHHSIMEGHRKEAIQSL
+                     ALTILLGFYFTFLQAMEYYEAPFTIADGVYGSTFFVATGFHGLHVIIGSTFLAVCLLRQ
+                     VQYHFTSEHHFGFEAAAWYWHFVDVVWLFLYISIYWWGS"
+     tRNA            9620..9691
+                     /product="tRNA-Gly"
+     gene            9692..10040
+                     /gene="ND3"
+     CDS             9692..10040
+                     /gene="ND3"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:10040,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 3"
+                     /protein_id="QHB74921.1"
+                     /translation="MNLITTMLIISITLSTILAIVSFWLPQMTPDHEKLSPYECGFDPL
+                     GSARLPFSLRFFLVAILFLLFDLEIALLLPLPWGDQLSSPLMTFTWAFTILILLTLGLI
+                     YEWTQGGLEWAE"
+     tRNA            10041..10109
+                     /product="tRNA-Arg"
+     gene            10110..10406
+                     /gene="ND4L"
+     CDS             10110..10406
+                     /gene="ND4L"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 4L"
+                     /protein_id="QHB74922.1"
+                     /translation="MTPTHFAFSSTFLLGLAGLAFHRTHLLSALLCLEGMMLSLFIALS
+                     LWTLQLNSVSFSASPMLLLAFSACEASAGLALLVATARTHGTDRLQSLNLLQC"
+     gene            10400..11780
+                     /gene="ND4"
+     CDS             10400..11780
+                     /gene="ND4"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:11780,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 4"
+                     /protein_id="QHB74923.1"
+                     /translation="MLKILLPTIMLVPTIWTTPAKHLWSITLSYSLIISLISLTWLKSS
+                     TESGWSFLSPYMATDPLSTPLLALTCWLLPLMILASQNHTASEPISRQRIYITLLTSLQ
+                     IFLIMAFSATEVIMFYIMFEATLIPTLVIITRWGNQTERLNAGTYFLFYTLAGSLPLLV
+                     ALLLLQNSTGTLSLLTLQYTPSMQLSSFADKLWWAGCLLAFLVKMPLYGAHLWLPKAHV
+                     EAPIAGSMVLAAVLLKLGGYGMMRMMIMLEPLTKELSYPFIIFALWGVIMTGSICLRQT
+                     DLKSLIAYSSVSHMGLVAAGILIQTPWGFTGALILMIAHGLTSSALFCLANTNYERTHS
+                     RTMILARGLQMVLPLMTAWWFIASLANLALPPLPNLMGELMIITSLFHWSWWTIALTGA
+                     GTLITAGYSLYMFLMTQRGPLPTHIISLAPTHSREHLLMALHLLPLILLISKPELIWGW
+                     TA"
+     tRNA            11781..11849
+                     /product="tRNA-His"
+     tRNA            11850..11916
+                     /product="tRNA-Ser"
+     tRNA            11921..11993
+                     /product="tRNA-Leu"
+     gene            11994..13832
+                     /gene="ND5"
+     CDS             11994..13832
+                     /gene="ND5"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 5"
+                     /protein_id="QHB74924.1"
+                     /translation="MHLTSTMMATSLITIFLLLAFPVFTSFSPHPLPSNWALTQVKTAV
+                     KWAFFISILPLCLFLNEGAETIITSWTWMNTHTFDVNISLKFDIYSIIFTPVALYVTWS
+                     ILEFASWYMHADPNMNRFFKYLLIFLIAMIILVTANNMFQLFIGWEGVGIMSFLLIGWW
+                     YGRADANTAALQAVIYNRVGDIGLIFAMAWIATSLNSWEMQQMFTLSKDFDLTYPLIGL
+                     IIAATGKSAQFGLHPWLPSAMEGPTPVSALLHSSTMVVAGIFLLIRMSPMLENNQTALT
+                     ICLCLGALTTLFTATCALTQNDIKKIVAFSTSSQLGLMMVTIGLNQPQLAFLHICTHAF
+                     FKAMLFLCSGSIIHSLNDEQDIRKMGGMHHLTPFTSSCLTIGSLALTGTPFLAGFFSKD
+                     AIIEALNTSYLNAWALFLTLLATSFTAIYSLRVIFFVSMGHPRFNPLPPINENNPTVIN
+                     PIKRLAWGSIIAGLLITSNITPLKTPIMSMPPLLKTAALAVTIIGLLTALELASLTNKQ
+                     YKPTPKLSSHHFSNMLGFFPMVIHRLTPKLNLALGQTIASQTIDQTWLEKIGPKATTTL
+                     NLPLITTTNNIQQGMIKTYLSLFFFTFGLPLLLLLY"
+     gene            complement(13829..14350)
+                     /gene="ND6"
+     CDS             complement(13829..14350)
+                     /gene="ND6"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 6"
+                     /protein_id="QHB74925.1"
+                     /translation="MVYIMFMFLFGLVLGLAAVASNPSPYFAALGLVAVAGMGCGVLVG
+                     HGGSFLSLVLFLIYLGGMLVVFAYSAALAAEPYPEGWGSWPVLGVMVAYLVGVCAAAGL
+                     FWGGWYEGAWVSADEFVEFSVFRGDVGGVALMYSAGGGVLVLGAWVLLLTLFVVLELTR
+                     GLGRGALRAV"
+     tRNA            complement(14351..14419)
+                     /product="tRNA-Glu"
+     gene            14424..15564
+                     /gene="CYTB"
+     CDS             14424..15564
+                     /gene="CYTB"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:15564,aa:TERM)
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="QHB74926.1"
+                     /translation="MANLRKTHPLLKIANDALVDLPAPSNISVWWNFGSLLGLCLAAQI
+                     LTGLFLAMHYTSDIATAFSSVAHICRDVNYGWLIRNMHANGASFFFICIYLHIGRGLYY
+                     GSYLYKETWNIGVILLLLTMMTAFVGYVLPWGQMSFWGATVITNLLSAVPYIGNSLVQW
+                     IWGGFSVDNATLTRFFAFHFLLPFIIAAATMVHLIFLHETGSNNPTGLNSDADKISFHP
+                     YFSYKDLLGFAILLIALISLTLFSPNLLGDPDNFTPANPLVTPPHIKPEWYFLFAYAIL
+                     RSIPNKLGGVLALLFSILVLMVVPILHTSKQRGLTFRPITQFLFWLLVADVAILTWIGG
+                     MPVEHPFVIIGQIASFLYFFLFLVLAPITGWLENKILEWY"
+     tRNA            15565..15636
+                     /product="tRNA-Thr"
+     tRNA            complement(15637..15706)
+                     /product="tRNA-Pro"
+ORIGIN
+        1 gctagcgtag cttaactaaa gcataacact gaagatgtta agacggaccc tagaaaggtc
+       61 ccgtaagcac aaaggcttgg tcctgacttt actgtcagct ttggctaaac ttacacatgc
+      121 aagtctccgc ccccctgtga gaatgcccac agttttctgc ccgaaaacaa ggagccggta
+      181 tcaggcacaa ccctgcagcc catgacacct tgcttagcca caccctcaag ggaactcagc
+      241 agtgatagac attaagccat gagtgaaaac ttgacttagt taaagccaag agagccggta
+      301 aaactcgtgc cagccaccgc ggttatacga ggggctcaag ttgatagaca tcggcgtaaa
+      361 gagtggttag gaagtctttt aaactaaagc cgaacaccct cagaactgtt atacgtaccc
+      421 gagggtaaga agccccacta cgaaagtggc tttatatatc cgaccccacg aaagctgcga
+      481 aacaaactgg gattagatac cccactatgc ccagccctaa actttgatag cccgctacac
+      541 ccgctatccg cccgggtact acgagcacta gcttaaaacc caaaggactt ggcggtgctt
+      601 tagatccacc tagaggagcc tgttctagaa ccgataaccc ccgttaaacc tcaccctctc
+      661 ttgttcttcc cgcctatata ccgccgtcgt cagcttaccc tatgaaggaa ccacagtaag
+      721 cagaactagt acaactcaaa acgccaggtc gaggtgtagc atatgagagg ggaagaaatg
+      781 ggctacattc cctaccacag ggaacacgaa caatgtaatg aaatacgcat tagaaggagg
+      841 atttagcagt aagcagaaaa tagagcgttc cgctgaaacc ggccctgaag cgcgcacaca
+      901 ccgcccgtca ctctccccaa gccaaccaac accctataaa taatacattt taccggtaaa
+      961 ggggaggcaa gtcgtaacat ggtaagtgta ccggaaggtg cacttggaaa aatcagagtg
+     1021 tagctaagcc agaaaagcat ctcccttaca ctgagaagtc acccgcgcaa atcgggtcac
+     1081 cctgacgccc aatagctagc ccacccatca accccaatcc caccctatct atacccccaa
+     1141 acacaccact acccaacaaa caaaccattt ttccacctaa gtacgggcga cgaataagga
+     1201 tttaggagca acagagaaag taccgcaagg gaaagctgaa agagaactga aacaacccaa
+     1261 taaagcacta aaaagcatag accacccctc gtaccttttg catcatgatt tagccagaaa
+     1321 accttaagca aaaagcatta tagtttaata ccccgaaact aagcgagcta ctccaagaca
+     1381 gtctaattta taggaccacc cccgtctctg tggcaaaaga gtgggaagag ctttgagtag
+     1441 aggtgacaga cctaccgagc ctagttatag ctggttgcct gagaactgaa tagaagttca
+     1501 gccctttaaa ttcttcattc ccattggccc aaggcctcca taccgaacaa aagaagctaa
+     1561 aggagttagt caaagggggt acagcccctt cgaaacaaga tacaactttc caaggagggt
+     1621 aaagatcaca acaaacctaa aggtctaatg tcctagtggg cctaaaagca gccacctacc
+     1681 tagaaagcgt taaagctcga acatttcata catactcaac cttttaataa ggacaacaca
+     1741 atcttacccc cctaaactct accaggccat tccataaaaa ttatggaagc gtttatgcta
+     1801 atatgagtaa taagagaagt ccccttctct ccccgcacaa gtgtaactcg gaacgaacca
+     1861 ttcaccgacc attaacggcc ccaaaataaa gagggaacta gacaaaaaat aaacaactag
+     1921 aaaaccacct agccccccac cgtttacccc acactggtgt gccaactggg aaagactaaa
+     1981 agaaaaagaa ggaactcggc aaacacaagc ctcgcctgtt taccaaaaac atcgcctctt
+     2041 gtacccccag acataagagg tcccgcctgc cctgtgacta taagtttaac ggccgcggta
+     2101 ttttgaccgt gcaaaggtag cgcaatcact tgtcttttaa atgaagacct gtatgaatgg
+     2161 cataacgagg gcttaactgt ctcctttttc cagtcaatga aattgatctc cccgtgcaga
+     2221 agcggggata caaacataag acgagaagac cctatggagc ttcagacgcc agaacagacc
+     2281 atgttaagca ctcctgaaat aaaggataaa actgattggc ccctgtccta atgtctttgg
+     2341 ttggggcgac cgcggggaaa caaaaaaccc ccatgtggac cgggagcaca ctactcctac
+     2401 aacccagagt tacaactcca agcaacagaa tttctgacca attagatccg gcacctggcc
+     2461 gatcaacgga ccgagttacc ctagggataa cagcgcaatc ctcttttaga gcccatatcg
+     2521 acaagagggc ttacgacctc gatgttggat caggacatcc taatggtgca gccgctatta
+     2581 agggttcgtt tgttcaacga ttaaagtcct acgtgatctg agttcagacc ggagtaatcc
+     2641 aggtcagttt ctatctatgt tacgatcttt tctagtacga aaggaccgaa aagaaggggc
+     2701 ccctgttctc aacacgcccc accctcacct attgaaacca actaaaatag gtaaaagggc
+     2761 gtatccccca acccaagaaa atggcttgtt aaagtggcag agcccggaca ttgcaaaaga
+     2821 cctaagccct ttccacggag gttcaagtcc tccctttaac tatgttctca acactaattt
+     2881 cctccatcct caacccccta atcctcattg tattcgtctt actagccgtc gcactcctca
+     2941 cacttgtcga acgaaaagtc cttggctata tacaactacg aaaaggccca aacgttgtag
+     3001 gcccttacgg cctcctccaa ccaattgcag acggactaaa actcttttta aaagaaccta
+     3061 ttcggccctc cacttcctcc cccgtcctct tcctcttcac ccccatactt gccctcactc
+     3121 tggcactcac tctttgaact cccatacccc tccccttccc aatagcagac ctcaatcttg
+     3181 gtatcctttt tattcttgct ctctccagct tagcagtcta ttctattctt ggctcaggat
+     3241 gagcctccaa ttcaaaatac gccttaattg gggcccttcg agctgtcgca caaactattt
+     3301 cctacgaagt tagcctagga ctaattcttt taaacgccat catctttact ggaggtttta
+     3361 ccctacagac atttagcgtc gcccaagaaa gtgtttgatt aatttttccc gcctgacctt
+     3421 tagccgctat atggtatatt tccacacttg cagaaacaaa tcgggccccc ttcgatctca
+     3481 cagaaggtga atccgaactc gtttccggct ttaacgtaga atatgcagga ggcccttttg
+     3541 cccttttctt cctcgccgaa tacgccaaca ttctcctaat aaacacactc tccgcaacac
+     3601 tatttttagg tgcctccatt ctacacacaa ccccagaaat tacaaccaca aacctcatga
+     3661 ttaaagcaac ccttctctcc gtcctcttcc tatgagttcg cgcttcttac ccacgatttc
+     3721 gttatgacca actcatgcac ctaatctgaa aaaacttcct cccattgacc ctcgccctag
+     3781 taatttgaca cctctccctt ccaatcgcac taacaggcct tcccccacaa ctatagcctg
+     3841 gagttgtgcc tgaaataaag ggccactttg atagagtgaa ccatgagggt taaaatccct
+     3901 ccaactcctt agaaagaagg ggctcgaacc ctacctgaag agatcaaaac tcttagtgct
+     3961 tccactacac cacttcctag taaagtcagc taaataagct tttgggccca taccccaaac
+     4021 atgttggtta aactccttcc tttgctaatg aacccttaca tcttagccat tctcctcttt
+     4081 ggcttaggcc ttggcaccac aattacattt gctagctccc actgacttct cgcctgaata
+     4141 ggccttgaaa taaatacgct agctattatt cccctaatag ctcaacacca ccacccccga
+     4201 gctgtcgaag ctacaaccaa atatttttta acccaagcta ctgcagcagc tacccttcta
+     4261 tttgcaagca tcactaacgc ctgactaacg ggccaatgag aaattcaaca aattacacat
+     4321 cccctcccaa ccaccataat tacccttgcc ctcgccctca aaatcggctt agcccctctt
+     4381 catgcttgac tccccgaagt tctacaaggg ctagacctca ctacagggtt aattctttca
+     4441 acctgacaaa aacttgcccc cttcgcccta attcttcaaa tccagccttc aaactcaact
+     4501 atccttatta ttttaggcct cgcatccacc ctcattggag gctgaggtgg actaaaccaa
+     4561 acacaactcc gtaaaattct tgcatactca tcaattgccc acctaggttg aataatcctt
+     4621 gttttacaat tctccccttc catcacactc ctcacccttc taacttacct catcataaca
+     4681 tcctcaatat tcctcgtatt taaactcaac aaatccacaa atattaatac tctcgccaca
+     4741 tcctgagcaa aagcccccgc cctcacagct cttacccccc tcattctcct ttcactggga
+     4801 ggcctccccc ctctcacagg ttttatacca aaatgactaa ttcttcaaga attaaccaaa
+     4861 caaggccttg ctcctaccgc aaccctggca gccctttcag cactcctcag cctatatttt
+     4921 tacctacgcc tctcctacgc aataaccctc actatttccc ctaacagcct tctaggcacc
+     4981 actccctgac gtttaccttc cacccaacta acttaccccc tcgccacttc aactgcattg
+     5041 acaatctgtc tcctgccact caccccagcc atctcagcct tattgacccc ctaaggggct
+     5101 taggatagta cccagaccaa gggccttcaa agccctaagc gggagtgaaa atctcccagc
+     5161 ccctgttaag acttgcggga tactaaccca catcttctgc atgcaaaaca gacactttaa
+     5221 ttaagctaaa gccttactag acaggaaggc ctcgatccta caaactctta gttaacagct
+     5281 aagcgctcaa accaacaagc atctatctaa cctttccccg cccgccttaa aaagggcggg
+     5341 gaaagccccg gcaggggcta acctgctact tcagatttgc aatctgacat gtataacacc
+     5401 tcgaggcttg ataagaagag gacttgaacc tctgtatatg gggctacaat ccaccgcttg
+     5461 acgctcagcc atcttacctg tggcaatcac acgttgattc ttctcaacta atcacaaaga
+     5521 catcggcacc ctctatctag tatttggtgc ttgagccgga atagtaggaa ctgcactaag
+     5581 cctcctaatt cgggcagaac taagccaacc cggctctctc ctcggagacg accagattta
+     5641 taatgtaatt gttacagcac atgctttcgt aataattttc tttatagtaa taccaattat
+     5701 aattggaggt tttggaaact gactagtgcc acttatgatt ggtgcaccag acatggcctt
+     5761 ccctcgaata aataacatga gcttttgact ccttccccct tcatttctcc ttctccttgc
+     5821 ctcatccgga gtcgaagcag gggctggtac aggatgaact gtgtatcccc cactcgcagg
+     5881 caatctcgcc cacgctggac cttctgttga tttaaccatc ttctcccttc acttggccgg
+     5941 ggtttcatct attttaggcg caattaattt tattacgacc attattaaca taaaaccccc
+     6001 tgccatctct caatatcaaa cacccctctt tgtgtgatcc gtcctaatta ccgcagtact
+     6061 actcctgcta tccctgcccg ttcttgccgc cggcatcaca atacttctaa cagaccgaaa
+     6121 cctaaacaca accttctttg accctgccgg aggaggagac cccatccttt accaacactt
+     6181 attctgattc ttcggacatc ctgaagttta cattcttatt ctccccggct ttggaataat
+     6241 ttcccacatt gttgcctatt atgccggcaa aaaagaacct ttcggataca tgggaatggt
+     6301 ctgagccata atggctatcg gcctcctagg gtttattgtt tgagcccatc acatattcac
+     6361 tgtagggatg gacgtagaca cacgggctta ctttacttct gccacaataa ttattgccat
+     6421 cccaaccgga gtaaaagtct tcagctgact ggccactctg cacggcggtg ccatcaaatg
+     6481 agaaacccct ctcttatggg cactaggttt cattttcctc tttacagttg gaggactaac
+     6541 cggaattgtt ctagccaatt cttctctaga cattatgctt cacgacacat attatgtcgt
+     6601 cgcccatttc cactatgtcc tctcaatagg agccgttttc gccatcgttg ccggcttcgt
+     6661 ccactgattc cctctattct cagggtacac gcttcacgac acttgaacaa aaattcactt
+     6721 cggagttata tttgtggggg taaaccttac tttcttccca caacacttcc taggactagc
+     6781 aggaatgcct cgacgatact ccgactaccc cgacgcctat accctttgaa atacaatctc
+     6841 ttctattggc tcaataattt caatagtcgc agtaattatg tttttattta ttatttgaga
+     6901 agcatttgcc gctaaacgag aagtcctatc agtggaactc acagcaacaa acgtagaatg
+     6961 acttcacggt tgccctcccc cttaccacac ctttgaagag cctgccttcg tccaagttca
+     7021 acaagcctga ttagactacg gaaaatctgc tactgccccc tcaaaatccc actaacgaga
+     7081 aagggaggaa ttgaaccccc ataaactggt ttcaagccag ccacataaca cactctgtca
+     7141 ctttcttcat aagacactag taaaattgat tattacatta ccttgtcaag gcaaaattgc
+     7201 gggtttgaac cccgcgtgtc ttacaacaat ggcacatccc tctcaactag gattccaaga
+     7261 tgcagcttca cctgtaatag aagaacttct tcacttccac gaccacgccc taataatcgt
+     7321 cttcctaatc agtaccctcg tgctttacat tattgtggcc atagtaacaa ccaaacttac
+     7381 taacaaattt attctagact cccaagaaat cgaaatcatt tgaaccttgc tcccagctat
+     7441 tattctaatt ctcattgccc ttccctcctt acgcattctt tatcttatag acgaaattaa
+     7501 tgacccccac ctcacaatta aagccatggg ccatcagtga tactgaagct atgaatacac
+     7561 tgactatgaa gatctcggct tcgactctta tatagtcccc acacaagatt taacgccagg
+     7621 tcagttccgc ctcctagaaa cagaccatcg aatagtagtt ccagttgagt cccccattcg
+     7681 cattctaatt tcagctgaag acgtacttca ctcctgagcc gtcccaagtt taggagtaaa
+     7741 aatggacgcc gtcccaggac gtttaaacca aacagcattc attgcatccc gccccggaat
+     7801 cttctacgga caatgctctg aaatttgcgg cgcaaaccac agctttatac ctatcgtagt
+     7861 agaagcagtc ccactagaac actttgaaaa ctgatcatcc ttaatacttg aagacgcttc
+     7921 gctaagaagc taaataggga atagcgttag ccttttaagc taaagattgg tggcccccgc
+     7981 ccacccctag cgagatgcca caacttaacc ccgcgccttg atttgccatc ctagtcttct
+     8041 cttgattagt tttcctaaca gtcatccccc caaaagttct agcacacact ttcccaaata
+     8101 atcccactct ccaaagcaca gaaaaaccca aaacagagcc ctgaacctga ccatgacact
+     8161 aagctttttt gaccaattta tgagccccac atacctggga gtccccttaa ttgcccttgc
+     8221 tctcagccta ccttgaattc tttacccaaa acccaccaca cgttgattaa acaatcgtct
+     8281 catcacactc caaggatggt ttatcaaccg ttttacccaa caaatttttc aacccttaag
+     8341 cttaggaggc cataaatgag ctgcccttct cgcctccctc atactctttc ttattacctt
+     8401 aaacatactt ggccttctac cctacacctt cacccccaca acacaacttt ctctcaacat
+     8461 ggccttcgct gtccccctct gacttgcaac agtcattatt ggtatgcgaa atcaacccac
+     8521 gcatgcgcta ggccaccttc tgccagaagg taccccaact cccctaattc ccatcctgat
+     8581 cattatcgaa acaattagcc tatttatccg accccttgca cttggagttc gactaaccgc
+     8641 aaatcttaca gctggccatc tcttgattca actcatcgcc accgccgcct tcgttcttct
+     8701 tccccttata cctacagtgg caatcctaac tgcagtatta ctctttttgt taactcttct
+     8761 ggaagttgca gtagccataa ttcaggccta tgtctttgtt cttcttttaa gcctttatct
+     8821 acaagaaaac gtttaatggc ccatcaagca cacgcatatc acatagttga ccccagccca
+     8881 tgacccctaa caggcgccgt agccgccctc ctaataacct ctggtttagc aatctgaatg
+     8941 cacttccaca atacaacctt aataacccta ggcctaattc tccttctcct aacaatatac
+     9001 caatgatgac gagatatcat ccgagaagga acatttcaag ggcaccacac tcctcctgtc
+     9061 caaaaaggcc ttcgatacgg tataatcctc tttattactt cggaagtttt ctttttccta
+     9121 ggcttcttct gagcctttta ccactctagc ctcgccccca cccctgaact gggaggctgc
+     9181 tgacccccta caggaatcac cccacttgat cccttcgaag taccactact caacacagcc
+     9241 gtcctactag cttctggagt cacagttact tgagcacacc atagtattat agaaggacat
+     9301 cgaaaagaag ctattcaatc ccttgcccta accattcttt taggcttcta cttcaccttc
+     9361 ctccaagcca tagaatacta cgaagccccc tttacaatcg cagatggagt ttatggctcc
+     9421 accttcttcg tggcaactgg cttccatgga cttcacgtaa tcattggctc taccttcctg
+     9481 gccgtctgcc ttctacgaca agtccaatac cactttacat cagaacatca ctttggattc
+     9541 gaagcagctg cctgatactg acactttgta gacgttgtct gactattcct ctacatctca
+     9601 atttactgat gaggctcata tctttctagt attaaaacta gtacatgtga cttccaatca
+     9661 cttagtcttg gttaaagccc aaggaaagat aatgaattta atcacaacaa tacttattat
+     9721 ctccatcacc ctttccacta ttctagccat tgtttctttt tgacttcccc aaataactcc
+     9781 tgaccatgaa aagctctccc cctatgaatg tggctttgat cccttagggt ccgcccgtct
+     9841 gcccttctcc cttcgcttct tcctcgttgc aatcctcttc ctcctatttg acctagaaat
+     9901 cgcactactc cttccccttc cctgaggaga tcaactctct tcccctctca taacatttac
+     9961 ctgagccttc accattctta ttctactaac cctcggactg atctacgaat gaacccaagg
+    10021 cggcctagaa tgggccgaat aggccgttag tttaagaaaa acccttgatt tcggctcaag
+    10081 aacttgtggt taaagtccac aaccgtctaa tgactcccac acatttcgcc ttttcctcaa
+    10141 ccttccttct gggcctagca ggcctagcat ttcaccgaac ccaccttctt tccgccctcc
+    10201 tatgtttgga gggtatgata ctctcactct ttattgccct ctccctctgg actctccaac
+    10261 ttaactccgt cagtttttca gcctccccca tgcttcttct ggctttttca gcctgtgaag
+    10321 caagtgccgg cctcgcacta ctcgtcgcca ctgctcgaac ccacggaaca gaccgactcc
+    10381 aaagcctaaa tctcctacaa tgctaaaaat tctcctcccc actatcatgc ttgttcccac
+    10441 tatttgaacc acccccgcca aacatctctg atccatcacc ctttcataca gtttaatcat
+    10501 ctccttaatt agcttgacct gattaaaatc gtccacagag tcaggctgat ccttccttag
+    10561 cccttacatg gcaactgacc ctctttccac ccccctcctt gcgctaacct gctggctcct
+    10621 ccccctaata attcttgcaa gccaaaacca cacagcatcc gaacccatct ctcgccaacg
+    10681 aatctacatc accctcctta catccctaca aattttcctc attatagctt tcagcgcaac
+    10741 cgaagtaatt atgttttaca ttatatttga agccaccctt attccaaccc tagtaattat
+    10801 tacccgctga ggtaatcaaa cagaacgact aaacgcaggg acttactttc tattttatac
+    10861 attagcaggc tcactccccc tccttgttgc cctcctactg ctccaaaata gcactggaac
+    10921 cttatccctt cttacactac aatacactcc ttctatacaa ctctcttctt tcgccgacaa
+    10981 actatgatga gccggctgct tactcgcctt cctagtaaaa atgcccctct acggggccca
+    11041 cctctgactc cccaaagcac acgttgaagc cccaatcgca ggttctatag tactagccgc
+    11101 agtactacta aaactaggag gttacggaat aatacgaata ataattatac tagaacccct
+    11161 caccaaagaa ctcagttatc ccttcattat cttcgctctc tgaggtgtaa ttataacagg
+    11221 ctctatttgc ctccgccaaa cagatctaaa gtccctcatt gcctattcct ccgtaagcca
+    11281 tatgggcctc gtagcagccg gtattctaat tcaaaccccc tgaggcttta caggcgccct
+    11341 cattctaata atcgcacacg gtctaacttc ctccgccctc ttctgcttag ctaacacgaa
+    11401 ctacgaacga acacacagcc gaactataat cttagcccga ggcctccaaa tggttttacc
+    11461 cctaataacc gcatgatggt ttattgccag cctcgcaaac cttgcacttc ctcctctccc
+    11521 aaacctaata ggagaactaa taattattac ctctctattc cactgatcct gatgaacaat
+    11581 tgcactcacg ggggctggaa ccctaattac tgcaggctac tccctataca tattcctcat
+    11641 aacacaacga ggaccgctac caacacatat tatttccctc gccccaacac actcccgaga
+    11701 acacctactc atagcccttc atctccttcc cctcattctt ctaatttcca agcccgaact
+    11761 aatttgaggt tggaccgcct gtagatatag tttaacaaaa acattagatt gtgattctaa
+    11821 agacagaggt taaaaccccc ttatccaccg agagaggttg tcaacaacaa agactgctaa
+    11881 tctttgcctc ttgggttaaa ctcctaagct cactcgccct gcttctaaag gataacagct
+    11941 catccattgg tcttaggaac caaaaactct tggtgcaaat ccaagtagca gctatgcacc
+    12001 tcacctcaac cataatagcc accagcctaa tcaccatttt tttactactc gcatttcccg
+    12061 ttttcacctc cttctccccc caccctcttc cctccaactg ggcacttact caagttaaaa
+    12121 cggccgtaaa atgagccttc tttatcagca ttctccccct ttgcctcttc ctcaacgaag
+    12181 gcgcagaaac aattattacc agttgaactt gaataaacac ccacaccttc gacgtaaaca
+    12241 ttagtctcaa atttgatatt tactcaatta tcttcacccc cgtcgccctc tacgtcacct
+    12301 gatccatcct agaatttgcc tcctgatata tacatgccga cccaaacata aatcgctttt
+    12361 ttaaatatct gctaatcttc ctcatcgcca taattattct cgtcaccgca aacaatatat
+    12421 ttcaactatt catcggatga gaaggtgttg gaattatgtc ttttctcctc atcggctgat
+    12481 gatatggtcg tgcagacgca aataccgccg ccctccaagc agtaatctat aaccgagtag
+    12541 gagacatcgg cctaattttt gctatagctt gaatcgcaac ttccctcaac tcttgagaaa
+    12601 tacaacaaat atttactttg tctaaagatt ttgatttaac ttaccccctt attggcctca
+    12661 tcattgctgc caccggtaag tccgcccaat tcggcctcca cccctggctc ccttctgcca
+    12721 tagaaggtcc tacaccggtc tctgccctac tgcattcaag caccatagta gtagcaggca
+    12781 tcttcctcct tatccgcatg agccccatgc tagaaaacaa ccaaaccgcc ctaactatct
+    12841 gcctctgctt aggagccctc accacccttt ttaccgcaac ctgcgccctc acccagaatg
+    12901 atatcaaaaa aatcgttgcc ttttcaacgt caagtcagtt aggcctaata atagtaacaa
+    12961 ttggtctcaa ccaaccacaa cttgccttcc tccacatctg cacccacgca ttctttaaag
+    13021 ccatactctt cctctgctca gggtccatta ttcacagcct aaacgacgaa caagacatcc
+    13081 gaaaaatagg gggcatacac catctaaccc ccttcacatc ctcttgctta accatcggaa
+    13141 gcttagctct cacaggtact cccttcttag cagggttttt ctcaaaagat gctattattg
+    13201 aagctctaaa cacatcctac ctaaacgcct gagccctctt cctcaccctc ctggccactt
+    13261 ctttcactgc catctacagc cttcgagtaa ttttctttgt ctcaataggc cacccccgct
+    13321 tcaacccact tccccccatc aacgaaaaca atccaacagt tattaatccc atcaaacggc
+    13381 tagcctgagg aagcattatc gccggccttc taatcacctc caacatcaca cccctaaaaa
+    13441 caccaatcat atccatgcct cctcttctta aaactgccgc ccttgcggta actattattg
+    13501 gtcttcttac cgcactagaa ctcgcctcac taaccaacaa acaatacaaa ccaaccccaa
+    13561 aactttcttc ccaccatttc tctaacatac taggattctt cccaatagtt attcatcgcc
+    13621 tcaccccaaa actaaaccta gctttaggac aaaccattgc ttcccaaaca atcgaccaga
+    13681 catggttaga aaaaattggc ccaaaagcaa ccaccaccct taacctccct ctaatcacaa
+    13741 caaccaacaa catccagcag ggcatgatca aaacctacct ctccctcttc ttcttcacct
+    13801 tcggcctacc tctcctacta ctactttact aaacagctcg aagagcccct cgaccaagcc
+    13861 cccgtgtcaa ctccaatacc acaaacaacg tcaacaacaa cactcacgcc cccaacacca
+    13921 aaacacctcc acctgccgaa tacatcaaag ctacccctcc aacatctccc cgaaaaacag
+    13981 aaaattcaac aaactcatca gcagatactc aagccccctc ataccaccca cctcaaaaca
+    14041 accctgccgc cgcacacacc cccaccaaat aagccaccat cacccctaaa acaggtcaac
+    14101 tacctcaacc ctccggataa ggttcagcag ctaacgctgc cgaatatgca aacacaacca
+    14161 acattcctcc caagtaaatt aaaaacaaaa ccaaagataa aaaagacccc ccatggccca
+    14221 ctaacacccc acaccccatt cctgctactg caaccaatcc caacgctgca aaatatggcg
+    14281 aagggttaga agcaaccgcc gcaagaccta gtaccagccc aaacaagaat ataaacataa
+    14341 tataaaccat agtttctgcc aggactttaa ccaggactaa tgacttgaaa aaccaccgtt
+    14401 gttattcaac tacaaaaaca ataatggcca acctccgaaa aacccaccca cttctaaaaa
+    14461 ttgcaaacga cgcactagtt gacctcccag ccccctcaaa catttccgtt tgatgaaact
+    14521 ttggatctct actaggcctc tgtctagccg cccaaatcct gacaggcctt tttctagcca
+    14581 tacactacac ctccgacatc gccacagcct tctcctccgt cgcccacatt tgtcgagatg
+    14641 taaactatgg ctgactcatt cgaaacatac atgccaacgg cgcatctttc ttcttcattt
+    14701 gcatttatct ccacattgga cgaggcctat attacggctc ttacctgtac aaagaaacct
+    14761 gaaacattgg agttatcctc ctcctcctga ctataataac agccttcgta ggctacgtcc
+    14821 tcccatgagg acaaatatca ttctgaggcg ctaccgtcat taccaacctt ctctccgcag
+    14881 ttccttacat cggcaattcc ttagttcaat gaatctgagg cggattctcc gtagacaacg
+    14941 ccaccctcac tcgctttttc gccttccact tcctccttcc cttcattatt gcagccgcaa
+    15001 caatagtcca cctaatcttt ctccacgaaa ctgggtctaa caaccccaca ggcctaaatt
+    15061 cagacgccga caaaatctca tttcacccct acttttccta caaagactta ttaggcttcg
+    15121 caatcctttt aattgccctc atttccctaa ccctcttttc ccccaatctg ctcggtgatc
+    15181 ctgacaactt cacccccgca aaccctctag tcactcctcc ccacattaaa cccgaatgat
+    15241 acttcctatt tgcctacgcc atcctacgct caatccctaa caaacttggt ggggttctcg
+    15301 ccctcttatt ctcaatcctt gtcttaatag ttgtacccat tcttcacacc tccaaacaac
+    15361 gaggcctaac cttccgccct atcacacaat tcttattctg acttttagtt gcagacgtcg
+    15421 ccatcctcac ttgaattgga ggcatacccg ttgaacaccc cttcgtcatt attggccaaa
+    15481 ttgcatcttt cctctacttc ttcctcttcc ttgttctcgc ccccattacc ggctggctag
+    15541 aaaacaaaat ccttgaatga tactgcacta gtagctcagc accagagcgc cggtcttgta
+    15601 aaccggacgt cgaaggttaa agtccttcct actgcttcaa agaaaaggga ttttaaccct
+    15661 tacccctaac tcccaaagct aggattctaa tttaaactat tctttgccgg gctctgcctt
+    15721 tatgtaaaat gtaatgcata tatgtattat caccattatt ttatatcaaa catatcctat
+    15781 atataaatac ataccacctt taaaaaacat acattgtttt cccacatatt tgctaacaac
+    15841 atttttaact aagaaaaaca taaaccaata aatgaaactt tccaaagaca tttaaaaacc
+    15901 actgaacgac agtttaagac cgaacacaac tttcatacgt taagatatac caagcactca
+    15961 acatcctata cttctaaaat atttaatgta gtaagagccc accatcagtt gatttctcaa
+    16021 tgttaacggt tcttgaaggt caaggacaat tattcgtggg ggtttcacta attgaactat
+    16081 tcctggcatc tggttcctat ttcaggtcca ataattgtta taattcccca ttctttcatt
+    16141 gacgcttgca taagttaatg gtgttaatac atactcctcg ttacccacca tgccgagcgt
+    16201 tctctccaca ggggtggggg gttctctttt ttttttcctt tcacttgaca tttcagagtg
+    16261 catacagaaa agacagacaa ggttgaacat tttccttgct tgaacggaaa tagtatgaat
+    16321 ggtggtaaga tattaataag aagaattgca taactgatat ctagagcata aagtttaatc
+    16381 aaaatttaaa ttttctccta atttttctat taaccgtcgg tttttgcgcg cgtaaacccc
+    16441 ccctaccccc ccaaaactcc taagatctct aatattcctg caaacccccc ggaaacagga
+    16501 aaagctctag aagtgacttt tagcgctttg atgtgtgcat aaaatattac taaatgtgtg
+    16561 tatatgtagt actatcaatg cacgagttat gtgtccaatg tgtgtgtatt atattattat
+    16621 aatattgcac at
+//
+LOCUS       KX347627                 597 bp    DNA     linear   VRT 06-SEP-2016
+DEFINITION  Oreochromis tanganicae cytochrome oxidase subunit I (COI) gene,
+            partial cds; mitochondrial.
+ACCESSION   KX347627
+VERSION     KX347627.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis tanganicae
+  ORGANISM  Oreochromis tanganicae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 597)
+  AUTHORS   Matschiner,M., Musilova,Z., Barth,J.M., Starostova,Z.,
+            Salzburger,W., Steel,M. and Bouckaert,R.
+  TITLE     Bayesian Phylogenetic Estimation of Clade Ages Supports
+            Trans-Atlantic Dispersal of Cichlid Fishes
+  JOURNAL   Syst. Biol. (2016) In press
+   PUBMED   27561812
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 597)
+  AUTHORS   Matschiner,M., Musilova,Z., Barth,J.M.I., Starostova,Z.,
+            Salzburger,W., Steel,M. and Bouckaert,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAY-2016) Department of Biosciences, University of
+            Oslo, Oslo, Norway
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..597
+                     /organism="Oreochromis tanganicae"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:8142"
+     gene            <1..>597
+                     /gene="COI"
+     CDS             <1..>597
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="AOH96675.1"
+                     /translation="TLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAH
+                     AFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEA
+                     GAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQY
+                     QTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNL"
+ORIGIN
+        1 caccctctat ctagtatttg gtgcttgagc cggaatagta ggaactgcac taagcctcct
+       61 aattcgggca gaactaagcc aacccggctc tctcctcgga gacgaccaga tttataatgt
+      121 aattgttaca gcacatgctt tcgtaataat tttctttata gtaataccaa ttataattgg
+      181 aggttttgga aactgactag tgccacttat gattggtgca ccagacatgg ccttccctcg
+      241 aataaataac atgagctttt gactccttcc cccttcattt ctccttctcc ttgcctcatc
+      301 cggagtcgaa gcaggggctg gtacaggatg aactgtttat cccccactcg caggcaatct
+      361 cgcccacgct ggaccttctg ttgatttaac catcttctcc cttcacttgg ccggggtttc
+      421 atctatttta ggcgcaatta attttattac gaccattatt aacataaaac cccctgccat
+      481 ctctcaatat caaacacccc tctttgtgtg atccgtccta attaccgcag tactactcct
+      541 gctatccctg cccgttcttg ccgccggcat cacaatactt ctaacagacc gaaacct
+//

@@ -2,8 +2,8 @@
 Tests for BLAST specificity scoring.
 """
 
-from primerforge.specificity.models import BlastHit
-from primerforge.specificity.scorer import SpecificityScorer
+from envoprimer.specificity.models import BlastHit
+from envoprimer.specificity.scorer import SpecificityScorer
 
 
 def test_specificity_score():

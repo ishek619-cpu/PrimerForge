@@ -9,7 +9,7 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio import AlignIO
 
-from primerforge.analysis.population import PopulationAnalyzer
+from envoprimer.analysis.population import PopulationAnalyzer
 
 
 def test_population(tmp_path: Path):

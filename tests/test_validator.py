@@ -1,9 +1,9 @@
 from pathlib import Path
 
-from primerforge.models.primer import Primer
-from primerforge.models.pair import PrimerPair
-from primerforge.analysis.snps import SNPFinder
-from primerforge.validation.validator import PrimerValidator
+from envoprimer.models.primer import Primer
+from envoprimer.models.pair import PrimerPair
+from envoprimer.analysis.snps import SNPFinder
+from envoprimer.validation.validator import PrimerValidator
 
 
 def test_validator():

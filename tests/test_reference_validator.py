@@ -4,8 +4,8 @@ Tests for the ReferenceValidator.
 
 from pathlib import Path
 
-from primerforge.reference.reference import Reference
-from primerforge.reference.validator import ReferenceValidator
+from envoprimer.reference.reference import Reference
+from envoprimer.reference.validator import ReferenceValidator
 
 
 def test_valid_reference(tmp_path: Path):

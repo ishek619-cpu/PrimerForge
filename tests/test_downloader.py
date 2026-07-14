@@ -5,7 +5,7 @@ Tests for NCBI downloader.
 from pathlib import Path
 from unittest.mock import MagicMock
 
-from primerforge.io.downloader import NCBIDownloader
+from envoprimer.io.downloader import NCBIDownloader
 
 
 def test_search():

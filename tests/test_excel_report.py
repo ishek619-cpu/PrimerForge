@@ -4,10 +4,10 @@ Tests for Excel report.
 
 from openpyxl import load_workbook
 
-from primerforge.models.primer import Primer
-from primerforge.models.pair import PrimerPair
+from envoprimer.models.primer import Primer
+from envoprimer.models.pair import PrimerPair
 
-from primerforge.report.excel import ExcelReport
+from envoprimer.report.excel import ExcelReport
 
 
 def test_excel_report(tmp_path):

@@ -5,7 +5,7 @@ Pipeline integration test.
 import pytest
 from pathlib import Path
 
-from primerforge.core.pipeline import Pipeline
+from envoprimer.core.pipeline import Pipeline
 
 
 @pytest.mark.slow

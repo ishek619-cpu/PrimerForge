@@ -1,0 +1,533 @@
+LOCUS       MK497144                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis mossambicus x niloticus voucher RH Q0599 cytochrome
+            oxidase subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497144
+VERSION     MK497144.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mossambicus x niloticus
+  ORGANISM  Oreochromis mossambicus x niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis mossambicus x niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RH Q0599"
+                     /db_xref="taxon:304579"
+                     /tissue_type="Caudal fin clip"
+                     /dev_stage="adult"
+                     /geo_loc_name="South Africa: Hatchery, Eastern Cape,
+                     Rivendell Hatchery"
+                     /lat_lon="33.60 S 26.25 E"
+                     /collection_date="2016-07-14"
+                     /collected_by="N. James,M.Cunningham,T.Mojekwu"
+                     /identified_by="N. James"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12389.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaact
+       61 gcattaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaatg
+      181 ccaattataa ttggaggttt tggaaactga ctagtgccac taatgattgg tgcaccagac
+      241 atggccttcc ctcgaataaa taacatgagt ttttgactcc tccccccctc atttctcctt
+      301 ctcctcgcct catccggggt cgaagcaggg gccggtacag gatgaactgt ttatccccca
+      361 ctcgcaggca atctcgccca tgctgggcct tccgttgact taaccatctt ctccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta ttacaaccat tattaacata
+      481 aaaccccctg ccatctccca atatcaaaca cccctctttg tatgatccgt tctaattacc
+      541 gcagtactac tcctactatc cctacccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgat cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cgg
+//
+LOCUS       MK497143                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis mossambicus x niloticus voucher RH Q0596 cytochrome
+            oxidase subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497143
+VERSION     MK497143.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mossambicus x niloticus
+  ORGANISM  Oreochromis mossambicus x niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis mossambicus x niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RH Q0596"
+                     /db_xref="taxon:304579"
+                     /tissue_type="Caudal fin clip"
+                     /dev_stage="adult"
+                     /geo_loc_name="South Africa: Hatchery, Eastern Cape,
+                     Rivendell Hatchery"
+                     /lat_lon="33.60 S 26.25 E"
+                     /collection_date="2016-07-14"
+                     /collected_by="N. James,M.Cunningham,T.Mojekwu"
+                     /identified_by="N. James"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12388.1"
+                     /translation="HKDIGTLYLVFGAWAGMEGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca tcggcaccct ctatctagta tttggtgctt gagccggaat agaaggaact
+       61 gcattaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaatg
+      181 ccaattataa ttggaggttt tggaaactga ctagtgccac taatgattgg tgcaccagac
+      241 atggccttcc ctcgaataaa taacatgagt ttttgactcc tccccccctc atttctcctt
+      301 ctcctcgcct catccggggt cgaagcaggg gccggtacag gatgaactgt ttatccccca
+      361 ctcgcaggca atctcgccca tgctgggcct tccgttgact taaccatctt ctccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta ttacaaccat tattaacata
+      481 aaaccccctg ccatctccca atatcaaaca cccctctttg tatgatccgt tctaattacc
+      541 gcagtactac tcctactatc cctacccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgat cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cgg
+//
+LOCUS       MK497142                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis mossambicus x niloticus voucher RH Q0595 cytochrome
+            oxidase subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497142
+VERSION     MK497142.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mossambicus x niloticus
+  ORGANISM  Oreochromis mossambicus x niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis mossambicus x niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RH Q0595"
+                     /db_xref="taxon:304579"
+                     /tissue_type="Caudal fin clip"
+                     /dev_stage="adult"
+                     /geo_loc_name="South Africa: Hatchery, Eastern Cape,
+                     Rivendell Hatchery"
+                     /lat_lon="33.60 S 26.25 E"
+                     /collection_date="2016-07-14"
+                     /collected_by="N. James,M.Cunningham,T.Mojekwu"
+                     /identified_by="N. James"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12387.1"
+                     /translation="HKDIGTLYLVFGAWAGMEGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca tcggcaccct ctatctagta tttggtgctt gagccggaat agaaggaact
+       61 gcattaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaatg
+      181 ccaattataa ttggaggttt tggaaactga ctagtgccac taatgattgg tgcaccagac
+      241 atggccttcc ctcgaataaa taacatgagt ttttgactcc tccccccctc atttctcctt
+      301 ctcctcgcct catccggggt cgaagcaggg gccggtacag gatgaactgt ttatccccca
+      361 ctcgcaggca atctcgccca tgctgggcct tccgttgact taaccatctt ctccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta ttacaaccat tattaacata
+      481 aaaccccctg ccatctccca atatcaaaca cccctctttg tatgatccgt tctaattacc
+      541 gcagtactac tcctactatc cctacccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgat cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cgg
+//
+LOCUS       MK497141                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis mossambicus x niloticus voucher RH Q0593 cytochrome
+            oxidase subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497141
+VERSION     MK497141.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mossambicus x niloticus
+  ORGANISM  Oreochromis mossambicus x niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis mossambicus x niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RH Q0593"
+                     /db_xref="taxon:304579"
+                     /tissue_type="Caudal fin clip"
+                     /dev_stage="adult"
+                     /geo_loc_name="South Africa: Hatchery, Eastern Cape,
+                     Rivendell Hatchery"
+                     /lat_lon="33.60 S 26.25 E"
+                     /collection_date="2016-07-14"
+                     /collected_by="N. James,M.Cunningham,T.Mojekwu"
+                     /identified_by="N. James"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12386.1"
+                     /translation="HKDIGTLYLVFGAWAGMEGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca tcggcaccct ctatctagta tttggtgctt gagccggaat agaaggaact
+       61 gcattaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaatg
+      181 ccaattataa ttggaggttt tggaaactga ctagtgccac taatgattgg tgcaccagac
+      241 atggccttcc ctcgaataaa taacatgagt ttttgactcc tccccccctc atttctcctt
+      301 ctcctcgcct catccggggt cgaagcaggg gccggtacag gatgaactgt ttatccccca
+      361 ctcgcaggca atctcgccca tgctgggcct tccgttgact taaccatctt ctccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta ttacaaccat tattaacata
+      481 aaaccccctg ccatctccca atatcaaaca cccctctttg tatgatccgt tctaattacc
+      541 gcagtactac tcctactatc cctacccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgat cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cgg
+//
+LOCUS       MK497140                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis mossambicus x niloticus voucher RH Q0590 cytochrome
+            oxidase subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497140
+VERSION     MK497140.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mossambicus x niloticus
+  ORGANISM  Oreochromis mossambicus x niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis mossambicus x niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RH Q0590"
+                     /db_xref="taxon:304579"
+                     /tissue_type="Caudal fin clip"
+                     /dev_stage="adult"
+                     /geo_loc_name="South Africa: Hatchery, Eastern Cape,
+                     Rivendell Hatchery"
+                     /lat_lon="33.60 S 26.25 E"
+                     /collection_date="2016-07-14"
+                     /collected_by="N. James,M.Cunningham,T.Mojekwu"
+                     /identified_by="N. James"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12385.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaact
+       61 gcattaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaatg
+      181 ccaattataa ttggaggttt tggaaactga ctagtgccac taatgattgg tgcaccagac
+      241 atggccttcc ctcgaataaa taacatgagt ttttgactcc tccccccctc atttctcctt
+      301 ctcctcgcct catccggggt cgaagcaggg gccggtacag gatgaactgt ttatccccca
+      361 ctcgcaggca atctcgccca tgctgggcct tccgttgact taaccatctt ctccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta ttacaaccat tattaacata
+      481 aaaccccctg ccatctccca atatcaaaca cccctctttg tatgatccgt tctaattacc
+      541 gcagtactac tcctactatc cctacccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgat cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cgg
+//
+LOCUS       MK497095                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis mossambicus x niloticus voucher SAIAB:77368 cytochrome
+            oxidase subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497095
+VERSION     MK497095.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mossambicus x niloticus
+  ORGANISM  Oreochromis mossambicus x niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis mossambicus x niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="SAIAB:77368"
+                     /db_xref="taxon:304579"
+                     /tissue_type="Fin clip"
+                     /geo_loc_name="South Africa: Luvuvhu, Limpopo, Albasini
+                     Dam"
+                     /lat_lon="23.18 S 30.20 E"
+                     /collection_date="2006-02-21"
+                     /collected_by="B. van der Waal"
+                     /identified_by="B. van der Waal"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12340.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaact
+       61 gcactaagtc tccttattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctggtgccac ttatgattgg ggcaccagac
+      241 atggccttcc ctcgaataaa taacatgagt ttttgactcc ttcccccctc atttctcctt
+      301 ctcctcgcct cctccggagt cgaagcagga gccggtacag gatgaactgt ttatcctccc
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ctccctccac
+      421 ttagccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat cattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctctttg tgtgatccgt tctaattacc
+      541 gcagtattac tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tgg
+//
+LOCUS       JQ742045                 632 bp    DNA     linear   VRT 04-AUG-2012
+DEFINITION  Oreochromis mossambicus x Oreochromis niloticus voucher BB009604
+            cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   JQ742045
+VERSION     JQ742045.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mossambicus x niloticus
+  ORGANISM  Oreochromis mossambicus x niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 632)
+  AUTHORS   Phuttawongk,S. and Panprommin,D.
+  TITLE     DNA Barcoding of Commercial Fish in Bueng Boraphet, Nakornsawan
+            Province
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 632)
+  AUTHORS   Phuttawongk,S. and Panprommin,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAR-2012) School of Agriculture and Natural Resources,
+            University of Phayao, Phaholyothin, Muang, Phayao 56000, Thailand
+FEATURES             Location/Qualifiers
+     source          1..632
+                     /organism="Oreochromis mossambicus x niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="BB009604"
+                     /db_xref="taxon:304579"
+                     /PCR_primers="fwd_name: fishf1, fwd_seq:
+                     tcaaccaaccacaaagacattggcac, fwd_name: fishf2, fwd_seq:
+                     tcgactaatcataaagatatcggcac, rev_name: fishr1, rev_seq:
+                     tagacttctgggtggccaaagaatca, rev_name: fishr2, rev_seq:
+                     acttcagggtgaccgaagaatcagaa"
+     gene            <1..>632
+                     /gene="COI"
+     CDS             <1..>632
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="AFO85316.1"
+                     /translation="TALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMI
+                     GGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAG
+                     NLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAV
+                     LLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHP"
+ORIGIN
+        1 actgcattaa gcctcctaat tcgggcagaa ctaagccagc ccggctctct cctcggagac
+       61 gaccagattt ataatgtaat tgttacagca catgctttcg taataatttt ctttatagta
+      121 atgccaatta taattggagg ttttggaaac tgactagtgc cactaatgat tggtgcacca
+      181 gacatggcct tccctcgaat aaataacatg agtttttgac tcctcccccc ctcatttctc
+      241 cttctcctcg cctcatccgg ggtcgaagca ggggccggta caggatggac tgtttatccc
+      301 ccactcgcag gcaatctcgc ccatgctggg ccttccgttg acttaaccat cttctccctc
+      361 cacttggccg gggtgtcatc tattttaggt gcaattaatt ttattacaac cattattaac
+      421 ataaaacccc ctgccatctc ccaatatcaa acacccctct ttgtatgatc cgttctaatt
+      481 accgcagtac tactcctact atccctaccc gttcttgccg ccggcatcac aatacttcta
+      541 acagaccgaa acctaaacac aaccttcttt gaccctgccg gaggaggaga ccccatcctt
+      601 taccaacact tattctgatt cttcggtcac cc
+//
+LOCUS       JQ742044                 632 bp    DNA     linear   VRT 04-AUG-2012
+DEFINITION  Oreochromis mossambicus x Oreochromis niloticus voucher BB009602
+            cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   JQ742044
+VERSION     JQ742044.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mossambicus x niloticus
+  ORGANISM  Oreochromis mossambicus x niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 632)
+  AUTHORS   Phuttawongk,S. and Panprommin,D.
+  TITLE     DNA Barcoding of Commercial Fish in Bueng Boraphet, Nakornsawan
+            Province
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 632)
+  AUTHORS   Phuttawongk,S. and Panprommin,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAR-2012) School of Agriculture and Natural Resources,
+            University of Phayao, Phaholyothin, Muang, Phayao 56000, Thailand
+FEATURES             Location/Qualifiers
+     source          1..632
+                     /organism="Oreochromis mossambicus x niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="BB009602"
+                     /db_xref="taxon:304579"
+                     /PCR_primers="fwd_name: fishf1, fwd_seq:
+                     tcaaccaaccacaaagacattggcac, fwd_name: fishf2, fwd_seq:
+                     tcgactaatcataaagatatcggcac, rev_name: fishr1, rev_seq:
+                     tagacttctgggtggccaaagaatca, rev_name: fishr2, rev_seq:
+                     acttcagggtgaccgaagaatcagaa"
+     gene            <1..>632
+                     /gene="COI"
+     CDS             <1..>632
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="AFO85315.1"
+                     /translation="TALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMI
+                     GGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAG
+                     NLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAV
+                     LLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHP"
+ORIGIN
+        1 actgcattaa gcctcctaat tcgggcagaa ctaagccagc ccggctctct cctcggagac
+       61 gaccagattt ataatgtaat tgttacagca catgctttcg taataatttt ctttatagta
+      121 atgccaatta taattggagg ttttggaaac tgactagtgc cactaatgat tggtgcacca
+      181 gacatggcct tccctcgaat aaataacatg agtttttgac tcctcccccc ctcatttctc
+      241 cttctcctcg cctcatccgg ggtcgaagca ggggccggta caggatggac tgtttatccc
+      301 ccactcgcag gcaatctcgc ccatgctggg ccttccgttg acttaaccat cttctccctc
+      361 cacttggccg gggtgtcatc tattttaggt gcaattaatt ttattacaac cattattaac
+      421 ataaaacccc ctgccatctc ccaatatcaa acacccctct ttgtatgatc cgttctaatt
+      481 accgcagtac tactcctact atccctaccc gttcttgccg ccggcatcac aatacttcta
+      541 acagaccgaa acctaaacac aaccttcttt gaccctgccg gaggaggaga ccccatcctt
+      601 taccaacact tattctgatt cttcggtcac cc
+//

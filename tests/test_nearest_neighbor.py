@@ -2,7 +2,7 @@
 Tests for nearest-neighbor thermodynamic calculations.
 """
 
-from primerforge.thermodynamics.nearest_neighbor import (
+from envoprimer.thermodynamics.nearest_neighbor import (
     NearestNeighborCalculator,
 )
 

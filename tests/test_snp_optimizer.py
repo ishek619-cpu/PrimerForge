@@ -2,9 +2,9 @@
 Tests for SNP-aware primer optimization.
 """
 
-from primerforge.models.primer import Primer
-from primerforge.models.snp import SNP
-from primerforge.primer.snp_optimizer import SNPOptimizer
+from envoprimer.models.primer import Primer
+from envoprimer.models.snp import SNP
+from envoprimer.primer.snp_optimizer import SNPOptimizer
 
 
 def test_snp_optimizer():

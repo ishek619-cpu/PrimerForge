@@ -2,7 +2,7 @@
 Tests for PCR product prediction.
 """
 
-from primerforge.specificity.pcr import (
+from envoprimer.specificity.pcr import (
     PCRProductFinder,
 )
 

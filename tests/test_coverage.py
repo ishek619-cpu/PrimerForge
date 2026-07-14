@@ -4,9 +4,9 @@ Tests for primer coverage analysis.
 
 from pathlib import Path
 
-from primerforge.coverage.analyzer import CoverageAnalyzer
-from primerforge.models.pair import PrimerPair
-from primerforge.models.primer import Primer
+from envoprimer.coverage.analyzer import CoverageAnalyzer
+from envoprimer.models.pair import PrimerPair
+from envoprimer.models.primer import Primer
 
 
 def test_coverage(tmp_path: Path):

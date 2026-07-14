@@ -1,0 +1,92 @@
+LOCUS       ON611940                 356 bp    DNA     linear   VRT 11-JUL-2022
+DEFINITION  Oreochromis cf. mossambicus MV-2022 voucher RDR0283 large subunit
+            ribosomal RNA gene, partial sequence; mitochondrial.
+ACCESSION   ON611940
+VERSION     ON611940.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis cf. mossambicus MV-2022
+  ORGANISM  Oreochromis cf. mossambicus MV-2022
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 356)
+  AUTHORS   Vences,M., Stutzer,D., Rasoamampionona Raminosoa,N. and Ziegler,T.
+  TITLE     Towards a preliminary DNA barcode library for Madagascar's
+            threatened ichthyofauna
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 356)
+  AUTHORS   Vences,M., Stutzer,D., Rasoamampionona Raminosoa,N. and Ziegler,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-2022) Zoological Institute, Braunschweig
+            University of Technology, Mendelssohnstr. 4, Braunschweig 38106,
+            Germany
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..356
+                     /organism="Oreochromis cf. mossambicus MV-2022"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RDR0283"
+                     /db_xref="taxon:2949256"
+                     /geo_loc_name="Madagascar: Andramikely"
+                     /lat_lon="17.19228 S 46.86338 E"
+     rRNA            <1..>356
+                     /product="large subunit ribosomal RNA"
+ORIGIN
+        1 acagaccatg ttaagcactc ctgaaataaa ggataaaact gattggcccc tgttctaatg
+       61 tctttggttg gggcgaccgc ggggaaacaa aaaaccccca tgtggaccgg gagcacacta
+      121 ctcctacaac ccagagttac aactccaagc aacagaattt ctgaccaata agatccggca
+      181 tctagccgat caacggaccg agttacccta gggataacag cgcaatcctc ttttagagcc
+      241 catatcgaca agagggctta cgacctcgat gttggatcag gacatcctaa tggtgcagcc
+      301 gctattaagg gttcgtttgt tcaacgatta aagtcctacg tgatctgagt tcagac
+//
+LOCUS       ON611939                 350 bp    DNA     linear   VRT 11-JUL-2022
+DEFINITION  Oreochromis cf. mossambicus MV-2022 voucher RDR0284 large subunit
+            ribosomal RNA gene, partial sequence; mitochondrial.
+ACCESSION   ON611939
+VERSION     ON611939.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis cf. mossambicus MV-2022
+  ORGANISM  Oreochromis cf. mossambicus MV-2022
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 350)
+  AUTHORS   Vences,M., Stutzer,D., Rasoamampionona Raminosoa,N. and Ziegler,T.
+  TITLE     Towards a preliminary DNA barcode library for Madagascar's
+            threatened ichthyofauna
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 350)
+  AUTHORS   Vences,M., Stutzer,D., Rasoamampionona Raminosoa,N. and Ziegler,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-2022) Zoological Institute, Braunschweig
+            University of Technology, Mendelssohnstr. 4, Braunschweig 38106,
+            Germany
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..350
+                     /organism="Oreochromis cf. mossambicus MV-2022"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RDR0284"
+                     /db_xref="taxon:2949256"
+                     /geo_loc_name="Madagascar: Andramikely"
+                     /lat_lon="17.19228 S 46.86338 E"
+     rRNA            <1..>350
+                     /product="large subunit ribosomal RNA"
+ORIGIN
+        1 aacagaccat gttaagcact cctgaaataa aggataaaac tgattggccc ctgttctaat
+       61 gtctttggtt ggggcgaccg cggggaaaca aaaaaccccc atgtggaccg ggagcacact
+      121 actcctacaa cccagagtta caactccaag caacagaatt tctgaccaat aagatccggc
+      181 atctagccga tcaacggacc gagttaccct agggataaca gcgcaatcct cttttagagc
+      241 ccatatcgac aagagggctt acgacctcga tgttggatca ggacatccta atggtgcagc
+      301 cgctattaag ggttcgtttg ttcaacgatt aaagtcctac gtgatctgag
+//

@@ -2,7 +2,7 @@
 Tests for mismatch thermodynamic penalty matrix.
 """
 
-from primerforge.specificity.mismatch_matrix import (
+from envoprimer.specificity.mismatch_matrix import (
     MATCH_SCORE,
     mismatch_penalty,
 )

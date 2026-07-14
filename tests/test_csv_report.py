@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from primerforge.primer.discovery import PrimerDiscovery
-from primerforge.report.csv import CSVReport
+from envoprimer.primer.discovery import PrimerDiscovery
+from envoprimer.report.csv import CSVReport
 
 
 def test_csv_report():

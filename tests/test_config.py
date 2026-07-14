@@ -4,7 +4,7 @@ Tests for PrimerForge configuration.
 
 from pathlib import Path
 
-from primerforge.config.config import Config
+from envoprimer.config.config import Config
 
 
 def test_configuration():

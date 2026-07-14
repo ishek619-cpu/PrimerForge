@@ -1,0 +1,1684 @@
+LOCUS       PZ173592                 624 bp    DNA     linear   VRT 25-MAR-2026
+DEFINITION  Oreochromis urolepis isolate H11 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PZ173592
+VERSION     PZ173592.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 624)
+  AUTHORS   Sanda,M.K., Metcalfe,N.B., Kilbride,E. and Mable,B.K.
+  TITLE     Molecular and morphometric evidence for species identification in
+            farmed and natural tilapia
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 624)
+  AUTHORS   Sanda,M.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2026) School of Biodiversity, One Health and
+            Veterinary Medicine, University of Glasgow, Graham Kerr Building,
+            Glasgow, Glasgow City G12 8QQ, United Kingdom
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..624
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="H11"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Nigeria"
+                     /lat_lon="8.88 N 7.63 E"
+                     /collection_date="12-Jan-2022"
+                     /collected_by="Mark Sanda"
+     gene            <1..>624
+                     /gene="COX1"
+     CDS             <1..>624
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="YDO01103.1"
+                     /translation="VGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPI
+                     MIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPL
+                     AGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLIT
+                     AVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFW"
+ORIGIN
+        1 gtaggaaccg cactaagcct cctaattcgg gcagaactaa gccagcccgg ctctctcctc
+       61 ggagacgacc agatttataa tgtaattgtt acagcacatg ctttcgtaat aattttcttt
+      121 atagtaatac caattataat tggaggtttt ggaaactgac tagtaccact tatgattggt
+      181 gcaccagaca tggccttccc tcgaatgaac aacatgagtt tttgactcct tcccccctca
+      241 tttctcctcc tcctcgcctc atccggagtc gaagcagggg ccggtacagg atgaactgtt
+      301 taccccccac tcgcaggcaa tctcgcccac gctgggcctt ctgttgactt aaccatcttt
+      361 tccctccact tggccggggt gtcatccatt ttaggtgcaa ttaattttat cacaaccatt
+      421 attaacataa aaccccctgc catctctcaa tatcaaacac ccctatttgt gtgatccgtt
+      481 ctaattaccg cagtgctgct cctactatcc ctgcccgttc ttgccgccgg catcacaata
+      541 cttctaacag atcgcaacct aaacacaacc ttctttgacc ctgccggagg aggagacccc
+      601 atcctttacc aacacttatt ctga
+//
+LOCUS       OQ908895                 560 bp    DNA     linear   VRT 13-MAY-2025
+DEFINITION  Oreochromis urolepis isolate SS1.17 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OQ908895
+VERSION     OQ908895.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 560)
+  AUTHORS   Saiperaki,J.L., Materu,S.F., Mkenda,P.A., Ligate,E.J. and Rumisha,C.
+  TITLE     DNA barcode-based surveys reveal massive landings of endemic fish
+            species in the Kilombero Valley Floodplain
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 560)
+  AUTHORS   Saiperaki,J.L., Materu,S.F., Mkenda,P.A., Ligate,E.J. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-APR-2023) Biosciences, SOKOINE UNIVERSITY OF
+            AGRICULTURE, MAZIMBU, Morogoro 3038, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..560
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="SS1.17"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Morogoro"
+                     /lat_lon="8.2547 S 36.7324 E"
+     gene            <1..>560
+                     /gene="COX1"
+     CDS             <1..>560
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WGS66552.1"
+                     /translation="LLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPD
+                     MAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSL
+                     HLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGFTML
+                     LMDRNRNTTFFDPAEGENPILYQ"
+ORIGIN
+        1 ctcctcggag acgaccagat ttataatgta attgttacag cacatgcttt cgtaataatt
+       61 ttctttatag taataccaat tataattgga ggttttggaa actgactagt accacttatg
+      121 attggtgcac cagacatggc cttccctcga atgaataaca tgagcttttg actccttccc
+      181 ccctcatttc tcctcctcct cgcctcatcc ggagtcgaag caggggccgg aacaggatga
+      241 actgtttacc ccccactggc aggcaatctc gcccacgctg ggccttctgt tgacttaacc
+      301 atcttttccc tccacttggc cggagtgtca tctattttag gtgcaattaa ttttatcaca
+      361 accattatta acataaaacc ccctgccatc tctcaatatc aaacacccct atttgtgtga
+      421 tccgttctaa ttaccgcagt gctgctccta ctatccctgc ccgttcttgc cgccggattc
+      481 acaatacttc taatagatcg caaccgaaac acaaccttct ttgaccctgc cgaaggagaa
+      541 aaccccatcc tttaccaaca
+//
+LOCUS       PV541596                 650 bp    DNA     linear   VRT 23-APR-2025
+DEFINITION  Oreochromis urolepis isolate RT-N3 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PV541596
+VERSION     PV541596.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 650)
+  AUTHORS   Senathipathi,D.N., Benjakul,S., Sukkapat,P., Detcharoen,M.,
+            Moorthy,G. and Saetang,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-APR-2025) Faculty of Agro-Industry, Prince of Songkla
+            University, 15 Karnchanavanich Road, Hat Yai, Songkhla 90110,
+            Thailand
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..650
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="RT-N3"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Thailand"
+                     /collection_date="07-Feb-2023"
+     gene            <1..>650
+                     /gene="COX1"
+     CDS             <1..>650
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XRM09986.1"
+                     /translation="GMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVM
+                     PIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYP
+                     PLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVL
+                     ITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHPEV"
+ORIGIN
+        1 ggaatagtag gaaccgcact aagcctccta attcgggcag aactaagcca gcccggctct
+       61 ctcctcggag acgaccagat ttataatgta attgttacag cacatgcttt cgtaataatt
+      121 ttctttatag taataccaat tataattgga ggttttggaa actgactagt accacttatg
+      181 attggtgcac cagacatggc cttccctcga atgaacaaca tgagtttttg actccttccc
+      241 ccctcatttc tcctcctcct cgcctcatcc ggagtcgaag caggggccgg tacaggatga
+      301 actgtttacc ccccactcgc aggcaatctc gcccacgctg ggccttctgt tgacttaacc
+      361 atcttttccc tccacttggc cggggtgtca tccattttag gtgcaattaa ttttatcaca
+      421 accattatta acataaaacc ccctgccatc tctcaatatc aaacacccct atttgtgtga
+      481 tccgttctaa ttaccgcagt gctgctccta ctatccctgc ccgttcttgc cgccggcatc
+      541 acaatacttc taacagatcg caacctaaac acaaccttct ttgaccctgc cggaggagga
+      601 gaccccatcc tttaccaaca cttattctga ttcttcggtc accctgaagt
+//
+LOCUS       OL441011                 378 bp    DNA     linear   VRT 01-DEC-2024
+DEFINITION  Oreochromis urolepis isolate WM3.1 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OL441011
+VERSION     OL441011.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 378)
+  AUTHORS   Mbilinyi,W.L., Mwandya,A.W., Msalya,G. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2021) animal science, range sciences and
+            aquaculture, sokoine university of agriculture, sua, morogoro 3000,
+            Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..378
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="WM3.1"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Kibaha"
+     gene            <1..>378
+                     /gene="COX1"
+     CDS             <1..>378
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UEO55797.1"
+                     /translation="PSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLH
+                     LAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLL
+                     TDRNLNTTFFDPAGGGDPILYQ"
+ORIGIN
+        1 ccctcatttc tcctcctcct cgcctcatcc ggagtcgaag caggggccgg tacaggatga
+       61 actgtttacc ccccactcgc aggcaatctc gcccacgctg ggccttctgt tgacttaacc
+      121 atcttttccc tccacttggc cggggtgtca tctattttag gtgcaattaa ttttatcaca
+      181 accattatta acataaaacc ccctgccatc tctcaatatc aaacacccct atttgtgtga
+      241 tccgttctaa ttaccgcagt gctgctccta ctatccctgc ccgttcttgc cgccggcatc
+      301 acaatacttc taacagatcg caacctaaac acaaccttct ttgaccctgc cggaggagga
+      361 gaccccatcc tttaccaa
+//
+LOCUS       OL441010                 378 bp    DNA     linear   VRT 01-DEC-2024
+DEFINITION  Oreochromis urolepis isolate WM3.11 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OL441010
+VERSION     OL441010.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 378)
+  AUTHORS   Mbilinyi,W.L., Mwandya,A.W., Msalya,G. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2021) animal science, range sciences and
+            aquaculture, sokoine university of agriculture, sua, morogoro 3000,
+            Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..378
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="WM3.11"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Kibaha"
+     gene            <1..>378
+                     /gene="COX1"
+     CDS             <1..>378
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UEO55796.1"
+                     /translation="PSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLH
+                     LAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLL
+                     TDRNLNTTFFDPAGGGDPILYQ"
+ORIGIN
+        1 ccctcatttc tcctcctcct cgcctcatcc ggagtcgaag caggggccgg tacaggatga
+       61 actgtttacc ccccactcgc aggcaatctc gcccacgctg ggccttctgt tgacttaacc
+      121 atcttttccc tccacttggc cggggtgtca tctattttag gtgcaattaa ttttatcaca
+      181 accattatta acataaaacc ccctgccatc tctcaatatc aaacacccct atttgtgtga
+      241 tccgttctaa ttaccgcagt gctgctccta ctatccctgc ccgttcttgc cgccggcatc
+      301 acaatacttc taacagatcg caacctaaac acaaccttct ttgaccctgc cggaggagga
+      361 gaccccatcc tttaccaa
+//
+LOCUS       OL441009                 378 bp    DNA     linear   VRT 01-DEC-2024
+DEFINITION  Oreochromis urolepis isolate WM3.12 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OL441009
+VERSION     OL441009.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 378)
+  AUTHORS   Mbilinyi,W.L., Mwandya,A.W., Msalya,G. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2021) animal science, range sciences and
+            aquaculture, sokoine university of agriculture, sua, morogoro 3000,
+            Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..378
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="WM3.12"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Kibaha"
+     gene            <1..>378
+                     /gene="COX1"
+     CDS             <1..>378
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UEO55795.1"
+                     /translation="PSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLH
+                     LAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLL
+                     TDRNLNTTFFDPAGGGDPILYQ"
+ORIGIN
+        1 ccctcatttc ttcttcttct cgcctcatct ggagtcgaag caggtgccgg cacaggatgg
+       61 actgtttatc ccccgctcgc aggcaatctt gcccacgctg gaccttctgt tgacttaacc
+      121 atcttctccc tccacttggc cggagtgtca tctattttag gtgcaattaa ttttatcaca
+      181 accattatta acatgaaacc ccctgccatc tcccaatatc aaacacccct atttgtgtga
+      241 tccgtcctaa ttaccgcagt actactcctt ctatccctgc ccgttcttgc cgccggcatc
+      301 acaatacttc taacagaccg aaacctaaac acaaccttct ttgaccctgc cggaggagga
+      361 gaccccatcc tataccaa
+//
+LOCUS       OL441007                 378 bp    DNA     linear   VRT 01-DEC-2024
+DEFINITION  Oreochromis urolepis isolate WM3.32 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OL441007
+VERSION     OL441007.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 378)
+  AUTHORS   Mbilinyi,W.L., Mwandya,A.W., Msalya,G. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2021) animal science, range sciences and
+            aquaculture, sokoine university of agriculture, sua, morogoro 3000,
+            Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..378
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="WM3.32"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Kibaha"
+     gene            <1..>378
+                     /gene="COX1"
+     CDS             <1..>378
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UEO55793.1"
+                     /translation="PSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLH
+                     LAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLL
+                     TDRNLNTTFFDPAGGGDPILYQ"
+ORIGIN
+        1 ccctcatttc tcctcctcct cgcctcatcc ggagtcgaag caggggccgg tacaggatga
+       61 actgtttacc ccccactcgc aggcaatctc gcccacgctg ggccttctgt tgacttaacc
+      121 atcttttccc tccacttggc cggggtgtca tccattttag gtgcaattaa ttttatcaca
+      181 accattatta acataaaacc ccctgccatc tctcaatatc aaacacccct atttgtgtga
+      241 tccgttctaa ttaccgcagt gctgctccta ctatccctgc ccgttcttgc cgccggaatc
+      301 acaatacttc taacagatcg caacctaaac acaaccttct ttgaccctgc cggaggagga
+      361 gaccccatcc tttaccaa
+//
+LOCUS       OL441006                 378 bp    DNA     linear   VRT 01-DEC-2024
+DEFINITION  Oreochromis urolepis isolate WM3.33 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OL441006
+VERSION     OL441006.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 378)
+  AUTHORS   Mbilinyi,W.L., Mwandya,A.W., Msalya,G. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2021) animal science, range sciences and
+            aquaculture, sokoine university of agriculture, sua, morogoro 3000,
+            Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..378
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="WM3.33"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Kibaha"
+     gene            <1..>378
+                     /gene="COX1"
+     CDS             <1..>378
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UEO55792.1"
+                     /translation="PSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLH
+                     LAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLL
+                     TDRNLNTTFFDPAGGGDPILYQ"
+ORIGIN
+        1 ccctcatttc ttcttcttct cgcctcatct ggagtcgaag caggtgccgg cacaggatgg
+       61 actgtttatc ccccgctcgc aggcaatctt gcccacgctg gaccttctgt tgacttaacc
+      121 atcttctccc tccacttggc cggagtgtca tctattttag gtgcaattaa ttttatcaca
+      181 accattatta acatgaaacc ccctgccatc tcccaatatc aaacacccct atttgtgtga
+      241 tccgtcctaa ttaccgcagt actactcctt ctatccctgc ccgttcttgc cgccggcatc
+      301 acaatacttc taacagaccg aaacctaaac acaaccttct ttgaccctgc cggaggagga
+      361 gaccccatcc tataccaa
+//
+LOCUS       OL440978                 378 bp    DNA     linear   VRT 01-DEC-2024
+DEFINITION  Oreochromis urolepis isolate WM4.34 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OL440978
+VERSION     OL440978.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 378)
+  AUTHORS   Mbilinyi,W.L., Mwandya,A.W., Msalya,G. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2021) animal science, range sciences and
+            aquaculture, sokoine university of agriculture, sua, morogoro 3000,
+            Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..378
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="WM4.34"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Kilosa"
+     gene            <1..>378
+                     /gene="COX1"
+     CDS             <1..>378
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UEO55764.1"
+                     /translation="PSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLH
+                     LAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLL
+                     TDRNLNTTFFDPAGGGDPILYQ"
+ORIGIN
+        1 ccctcatttc tcctcctcct cgcctcatcc ggagtcgaag caggggccgg tacaggatga
+       61 actgtttacc ccccactcgc aggcaatctc gcccacgctg ggccttctgt tgacttaacc
+      121 atcttttccc tccacttggc cggggtgtca tctattttag gtgcaattaa ttttatcaca
+      181 accattatta acataaaacc ccctgccatc tctcaatatc aaacacccct atttgtgtga
+      241 tccgttctaa ttaccgcagt gctgctccta ctatccctgc ccgttcttgc cgccggcatc
+      301 acaatacttc taacagatcg caacctaaac acaaccttct ttgaccctgc cggaggagga
+      361 gaccccatcc tttaccaa
+//
+LOCUS       PQ272490                 652 bp    DNA     linear   VRT 09-SEP-2024
+DEFINITION  Oreochromis urolepis isolate P86_COI_ADB0210.fasta cytochrome c
+            oxidase subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ272490
+VERSION     PQ272490.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Freshwater and estuarine fish species of the Pangani and Rufiji
+            river, Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2024) Aquatic Sciences, School of Aquatic Sciences
+            and Fisheries Technology, Kunduchi, Dar es Salaam 60091, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="P86_COI_ADB0210.fasta"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Rufiji,Ikwiriri'',''Rufiji river"
+                     /collection_date="2022-04-20"
+     gene            <1..>652
+                     /gene="COX1"
+     CDS             <1..>652
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XFE80024.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgagccgg aatagtagga accgcactaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta taattggagg
+      181 ttttggaaac tgactagtac cacttatgat tggtgcacca gacatggcct tccctcgaat
+      241 gaataacatg agtttttgac tccttccccc ctcatttctc ctcctcctcg cctcatccgg
+      301 agtcgaagca ggggccggta caggatgaac tgtttacccc ccactcgcag gcaatctcgc
+      361 ccacgctggg ccttctgttg acttaaccat cttttccctc cacttggccg gggtgtcatc
+      421 tattttaggt gcaattaatt ttatcacaac cattattaac ataaaacccc ctgccatctc
+      481 tcaatatcaa acacccctat ttgtgtgatc cgttctaatt accgcagtgc tgctcctact
+      541 atccctgccc gttcttgccg ccggcatcac aatacttcta acagatcgca acctaaacac
+      601 aaccttcttt gaccctgccg gaggaggaga ccccatcctt taccaacact ta
+//
+LOCUS       PQ272489                 652 bp    DNA     linear   VRT 09-SEP-2024
+DEFINITION  Oreochromis urolepis isolate P85_COI_ADB0210.fasta cytochrome c
+            oxidase subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ272489
+VERSION     PQ272489.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Freshwater and estuarine fish species of the Pangani and Rufiji
+            river, Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2024) Aquatic Sciences, School of Aquatic Sciences
+            and Fisheries Technology, Kunduchi, Dar es Salaam 60091, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="P85_COI_ADB0210.fasta"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Rufiji,Ikwiriri'',''Rufiji river"
+                     /collection_date="2022-04-20"
+     gene            <1..>652
+                     /gene="COX1"
+     CDS             <1..>652
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XFE80023.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgagccgg aatagtagga accgcactaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta taattggagg
+      181 ttttggaaac tgactagtac cacttatgat tggtgcacca gacatggcct tccctcgaat
+      241 gaataacatg agtttttgac tccttccccc ctcatttctc ctcctcctcg cctcatccgg
+      301 agtcgaagca ggggccggta caggatgaac tgtttacccc ccactcgcag gcaatctcgc
+      361 ccacgctggg ccttctgttg acttaaccat cttttccctc cacttggccg gggtgtcatc
+      421 tattttaggt gcaattaatt ttatcacaac cattattaac ataaaacccc ctgccatctc
+      481 tcaatatcaa acacccctat ttgtgtgatc cgttctaatt accgcagtgc tgctcctact
+      541 atccctgccc gttcttgccg ccggcatcac aatacttcta acagatcgca acctaaacac
+      601 aaccttcttt gaccctgccg gaggaggaga ccccatcctt taccaacact ta
+//
+LOCUS       PQ272488                 652 bp    DNA     linear   VRT 09-SEP-2024
+DEFINITION  Oreochromis urolepis isolate P84_COI_ADB0210.fasta cytochrome c
+            oxidase subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ272488
+VERSION     PQ272488.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Freshwater and estuarine fish species of the Pangani and Rufiji
+            river, Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2024) Aquatic Sciences, School of Aquatic Sciences
+            and Fisheries Technology, Kunduchi, Dar es Salaam 60091, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="P84_COI_ADB0210.fasta"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Rufiji,Ikwiriri'',''Rufiji river"
+                     /collection_date="2022-04-20"
+     gene            <1..>652
+                     /gene="COX1"
+     CDS             <1..>652
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XFE80022.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgagccgg aatagtagga accgcactaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta taattggagg
+      181 ttttggaaac tgactagtac cacttatgat tggtgcacca gacatggcct tccctcgaat
+      241 gaataacatg agtttttgac tccttccccc ctcatttctc ctcctcctcg cctcatccgg
+      301 agtcgaagca ggggccggta caggatgaac tgtttacccc ccactcgcag gcaatctcgc
+      361 ccacgctggg ccttctgttg acttaaccat cttttccctc cacttggccg gggtgtcatc
+      421 tattttaggt gcaattaatt ttatcacaac cattattaac ataaaacccc ctgccatctc
+      481 tcaatatcaa acacccctat ttgtgtgatc cgttctaatt accgcagtgc tgctcctact
+      541 atccctgccc gttcttgccg ccggcatcac aatacttcta acagatcgca acctaaacac
+      601 aaccttcttt gaccctgccg gaggaggaga ccccatcctt taccaacact ta
+//
+LOCUS       PQ272487                 652 bp    DNA     linear   VRT 09-SEP-2024
+DEFINITION  Oreochromis urolepis isolate P83_COI_ADB0210.fasta cytochrome c
+            oxidase subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ272487
+VERSION     PQ272487.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Freshwater and estuarine fish species of the Pangani and Rufiji
+            river, Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2024) Aquatic Sciences, School of Aquatic Sciences
+            and Fisheries Technology, Kunduchi, Dar es Salaam 60091, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="P83_COI_ADB0210.fasta"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Rufiji,Ikwiriri'',''Rufiji river"
+                     /collection_date="2022-04-20"
+     gene            <1..>652
+                     /gene="COX1"
+     CDS             <1..>652
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XFE80021.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgagccgg aatagtagga accgcactaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta taattggagg
+      181 ttttggaaac tgactagtac cacttatgat tggtgcacca gacatggcct tccctcgaat
+      241 gaataacatg agtttttgac tccttccccc ctcatttctc ctcctcctcg cctcatccgg
+      301 agtcgaagca ggggccggta caggatgaac tgtttacccc ccactcgcag gcaatctcgc
+      361 ccacgctggg ccttctgttg acttaaccat cttttccctc cacttggccg gggtgtcatc
+      421 tattttaggt gcaattaatt ttatcacaac cattattaac ataaaacccc ctgccatctc
+      481 tcaatatcaa acacccctat ttgtgtgatc cgttctaatt accgcagtgc tgctcctact
+      541 atccctgccc gttcttgccg ccggcatcac aatacttcta acagatcgca acctaaacac
+      601 aaccttcttt gaccctgccg gaggaggaga ccccatcctt taccaacact ta
+//
+LOCUS       PQ272486                 652 bp    DNA     linear   VRT 09-SEP-2024
+DEFINITION  Oreochromis urolepis isolate P82_COI_ADB0210.fasta cytochrome c
+            oxidase subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PQ272486
+VERSION     PQ272486.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Freshwater and estuarine fish species of the Pangani and Rufiji
+            river, Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Kaijage,L., Gaspare,L., Wysujack,K., Mwakosay,C. and Hanel,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2024) Aquatic Sciences, School of Aquatic Sciences
+            and Fisheries Technology, Kunduchi, Dar es Salaam 60091, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="P82_COI_ADB0210.fasta"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Tanzania: Rufiji,Ikwiriri'',''Rufiji river"
+                     /collection_date="2022-04-20"
+     gene            <1..>652
+                     /gene="COX1"
+     CDS             <1..>652
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="XFE80020.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgagccgg aatagtagga accgcactaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta taattggagg
+      181 ttttggaaac tgactagtac cacttatgat tggtgcacca gacatggctt tccctcgaat
+      241 gaataacatg agtttttgac tccttccccc ctcatttctc ctcctcctcg cctcatccgg
+      301 agtcgaagca ggggccggta caggatgaac tgtttacccc ccactcgcag gcaatctcgc
+      361 ccacgctggg ccttctgttg acttaaccat cttttccctc cacttggccg gggtgtcatc
+      421 cattttaggt gcaattaatt ttatcacaac cattattaac ataaaacccc ctgccatctc
+      481 tcaatatcaa acacccctat ttgtgtgatc cgttctaatt accgcagtgc tgctcctact
+      541 atccctgccc gttcttgccg ccggcatcac aatacttcta acagatcgca acctaaacac
+      601 aaccttcttt gaccctgccg gaggaggaga ccccatcctt taccaacact ta
+//
+LOCUS       OW726357                 619 bp    DNA     linear   VRT 05-AUG-2022
+DEFINITION  cytochrome c oxidase subunit I (cox1) gene from ERX4446013, partial
+            cds.
+ACCESSION   OW726357
+VERSION     OW726357.1
+DBLINK      BioProject: PRJEB52443
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1
+  AUTHORS   Curzon YE,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2022) VOLCANI CENTER, Micha ron Lab, Herzek street
+            Rehovot 7610001, Israel
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: GAP5
+            Coverage              :: 10X
+            Sequencing Technology :: Illumina, HiSeq 4000
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolation_source="SAMEA6544242"
+                     /db_xref="taxon:40193"
+     CDS             <1..>619
+                     /note="unnamed protein product; cox1"
+                     /codon_start=1
+                     /transl_table=2
+                     /protein_id="CAH2950575.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+     exon            1..619
+                     /note="exon 1"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaataac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atctatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       MT418350                 618 bp    DNA     linear   VRT 07-MAY-2020
+DEFINITION  Oreochromis urolepis hornorum isolate Lake Bayano, Panama cytochrome
+            c oxidase subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   MT418350
+VERSION     MT418350.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis hornorum (Wami tilapia)
+  ORGANISM  Oreochromis urolepis hornorum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 618)
+  AUTHORS   Diaz-Ferguson,E.E.
+  TITLE     Genetic characterization of Oreochormis niloticus (Perciformes:
+            Cichlidae) and first molecular identification of tilapia species
+            reported in Panama natural ecosystems
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 618)
+  AUTHORS   Diaz-Ferguson,E.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-APR-2020) Biodiversity and Integrative Biology, Coiba
+            Scientific Station (COIBA AIP), City of Knowledge, Panama, Panama
+            0843-01416, Panama
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..618
+                     /organism="Oreochromis urolepis hornorum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Lake Bayano, Panama"
+                     /sub_species="hornorum"
+                     /db_xref="taxon:161276"
+     gene            <1..>618
+                     /gene="COX1"
+     CDS             <1..>618
+                     /gene="COX1"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="QJH92320.1"
+                     /translation="TALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMI
+                     GGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAG
+                     NLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAV
+                     LLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 aaccgcacta agcctcctaa ttcgggcaga actaagccag cccggctctc tcctcggaga
+       61 cgaccagatt tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt
+      121 aataccaatt ataattggag gttttggaaa ctgactagta ccacttatga ttggtgcacc
+      181 agacatggcc ttccctcgaa tgaacaacat gagtttttga ctccttcccc cctcatttct
+      241 cctcctcctc gcctcatccg gagtcgaagc aggggccggt acaggatgaa ctgtttaccc
+      301 cccactcgca ggcaatctcg cccacgctgg gccttctgtt gacttaacca tcttttccct
+      361 ccacttggcc ggggtgtcat ccattttagg tgcaattaat tttatcacaa ccattattaa
+      421 cataaaaccc cctgccatct ctcaatatca aacaccccta tttgtgtgat ccgttctaat
+      481 taccgcagtg ctgctcctac tatccctgcc cgttcttgcc gccggcatca caatacttct
+      541 aacagatcgc aacctaaaca caaccttctt tgaccctgcc ggaggaggag accccatcct
+      601 ttaccaacac ttattctg
+//
+LOCUS       KY454449                 609 bp    DNA     linear   VRT 19-APR-2017
+DEFINITION  Oreochromis urolepis isolate TEA51 cytochrome oxidase subunit I
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   KY454449
+VERSION     KY454449.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 609)
+  AUTHORS   Montoya Lopez,A.F., Olivera Angel,M., Tarazona Morales,A.M. and
+            Betancur Lopez,J.J.
+  TITLE     Codigo de barras de ADN de tilapias ferales en embalses del
+            departamento de Antioquia-Colombia
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 609)
+  AUTHORS   Montoya Lopez,A.F., Olivera Angel,M., Tarazona Morales,A.M. and
+            Betancur Lopez,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JAN-2017) Grupo Biogenesis, Universidad de Antioquia,
+            calle 67 No. 53 - 108, Medellin, Antioquia 050010, Colombia
+FEATURES             Location/Qualifiers
+     source          1..609
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="TEA51"
+                     /isolation_source="Punchina reservoir, Antioquia"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Colombia"
+                     /lat_lon="6.238 N 74.875 W"
+                     /collection_date="18-Oct-2014"
+                     /collected_by="A. Montoya & C. Jaramillo"
+                     /identified_by="A. Montoya"
+                     /PCR_primers="fwd_name: fishf1, fwd_seq:
+                     tcaaccaaccacaaagacattggcac, rev_name: fishr1, rev_seq:
+                     tagacttctgggtggccaaagaatca"
+     gene            <1..>609
+                     /gene="COI"
+     CDS             <1..>609
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="ARI46035.1"
+                     /translation="LLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFG
+                     NWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAH
+                     AGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLL
+                     SLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFW"
+ORIGIN
+        1 gcctcctaat tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt
+       61 ataatgtaat tgttacagca catgctttcg taataatttt ctttatagta ataccaatta
+      121 taattggagg ttttggaaac tgactagtac cacttatgat tggtgcacca gacatggcct
+      181 tccctcgaat gaacaacatg agtttttgac tccttccccc ctcatttctc ctcctcctcg
+      241 cctcatccgg agtcgaagca ggggccggta caggatgaac tgtttacccc ccactcgcag
+      301 gcaatctcgc ccacgctggg ccttctgttg acttaaccat cttttccctc cacttggccg
+      361 gggtgtcatc cattttaggt gcaattaatt ttatcacaac cattattaac ataaaacccc
+      421 ctgccatctc tcaatatcaa acacccctat ttgtgtgatc cgttctaatt accgcagtgc
+      481 tgctcctact atccctgccc gttcttgccg ccggcatcac aatacttcta acagatcgca
+      541 acctaaacac aaccttcttt gaccctgccg gaggaggaga ccccatcctt taccaacact
+      601 tattctgat
+//
+LOCUS       FJ348121                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis urolepis voucher UMC-9OH1M cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348121
+VERSION     FJ348121.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="UMC-9OH1M"
+                     /db_xref="BOLD:FISH052-08"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Brazil"
+                     /identified_by="Jose Patrocinio Lopes"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62374.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348120                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis urolepis voucher UMC-9OH2F cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348120
+VERSION     FJ348120.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="UMC-9OH2F"
+                     /db_xref="BOLD:FISH053-08"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Brazil"
+                     /identified_by="Jose Patrocinio Lopes"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62373.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348119                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis urolepis voucher UMC-9OH3M cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348119
+VERSION     FJ348119.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="UMC-9OH3M"
+                     /db_xref="BOLD:FISH054-08"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Brazil"
+                     /identified_by="Jose Patrocinio Lopes"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62372.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348118                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis urolepis voucher UMC-9OH4F cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348118
+VERSION     FJ348118.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="UMC-9OH4F"
+                     /db_xref="BOLD:FISH055-08"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Brazil"
+                     /identified_by="Jose Patrocinio Lopes"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62371.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348117                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis urolepis voucher UMC-9OH5M cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348117
+VERSION     FJ348117.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="UMC-9OH5M"
+                     /db_xref="BOLD:FISH056-08"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Brazil"
+                     /identified_by="Jose Patrocinio Lopes"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62370.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       FJ348116                 619 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis urolepis voucher UMC-9OH6F cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   FJ348116
+VERSION     FJ348116.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     DNA barcoding of Israeli endemic and introduced cichlids
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 619)
+  AUTHORS   Shirak,A., Cohen-zinder,M., Melon,R., Seroussi,E., Ron,M. and
+            Hulata,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2008) Institute of Animal Science, Agricultural
+            Research Organization, PO Box 6, Bet Dagan 50250, Israel
+FEATURES             Location/Qualifiers
+     source          1..619
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="UMC-9OH6F"
+                     /db_xref="BOLD:FISH057-08"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Brazil"
+                     /identified_by="Jose Patrocinio Lopes"
+     gene            <1..>619
+                     /gene="COI"
+     CDS             <1..>619
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ACI62369.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata
+      121 gtaataccaa ttataattgg aggttttgga aactgactag taccacttat gattggtgca
+      181 ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt
+      241 ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac
+      301 cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc
+      361 ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt
+      421 aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta
+      481 attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt
+      541 ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc
+      601 ctttaccaac acttattct
+//
+LOCUS       KU565854                 685 bp    DNA     linear   VRT 22-MAY-2016
+DEFINITION  Oreochromis urolepis hornorum voucher FAC03 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   KU565854
+VERSION     KU565854.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis hornorum (Wami tilapia)
+  ORGANISM  Oreochromis urolepis hornorum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 685)
+  AUTHORS   Ordonez,J.F., Ventolero,M.F. and Santos,M.D.
+  TITLE     Maternal mismatches in farmed tilapia strains (Oreochromis spp.) in
+            the Philippines as revealed by mitochondrial COI gene
+  JOURNAL   Mitochondrial DNA A DNA MappSeq Anal, 1-10 (2016) In press
+   PUBMED   27159705
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 685)
+  AUTHORS   Ordonez,J.F., Ventolero,M.F. and Santos,M.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JAN-2016) Genertic Fingerprinting Laboratory, National
+            Fisheries Research and Development Institute, Corporare 101 Mother
+            Ignacia Avenue, Quezon City, National Capital Region 1103,
+            Philippines
+FEATURES             Location/Qualifiers
+     source          1..685
+                     /organism="Oreochromis urolepis hornorum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /sub_species="hornorum"
+                     /specimen_voucher="FAC03"
+                     /db_xref="BOLD:FPHL139-15.COI-5P"
+                     /db_xref="taxon:161276"
+                     /geo_loc_name="Philippines: Rizal, SEAFDEC-Rizal"
+                     /lat_lon="14.413 N 121.218 E"
+                     /collected_by="June Ordonez, Ivane Pedrosa"
+     gene            <1..>685
+                     /gene="COI"
+     CDS             <1..>685
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ANF03811.1"
+                     /translation="GTLYMVCGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTA
+                     HAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVE
+                     AGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQ
+                     YQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWF
+                     FGHPEV"
+ORIGIN
+        1 ggcaccctgt atatagtatg tggtgcttga gccggaatag taggaaccgc actaagcctc
+       61 ctaattcggg cagaactaag ccagcccggc tctctcctcg gagacgacca gatttataat
+      121 gtaattgtta cagcacatgc tttcgtaata attttcttta tagtaatacc aattataatt
+      181 ggaggttttg gaaactgact agtaccactt atgattggtg caccagacat ggccttccct
+      241 cgaatgaaca acatgagttt ttgactcctt cccccctcat ttctcctcct cctcgcctca
+      301 tccggagtcg aagcaggggc cggtacagga tgaactgttt accccccact cgcaggcaat
+      361 ctcgcccacg ctgggccttc tgttgactta accatctttt ccctccactt ggccggggtg
+      421 tcatccattt taggtgcaat taattttatc acaaccatta ttaacataaa accccctgcc
+      481 atctctcaat atcaaacacc cctatttgtg tgatccgttc taattaccgc agtgctgctc
+      541 ctactatccc tgcccgttct tgccgccggc atcacaatac ttctaacaga tcgcaaccta
+      601 aacacaacct tctttgaccc tgccggagga ggagacccca tcctttacca acacttattc
+      661 tgattcttcg gtcaccctga agtgt
+//
+LOCUS       KU565850                 685 bp    DNA     linear   VRT 22-MAY-2016
+DEFINITION  Oreochromis urolepis hornorum voucher FAC02 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   KU565850
+VERSION     KU565850.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis hornorum (Wami tilapia)
+  ORGANISM  Oreochromis urolepis hornorum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 685)
+  AUTHORS   Ordonez,J.F., Ventolero,M.F. and Santos,M.D.
+  TITLE     Maternal mismatches in farmed tilapia strains (Oreochromis spp.) in
+            the Philippines as revealed by mitochondrial COI gene
+  JOURNAL   Mitochondrial DNA A DNA MappSeq Anal, 1-10 (2016) In press
+   PUBMED   27159705
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 685)
+  AUTHORS   Ordonez,J.F., Ventolero,M.F. and Santos,M.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JAN-2016) Genertic Fingerprinting Laboratory, National
+            Fisheries Research and Development Institute, Corporare 101 Mother
+            Ignacia Avenue, Quezon City, National Capital Region 1103,
+            Philippines
+FEATURES             Location/Qualifiers
+     source          1..685
+                     /organism="Oreochromis urolepis hornorum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /sub_species="hornorum"
+                     /specimen_voucher="FAC02"
+                     /db_xref="BOLD:FPHL138-15.COI-5P"
+                     /db_xref="taxon:161276"
+                     /geo_loc_name="Philippines: Rizal, SEAFDEC-Rizal"
+                     /lat_lon="14.413 N 121.218 E"
+                     /collected_by="June Ordonez, Ivane Pedrosa"
+     gene            <1..>685
+                     /gene="COI"
+     CDS             <1..>685
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ANF03807.1"
+                     /translation="GTLYLVFGAWAGMVGTAVSLLIRAELSQPGSLLGDDQIYNVIVTA
+                     HAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVE
+                     AGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQ
+                     YQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWF
+                     FGHPEV"
+ORIGIN
+        1 ggcaccctct atctagtatt tggtgcttga gccggaatag taggaaccgc agtaagcctc
+       61 ttaattcggg cagaactaag ccagcccggc tctctcctcg gagacgacca gatttataat
+      121 gtaattgtta cagcacatgc tttcgtaata attttcttta tagtaatacc aattataatt
+      181 ggaggttttg gaaactgact agtaccactt atgattggtg caccagacat ggccttccct
+      241 cgaatgaaca acatgagttt ttgactcctt cccccctcat ttctcctcct cctcgcctca
+      301 tccggagtcg aagcaggggc cggtacagga tgaactgttt accccccact cgcaggcaat
+      361 ctcgcccacg ctgggccttc tgttgactta accatctttt ccctccactt ggccggggtg
+      421 tcatccattt taggtgcaat taattttatc acaaccatta ttaacataaa accccctgcc
+      481 atctctcaat atcaaacacc cctatttgtg tgatccgttc taattaccgc agtgctgctc
+      541 ctactatccc tgcccgttct tgccgccggc atcacaatac ttctaacaga tcgcaaccta
+      601 aacacaacct tctttgaccc tgccggagga ggagacccca tcctttacca acacttattc
+      661 tgattcttcg gtcaccctga agtgt
+//
+LOCUS       KM438541                 623 bp    DNA     linear   VRT 31-AUG-2015
+DEFINITION  Oreochromis urolepis voucher MC_70 cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   KM438541
+VERSION     KM438541.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 623)
+  AUTHORS   Syaifudin,M., Taggart,J.B., Bekaert,M., Mcandrew,B.J. and
+            Penman,D.J.
+  TITLE     Species-diagnostic SNP markers and their genomic distribution in
+            Tilapia species
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 623)
+  AUTHORS   Syaifudin,M., Taggart,J.B., Bekaert,M., Mcandrew,B.J. and
+            Penman,D.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-AUG-2014) Institute of Aquaculture, University of
+            Stirling, Pathfoot Building, Stirling, Scotland FK5 4LA, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1..623
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="MC_70"
+                     /db_xref="BOLD:TSM007-14.COI-5P"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Israel"
+                     /PCR_primers="fwd_seq: tcgactaatcataaagatatcggcac, rev_seq:
+                     acttcagggtgaccgaagaatcagaa"
+     gene            <1..>623
+                     /gene="COI"
+     CDS             <1..>623
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="AJA37996.1"
+                     /translation="GAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIF
+                     FMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGW
+                     TVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFV
+                     WSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPI"
+ORIGIN
+        1 ttggtgcttg agccggaata gtaggaaccg cactaagcct cctaattcgg gcagaactaa
+       61 gccagcccgg ctctctcctc ggagacgacc agatttataa tgtaattgtt acagcacatg
+      121 ctttcgtaat aattttcttt atagtaatac caattataat tggaggtttt ggaaactgac
+      181 tagtaccact tatgattggt gcaccagaca tggccttccc tcgaatgaac aacatgagtt
+      241 tttgactcct tcccccctca tttctcctcc tcctcgcctc atccggagtc gaagcagggg
+      301 ccggtacagg atgaactgtt taccccccac tcgcaggcaa tctcgcccac gctgggcctt
+      361 ctgttgactt aaccatcttt tccctccact tggccggggt gtcatccatt ttaggtgcaa
+      421 ttaattttat cacaaccatt attaacataa aaccccctgc catctctcaa tatcaaacac
+      481 ccctatttgt gtgatccgtt ctaattaccg cagtgctgct cctactatcc ctgcccgttc
+      541 ttgccgccgg catcacaata cttctaacag atcgcaacct aaacacaacc ttctttgacc
+      601 ctgccggagg aggagacccc atc
+//
+LOCUS       KM438540                 678 bp    DNA     linear   VRT 31-AUG-2015
+DEFINITION  Oreochromis urolepis voucher MC_72 cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   KM438540
+VERSION     KM438540.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 678)
+  AUTHORS   Syaifudin,M., Taggart,J.B., Bekaert,M., Mcandrew,B.J. and
+            Penman,D.J.
+  TITLE     Species-diagnostic SNP markers and their genomic distribution in
+            Tilapia species
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 678)
+  AUTHORS   Syaifudin,M., Taggart,J.B., Bekaert,M., Mcandrew,B.J. and
+            Penman,D.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-AUG-2014) Institute of Aquaculture, University of
+            Stirling, Pathfoot Building, Stirling, Scotland FK5 4LA, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1..678
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="MC_72"
+                     /db_xref="BOLD:TSM008-14.COI-5P"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Israel"
+                     /PCR_primers="fwd_seq: tcgactaatcataaagatatcggcac, rev_seq:
+                     acttcagggtgaccgaagaatcagaa"
+     gene            <1..>678
+                     /gene="COI"
+     CDS             <1..>678
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="AJA37995.1"
+                     /translation="DIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIV
+                     TAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSG
+                     VEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAI
+                     SQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF
+                     WFF"
+ORIGIN
+        1 aagatatcgg caccctctat ctagtatttg gtgcttgagc cggaatagta ggaaccgcac
+       61 taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga gacgaccaga
+      121 tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata gtaataccaa
+      181 ttataattgg aggttttgga aactgactag taccacttat gattggtgca ccagacatgg
+      241 ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt ctcctcctcc
+      301 tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac cccccactcg
+      361 caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc ctccacttgg
+      421 ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt aacataaaac
+      481 cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta attaccgcag
+      541 tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt ctaacagatc
+      601 gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc ctttaccaac
+      661 acttattctg attcttcg
+//
+LOCUS       KM438539                 678 bp    DNA     linear   VRT 31-AUG-2015
+DEFINITION  Oreochromis urolepis voucher MC_439 cytochrome oxidase subunit 1
+            (COI) gene, partial cds; mitochondrial.
+ACCESSION   KM438539
+VERSION     KM438539.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis (Rufigi tilapia)
+  ORGANISM  Oreochromis urolepis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 678)
+  AUTHORS   Syaifudin,M., Taggart,J.B., Bekaert,M., Mcandrew,B.J. and
+            Penman,D.J.
+  TITLE     Species-diagnostic SNP markers and their genomic distribution in
+            Tilapia species
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 678)
+  AUTHORS   Syaifudin,M., Taggart,J.B., Bekaert,M., Mcandrew,B.J. and
+            Penman,D.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-AUG-2014) Institute of Aquaculture, University of
+            Stirling, Pathfoot Building, Stirling, Scotland FK5 4LA, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1..678
+                     /organism="Oreochromis urolepis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="MC_439"
+                     /db_xref="BOLD:TSM009-14.COI-5P"
+                     /db_xref="taxon:40193"
+                     /geo_loc_name="Israel"
+                     /PCR_primers="fwd_seq: tcgactaatcataaagatatcggcac, rev_seq:
+                     acttcagggtgaccgaagaatcagaa"
+     gene            <1..>678
+                     /gene="COI"
+     CDS             <1..>678
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="AJA37994.1"
+                     /translation="DIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIV
+                     TAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSG
+                     VEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAI
+                     SQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF
+                     WFF"
+ORIGIN
+        1 aagatatcgg caccctctat ctagtatttg gtgcttgagc cggaatagta ggaaccgcac
+       61 taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga gacgaccaga
+      121 tttataatgt aattgttaca gcacatgctt tcgtaataat tttctttata gtaataccaa
+      181 ttataattgg aggttttgga aactgactag taccacttat gattggtgca ccagacatgg
+      241 ccttccctcg aatgaacaac atgagttttt gactccttcc cccctcattt ctcctcctcc
+      301 tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg aactgtttac cccccactcg
+      361 caggcaatct cgcccacgct gggccttctg ttgacttaac catcttttcc ctccacttgg
+      421 ccggggtgtc atccatttta ggtgcaatta attttatcac aaccattatt aacataaaac
+      481 cccctgccat ctctcaatat caaacacccc tatttgtgtg atccgttcta attaccgcag
+      541 tgctgctcct actatccctg cccgttcttg ccgccggcat cacaatactt ctaacagatc
+      601 gcaacctaaa cacaaccttc tttgaccctg ccggaggagg agaccccatc ctttaccaac
+      661 acttattctg attcttcg
+//
+LOCUS       HE863660                 140 bp    DNA     linear   VRT 05-AUG-2012
+DEFINITION  Oreochromis urolepis hornorum mitochondrial partial COI gene for
+            cytochrome oxidase subunit 1.
+ACCESSION   HE863660
+VERSION     HE863660.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis urolepis hornorum (Wami tilapia)
+  ORGANISM  Oreochromis urolepis hornorum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1
+  AUTHORS   Shirak,A., Barkai,O., Lernau,O., Kahanov,Y., Seroussi,E. and Ron,M.
+  TITLE     DNA barcoding analysis of fish bones from shipwreck found at Dor,
+            Israel
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 140)
+  AUTHORS   Seroussi,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUN-2012) Institute of Animal Science, The
+            Agricultural Research Organization, P.O.B. 6, Bet-Dagan, 50250,
+            ISRAEL
+FEATURES             Location/Qualifiers
+     source          1..140
+                     /organism="Oreochromis urolepis hornorum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /sub_species="hornorum"
+                     /db_xref="taxon:161276"
+                     /geo_loc_name="Israel"
+     gene            <1..>140
+                     /gene="COI"
+     CDS             <1..>140
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="CCI74065.1"
+                     /translation="TLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAH
+                     A"
+ORIGIN
+        1 caccctctat ctagtatttg gtgcttgagc cggaatagta ggaactgcac taagtctcct
+       61 tattcgggca gaactaagcc agcccggctc tctcctcgga gacgaccaga tttataatgt
+      121 aattgttaca gcacatgctt
+//

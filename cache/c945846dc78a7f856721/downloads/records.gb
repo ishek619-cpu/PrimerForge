@@ -1,0 +1,63 @@
+LOCUS       KP027397                 690 bp    DNA     linear   VRT 11-JAN-2015
+DEFINITION  Oreochromis lepidurus voucher AMCC:227432 cytochrome c oxidase
+            subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   KP027397
+VERSION     KP027397.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis lepidurus
+  ORGANISM  Oreochromis lepidurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 690)
+  AUTHORS   Arroyave,J. and Stiassny,M.L.
+  TITLE     DNA barcoding reveals novel insights into pterygophagy and prey
+            selection in distichodontid fishes (Characiformes: Distichodontidae)
+  JOURNAL   Ecol Evol 4 (23), 4534-4542 (2014)
+   PUBMED   25512849
+REFERENCE   2  (bases 1 to 690)
+  AUTHORS   Arroyave,J. and Stiassny,M.L.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-OCT-2014) Ichthyology, American Museum of Natural
+            History, Central Park West at 79th Street, New York, NY 10024, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..690
+                     /organism="Oreochromis lepidurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="AMCC:227432"
+                     /db_xref="taxon:1591299"
+                     /note="AMNH:263330"
+     gene            <1..>690
+                     /gene="COI"
+     CDS             <1..>690
+                     /gene="COI"
+                     /EC_number="1.9.3.1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="AJC50776.1"
+                     /translation="NHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYN
+                     VIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLA
+                     SSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKP
+                     PAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQ
+                     HLFWFFGH"
+ORIGIN
+        1 aatcataaag atattggcac cctctatcta gtatttggtg cttgagccgg aatagtagga
+       61 actgcactaa gcctcctaat tcgggcagaa ctaagccagc ccggctctct cctcggagac
+      121 gaccagattt ataatgtaat tgttacagca catgctttcg taataatttt ctttatagta
+      181 ataccaatta taattggagg ttttggaaac tgactagtgc cacttatgat tggtgcacca
+      241 gacatggcct tccctcgaat aaataacatg agtttttgac tcctgccccc ctcatttctc
+      301 cttctcctcg cctcatccgg agtcgaagca ggggctggca caggatgaac tgtttatccc
+      361 ccactcgcag gcaatctcgc ccacgctggg ccttctgttg acttaaccat cttctccctt
+      421 cacttggccg gagtttcatc tattttaggc gcaattaatt ttattacgac cattattaac
+      481 ataaaacccc ctgccatctc tcaatatcaa acacccctct ttgtgtgatc cgtcctaatt
+      541 accgcagtac tgctcctact atccctgccc gttcttgccg ccggcatcac aatacttcta
+      601 acagaccgaa acctaaacac aaccttcttt gaccctgccg gaggaggaga ccccatcctt
+      661 taccaacact tattctgatt ttttggtcac
+//

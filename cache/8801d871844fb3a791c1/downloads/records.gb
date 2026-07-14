@@ -1,0 +1,67 @@
+LOCUS       MK497093                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis sp. SAIAB 86900 voucher SAIAB:86900 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497093
+VERSION     MK497093.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. SAIAB 86900
+  ORGANISM  Oreochromis sp. SAIAB 86900
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis sp. SAIAB 86900"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="SAIAB:86900"
+                     /db_xref="taxon:2717372"
+                     /tissue_type="Fin (left cut)"
+                     /geo_loc_name="Mozambique: Cabo Delgado, Nangua"
+                     /lat_lon="13 S 40.65 E"
+                     /collection_date="2010-02-19"
+                     /collected_by="R. Bills"
+                     /identified_by="R. Bills"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12338.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFGMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFIIIIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFEPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaact
+       61 gcattaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 caaatttata atgtaattgt tacagcacat gctttcggaa taattttctt tatagtaatg
+      181 ccaattataa ttggaggttt tggaaactga ctagtgccac taatgattgg tgcaccagac
+      241 atggccttcc ctcgaataaa taacatgagt ttttgactcc tccccccctc atttctcctt
+      301 ctcctcgcct catccggggt cgaagcaggg gccggtacag gatggactgt ttatccccca
+      361 ctcgcaggca atctcgccca tgctgggcct tccgttgact taaccatctt ctccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta ttattattat tattaacata
+      481 aaaccccctg ccatctccca atatcaaaca cccctctttg tatgatccgt tctaattacc
+      541 gcagtactac tcctactatc cctacccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgaa cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tgg
+//

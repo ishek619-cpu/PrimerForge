@@ -1,0 +1,62 @@
+LOCUS       KT719283                 644 bp    DNA     linear   VRT 06-OCT-2015
+DEFINITION  Oreochromis sp. MYS-shop-1 cytochrome oxidase subunit 1 (COI) gene,
+            partial cds; mitochondrial.
+ACCESSION   KT719283
+VERSION     KT719283.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. MYS-shop-1
+  ORGANISM  Oreochromis sp. MYS-shop-1
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 644)
+  AUTHORS   Syromyatnikov,M.Y., Kokina,A.V. and Popov,V.N.
+  TITLE     The use of DNA barcoding method to identify commercial fish
+            substitutes in Japanese food
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 644)
+  AUTHORS   Syromyatnikov,M.Y., Kokina,A.V. and Popov,V.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2015) Genetic, cytology and bioengineering,
+            Voronezh State University, 1 Universitetskaya pl., Voronezh 394006,
+            Russia
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..644
+                     /organism="Oreochromis sp. MYS-shop-1"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolation_source="Shop"
+                     /db_xref="taxon:1719270"
+                     /geo_loc_name="Russia"
+                     /collection_date="05-Feb-2015"
+     gene            <1..>644
+                     /gene="COI"
+     CDS             <1..>644
+                     /gene="COI"
+                     /EC_number="1.9.3.1"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="ALG65110.1"
+                     /translation="VGTALSLLIRAELNQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPI
+                     MIGGFGNWLMPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPL
+                     AGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLIT
+                     ALLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGPPE"
+ORIGIN
+        1 tagtaggaac tgcattaagc ctcctaattc gggcagaact aaaccagccc ggctctctcc
+       61 tcggagacga ccagatttat aatgtaattg ttacagcaca tgctttcgta ataattttct
+      121 ttatagtaat gccaattata attggaggtt ttggaaactg actaatgcca ctaatgattg
+      181 gtgcaccaga catggccttc cctcgaataa ataacatgag tttttgactc ctccccccct
+      241 catttctcct tctcctcgcc tcatccgggg tcgaagcagg ggccggtaca ggatggactg
+      301 tttatccccc actcgcaggc aatctcgccc atgctgggcc ttccgttgac ttaaccatct
+      361 tctccctcca cttggccggg gtgtcatcta ttttaggtgc aattaatttt attacaacca
+      421 ttattaacat aaaaccccct gccatctccc aatatcaaac acccctcttt gtatgatccg
+      481 ttctaattac cgcactacta ctcctactat ccctacccgt tcttgccgcc ggcatcacaa
+      541 tacttctaac agaccgaaac ctaaacacaa ccttctttga ccctgccgga ggaggagacc
+      601 ccatccttta ccaacactta ttctgattct tcggtccccc tgaa
+//

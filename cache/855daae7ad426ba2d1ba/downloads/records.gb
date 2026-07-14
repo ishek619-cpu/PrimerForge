@@ -1,0 +1,57 @@
+LOCUS       OM836608                 524 bp    DNA     linear   VRT 01-MAR-2023
+DEFINITION  Oreochromis sp. 1 IHB094 cytochrome c oxidase subunit I (COX1) gene,
+            partial cds; mitochondrial.
+ACCESSION   OM836608
+VERSION     OM836608.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. 1 IHB094
+  ORGANISM  Oreochromis sp. 1 IHB094
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 524)
+  AUTHORS   Kanu,U.C. and Zhang,E.
+  TITLE     DNA Barcoding, taxonomic uncertainty and annotated checklist of
+            freshwater species of the Rokel River basin, Sierra Leone, West
+            Africa
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 524)
+  AUTHORS   Kanu,U.C. and Zhang,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-FEB-2022) College of Fisheries, Huazhong Agricultural
+            University, Shizishan Street, Wuhan, Hubei Province 430070, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..524
+                     /organism="Oreochromis sp. 1 IHB094"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="IHB094"
+                     /db_xref="taxon:2921067"
+     gene            <1..>524
+                     /gene="COX1"
+     CDS             <1..>524
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="ULU61377.1"
+                     /translation="QPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMI
+                     GAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLT
+                     IFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAG
+                     ITMLLTDRNLNT"
+ORIGIN
+        1 cagcccggct ccctcctcgg agatgatcaa atttacaatg ttattgttac ggcacatgct
+       61 ttcgtaataa ttttctttat agtaatacca atcatgattg ggggatttgg aaactggcta
+      121 gtccctctta tgatcggcgc ccccgacata gccttccctc gaataaataa catgagcttt
+      181 tgactcctcc ccccttcatt tctccttctt ctcgcttcat cgggcgttga agccggggct
+      241 ggtaccgggt ggactgtata ccccccacta gcaggaaacc tcgcccatgc tgggccctct
+      301 gttgacctaa ccatcttctc cctgcacttg gctggggtgt cctccattct aggtgcaatc
+      361 aacttcatca caacaattat caacataaaa cctcccgcca tctcccaata tcaaacaccc
+      421 ttatttgttt gatccgtctt aattacggcg gtcctacttt tactgtccct gcctgttctt
+      481 gccgctggca tcaccatgct tttaacagac cgaaacctaa acac
+//

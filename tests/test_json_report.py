@@ -4,9 +4,9 @@ Tests for JSON report generation.
 
 import json
 
-from primerforge.models.primer import Primer
-from primerforge.models.pair import PrimerPair
-from primerforge.report.json import JSONReport
+from envoprimer.models.primer import Primer
+from envoprimer.models.pair import PrimerPair
+from envoprimer.report.json import JSONReport
 
 
 def test_json_report(tmp_path):

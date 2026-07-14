@@ -12,7 +12,7 @@ from Bio.SeqFeature import (
 from Bio.SeqRecord import SeqRecord
 from Bio import SeqIO
 
-from primerforge.reference.annotation import (
+from envoprimer.reference.annotation import (
     AnnotationParser,
 )
 
@@ -202,7 +202,7 @@ def test_gene_names(tmp_path: Path):
 
 def test_gene_length():
 
-    from primerforge.reference.annotation import Gene
+    from envoprimer.reference.annotation import Gene
 
     gene = Gene(
 
@@ -223,7 +223,7 @@ def test_gene_length():
 
 def test_gene_contains():
 
-    from primerforge.reference.annotation import Gene
+    from envoprimer.reference.annotation import Gene
 
     gene = Gene(
 
@@ -252,7 +252,7 @@ def test_gene_contains():
 
 def test_gene_to_dict():
 
-    from primerforge.reference.annotation import Gene
+    from envoprimer.reference.annotation import Gene
 
     gene = Gene(
 

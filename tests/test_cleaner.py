@@ -4,7 +4,7 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
-from primerforge.species.cleaner import SequenceCleaner
+from envoprimer.species.cleaner import SequenceCleaner
 
 
 def test_cleaner(tmp_path: Path):

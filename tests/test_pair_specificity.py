@@ -2,10 +2,10 @@
 Tests for primer pair specificity.
 """
 
-from primerforge.models.primer import Primer
-from primerforge.models.pair import PrimerPair
+from envoprimer.models.primer import Primer
+from envoprimer.models.pair import PrimerPair
 
-from primerforge.specificity.pair_analyzer import (
+from envoprimer.specificity.pair_analyzer import (
     PrimerPairSpecificity,
 )
 

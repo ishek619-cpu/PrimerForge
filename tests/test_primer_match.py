@@ -1,4 +1,4 @@
-from primerforge.analysis.primer_match import (
+from envoprimer.analysis.primer_match import (
     PrimerMatcher,
 )
 

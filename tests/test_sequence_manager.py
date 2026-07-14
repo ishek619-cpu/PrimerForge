@@ -4,7 +4,7 @@ Tests for SequenceManager.
 
 from pathlib import Path
 
-from primerforge.io.sequence_manager import SequenceManager
+from envoprimer.io.sequence_manager import SequenceManager
 
 
 class DummyManager(SequenceManager):

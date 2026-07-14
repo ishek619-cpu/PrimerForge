@@ -2,9 +2,9 @@
 Tests for off-target risk assessment.
 """
 
-from primerforge.models.pcr_product import PCRProduct
-from primerforge.risk.assessor import RiskAssessor
-from primerforge.specificity.models import BlastHit
+from envoprimer.models.pcr_product import PCRProduct
+from envoprimer.risk.assessor import RiskAssessor
+from envoprimer.specificity.models import BlastHit
 
 
 def test_high_risk():

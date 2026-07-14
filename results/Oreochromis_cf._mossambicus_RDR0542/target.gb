@@ -1,0 +1,55 @@
+LOCUS       ON584890                 358 bp    DNA     linear   VRT 18-JUL-2022
+DEFINITION  Oreochromis cf. mossambicus RDR0542 NADH dehydrogenase subunit 2
+            (ND2) gene, partial cds; mitochondrial.
+ACCESSION   ON584890
+VERSION     ON584890.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis cf. mossambicus RDR0542
+  ORGANISM  Oreochromis cf. mossambicus RDR0542
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 358)
+  AUTHORS   Vences,M., Stutzer,D., Rasoamampionona Raminosoa,N. and Ziegler,T.
+  TITLE     Towards a preliminary DNA barcode library for Madagascar's
+            threatened ichthyofauna
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 358)
+  AUTHORS   Vences,M., Stutzer,D., Rasoamampionona Raminosoa,N. and Ziegler,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-2022) Zoological Institute, Technische
+            Universitaet Braunschweig, Mendelssohnstr. 4, Braunschweig, Lower
+            Saxony 38106, Germany
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..358
+                     /organism="Oreochromis cf. mossambicus RDR0542"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RDR0542"
+                     /db_xref="taxon:2963512"
+                     /geo_loc_name="Madagascar: Anjiamangirana"
+                     /lat_lon="15.1614 S 47.8088 E"
+     gene            <1..>358
+                     /gene="ND2"
+     CDS             <1..>358
+                     /gene="ND2"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 2"
+                     /protein_id="UTK46075.1"
+                     /translation="DLTTGLILSTWQKLAPFALILQIQPSNSNTLIILGLASTLIGGWG
+                     GLNQTQLRKILAYSSIAHLGWMILVLQFSPSITLLTLLTYLIMTSSTFLVFKLNKSTNI
+                     NTLATSWAKAPALTA"
+ORIGIN
+        1 gaccttacta caggcctaat tctttcaacc tgacaaaaac ttgccccctt cgccctaatt
+       61 cttcaaatcc agccttcaaa ctcaaacacc ctcattattt taggcctcgc atccaccctt
+      121 attggaggct gaggaggact aaaccaaaca caactccgta aaattcttgc atactcatca
+      181 atcgcccacc taggctgaat aattcttgtt ttacaatttt ccccctccat cacactcctt
+      241 acccttctaa cttacctcat cataacatcc tcaacattcc tcgtgtttaa actcaacaaa
+      301 tccacaaata ttaatactct cgctacatcc tgagcaaaag cccccgccct cacagctc
+//

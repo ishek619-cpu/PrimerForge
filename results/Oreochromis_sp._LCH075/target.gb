@@ -1,0 +1,61 @@
+LOCUS       OP680625                 687 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis sp. LCH075 cytochrome c oxidase subunit I (COX1) gene,
+            partial cds; mitochondrial.
+ACCESSION   OP680625
+VERSION     OP680625.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. LCH075
+  ORGANISM  Oreochromis sp. LCH075
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 687)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 687)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..687
+                     /organism="Oreochromis sp. LCH075"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH075"
+                     /db_xref="taxon:2987091"
+     gene            <1..>687
+                     /gene="COX1"
+     CDS             <1..>687
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43970.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFFGHP"
+ORIGIN
+        1 aaggatatcg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagtctcc ttattcgggc agaactaagc cagcccggct ctctcctcgg agacgaccag
+      121 atttataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attataattg gagggtttgg aaactgactg gtgccactta tgattggagc accagacatg
+      241 gccttccctc gaataaataa catgagtttt tgactccttc ccccctcatt tctccttctc
+      301 ctcgcctcat ccggagtcga agcaggagcc ggtacaggat gaactgttta tcctcccctc
+      361 gcaggcaatc tcgcccacgc tggaccttct gttgatttga ccatcttttc cctccacttg
+      421 gccggggtgt catctatttt aggcgcaatt aattttatca caaccattat taacataaaa
+      481 ccccctgcca tctctcaata tcaaacaccc ctctttgtgt gatccgttct aattaccgca
+      541 gtattactcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      661 cacttattct gattcttcgg ccaccca
+//

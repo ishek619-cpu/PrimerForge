@@ -1,0 +1,57 @@
+LOCUS       KY802091                 575 bp    DNA     linear   VRT 07-MAR-2018
+DEFINITION  Oreochromis sp. MM3 cytochrome oxidase subunit 1 (COI) gene, partial
+            cds; mitochondrial.
+ACCESSION   KY802091
+VERSION     KY802091.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. MM3
+  ORGANISM  Oreochromis sp. MM3
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 575)
+  AUTHORS   Di Muri,C., Vandamme,S.G., Peace,C., Barnes,W. and Mariani,S.
+  TITLE     Biodiversity defrosted: unveiling non-compliant fish trade in ethnic
+            food stores
+  JOURNAL   Biol. Conserv. 217, 419-427 (2018)
+REFERENCE   2  (bases 1 to 575)
+  AUTHORS   Di Muri,C., Vandamme,S., Peace,C., Barnes,W., Merril,P. and
+            Mariani,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2017) School of Environmental Sciences, University
+            of Hull, Cottingham Road, Hull HU6 7RX, UK
+FEATURES             Location/Qualifiers
+     source          1..575
+                     /organism="Oreochromis sp. MM3"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="MM3"
+                     /db_xref="taxon:2099709"
+                     /geo_loc_name="United Kingdom: Manchester"
+                     /collected_by="P. Merril"
+     gene            <1..>575
+                     /gene="COI"
+     CDS             <1..>575
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="AVI57019.1"
+                     /translation="LGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDM
+                     AFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLH
+                     LAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLL
+                     TDRNLNTTFFDPAGGGDPILYQHLFWFF"
+ORIGIN
+        1 ttctcggaga cgaccaaatc tataatgtaa ttgttacagc acatgctttc gtaataattt
+       61 tctttatagt aataccaatt atgattggag gctttggaaa ctgactagta cccctcatga
+      121 ttggtgcacc agacatggcc ttccctcgaa taaataacat gagcttttga cttctccccc
+      181 cctcatttct tcttcttctc gcctcatctg gagtcgaagc aggtgccggc acaggatgga
+      241 ctgtttatcc cccgctcgca ggcaatcttg cccacgctgg accttctgtt gacttaacca
+      301 tcttctccct ccacttggcc ggagtgtcat ctattttagg tgcaattaat tttatcacaa
+      361 ccattattaa catgaaaccc cctgccatct cccaatatca aacaccccta tttgtgtgat
+      421 ccgtcctaat taccgcagta ctactccttc tatccctgcc cgttcttgcc gccggcatca
+      481 caatacttct aacagaccga aacctaaaca caaccttctt tgaccctgcc ggaggaggag
+      541 accccatcct ataccaacac ttattctgat tcttc
+//

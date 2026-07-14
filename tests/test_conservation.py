@@ -6,7 +6,7 @@ from pathlib import Path
 
 from Bio import AlignIO
 
-from primerforge.analysis.conservation import ConservedRegionFinder
+from envoprimer.analysis.conservation import ConservedRegionFinder
 
 
 def test_conservation(tmp_path: Path):

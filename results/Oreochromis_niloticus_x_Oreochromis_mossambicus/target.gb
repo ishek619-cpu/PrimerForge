@@ -1,0 +1,290 @@
+LOCUS       PZ169588                 412 bp    DNA     linear   VRT 10-JUN-2026
+DEFINITION  Oreochromis niloticus x Oreochromis mossambicus isolate RED
+            cytochrome c oxidase subunit I (COX1) gene, partial cds;
+            mitochondrial.
+ACCESSION   PZ169588
+VERSION     PZ169588.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus x Oreochromis mossambicus
+  ORGANISM  Oreochromis niloticus x Oreochromis mossambicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 412)
+  AUTHORS   Tamilmani,R., Lingam,S. and Thangasamy,V.
+  TITLE     Tilapia
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 412)
+  AUTHORS   Tamilmani,R., Lingam,S. and Thangasamy,V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2026) Biotechnology, Ponnaiyah Ramajayam Institute
+            of Science and Technology, Trichy Thanjavur Road Vallem, Thanjavur
+            613403, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..412
+                     /organism="Oreochromis niloticus x Oreochromis mossambicus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="RED"
+                     /db_xref="taxon:1344354"
+                     /geo_loc_name="India: TamilNadu,KBCeSA"
+                     /collection_date="25-Jan-2026"
+     gene            <1..>412
+                     /gene="COX1"
+     CDS             <1..>412
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="YDN95825.1"
+                     /translation="PPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSL
+                     HLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITML
+                     LTDRNLNTTFFDPAEGGDPILYQHLFWFFGHPE"
+ORIGIN
+        1 cccccctcat ttcttcttct tctcgcctca tctggagtcg aagcaggtgc cggcacagga
+       61 tggactgttt atcccccgct cgcaggcaat cttgcccacg ctggaccttc tgttgactta
+      121 accatcttct ccctccactt ggccggagtg tcatctattt taggtgcaat taattttatc
+      181 acaaccatta ttaacatgaa accccctgcc atctcccaat atcaaacacc cctatttgtg
+      241 tgatccgtcc taattaccgc agtactactc cttctatccc tgcccgttct tgccgccggc
+      301 atcacaatac ttctaacaga ccgaaaccta aacacaacct tctttgaccc tgccgaagga
+      361 ggagacccca tcctatacca acacttattc tgattctttg gccacccaga aa
+//
+LOCUS       PP092926                 624 bp    DNA     linear   VRT 05-FEB-2026
+DEFINITION  Oreochromis niloticus x Oreochromis mossambicus isolate FF1.3
+            cytochrome c oxidase subunit I (COX1) gene, partial cds;
+            mitochondrial.
+ACCESSION   PP092926
+VERSION     PP092926.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus x Oreochromis mossambicus
+  ORGANISM  Oreochromis niloticus x Oreochromis mossambicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 624)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     DNA Barcoding Exposes Unintended Fish Species in Nile Tilapia
+            Oreochromis niloticus Farms of the Kilombero Valley Floodplain,
+            Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 624)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2024) Biosciences, Sokoine University of
+            Agriculture, Department of Biosciences, Sokoine University of
+            Agriculture, Morogoro 3038, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..624
+                     /organism="Oreochromis niloticus x Oreochromis mossambicus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="FF1.3"
+                     /db_xref="taxon:1344354"
+                     /geo_loc_name="Tanzania: Morogoro"
+                     /lat_lon="8.26 S 35.98 E"
+     gene            <1..>624
+                     /gene="COX1"
+     CDS             <1..>624
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WRK63415.1"
+                     /translation="TALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPMII
+                     GGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAG
+                     NLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAV
+                     LLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFL"
+ORIGIN
+        1 actgcattaa gcctcctaat tcgggcagaa ctaagccagc ccggctctct cctcggagac
+       61 gaccagattt ataatgtaat tgttacagca catgctttcg taataatttt ctttatagta
+      121 atgccaatga ttattggagg ttttggaaac tgactagtgc cactaatgat tggtgcacca
+      181 gacatggcct tccctcgaat aaataacatg agtttttgac tcctcccccc ctcatttctc
+      241 cttctcctcg cctcatccgg ggtcgaagca ggggccggta caggatggac tgtttatccc
+      301 ccactcgcag gcaatctcgc ccatgctggg ccttccgttg acttaaccat cttctccctc
+      361 cacttggccg gggtgtcatc tattttaggt gcaattaatt ttattacaac cattattaac
+      421 ataaaacccc ctgccatctc ccaatatcaa acacccctct ttgtatgatc cgttctaatt
+      481 accgcagtac tactcctact atccctaccc gttcttgccg ccggcatcac aatacttcta
+      541 acagaccgaa acctaaacac aaccttcttt gaccctgccg gaggaggaga ccccatcctt
+      601 taccaacact tattctgatt cttg
+//
+LOCUS       PP092925                 469 bp    DNA     linear   VRT 05-FEB-2026
+DEFINITION  Oreochromis niloticus x Oreochromis mossambicus isolate FF1.5
+            cytochrome c oxidase subunit I (COX1) gene, partial cds;
+            mitochondrial.
+ACCESSION   PP092925
+VERSION     PP092925.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus x Oreochromis mossambicus
+  ORGANISM  Oreochromis niloticus x Oreochromis mossambicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 469)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     DNA Barcoding Exposes Unintended Fish Species in Nile Tilapia
+            Oreochromis niloticus Farms of the Kilombero Valley Floodplain,
+            Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 469)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2024) Biosciences, Sokoine University of
+            Agriculture, Department of Biosciences, Sokoine University of
+            Agriculture, Morogoro 3038, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..469
+                     /organism="Oreochromis niloticus x Oreochromis mossambicus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="FF1.5"
+                     /db_xref="taxon:1344354"
+                     /geo_loc_name="Tanzania: Morogoro"
+                     /lat_lon="8.26 S 35.98 E"
+     gene            <1..>469
+                     /gene="COX1"
+     CDS             <1..>469
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WRK63414.1"
+                     /translation="LVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGW
+                     TVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFV
+                     WSVLITAVLLLPSLPVLAAGITMLLTDRNLNTTFFDPPGGGDPILYQHLFWF"
+ORIGIN
+        1 ctagtgccac taatgattgg tgcaccagac atggccttcc ctcgaataaa taacatgagt
+       61 ttttgactcc tccccccctc atttctcctt ctcctcgcct catccggggt cgaagcaggg
+      121 gccggtacag gatggactgt ttatccccca ctcgcaggca atctcgccca tgctgggcct
+      181 tccgttgact taaccatctt ctccctccac ttggccgggg tgtcatctat tttaggtgca
+      241 attaatttta ttacaaccat tattaacata aaaccccctg ccatctccca atatcaaaca
+      301 cccctctttg tatgatccgt tctaattacc gcagtactac tcctaccatc cctacccgtt
+      361 cttgccgccg gcatcacaat acttctaaca gaccgaaacc taaacacaac cttctttgac
+      421 cctcccggag gaggagaccc catcctttac caacacttat tctgattct
+//
+LOCUS       DQ426668                 658 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis niloticus x Oreochromis mossambicus cytochrome oxidase
+            subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   DQ426668
+VERSION     DQ426668.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus x Oreochromis mossambicus
+  ORGANISM  Oreochromis niloticus x Oreochromis mossambicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 658)
+  AUTHORS   Yu,D.H., Fu,Y., Guo,Y.H., Huang,G.J., Li,L.H. and Ye,W.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 658)
+  AUTHORS   Yu,D.H., Fu,Y., Guo,Y.H., Huang,G.J., Li,L.H. and Ye,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAR-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..658
+                     /organism="Oreochromis niloticus x Oreochromis mossambicus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:1344354"
+     gene            <1..>658
+                     /gene="COI"
+     CDS             <1..>658
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="ABD84052.1"
+                     /translation="TLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAH
+                     AFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEA
+                     GAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQY
+                     QTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 caccctctat ctagtatttg gtgcttgagc cggaatagta ggaaccgcac taagcctcct
+       61 aattcgggca gaactaagcc agcccggctc tctcctcgga gacgaccaga tttataatgt
+      121 aattgttaca gcacatgctt tcgtaataat tttctttata gtaataccaa ttataattgg
+      181 aggttttgga aactgactag taccacttat gattggtgca ccagacatgg ccttccctcg
+      241 aatgaacaac atgagttttt gactccttcc cccctcattt ctcctcctcc tcgcctcatc
+      301 cggagtcgaa gcaggggccg gtacaggatg aactgtttac cccccactcg caggcaatct
+      361 cgcccacgct gggccttctg ttgacttaac catcttttcc ctccacttgg ccggggtgtc
+      421 atccatttta ggtgcaatta attttatcac aaccattatt aacataaaac cccctgccat
+      481 ctctcaatat caaacacccc tatttgtgtg atccgttcta attaccgcag tgctgctcct
+      541 actatccctg cccgttcttg ccgccggcat cacaatactt ctaacagatc gcaacctaaa
+      601 cacaaccttc tttgaccctg ccggaggagg agaccccatc ctttaccaac acttattc
+//
+LOCUS       DQ856620                 646 bp    DNA     linear   VRT 11-JAN-2008
+DEFINITION  Oreochromis niloticus x Oreochromis mossambicus voucher NHSO R5
+            cytochrome c oxidase subunit I (COI) gene, partial cds;
+            mitochondrial.
+ACCESSION   DQ856620
+VERSION     DQ856620.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis niloticus x Oreochromis mossambicus
+  ORGANISM  Oreochromis niloticus x Oreochromis mossambicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 646)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 646)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..646
+                     /organism="Oreochromis niloticus x Oreochromis mossambicus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NHSO R5"
+                     /db_xref="taxon:1344354"
+     gene            <1..>646
+                     /gene="COI"
+     CDS             <1..>646
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="ABI63544.1"
+                     /translation="RMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVM
+                     PIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYP
+                     PLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVL
+                     ITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHR"
+ORIGIN
+        1 ccggatagta ggaaccgcac taagcctcct aattcgggca gaactaagcc agcccggctc
+       61 tctcctcgga gacgaccaga tttataatgt aattgttaca gcacatgctt tcgtaataat
+      121 tttctttata gtaataccaa ttataattgg aggttttgga aactgactag taccacttat
+      181 gattggtgca ccagacatgg ccttccctcg aatgaacaac atgagttttt gactccttcc
+      241 cccctcattt ctcctcctcc tcgcctcatc cggagtcgaa gcaggggccg gtacaggatg
+      301 aactgtttac cccccactcg caggcaatct cgcccacgct gggccttctg ttgacttaac
+      361 catcttttcc ctccacttgg ccggggtgtc atccatttta ggtgcaatta attttatcac
+      421 aaccattatt aacataaaac cccctgccat ctctcaatat caaacacccc tatttgtgtg
+      481 atccgttcta attaccgcag tgctgctcct actatccctg cccgttcttg ccgccggcat
+      541 cacaatactt ctaacagatc gcaacctaaa cacaaccttc tttgaccctg ccggaggagg
+      601 agaccccatc ctttaccaac acttattctg attttttggt caccgg
+//

@@ -2,7 +2,7 @@
 Tests for shared species models.
 """
 
-from primerforge.species.base import SpeciesContext
+from envoprimer.species.base import SpeciesContext
 
 
 def test_species_context():

@@ -4,7 +4,7 @@ Species collector tests.
 
 from pathlib import Path
 
-from primerforge.species.collector import SpeciesDataset
+from envoprimer.species.collector import SpeciesDataset
 
 
 def test_dataset():

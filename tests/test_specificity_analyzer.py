@@ -5,9 +5,9 @@ Tests for primer specificity analysis.
 from pathlib import Path
 from unittest.mock import MagicMock
 
-from primerforge.models.primer import Primer
-from primerforge.specificity.analyzer import SpecificityAnalyzer
-from primerforge.specificity.models import (
+from envoprimer.models.primer import Primer
+from envoprimer.specificity.analyzer import SpecificityAnalyzer
+from envoprimer.specificity.models import (
     BlastHit,
     SpecificityResult,
 )

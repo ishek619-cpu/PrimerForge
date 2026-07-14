@@ -2,9 +2,9 @@
 Tests for PrimerPairScorer.
 """
 
-from primerforge.models.primer import Primer
-from primerforge.models.pair import PrimerPair
-from primerforge.primer.pairscore import PrimerPairScorer
+from envoprimer.models.primer import Primer
+from envoprimer.models.pair import PrimerPair
+from envoprimer.primer.pairscore import PrimerPairScorer
 
 
 def test_pairscore():

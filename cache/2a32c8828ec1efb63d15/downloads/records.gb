@@ -1,0 +1,135 @@
+LOCUS       MN756321                 609 bp    DNA     linear   VRT 09-FEB-2022
+DEFINITION  Oreochromis cf. niloticus/mossambicus JFDC-2020 isolate DF82
+            cytochrome c oxidase subunit 1 (cox1) gene, partial cds;
+            mitochondrial.
+ACCESSION   MN756321
+VERSION     MN756321.2
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis cf. niloticus/mossambicus JFDC-2020
+  ORGANISM  Oreochromis cf. niloticus/mossambicus JFDC-2020
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 609)
+  AUTHORS   Munguia-Vega,A., Terrazas-Tapia,R., Dominguez-Contreras,J.F.,
+            Reyna,M. and Zapata-Morales,P.
+  TITLE     DNA barcoding reveals mislabeling patterns in the commerce of fish
+            in Mexico
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 609)
+  AUTHORS   Dominguez-Contreras,J.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-NOV-2019) Departamento de Biologia Marina y
+            Pesquerias, Centro Interdisciplinario de Ciencias Marinas, Av.
+            Instituto Politecnico Nacional s/n Col. Playa Palo de Santa Rita, La
+            Paz, Baja California Sur 23096, Mexico
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            On Feb 9, 2022 this sequence version replaced MN756321.1.
+FEATURES             Location/Qualifiers
+     source          1..609
+                     /organism="Oreochromis cf. niloticus/mossambicus JFDC-2020"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="DF82"
+                     /isolation_source="Supermercado"
+                     /db_xref="taxon:2758740"
+                     /geo_loc_name="Mexico: Mexico City"
+                     /collection_date="2018"
+                     /collected_by="OCEANA-Mexico"
+                     /note="Seafood: Filete"
+     gene            <1..>609
+                     /gene="cox1"
+     CDS             <1..>609
+                     /gene="cox1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit 1"
+                     /protein_id="QMS93607.2"
+                     /translation="ALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIG
+                     GFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGN
+                     LAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVL
+                     LLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 gcattaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+       61 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaatg
+      121 ccaattataa ttggaggttt tggaaactga ctagtgccac taatgattgg tgcaccagac
+      181 atggccttcc ctcgaataaa taacatgagt ttttgactcc tccccccctc atttctcctt
+      241 ctcctcgcct catccggggt cgaagcaggg gccggtacag gatggactgt ttatccccca
+      301 ctcgcaggca atctcgccca tgctgggcct tccgttgact taaccatctt ctccctccac
+      361 ttggccgggg tgtcatctat tttaggtgca attaatttta ttacaaccat tattaacata
+      421 aaaccccctg ccatctccca atatcaaaca cccctctttg tatgatccgt tctaattacc
+      481 gcagtactac tcctactatc cctacccgtt cttgccgccg gcatcacaat acttctaaca
+      541 gaccgaaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      601 caacactta
+//
+LOCUS       MN756151                 597 bp    DNA     linear   VRT 09-FEB-2022
+DEFINITION  Oreochromis cf. niloticus/mossambicus JFDC-2020 isolate CUN11
+            cytochrome c oxidase subunit 1 (cox1) gene, partial cds;
+            mitochondrial.
+ACCESSION   MN756151
+VERSION     MN756151.2
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis cf. niloticus/mossambicus JFDC-2020
+  ORGANISM  Oreochromis cf. niloticus/mossambicus JFDC-2020
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 597)
+  AUTHORS   Munguia-Vega,A., Terrazas-Tapia,R., Dominguez-Contreras,J.F.,
+            Reyna,M. and Zapata-Morales,P.
+  TITLE     DNA barcoding reveals mislabeling patterns in the commerce of fish
+            in Mexico
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 597)
+  AUTHORS   Dominguez-Contreras,J.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-NOV-2019) Departamento de Biologia Marina y
+            Pesquerias, Centro Interdisciplinario de Ciencias Marinas, Av.
+            Instituto Politecnico Nacional s/n Col. Playa Palo de Santa Rita, La
+            Paz, Baja California Sur 23096, Mexico
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            On Feb 9, 2022 this sequence version replaced MN756151.1.
+FEATURES             Location/Qualifiers
+     source          1..597
+                     /organism="Oreochromis cf. niloticus/mossambicus JFDC-2020"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="CUN11"
+                     /isolation_source="Supermercado"
+                     /db_xref="taxon:2758740"
+                     /geo_loc_name="Mexico: Cancun"
+                     /collection_date="2018"
+                     /collected_by="OCEANA-Mexico"
+                     /note="Seafood: Filete"
+     gene            <1..>597
+                     /gene="cox1"
+     CDS             <1..>597
+                     /gene="cox1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit 1"
+                     /protein_id="QMS93438.2"
+                     /translation="LIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGN
+                     WLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHA
+                     GPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLS
+                     LPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 ctaattcggg cagaactaag ccagcccggc tctctcctcg gagacgacca gatttataat
+       61 gtaattgtta cagcacatgc tttcgtaata attttcttta tagtaatgcc aattataatt
+      121 ggaggttttg gaaactgact agtgccacta atgattggtg caccagacat ggccttccct
+      181 cgaataaata acatgagttt ttgactcctc cccccctcat ttctccttct cctcgcctca
+      241 tccggggtcg aagcaggggc cggtacagga tggactgttt atcccccact cgcaggcaat
+      301 ctcgcccatg ctgggccttc cgttgactta accatcttct ccctccactt ggccggggtg
+      361 tcatctattt taggtgcaat taattttatt acaaccatta ttaacataaa accccctgcc
+      421 atctcccaat atcaaacacc cctctttgta tgatccgttc taattaccgc agtactactc
+      481 ctactatccc tacccgttct tgccgccggc atcacaatac ttctaacaga ccgaaaccta
+      541 aacacaacct tctttgaccc tgccggagga ggagacccca tcctttacca acactta
+//

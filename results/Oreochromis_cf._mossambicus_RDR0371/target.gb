@@ -1,0 +1,69 @@
+LOCUS       ON584889                 922 bp    DNA     linear   VRT 18-JUL-2022
+DEFINITION  Oreochromis cf. mossambicus RDR0371 NADH dehydrogenase subunit 2
+            (ND2) gene, partial cds; mitochondrial.
+ACCESSION   ON584889
+VERSION     ON584889.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis cf. mossambicus RDR0371
+  ORGANISM  Oreochromis cf. mossambicus RDR0371
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 922)
+  AUTHORS   Vences,M., Stutzer,D., Rasoamampionona Raminosoa,N. and Ziegler,T.
+  TITLE     Towards a preliminary DNA barcode library for Madagascar's
+            threatened ichthyofauna
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 922)
+  AUTHORS   Vences,M., Stutzer,D., Rasoamampionona Raminosoa,N. and Ziegler,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-2022) Zoological Institute, Technische
+            Universitaet Braunschweig, Mendelssohnstr. 4, Braunschweig, Lower
+            Saxony 38106, Germany
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..922
+                     /organism="Oreochromis cf. mossambicus RDR0371"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="RDR0371"
+                     /db_xref="taxon:2963511"
+                     /geo_loc_name="Madagascar: Point 32 km to Ambondromamy from
+                     Maevatanana"
+                     /lat_lon="16.67583 S 47.07433 E"
+     gene            <1..>922
+                     /gene="ND2"
+     CDS             <1..>922
+                     /gene="ND2"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 2"
+                     /protein_id="UTK46074.1"
+                     /translation="LLAWMGLEMNTLAIIPLMAQHHHPRAVEATTKYFLVQAAAAATLL
+                     FASITNAWLTGQWEIQQITHPLPTTMITLALALKIGLAPLHAWLPEVLQGLDLTTGLIL
+                     STWQKLAPFALILQIQPSNSNTLIILGLASTLIGGWGGLNQTQLRKILAYSSIAHLGWM
+                     ILILQFSPSITLLTLLTYLIMTSSTFLVFKLNKSTNINTLATSWAKAPTLTALTPLILL
+                     SLGGLPPLTGFMPKWLILQELTKQGLAPTATLAALSALLSLYFYLRLSYAMTLTISPNN
+                     LLGTTPWRLPSTQLTFPLATSTTLTI"
+ORIGIN
+        1 cttctcgcct ggataggcct tgaaataaat acgctagcta tcatccccct aatagctcaa
+       61 caccaccacc cccgagctgt cgaagctaca accaaatatt ttttagtcca agctgccgca
+      121 gcagctaccc ttctatttgc aagcattact aacgcctgac taacgggcca atgagaaatt
+      181 caacaaatca cacaccccct cccaaccacc ataattaccc ttgccctcgc cctcaaaatc
+      241 ggtttggccc ctcttcatgc ttgacttccc gaagttctgc aaggactgga ccttactaca
+      301 ggcctaattc tttcaacctg acaaaaactt gcccccttcg ccctaattct tcaaatccag
+      361 ccttcaaact caaacaccct cattatttta ggcctcgcat ccacccttat tggaggctga
+      421 ggtggactaa accaaacaca actccgtaaa attcttgcat actcatcaat cgcccaccta
+      481 ggctgaataa ttcttatttt acaattttcc ccctccatca cactccttac ccttctaact
+      541 tacctcatca taacatcctc aacattcctc gtgtttaaac tcaacaaatc cacaaatatt
+      601 aatactctcg ccacatcctg agcaaaagcc cccaccctca cagctcttac ccccctcatt
+      661 ctcctttcac taggaggcct ccccccactc acaggcttca taccaaaatg actaattctt
+      721 caagaattaa ccaaacaagg ccttgctcct accgcaaccc tggcagccct ttcagccctc
+      781 cttagcctat atttttatct acgcctctcc tacgcaataa ccctcaccat ttcccctaac
+      841 aacctcctag gcacaacccc ctgacgttta ccttccaccc aactaacttt ccccctcgcc
+      901 acctcaacta cattgacaat tt
+//

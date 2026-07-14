@@ -4,7 +4,7 @@ Alignment builder tests.
 
 from pathlib import Path
 
-from primerforge.species.alignment import AlignmentResult
+from envoprimer.species.alignment import AlignmentResult
 
 
 def test_alignment_result():

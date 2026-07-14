@@ -4,7 +4,7 @@ Tests for primer discovery.
 
 from pathlib import Path
 
-from primerforge.primer.discovery import PrimerDiscovery
+from envoprimer.primer.discovery import PrimerDiscovery
 
 
 def test_primer_discovery():

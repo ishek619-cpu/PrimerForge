@@ -2,7 +2,7 @@ from dataclasses import FrozenInstanceError
 
 import pytest
 
-from primerforge.specificity.models import (
+from envoprimer.specificity.models import (
     BlastHit,
     OffTargetHit,
     SpecificityResult,

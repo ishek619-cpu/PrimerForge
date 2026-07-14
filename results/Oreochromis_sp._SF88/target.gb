@@ -1,0 +1,68 @@
+LOCUS       MH194509                 638 bp    DNA     linear   ENV 19-NOV-2018
+DEFINITION  Oreochromis sp. SF88 cytochrome c oxidase subunit I (COI) gene,
+            partial cds; mitochondrial.
+ACCESSION   MH194509
+VERSION     MH194509.1
+KEYWORDS    ENV.
+SOURCE      mitochondrion Oreochromis sp. SF88
+  ORGANISM  Oreochromis sp. SF88
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 638)
+  AUTHORS   Marin,A., Serna,J., Robles,C., Ramirez,B., Reyes-Flores,L.E.,
+            Zelada-Mazmela,E., Sotil,G. and Alfaro,R.
+  TITLE     A glimpse into the genetic diversity of the Peruvian seafood sector:
+            Unveiling species substitution, mislabeling and trade of threatened
+            species
+  JOURNAL   PLoS ONE 13 (11), e0206596 (2018)
+   PUBMED   30444869
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 638)
+  AUTHORS   Marin,A., Serna,J., Robles,C., Ramirez,B., Reyes,E., Zelada,E.,
+            Sotil,G. and Alfaro,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-APR-2018) Biological Sciences, National University of
+            Santa, Av Universitaria S/N, Nuevo Chimbote, Santa 02712, Peru
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..638
+                     /organism="Oreochromis sp. SF88"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="SF88"
+                     /isolation_source="Filet from multimarket"
+                     /db_xref="taxon:2488722"
+                     /tissue_type="muscle"
+                     /environmental_sample=""
+                     /geo_loc_name="Peru"
+                     /collection_date="2017"
+     gene            <1..>638
+                     /gene="COI"
+     CDS             <1..>638
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="AYW00019.1"
+                     /translation="GMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVM
+                     PIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYP
+                     PLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVL
+                     ITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFG"
+ORIGIN
+        1 ggaatagtag gaaccgcgct aagcctccta attcgggcag aactaagcca acccggctct
+       61 ctcctcggag acgaccagat ttataatgta attgttacag cacatgcttt tgtaataatt
+      121 ttctttatag taatgccaat tatgattgga ggctttggaa actgactagt accactcatg
+      181 attggtgccc cagatatggc cttccctcga atgaacaaca tgagtttctg actcctccct
+      241 ccctcattcc tcctcctcct cgcctcatct ggagtcgaag caggtgccgg cacagggtga
+      301 actgtttacc ccccgctcgc aggcaatctt gcccatgctg ggccttctgt cgacttaacc
+      361 atcttctctc tccacttggc cggggtgtca tctattctag gcgcaattaa tttcattaca
+      421 acaatcatta acatgaaacc ccccgccatc tctcaatatc aaacacccct atttgtatgg
+      481 tccgttctaa ttaccgcagt attacttctt ctatccctac ccgttcttgc cgccggcatc
+      541 acaatacttc tcacagaccg aaacctaaac acaaccttct ttgatcctgc cggaggagga
+      601 gaccccatcc tttaccaaca cttattctga ttcttcgg
+//

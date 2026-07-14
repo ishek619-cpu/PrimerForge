@@ -1,0 +1,57 @@
+LOCUS       OP078742                 589 bp    DNA     linear   VRT 31-OCT-2023
+DEFINITION  Oreochromis sp. MSB 24823 isolate Cichl_exp_inf_1 cytochrome c
+            oxidase subunit I (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP078742
+VERSION     OP078742.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. MSB 24823
+  ORGANISM  Oreochromis sp. MSB 24823
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 589)
+  AUTHORS   Perales Macedo,D.M.B., Diaz Pernett,S.C., Diaz Gonzalez,M.G., Torres
+            Nieves,G.M., Santos Flores,C.J., Diaz Lameiro,A.M. and Locke,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2022) Biology, University of Puerto Rico at
+            Mayaguez, Highway 108, Miradero, Mayaguez, PR 00681, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..589
+                     /organism="Oreochromis sp. MSB 24823"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Cichl_exp_inf_1"
+                     /specimen_voucher="MSB:24823"
+                     /db_xref="taxon:2967976"
+                     /geo_loc_name="Puerto Rico"
+                     /lat_lon="18.213900 N 67.141000 W"
+                     /collection_date="25-Apr-2022"
+     gene            <1..>589
+                     /gene="COX1"
+     CDS             <1..>589
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UUA62487.1"
+                     /translation="GTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIM
+                     IGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLA
+                     GNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITA
+                     VLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGG"
+ORIGIN
+        1 ggaaccgcgc taagcctcct aattcgggca gaactaagcc agcccggctc tctcctcgga
+       61 gacgaccaga tttataatgt aattgttaca gcacatgctt ttgtaataat tttctttata
+      121 gtaatgccaa ttatgattgg aggctttgga aactgactag taccactcat gattggtgcc
+      181 ccagatatgg ccttccctcg aatgaacaac atgagtttct gactcctccc tccctcattc
+      241 ctcctcctcc tcgcctcatc tggagtcgaa gcaggtgccg gcacagggtg aactgtttac
+      301 cccccgctcg caggcaatct tgcccatgct gggccttctg tcgacttaac catcttctcc
+      361 ctccacttgg ccggggtgtc atctattcta ggcgcaatta atttcattac aacaatcatt
+      421 aacatgaaac cccccgccat ctctcaatat caaacacccc tatttgtatg gtccgttcta
+      481 attaccgcag tattacttct tctatcccta cccgttcttg ccgccggcat cacaatactt
+      541 ctcacagacc gaaacctaaa cacaaccttc tttgatcctg ccggaggag
+//

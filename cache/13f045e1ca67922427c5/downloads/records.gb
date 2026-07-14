@@ -1,0 +1,203 @@
+LOCUS       MK074536                 652 bp    DNA     linear   VRT 02-NOV-2018
+DEFINITION  Oreochromis schwebischi voucher A5-36-80 cytochrome oxidase subunit
+            1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK074536
+VERSION     MK074536.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis schwebischi
+  ORGANISM  Oreochromis schwebischi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Sonet,G., Snoeks,J., Nagy,Z.T., Vreven,E., Boden,G., Breman,F.C.,
+            Decru,E., Hanssens,M., Ibala zamba,A., Jordaens,K., Mamonekene,V.,
+            Musschoot,T., Van houdt,J., Van steenberge,M., Lunkayilakio
+            wamuini,S. and Verheyen,E.
+  TITLE     DNA barcoding fishes from the Congo and the Lower Guinean provinces:
+            assembling a reference library for poorly inventoried fauna
+  JOURNAL   Mol Ecol Resour (2018) In press
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Sonet,G., Snoeks,J., Nagy,Z.T., Vreven,E., Boden,G., Breman,F.C.,
+            Decru,E., Hanssens,M., Ibala zamba,A., Jordaens,K., Mamonekene,V.,
+            Musschoot,T., Van houdt,J., Van steenberge,M., Lunkayilakio
+            wamuini,S. and Verheyen,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2018) JEMU, Royal Belgian Institute of Natural
+            Sciences, Rue Vautierstraat, 29, Brussels, Brussels 1000, Belgium
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis schwebischi"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="A5-36-80"
+                     /db_xref="BOLD:BCOVR156-17.COI-5P"
+                     /db_xref="taxon:158767"
+                     /geo_loc_name="Republic of the Congo: Lower Guinea, Nyanga,
+                     riv. Nyanga a Nyanga-Pont"
+                     /lat_lon="2.9118 S 11.8933 E"
+                     /collection_date="14-Aug-2005"
+                     /collected_by="Victor Mamonekene, Emmanuel Vreven, Armel
+                     Ibala Zamba"
+     gene            <1..>652
+                     /gene="COI"
+     CDS             <1..>652
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="AYP72454.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLXLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgggccgg aatagtagga actgcactaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccaaattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta tgattggagg
+      181 ctttggaaac tgactagtac cgctcatgat tggtgcacca gacatggcct tccctcgaat
+      241 aaataacatg agtttttgac ttctcccccc ctcatttctt yttcttctcg cctcatctgg
+      301 agtcgaagca ggtgccggta caggatgaac tgtttatccc ccgctcgcag gcaatctcgc
+      361 ccacgctggg ccttctgttg acttaaccat cttctccctc catttggccg gagtgtcatc
+      421 tattctaggg gcaattaatt ttatcacaac cattattaac atgaaacccc ctgccatctc
+      481 ccaatatcaa acacctctgt ttgtgtgatc cgttctaatt actgcagtac tcctcctact
+      541 gtccctgccc gtccttgccg ctggcatcac aatacttcta acagaccgaa acctaaacac
+      601 aaccttcttt gatcctgccg gaggaggaga ccccatcctt taccaacact ta
+//
+LOCUS       MK074535                 652 bp    DNA     linear   VRT 02-NOV-2018
+DEFINITION  Oreochromis schwebischi voucher A5-36-106 cytochrome oxidase subunit
+            1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK074535
+VERSION     MK074535.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis schwebischi
+  ORGANISM  Oreochromis schwebischi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Sonet,G., Snoeks,J., Nagy,Z.T., Vreven,E., Boden,G., Breman,F.C.,
+            Decru,E., Hanssens,M., Ibala zamba,A., Jordaens,K., Mamonekene,V.,
+            Musschoot,T., Van houdt,J., Van steenberge,M., Lunkayilakio
+            wamuini,S. and Verheyen,E.
+  TITLE     DNA barcoding fishes from the Congo and the Lower Guinean provinces:
+            assembling a reference library for poorly inventoried fauna
+  JOURNAL   Mol Ecol Resour (2018) In press
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Sonet,G., Snoeks,J., Nagy,Z.T., Vreven,E., Boden,G., Breman,F.C.,
+            Decru,E., Hanssens,M., Ibala zamba,A., Jordaens,K., Mamonekene,V.,
+            Musschoot,T., Van houdt,J., Van steenberge,M., Lunkayilakio
+            wamuini,S. and Verheyen,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2018) JEMU, Royal Belgian Institute of Natural
+            Sciences, Rue Vautierstraat, 29, Brussels, Brussels 1000, Belgium
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis schwebischi"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="A5-36-106"
+                     /db_xref="BOLD:BCOVR105-17.COI-5P"
+                     /db_xref="taxon:158767"
+                     /geo_loc_name="Republic of the Congo: Lower Guinea,
+                     Kouilou-Niari, fleuve Kouilou-Niari au Pont-du-Niari"
+                     /lat_lon="3.5552 S 12.343 E"
+                     /collection_date="18-Aug-2005"
+                     /collected_by="Victor Mamonekene, Emmanuel Vreven, Armel
+                     Ibala Zamba"
+     gene            <1..>652
+                     /gene="COI"
+     CDS             <1..>652
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="AYP72453.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgagccgg aatagtagga actgcgctaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta taattggagg
+      181 ttttggaaac tgactagtgc cacttatgat tggtgcacca gacatggcct tccctcgaat
+      241 aaataacatg agtttttgac tcctgccccc ctcatttctc cttctccttg cctcatccgg
+      301 agtcgaagca ggggctggta caggatgaac tgtttatccc ccactcgcag gcaatctcgc
+      361 ccacgctggg ccttctgttg acttaaccat cttctccctt cacttggccg gggtttcatc
+      421 tattttaggc gcaattaatt ttattacgac cattattaac ataaaacccc ctgccatctc
+      481 tcaatatcaa acacccctct ttgtgtgatc cgttctaatt accgcagtac tgctcctact
+      541 atccctgccc gttcttgccg ccggcatcac aatacttcta acagaccgaa acctaaacac
+      601 aaccttcttt gaccctgccg gaggaggaga ccccatcctt taccaacact ta
+//
+LOCUS       MK074534                 652 bp    DNA     linear   VRT 02-NOV-2018
+DEFINITION  Oreochromis schwebischi voucher A7-31-629 cytochrome oxidase subunit
+            1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK074534
+VERSION     MK074534.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis schwebischi
+  ORGANISM  Oreochromis schwebischi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   Sonet,G., Snoeks,J., Nagy,Z.T., Vreven,E., Boden,G., Breman,F.C.,
+            Decru,E., Hanssens,M., Ibala zamba,A., Jordaens,K., Mamonekene,V.,
+            Musschoot,T., Van houdt,J., Van steenberge,M., Lunkayilakio
+            wamuini,S. and Verheyen,E.
+  TITLE     DNA barcoding fishes from the Congo and the Lower Guinean provinces:
+            assembling a reference library for poorly inventoried fauna
+  JOURNAL   Mol Ecol Resour (2018) In press
+REFERENCE   2  (bases 1 to 652)
+  AUTHORS   Sonet,G., Snoeks,J., Nagy,Z.T., Vreven,E., Boden,G., Breman,F.C.,
+            Decru,E., Hanssens,M., Ibala zamba,A., Jordaens,K., Mamonekene,V.,
+            Musschoot,T., Van houdt,J., Van steenberge,M., Lunkayilakio
+            wamuini,S. and Verheyen,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2018) JEMU, Royal Belgian Institute of Natural
+            Sciences, Rue Vautierstraat, 29, Brussels, Brussels 1000, Belgium
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /organism="Oreochromis schwebischi"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="A7-31-629"
+                     /db_xref="BOLD:BCOVR078-17.COI-5P"
+                     /db_xref="taxon:158767"
+                     /geo_loc_name="Republic of the Congo: Lower Guinea, Nyanga,
+                     riv. Nyanga a Nyanga, juste en aval du pont"
+                     /lat_lon="2.9232 S 11.8845 E"
+                     /collection_date="30-Aug-2007"
+                     /collected_by="Emmanuel Vreven, Armel Ibala Zamba"
+     gene            <1..>652
+                     /gene="COI"
+     CDS             <1..>652
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="AYP72452.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgggccgg aatagtagga actgcactaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccaaattt ataatgtaat
+      121 tgttacagca catgctttcg taataatttt ctttatagta ataccaatta tgattggagg
+      181 ctttggaaac tgactagtac cgctcatgat tggtgcacca gacatggcct tccctcgaat
+      241 aaataacatg agtttttgac ttctcccccc ctcatttctt cttcttctcg cctcatctgg
+      301 agtcgaagca ggtgccggta caggatgaac tgtttatccc ccgctcgcag gcaatctcgc
+      361 ccacgctggg ccttctgttg acttaaccat cttctccctc catttggccg gagtgtcatc
+      421 tattctaggg gcaattaatt ttatcacaac cattattaac atgaaacccc ctgccatctc
+      481 ccaatatcaa acacctctgt ttgtgtgatc cgttctaatt actgcagtac tcctcctact
+      541 gtccctgccc gtccttgccg ctggcatcac aatacttcta acagaccgaa acctaaacac
+      601 aaccttcttt gatcctgccg gaggaggaga ccccatcctt taccaacact ta
+//

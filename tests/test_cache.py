@@ -4,7 +4,7 @@ Tests for sequence cache.
 
 from pathlib import Path
 
-from primerforge.io.cache import SequenceCache
+from envoprimer.io.cache import SequenceCache
 
 
 def test_cache(tmp_path: Path):

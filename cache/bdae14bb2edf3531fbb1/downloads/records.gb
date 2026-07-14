@@ -1,0 +1,60 @@
+LOCUS       KJ669573                 655 bp    DNA     linear   VRT 14-FEB-2017
+DEFINITION  Oreochromis sp. CMH-2014 isolate CES-467 voucher GRIF:GU-AW421
+            cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   KJ669573
+VERSION     KJ669573.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. CMH-2014
+  ORGANISM  Oreochromis sp. CMH-2014
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 655)
+  AUTHORS   Hardy,C.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-APR-2014) CSIRO, Clunies Ross Street, Canberra, ACT
+            2601, Australia
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..655
+                     /organism="Oreochromis sp. CMH-2014"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="CES-467"
+                     /specimen_voucher="GRIF:GU-AW421"
+                     /db_xref="taxon:1527652"
+                     /geo_loc_name="Australia: Brisbane River, QLD"
+                     /collection_date="2009"
+                     /PCR_primers="fwd_name: FishF1, fwd_seq:
+                     tcaaccaaccacaaagacattggcac, rev_name: FishR1, rev_seq:
+                     tagacttctgggtggccaaagaatca"
+                     /note="introduced species"
+     gene            <1..>655
+                     /gene="COI"
+     CDS             <1..>655
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="AII32187.1"
+                     /translation="LYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHA
+                     FVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAG
+                     AGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQ
+                     TPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 cctctatcta gtatttggtg cttgagccgg aatagtagga accgcgctaa gcctcctaat
+       61 tcgggcagaa ctaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat
+      121 tgttacagca catgcttttg taataatttt ctttatagta atgccaatta tgattggagg
+      181 ctttggaaac tgactagtac cactcatgat tggtgcccca gatatggcct tccctcgaat
+      241 gaacaacatg agtttctgac tcctccctcc ctcattcctc ctcctcctcg cctcatctgg
+      301 agtcgaagca ggtgccggca cagggtgaac tgtttacccc ccgctcgcag gcaatcttgc
+      361 ccatgctggg ccttctgtcg acttaaccat cttctccctc cacttggccg gggtgtcatc
+      421 tattctaggc gcaattaatt tcattacaac aatcattaac atgaaacccc ccgccatctc
+      481 tcaatatcaa acacccctat ttgtatggtc cgttctaatt accgcagtat tacttcttct
+      541 atccctaccc gttcttgccg ccggcatcac aatacttctc acagaccgaa acctaaacac
+      601 aaccttcttt gatcctgccg gaggaggaga ccccatcctt taccaacact tattc
+//

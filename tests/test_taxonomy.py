@@ -1,4 +1,4 @@
-from primerforge.species.taxonomy import TaxonomyRecord
+from envoprimer.species.taxonomy import TaxonomyRecord
 
 
 def test_taxonomy_record():

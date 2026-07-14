@@ -2,8 +2,8 @@
 Tests for thermodynamic analysis.
 """
 
-from primerforge.models.primer import Primer
-from primerforge.primer3.thermo import ThermoAnalyzer
+from envoprimer.models.primer import Primer
+from envoprimer.primer3.thermo import ThermoAnalyzer
 
 
 def test_hairpin_and_homodimer():

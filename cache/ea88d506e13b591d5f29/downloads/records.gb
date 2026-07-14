@@ -1,0 +1,537 @@
+LOCUS       PZ056091                 678 bp    DNA     linear   VRT 26-MAY-2026
+DEFINITION  Oreochromis aureus x Oreochromis niloticus voucher
+            LBP30940_LBPV107038 cytochrome c oxidase subunit I (COX1) gene,
+            partial cds; mitochondrial.
+ACCESSION   PZ056091
+VERSION     PZ056091.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 678)
+  AUTHORS   de Oliveira Vieira,L., Kuranaka,M., Garcia-Ayala,J.R., de Carvalho
+            Depra,G., Crispim,J.L., de Oliveira,R.F., Guimaraes,E.C., de
+            Brito,P.S., Oliveira,C. and Ottoni,F.P.
+  TITLE     Unveiling fish diversity in the Parque Nacional dos Lencois
+            Maranhenses and adjacent areas through DNA barcoding, Northeastern
+            Brazil
+  JOURNAL   Biologia (Bratisl) 81 (6), 142 (2026)
+  REMARK    DOI: 10.1007/s11756-026-02217-1
+REFERENCE   2  (bases 1 to 678)
+  AUTHORS   Vieira,L.O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-FEB-2026) Departamento de Biologia Estrutural e
+            Funcional, Setor de Morfologia, Universidade Estadual Paulista Julio
+            de Mesquita Filho, Rua Celso Wagner Zanin, Botucatu, Sao Paulo
+            18618-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..678
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="LBP30940_LBPV107038"
+                     /db_xref="taxon:239089"
+                     /geo_loc_name="Brazil: Maranhao, Barreirinhas"
+                     /collection_date="04-May-2021"
+     gene            <1..>678
+                     /gene="COX1"
+     CDS             <1..>678
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="YDE84937.1"
+                     /translation="QDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFL"
+ORIGIN
+        1 caagacattg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc agaactaagc cagcccggct ctcttctcgg agacgaccaa
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attatgattg gaggctttgg aaactgacta gtacccctca tgattggtgc accagacatg
+      241 gccttccctc gaataaataa catgagcttt tgacttctcc ccccctcatt tcttcttctt
+      301 ctcgcctcat ctggagtcga agcaggtgcc ggcacaggat ggactgttta tcccccgctc
+      361 gcaggcaatc ttgcccacgc tggaccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggagtgt catctatttt aggtgcaatt aattttatca caaccattat taacatgaaa
+      481 ccccctgcca tctcccaata tcaaacaccc ctatttgtgt gatccgtcct aattaccgca
+      541 gtactactcc ttctatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctataccaa
+      661 cacttattct gattcttg
+//
+LOCUS       PZ056090                 678 bp    DNA     linear   VRT 26-MAY-2026
+DEFINITION  Oreochromis aureus x Oreochromis niloticus voucher
+            CICCAA05600_LBPV107037 cytochrome c oxidase subunit I (COX1) gene,
+            partial cds; mitochondrial.
+ACCESSION   PZ056090
+VERSION     PZ056090.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 678)
+  AUTHORS   de Oliveira Vieira,L., Kuranaka,M., Garcia-Ayala,J.R., de Carvalho
+            Depra,G., Crispim,J.L., de Oliveira,R.F., Guimaraes,E.C., de
+            Brito,P.S., Oliveira,C. and Ottoni,F.P.
+  TITLE     Unveiling fish diversity in the Parque Nacional dos Lencois
+            Maranhenses and adjacent areas through DNA barcoding, Northeastern
+            Brazil
+  JOURNAL   Biologia (Bratisl) 81 (6), 142 (2026)
+  REMARK    DOI: 10.1007/s11756-026-02217-1
+REFERENCE   2  (bases 1 to 678)
+  AUTHORS   Vieira,L.O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-FEB-2026) Departamento de Biologia Estrutural e
+            Funcional, Setor de Morfologia, Universidade Estadual Paulista Julio
+            de Mesquita Filho, Rua Celso Wagner Zanin, Botucatu, Sao Paulo
+            18618-970, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..678
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="CICCAA05600_LBPV107037"
+                     /db_xref="taxon:239089"
+                     /geo_loc_name="Brazil: Maranhao, Barreirinhas"
+                     /collection_date="04-May-2021"
+     gene            <1..>678
+                     /gene="COX1"
+     CDS             <1..>678
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="YDE84936.1"
+                     /translation="KDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVI
+                     VTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASS
+                     GVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPA
+                     ISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL
+                     FWFL"
+ORIGIN
+        1 aaagacattg gcaccctcta tctagtattt ggtgcttgag ccggaatagt aggaactgca
+       61 ctaagcctcc taattcgggc agaactaagc cagcccggct ctcttctcgg agacgaccaa
+      121 atctataatg taattgttac agcacatgct ttcgtaataa ttttctttat agtaatacca
+      181 attatgattg gaggctttgg aaactgacta gtacccctca tgattggtgc accagacatg
+      241 gccttccctc gaataaataa catgagcttt tgacttctcc ccccctcatt tcttcttctt
+      301 ctcgcctcat ctggagtcga agcaggtgcc ggcacaggat ggactgttta tcccccgctc
+      361 gcaggcaatc ttgcccacgc tggaccttct gttgacttaa ccatcttctc cctccacttg
+      421 gccggagtgt catctatttt aggtgcaatt aattttatca caaccattat taacatgaaa
+      481 ccccctgcca tctcccaata tcaaacaccc ctatttgtgt gatccgtcct aattaccgca
+      541 gtactactcc ttctatccct gcccgttctt gccgccggca tcacaatact tctaacagac
+      601 cgaaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctataccaa
+      661 cacttattct gattcttg
+//
+LOCUS       DQ426666                 658 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Oreochromis aureus x Oreochromis niloticus cytochrome oxidase
+            subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   DQ426666
+VERSION     DQ426666.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 658)
+  AUTHORS   Yu,D.H., Fu,Y., Guo,Y.H., Huang,G.J., Li,L.H. and Ye,W.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 658)
+  AUTHORS   Yu,D.H., Fu,Y., Guo,Y.H., Huang,G.J., Li,L.H. and Ye,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAR-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..658
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:239089"
+     gene            <1..>658
+                     /gene="COI"
+     CDS             <1..>658
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="ABD84050.1"
+                     /translation="TLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAH
+                     AFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEA
+                     GAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQY
+                     QTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF"
+ORIGIN
+        1 caccctctat ctagtatttg gtgcttgagc cggaatagta ggaactgcac taagcctcct
+       61 aattcgggca gaactaagcc agcccggctc tcttctcgga gacgaccaaa tctataatgt
+      121 aattgttaca gcacatgctt tcgtaataat tttctttata gtaataccaa ttatgattgg
+      181 aggctttgga aactgactag tacccctcat gattggtgca ccagacatgg ccttccctcg
+      241 aataaataac atgagctttt gacttctccc cccctcattt cttcttcttc tcgcctcatc
+      301 tggagtcgaa gcaggtgccg gcacaggatg gactgtttat cccccgctcg caggcaatct
+      361 tgcccacgct ggaccttctg ttgacttaac catcttctcc ctccacttgg ccggagtgtc
+      421 atctatttta ggtgcaatta attttatcac aaccattatt aacatgaaac cccctgccat
+      481 ctcccaatat caaacacccc tatttgtgtg atccgtccta attaccgcag tactactcct
+      541 tctatccctg cccgttcttg ccgccggcat cacaatactt ctaacagacc gaaacctaaa
+      601 cacaaccttc tttgaccctg ccggaggagg agaccccatc ctataccaac acttattc
+//
+LOCUS       DQ856619                 646 bp    DNA     linear   VRT 11-JAN-2008
+DEFINITION  Oreochromis aureus x Oreochromis niloticus voucher NHSO NA5
+            cytochrome c oxidase subunit I (COI) gene, partial cds;
+            mitochondrial.
+ACCESSION   DQ856619
+VERSION     DQ856619.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 646)
+  AUTHORS   Guo,Y.H., Huang,G.J. and Yu,D.H.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 646)
+  AUTHORS   Guo,Y.H., Huang,G.J. and Yu,D.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..646
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NHSO NA5"
+                     /db_xref="taxon:239089"
+     gene            <1..>646
+                     /gene="COI"
+     CDS             <1..>646
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="ABI63543.1"
+                     /translation="SRMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMV
+                     MPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVY
+                     PPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSV
+                     LITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGH"
+ORIGIN
+        1 gagccggata gtaggaactg cactaagcct cctaattcgg gcagaactaa gccagcccgg
+       61 ctctcttctc ggagacgacc aaatctataa tgtaattgtt acagcacatg ctttcgtaat
+      121 aattttcttt atagtaatac caattatgat tggaggcttt ggaaactgac tagtacccct
+      181 catgattggt gcaccagaca tggccttccc tcgaataaat aacatgagct tttgacttct
+      241 ccccccctca tttcttcttc ttctcgcctc atctggagtc gaagcaggtg ccggcacagg
+      301 atggactgtt tatcccccgc tcgcaggcaa tcttgcccac gctggacctt ctgttgactt
+      361 aaccatcttc tccctccact tggccggagt gtcatctatt ttaggtgcaa ttaattttat
+      421 cacaaccatt attaacatga aaccccctgc catctcccaa tatcaaacac ccctatttgt
+      481 gtgatccgtc ctaattaccg cagtactact ccttctatcc ctgcccgttc ttgccgccgg
+      541 catcacaata cttctaacag accgaaacct aaacacaacc ttctttgacc ctgccggagg
+      601 aggagacccc atcctatacc aacacttatt ctgatttttt ggtcac
+//
+LOCUS       DQ856618                 642 bp    DNA     linear   VRT 11-JAN-2008
+DEFINITION  Oreochromis aureus x Oreochromis niloticus voucher NHSO NA4
+            cytochrome c oxidase subunit I (COI) gene, partial cds;
+            mitochondrial.
+ACCESSION   DQ856618
+VERSION     DQ856618.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 642)
+  AUTHORS   Guo,Y.H., Huang,G.J. and Yu,D.H.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 642)
+  AUTHORS   Guo,Y.H., Huang,G.J. and Yu,D.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..642
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NHSO NA4"
+                     /db_xref="taxon:239089"
+     gene            <1..>642
+                     /gene="COI"
+     CDS             <1..>642
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="ABI63542.1"
+                     /translation="TALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMI
+                     GGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAG
+                     NLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAV
+                     LLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGHLKV"
+ORIGIN
+        1 aactgcacta agcctcctaa ttcgggcaga actaagccag cccggctctc ttctcggaga
+       61 cgaccaaatc tataatgtaa ttgttacagc acatgctttc gtaataattt tctttatagt
+      121 aataccaatt atgattggag gctttggaaa ctgactagta cccctcatga ttggtgcacc
+      181 agacatggcc ttccctcgaa taaataacat gagcttttga cttctccccc cctcatttct
+      241 tcttcttctc gcctcatctg gagtcgaagc aggtgccggc acaggatgga ctgtttatcc
+      301 cccgctcgca ggcaatcttg cccacgctgg accttctgtt gacttaacca tcttctccct
+      361 ccacttggcc ggagtgtcat ctattttagg tgcaattaat tttatcacaa ccattattaa
+      421 catgaaaccc cctgccatct cccaatatca aacaccccta tttgtgtgat ccgtcctaat
+      481 taccgcagta ctactccttc tatccctgcc cgttcttgcc gccggcatca caatacttct
+      541 aacagaccga aacctaaaca caaccttctt tgaccctgcc ggaggaggag accccatcct
+      601 ataccaacac ttattctgat tttttggtca cctgaaagtt ta
+//
+LOCUS       DQ856615                 631 bp    DNA     linear   VRT 11-JAN-2008
+DEFINITION  Oreochromis aureus x Oreochromis niloticus voucher NHSO AN5
+            cytochrome c oxidase subunit I (COI) gene, partial cds;
+            mitochondrial.
+ACCESSION   DQ856615
+VERSION     DQ856615.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 631)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 631)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..631
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NHSO AN5"
+                     /db_xref="taxon:239089"
+     gene            <1..>631
+                     /gene="COI"
+     CDS             <1..>631
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="ABI63539.1"
+                     /translation="TALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMI
+                     GGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAG
+                     NLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAV
+                     LLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGH"
+ORIGIN
+        1 aaccgcgcta agcctcctaa ttcgggcaga actaagccag cccggctctc tcctcggaga
+       61 cgaccagatt tataatgtaa ttgttacagc acatgctttt gtaataattt tctttatagt
+      121 aatgccaatt atgattggag gctttggaaa ctgactagta ccactcatga ttggtgcccc
+      181 agatatggcc ttccctcgaa tgaacaacat gagtttctga ctcctccctc cctcattcct
+      241 cctcctcctc gcctcatctg gagtcgaagc aggtgccggc acagggtgaa ctgtttaccc
+      301 cccgctcgca ggcaatcttg cccatgctgg gccttctgtc gacttaacca tcttctccct
+      361 ccacttggcc ggggtgtcat ctattctagg cgcaattaat ttcattacaa caatcattaa
+      421 catgaaaccc cccgccatct ctcaatatca aacaccccta tttgtatggt ccgttctaat
+      481 taccgcagta ttacttcttc tatccctacc cgttcttgcc gccggcatca caatacttct
+      541 cacagaccga aacctaaaca caaccttctt tgatcctgcc ggaggaggag accccatcct
+      601 ttaccaacac ttattctgat tttttggtca c
+//
+LOCUS       DQ856614                 632 bp    DNA     linear   VRT 11-JAN-2008
+DEFINITION  Oreochromis aureus x Oreochromis niloticus voucher NHSO AN4
+            cytochrome c oxidase subunit I (COI) gene, partial cds;
+            mitochondrial.
+ACCESSION   DQ856614
+VERSION     DQ856614.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 632)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 632)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..632
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NHSO AN4"
+                     /db_xref="taxon:239089"
+     gene            <1..>632
+                     /gene="COI"
+     CDS             <1..>632
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="ABI63538.1"
+                     /translation="TALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMI
+                     GGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAG
+                     NLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAV
+                     LLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGH"
+ORIGIN
+        1 gaaccgcgct aagcctccta attcgggcag aactaagcca gcccggctct ctcctcggag
+       61 acgaccagat ttataatgta attgttacag cacatgcttt tgtaataatt ttctttatag
+      121 taatgccaat tatgattgga ggctttggaa actgactagt accactcatg attggtgccc
+      181 cagatatggc cttccctcga atgaacaaca tgagtttctg actcctccct ccctcattcc
+      241 tcctcctcct cgcctcatct ggagtcgaag caggtgccgg cacagggtga actgtttacc
+      301 ccccgctcgc aggcaatctt gcccatgctg ggccttctgt cgacttaacc atcttctccc
+      361 tccacttggc cggggtgtca tctattctag gcgcaattaa tttcattaca acaatcatta
+      421 acatgaaacc ccccgccatc tctcaatatc aaacacccct atttgtatgg tccgttctaa
+      481 ttaccgcagt attacttctt ctatccctac ccgttcttgc cgccggcatc acaatacttc
+      541 tcacagaccg aaacctaaac acaaccttct ttgatcctgc cggaggagga gaccccatcc
+      601 tttaccaaca cttattctga ttttttggtc ac
+//
+LOCUS       DQ856613                 709 bp    DNA     linear   VRT 11-JAN-2008
+DEFINITION  Oreochromis aureus x Oreochromis niloticus voucher NHSO AN3
+            cytochrome c oxidase subunit I (COI) gene, partial cds;
+            mitochondrial.
+ACCESSION   DQ856613
+VERSION     DQ856613.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 709)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 709)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..709
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NHSO AN3"
+                     /db_xref="taxon:239089"
+     gene            <1..>709
+                     /gene="COI"
+     CDS             <1..>709
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="ABI63537.1"
+                     /translation="STNHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQI
+                     YNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLL
+                     LASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINM
+                     KPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPIL
+                     YQHLFWFFGHPEV"
+ORIGIN
+        1 ggtcaacaaa tcataaagat attggcaccc tctatctagt atttggtgct tgagccggaa
+       61 tagtaggaac tgcattaagc ctcctaattc gggcagaact aagccagccc ggctctctcc
+      121 tcggagacga ccagatttat aatgtaattg ttacagcaca tgctttcgta ataattttct
+      181 ttatagtaat gccaattata attggaggtt ttggaaactg actagtgcca ctaatgattg
+      241 gtgcaccaga catggccttc cctcgaataa ataacatgag tttttgactc ctccccccct
+      301 catttctcct tctcctcgcc tcatccgggg tcgaagcagg ggccggtaca ggatggactg
+      361 tttatccccc actcgcaggc aatctcgccc atgctgggcc ttccgttgac ttaaccatct
+      421 tctccctcca cttggccggg gtgtcatcta ttttaggtgc aattaatttt attacaacca
+      481 ttattaacat aaaaccccct gccatctccc aatatcaaac acccctcttt gtatgatccg
+      541 ttctaattac cgcagtacta ctcctactat ccctacccgt tcttgccgcc ggcatcacaa
+      601 tacttctaac agaccgaaac ctaaacacaa ccttctttga ccctgccgga ggaggagacc
+      661 ccatccttta ccaacactta ttctgatttt ttggtcaccc tgaagttta
+//
+LOCUS       DQ856612                 642 bp    DNA     linear   VRT 11-JAN-2008
+DEFINITION  Oreochromis aureus x Oreochromis niloticus voucher NHSO AN2
+            cytochrome c oxidase subunit I (COI) gene, partial cds;
+            mitochondrial.
+ACCESSION   DQ856612
+VERSION     DQ856612.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis aureus x Oreochromis niloticus
+  ORGANISM  Oreochromis aureus x Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 642)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     COI sequence analysis of common tilapias cultured in China
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 642)
+  AUTHORS   Guo,Y.H., Yu,D.H. and Huang,G.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2006) Department of Aquaculture and Biotechnology,
+            South China Sea Fisheries Research Institute, Chinese Academy of
+            Fishery Sciences, No. 231, Xingang Xilu, Guangzhou, Guangdong
+            510300, China
+FEATURES             Location/Qualifiers
+     source          1..642
+                     /organism="Oreochromis aureus x Oreochromis niloticus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="NHSO AN2"
+                     /db_xref="taxon:239089"
+     gene            <1..>642
+                     /gene="COI"
+     CDS             <1..>642
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="ABI63536.1"
+                     /translation="GMVGTALSLLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVM
+                     PIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYP
+                     PLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVL
+                     ITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGH"
+ORIGIN
+        1 ggaatagtag gaaccgcgct aagcctccta attcgggcag aactaagcca gcccggctct
+       61 ctcctcggag acgaccagat ttataatgta attgttacag cacatgcttt tgtaataatt
+      121 ttctttatag taatgccaat tatgattgga ggctttggaa actgactagt accactcatg
+      181 attggtgccc cagatatggc cttccctcga atgaacaaca tgagtttctg actcctccct
+      241 ccctcattcc tcctcctcct cgcctcatct ggagtcgaag caggtgccgg cacagggtga
+      301 actgtttacc ccccgctcgc aggcaatctt gcccatgctg ggccttctgt cgacttaacc
+      361 atcttctccc tccacttggc cggggtgtca tctattctag gcgcaattaa tttcattaca
+      421 acaatcatta acatgaaacc ccccgccatc tctcaatatc aaacacccct atttgtatgg
+      481 tccgttctaa ttaccgcagt attacttctt ctatccctac ccgttcttgc cgccggcatc
+      541 acaatacttc tcacagaccg aaacctaaac acaaccttct ttgatcctgc cggaggagga
+      601 gaccccatcc tttaccaaca cttattctga ttttttggtc ac
+//

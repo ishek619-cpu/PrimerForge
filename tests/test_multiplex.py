@@ -2,10 +2,10 @@
 Tests for multiplex primer compatibility.
 """
 
-from primerforge.models.primer import Primer
-from primerforge.models.pair import PrimerPair
+from envoprimer.models.primer import Primer
+from envoprimer.models.pair import PrimerPair
 
-from primerforge.primer.multiplex import (
+from envoprimer.primer.multiplex import (
     MultiplexAnalyzer,
 )
 

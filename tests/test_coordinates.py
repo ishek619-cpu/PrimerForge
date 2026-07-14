@@ -2,7 +2,7 @@
 Tests for the Coordinate model.
 """
 
-from primerforge.reference.coordinates import Coordinate
+from envoprimer.reference.coordinates import Coordinate
 
 
 def test_coordinate_length():

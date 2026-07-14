@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from primerforge.species.downloader import DownloadResult
+from envoprimer.species.downloader import DownloadResult
 
 
 def test_download_result():

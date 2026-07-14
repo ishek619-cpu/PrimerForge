@@ -1,0 +1,75 @@
+LOCUS       MH515223                1593 bp    DNA     linear   VRT 13-MAR-2019
+DEFINITION  Oreochromis sp. CO_38 cytochrome oxidase subunit I (COI) gene,
+            partial cds; mitochondrial.
+ACCESSION   MH515223
+VERSION     MH515223.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. CO_38
+  ORGANISM  Oreochromis sp. CO_38
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 1593)
+  AUTHORS   Jiang,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUN-2018) Nanjing Agricultural University, Nanjing
+            230000, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1593
+                     /organism="Oreochromis sp. CO_38"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="CO_38"
+                     /db_xref="taxon:2506819"
+     gene            <1..1593
+                     /gene="COI"
+     CDS             <1..1593
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="QBK58972.1"
+                     /translation="ALTRWFFSTNHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGS
+                     LLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLL
+                     PPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINF
+                     ITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPA
+                     GGGDPILYQHLFWFFGHPEVYILILPGFGMISHIVAYYAGKKEPFGYMGMVWAMMAIGL
+                     LGFIVWAHHMFTVGMDVDTRAYFTSATMIIAIPTGVKVFSWLATLHGGAIKWETPLLWA
+                     LGFIFLFTVGGLTGIVLANSSLDIMLHDTYYVVAHFHYVLSMGAVFAIVAGFVHWFPLF
+                     SGYTLHDTWTKIHFGVMFVGVNLTFFPQHFLGLAGMPRRYSDYPDAYTLWNTISSIGSM
+                     ISMVAVIMFLFIIWEAFAAKREVLSVELTATNVEWLHGCPPPYHTFEEPAFVQVQQAWL
+                     DYGKSTTTPSKSH"
+ORIGIN
+        1 gcactcacac gttgattttt ctcaactaat cacaaagaca tcggcaccct ctatctagta
+       61 tttggtgctt gagccggaat agtaggaact gcattaagcc tcctaattcg ggcagaacta
+      121 agccagcccg gctctctcct cggagacgac cagatttata atgtaattgt tacagcacat
+      181 gctttcgtaa taattttctt tatagtaatg ccaattataa ttggaggttt tggaaactga
+      241 ctagtgccac taatgattgg tgcaccagac atggccttcc ctcgaataaa taacatgagt
+      301 ttttgactcc tccccccctc atttctcctt ctcctcgcct catccggggt cgaagcaggg
+      361 gccggtacag gatggactgt ttatccccca ctcgcaggca atctcgccca tgctgggcct
+      421 tccgttgact taaccatctt ctccctccac ttggccgggg tgtcatctat tttaggtgca
+      481 attaatttta ttacaaccat tattaacata aaaccccctg ccatctccca atatcaaaca
+      541 cccctctttg tatgatccgt tctaattacc gcagtactac tcctactatc cctacccgtt
+      601 cttgccgccg gcatcacaat acttctaaca gaccgaaacc taaacacaac cttctttgac
+      661 cctgccggag gaggagaccc catcctttac caacacttat tctgattctt tggacaccct
+      721 gaagtttata ttcttatcct ccccggcttt ggaataattt cccatattgt tgcctactac
+      781 gcaggcaaaa aagaaccttt cggatacatg ggaatggttt gagccatgat ggctatcggc
+      841 ctcttagggt ttattgtctg agcccatcac atgttcaccg taggaatgga cgtagacaca
+      901 cgggcttact ttacttccgc cacaataatt attgccatcc caaccggagt aaaagtcttc
+      961 agctgactag ccactctgca cggcggggcc attaaatgag aaacccctct cttatgggca
+     1021 ctaggcttca ttttcctatt tacagttggg ggactaaccg gaattgttct agccaattct
+     1081 tctctagaca ttatgcttca cgacacatat tatgtcgtcg cccatttcca ctatgtcctc
+     1141 tcaataggag ccgttttcgc catcgttgcc ggcttcgtcc actgattccc cctattttca
+     1201 ggatatacgc ttcacgacac ttgaactaaa atccacttcg gagtaatatt tgttggagtc
+     1261 aaccttactt tcttcccaca acacttccta ggcctggcag gaatgcctcg acgatactcc
+     1321 gactaccccg acgcctacac cctttgaaac acaatctctt ctattggctc aataatttca
+     1381 atagttgcag tgattatgtt tttatttatt atctgagaag cattcgccgc taaacgagaa
+     1441 gtcctatcag tagaacttac agcaacaaac gtagaatgac ttcacggctg ccctccccct
+     1501 tatcacacat ttgaagaacc tgccttcgtc caagttcaac aagcctgact agactacgga
+     1561 aaatccacta ccaccccctc aaaatcccac taa
+//

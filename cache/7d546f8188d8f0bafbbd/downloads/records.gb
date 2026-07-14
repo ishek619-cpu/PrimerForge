@@ -1,0 +1,61 @@
+LOCUS       OQ351327                 704 bp    DNA     linear   VRT 07-JUL-2023
+DEFINITION  Oreochromis sp. RHTiB cytochrome c oxidase subunit I (COX1) gene,
+            partial cds; mitochondrial.
+ACCESSION   OQ351327
+VERSION     OQ351327.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. RHTiB
+  ORGANISM  Oreochromis sp. RHTiB
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 704)
+  AUTHORS   Shahi,N., Surachetpong,W., Win,Z.N., Khemthong,M. and Trongwongsa,P.
+  TITLE     Cell line from brain of hybrid red tilapia
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 704)
+  AUTHORS   Shahi,N., Surachetpong,W., Win,Z.N., Khemthong,M. and Trongwongsa,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JAN-2023) Department of Veterinary Medicine, Kasetsart
+            University, 50 Ngamwongwan Road, Chatuchak, Bangkok 10900, Thailand
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..704
+                     /organism="Oreochromis sp. RHTiB"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="RHTiB"
+                     /db_xref="taxon:3024295"
+                     /tissue_type="brain"
+                     /note="red hybrid tilapia"
+     gene            <1..>704
+                     /gene="COX1"
+     CDS             <1..>704
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WCF75089.1"
+                     /translation="STNHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQI
+                     YNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLL
+                     LASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINM
+                     KPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPIL
+                     YQHLFWFFGHPEV"
+ORIGIN
+        1 tcaaccaacc acaaagacat tggcaccctc tatctagtat ttggtgcttg agccggaata
+       61 gtaggaaccg cgctaagcct cctaattcgg gcagaactaa gccaacccgg ctctctcctc
+      121 ggagacgacc agatttataa tgtaattgtt acagcacatg cttttgtaat aattttcttt
+      181 atagtaatgc caattatgat tggaggcttt ggaaactgac tagtaccact catgattggt
+      241 gccccagata tggccttccc tcgaatgaac aacatgagtt tctgactcct ccctccctca
+      301 ttcctcctcc tcctcgcctc atctggagtc gaagcaggtg ccggcacagg gtgaactgtt
+      361 taccccccgc tcgcaggcaa tcttgcccat gctgggcctt ctgtcgactt aaccatcttc
+      421 tctctccact tggccggggt gtcatctatt ctaggcgcaa ttaatttcat tacaacaatc
+      481 attaacatga aaccccccgc catctctcaa tatcaaacac ccctatttgt atggtccgtt
+      541 ctaattaccg cagtattact tcttctatcc ctacccgttc ttgccgccgg catcacaata
+      601 cttctcacag accgaaacct aaacacaacc ttctttgatc ctgccggagg aggagacccc
+      661 atcctttacc aacacttatt ctgattcttt ggccacccag aagt
+//

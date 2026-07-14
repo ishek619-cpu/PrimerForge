@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from primerforge.alignment.coordinate_mapper import (
+from envoprimer.alignment.coordinate_mapper import (
     CoordinateMapper,
 )
 

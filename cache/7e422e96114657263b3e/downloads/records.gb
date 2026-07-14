@@ -1,0 +1,57 @@
+LOCUS       HM006976                 602 bp    DNA     linear   VRT 25-JUL-2016
+DEFINITION  Oreochromis sp. TP cytochrome oxidase subunit I (COI) gene, partial
+            cds; mitochondrial.
+ACCESSION   HM006976
+VERSION     HM006976.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. TP
+  ORGANISM  Oreochromis sp. TP
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 602)
+  AUTHORS   Page,T.J. and Hughes,J.M.
+  TITLE     Comparing the performance of multiple mitochondrial genes in the
+            analysis of Australian freshwater fishes
+  JOURNAL   J. Fish Biol. 77 (9), 2093-2122 (2010)
+   PUBMED   21133918
+REFERENCE   2  (bases 1 to 602)
+  AUTHORS   Page,T.J. and Hughes,J.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAR-2010) Australian Rivers Institute, Griffith
+            University, Molecular Lab, Nathan, QLD 4111, Australia
+FEATURES             Location/Qualifiers
+     source          1..602
+                     /organism="Oreochromis sp. TP"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="GU_AW421"
+                     /db_xref="taxon:933858"
+                     /geo_loc_name="Australia"
+     gene            <1..>602
+                     /gene="COI"
+     CDS             <1..>602
+                     /gene="COI"
+                     /codon_start=2
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="ADT61713.1"
+                     /translation="LLIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFG
+                     NWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAH
+                     AGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLL
+                     SLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHL"
+ORIGIN
+        1 cctcctaatt cgggcagaac taagccagcc cggctctctc ctcggagacg accagattta
+       61 taatgtaatt gttacagcac atgcttttgt aataattttc tttatagtaa tgccaattat
+      121 gattggaggc tttggaaact gactagtacc actcatgatt ggtgccccag atatggcctt
+      181 ccctcgaatg aacaacatga gtttctgact cctccctccc tcattcctcc tcctcctcgc
+      241 ctcatctgga gtcgaagcag gtgccggcac agggtgaact gtttaccccc cgctcgcagg
+      301 caatcttgcc catgctgggc cttctgtcga cttaaccatc ttctccctcc acttggccgg
+      361 ggtgtcatct attctaggcg caattaattt cattacaaca atcattaaca tgaaaccccc
+      421 cgccatctct caatatcaaa cacccctatt tgtatggtcc gttctaatta ccgcagtatt
+      481 acttcttcta tccctacccg ttcttgccgc cggcatcaca atacttctca cagaccgaaa
+      541 cctaaacaca accttctttg atcctgccgg aggaggagac cccatccttt accaacactt
+      601 at
+//

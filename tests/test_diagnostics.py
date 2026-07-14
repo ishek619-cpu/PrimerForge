@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from primerforge.species.diagnostics import DiagnosticFinder
+from envoprimer.species.diagnostics import DiagnosticFinder
 
 
 def test_finder(tmp_path: Path):

@@ -2,8 +2,8 @@
 Tests for Primer coordinate integration.
 """
 
-from primerforge.models.primer import Primer
-from primerforge.reference.coordinates import Coordinate
+from envoprimer.models.primer import Primer
+from envoprimer.reference.coordinates import Coordinate
 
 
 def test_default_coordinate():

@@ -1,0 +1,57 @@
+LOCUS       MH515294                 794 bp    DNA     linear   VRT 13-MAR-2019
+DEFINITION  Oreochromis sp. CO_109 cytochrome oxidase subunit I (COI) gene,
+            partial cds; mitochondrial.
+ACCESSION   MH515294
+VERSION     MH515294.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. CO_109
+  ORGANISM  Oreochromis sp. CO_109
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 794)
+  AUTHORS   Jiang,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUN-2018) Nanjing Agricultural University, Nanjing
+            230000, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..794
+                     /organism="Oreochromis sp. CO_109"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="CO_109"
+                     /db_xref="taxon:2506890"
+     gene            1..>794
+                     /gene="COI"
+     CDS             1..>794
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit I"
+                     /protein_id="QBK59043.1"
+                     /translation="MAITRWFFSTNHKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPG
+                     SLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWL
+                     LPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAIN
+                     FITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDP
+                     AGGGDPILYQHLFWFFGHPEVYILILPGFGMISHIVAYYAGK"
+ORIGIN
+        1 gtggcaatca cacgttgatt cttctcaact aatcacaaag acatcggcac cctctatcta
+       61 gtatttggtg cttgagccgg aatagtagga actgcactaa gcctcctaat tcgggcagaa
+      121 ctaagccagc ccggctctct tctcggagac gaccaaatct ataatgtaat tgttacagca
+      181 catgctttcg taataatttt ctttatagta ataccaatta tgattggagg ctttggaaac
+      241 tgactagtac ccctcatgat tggtgcacca gacatggcct tccctcgaat aaataacatg
+      301 agcttttgac ttctcccccc ctcatttctt cttcttctcg cctcatctgg agtcgaagca
+      361 ggtgccggca caggatggac tgtttatccc ccgctcgcag gcaatcttgc ccacgctgga
+      421 ccttctgttg acttaaccat cttctccctc cacttggccg gagtgtcatc tattttaggt
+      481 gcaattaatt ttatcacaac cattattaac atgaaacccc ctgccatctc ccaatatcaa
+      541 acacccctat ttgtgtgatc cgtcctaatt accgcagtac tactccttct atccctgccc
+      601 gttcttgccg ccggcatcac aatacttcta acagaccgaa acctaaacac aaccttcttt
+      661 gaccctgccg gaggaggaga ccccatccta taccaacact tattctgatt ctttggccac
+      721 cctgaagttt atattcttat tctccccggc tttggaataa tttcccacat tgttgcctac
+      781 tatgcaggca aaaa
+//

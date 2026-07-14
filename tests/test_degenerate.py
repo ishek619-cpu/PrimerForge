@@ -4,7 +4,7 @@ Tests for degenerate primer generation.
 
 from pathlib import Path
 
-from primerforge.primer.degenerate import (
+from envoprimer.primer.degenerate import (
     DegeneratePrimerGenerator,
 )
 

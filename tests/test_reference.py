@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from primerforge.reference.reference import Reference
+from envoprimer.reference.reference import Reference
 
 
 def test_reference_loading(tmp_path: Path):

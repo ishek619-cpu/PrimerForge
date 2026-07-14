@@ -2,7 +2,7 @@
 Tests for Reference exceptions.
 """
 
-from primerforge.reference.exceptions import (
+from envoprimer.reference.exceptions import (
     AlignmentFileNotFoundError,
     AnnotationFileNotFoundError,
     CoordinateSystemError,

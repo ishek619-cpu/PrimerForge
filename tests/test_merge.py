@@ -6,7 +6,7 @@ from pathlib import Path
 
 from Bio import SeqIO
 
-from primerforge.io.merge import FASTAMerger
+from envoprimer.io.merge import FASTAMerger
 
 
 def test_merge(tmp_path: Path):

@@ -1,0 +1,61 @@
+LOCUS       MN756306                 417 bp    DNA     linear   VRT 09-FEB-2022
+DEFINITION  Oreochromis cf. aureus/niloticus JFDC-2020 isolate DF52 cytochrome c
+            oxidase subunit 1 (cox1) gene, partial cds; mitochondrial.
+ACCESSION   MN756306
+VERSION     MN756306.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis cf. aureus/niloticus JFDC-2020
+  ORGANISM  Oreochromis cf. aureus/niloticus JFDC-2020
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 417)
+  AUTHORS   Munguia-Vega,A., Terrazas-Tapia,R., Dominguez-Contreras,J.F.,
+            Reyna,M. and Zapata-Morales,P.
+  TITLE     DNA barcoding reveals mislabeling patterns in the commerce of fish
+            in Mexico
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 417)
+  AUTHORS   Dominguez-Contreras,J.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-NOV-2019) Departamento de Biologia Marina y
+            Pesquerias, Centro Interdisciplinario de Ciencias Marinas, Av.
+            Instituto Politecnico Nacional s/n Col. Playa Palo de Santa Rita, La
+            Paz, Baja California Sur 23096, Mexico
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..417
+                     /organism="Oreochromis cf. aureus/niloticus JFDC-2020"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="DF52"
+                     /isolation_source="Pescaderia"
+                     /db_xref="taxon:2758739"
+                     /geo_loc_name="Mexico: Mexico City"
+                     /collection_date="2018"
+                     /collected_by="OCEANA-Mexico"
+                     /note="Seafood: Filete"
+     gene            <1..>417
+                     /gene="cox1"
+     CDS             <1..>417
+                     /gene="cox1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit 1"
+                     /protein_id="QMS93592.1"
+                     /translation="LIRAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGN
+                     WLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHA
+                     GPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP"
+ORIGIN
+        1 ctaattcggg cagaactaag ccagcccggc tctctcctcg gagacgacca gatttataat
+       61 gtaattgtta cagcacatgc ttttgtaata attttcttta tagtaatgcc aattatgatt
+      121 ggaggctttg gaaactgact agtaccactc atgattggtg ctccagatat ggccttccct
+      181 cgaatgaaca acatgagttt ctgactcctc cctccctcat tcctcctcct cctcgcctca
+      241 tctggagtcg aagcaggtgc cggcacaggg tgaactgttt accccccgct cgcaggcaat
+      301 cttgcccatg ctgggccttc tgtcgactta accatcttct ccctccactt ggccggggtg
+      361 tcatctattc taggcgcaat taatttcatt acaacaatca ttaacatgaa acccccc
+//

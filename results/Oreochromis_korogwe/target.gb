@@ -1,0 +1,1882 @@
+LOCUS       PP092903                 536 bp    DNA     linear   VRT 05-FEB-2026
+DEFINITION  Oreochromis korogwe isolate FF2.5 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP092903
+VERSION     PP092903.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 536)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     DNA Barcoding Exposes Unintended Fish Species in Nile Tilapia
+            Oreochromis niloticus Farms of the Kilombero Valley Floodplain,
+            Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 536)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2024) Biosciences, Sokoine University of
+            Agriculture, Department of Biosciences, Sokoine University of
+            Agriculture, Morogoro 3038, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..536
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="FF2.5"
+                     /db_xref="taxon:2486989"
+                     /geo_loc_name="Tanzania: Morogoro"
+                     /lat_lon="8.31 S 36.30 E"
+     gene            <1..>536
+                     /gene="COX1"
+     CDS             <1..>536
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WRK63392.1"
+                     /translation="AFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLP
+                     PSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFI
+                     TTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAG
+                     GGDPILYQHLFWFFG"
+ORIGIN
+        1 gctttcgtaa taattttctt tatagtaata ccaattataa ttggaggttt tggaaactga
+       61 ctagtaccac ttatgattgg tgcaccagac atggccttcc ctcgaatgaa taacatgagt
+      121 ttttgactcc ttcccccctc atttctcctc ctcctcgcct catccggagt cgaagcaggg
+      181 gccggtacag gatgaactgt ttacccccca ctcgcaggca atctcgccca cgctgggcct
+      241 tctgttgact taaccatctt ttccctccac ttggccgggg tgtcatctat tttaggtgca
+      301 attaatttta tcacaaccat tattaacata aaaccccctg ccatctctca atatcaaaca
+      361 cccctatttg tgtgatccgt tctaattacc gcagtgctgc tcctactatc cctgcccgtt
+      421 cttgccgccg gcatcacaat acttctaaca gatcgcaacc taaacacaac cttctttgac
+      481 cctgccggag gaggagaccc catcctatac caacacttat tctgattctt tggcca
+//
+LOCUS       PP092892                 502 bp    DNA     linear   VRT 05-FEB-2026
+DEFINITION  Oreochromis korogwe isolate FF2.19 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP092892
+VERSION     PP092892.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 502)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     DNA Barcoding Exposes Unintended Fish Species in Nile Tilapia
+            Oreochromis niloticus Farms of the Kilombero Valley Floodplain,
+            Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 502)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2024) Biosciences, Sokoine University of
+            Agriculture, Department of Biosciences, Sokoine University of
+            Agriculture, Morogoro 3038, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..502
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="FF2.19"
+                     /db_xref="taxon:2486989"
+                     /geo_loc_name="Tanzania: Morogoro"
+                     /lat_lon="8.31 S 36.30 E"
+     gene            <1..>502
+                     /gene="COX1"
+     CDS             <1..>502
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WRK63381.1"
+                     /translation="IMIGGFWNWLEPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSG
+                     VEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAI
+                     SQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLF
+                     WFFG"
+ORIGIN
+        1 attataattg ggggtttttg aaactgacta gaaccactta tgattggtgc accagacatg
+       61 gccttccctc gaatgaataa catgagtttt tgactccttc ccccctcatt tctcctcctc
+      121 ctcgcctcat ccggagtcga agcaggggcc ggtacaggat gaactgttta ccccccactc
+      181 gcaggcaatc tcgcccacgc tgggccttct gttgacttaa ccatcttttc cctccacttg
+      241 gccggggtgt catctatttt aggtgcaatt aattttatca caaccattat taacataaaa
+      301 ccccctgcca tctctcaata tcaaacaccc ctatttgtgt gatccgttct aattaccgca
+      361 gtgctgctcc tactatccct gcccgttctt gccgccggca tcacaatact tctaacagat
+      421 cgcaacctaa acacaacctt ctttgaccct gccggaggag gagaccccat cctttaccaa
+      481 cacttattct gattctttgg cc
+//
+LOCUS       PP092833                 463 bp    DNA     linear   VRT 05-FEB-2026
+DEFINITION  Oreochromis korogwe isolate FF5.16 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   PP092833
+VERSION     PP092833.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 463)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     DNA Barcoding Exposes Unintended Fish Species in Nile Tilapia
+            Oreochromis niloticus Farms of the Kilombero Valley Floodplain,
+            Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 463)
+  AUTHORS   Saiperaki,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2024) Biosciences, Sokoine University of
+            Agriculture, Department of Biosciences, Sokoine University of
+            Agriculture, Morogoro 3038, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..463
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="FF5.16"
+                     /db_xref="taxon:2486989"
+                     /geo_loc_name="Tanzania: Morogoro"
+                     /lat_lon="7.85 S 36.88 E"
+     gene            <1..>463
+                     /gene="COX1"
+     CDS             <1..>463
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WRK63322.1"
+                     /translation="IGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPP
+                     LAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLI
+                     TAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFGH"
+ORIGIN
+        1 attggtgcac cagacatggc cttccctcga atgaataaca tgagtttttg actccttccc
+       61 ccctcatttc tcctcctcct cgcctcatcc ggagtcgaag caggggccgg tacaggatga
+      121 actgtttacc ccccactcgc aggcaatctc gcccacgctg ggccttctgt tgacttaacc
+      181 atcttttccc tccacttggc cggggtgtca tctattttag gtgcaattaa ttttatcaca
+      241 accattatta acataaaacc ccctgccatc tctcaatatc aaacacccct atttgtgtga
+      301 tccgttctaa ttaccgcagt gctgctccta ctatccctgc ccgttcttgc cgccggcatc
+      361 acaatacttc taacagatcg caacctaaac acaaccttct ttgaccctgc cggaggagga
+      421 gaccccatcc tttaccaaca cttattctga ttctttggcc acc
+//
+LOCUS       OQ915200                 591 bp    DNA     linear   VRT 05-JUN-2025
+DEFINITION  Oreochromis korogwe isolate SS3.1 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OQ915200
+VERSION     OQ915200.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 591)
+  AUTHORS   Saiperaki,J.L., Materu,S.F., Mkenda,P.A., Ligate,E.J. and Rumisha,C.
+  TITLE     DNA barcode-based surveys reveal massive landings of endemic fish
+            species in the Kilombero Valley Floodplain
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 591)
+  AUTHORS   Saiperaki,J.L., Materu,S.F., Mkenda,P.A., Ligate,E.J. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-MAY-2023) Biosciences, SOKOINE UNIVERSITY OF
+            AGRICULTURE, MAZIMBU, Morogoro 3038, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..591
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="SS3.1"
+                     /db_xref="taxon:2486989"
+                     /geo_loc_name="Tanzania: Morogoro"
+                     /lat_lon="8.2547 S 36.7324 E"
+     gene            <1..>591
+                     /gene="COX1"
+     CDS             <1..>591
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WGT68906.1"
+                     /translation="SQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLM
+                     IGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVDL
+                     TIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLAA
+                     GITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFF"
+ORIGIN
+        1 agccaacccg gctctctcct cggagacgac cagatttata atgtaattgt tacagcacat
+       61 gctttcgtaa taattttctt tatagtaata ccaattataa ttggaggttt tggaaactga
+      121 ctagtaccac ttatgattgg tgcaccagac atggccttcc ctcgaatgaa taacatgagt
+      181 ttttgactcc ttcccccctc atttctcctc ctcctcgcct catccggagt cgaagcaggg
+      241 gccggtacag gatgaactgt ttacccccca ctcgcaggca atctcgccca cgctgggcct
+      301 tctgttgact taaccatctt ttccctccac ttggccgggg tgtcatctat tttaggtgca
+      361 attaatttta tcacaaccat tattaacata aaaccccctg ccatctctca atatcaaaca
+      421 cccctatttg tgtgatccgt tctaattacc gcagtgctgc tcctactatc cctgcccgtt
+      481 cttgccgccg gcatcacaat acttctaaca gatcgcaacc taaacacaac cttctttgac
+      541 cctgccggag gaggagaccc catcctttac caacacttat tctgattctt t
+//
+LOCUS       OQ915199                 599 bp    DNA     linear   VRT 05-JUN-2025
+DEFINITION  Oreochromis korogwe isolate SS3.2 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OQ915199
+VERSION     OQ915199.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 599)
+  AUTHORS   Saiperaki,J.L., Materu,S.F., Mkenda,P.A., Ligate,E.J. and Rumisha,C.
+  TITLE     DNA barcode-based surveys reveal massive landings of endemic fish
+            species in the Kilombero Valley Floodplain
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 599)
+  AUTHORS   Saiperaki,J.L., Materu,S.F., Mkenda,P.A., Ligate,E.J. and Rumisha,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-MAY-2023) Biosciences, SOKOINE UNIVERSITY OF
+            AGRICULTURE, MAZIMBU, Morogoro 3038, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..599
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="SS3.2"
+                     /db_xref="taxon:2486989"
+                     /geo_loc_name="Tanzania: Morogoro"
+                     /lat_lon="8.2547 S 36.7324 E"
+     gene            <1..>599
+                     /gene="COX1"
+     CDS             <1..>599
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="WGT68905.1"
+                     /translation="VSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPL
+                     MIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGPSVD
+                     LTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLPVLA
+                     AGITMLLTDRNLNTTFFDPAGGGDPILYQHLFWFFG"
+ORIGIN
+        1 gtaagccagc ccggctctct cctcggagac gaccagattt ataatgtaat tgttacagca
+       61 catgctttcg taataatttt ctttatagta ataccaatta taattggagg ttttggaaac
+      121 tgactagtac cacttatgat tggtgcacca gacatggcct tccctcgaat gaataacatg
+      181 agtttttgac tccttccccc ctcatttctc ctcctcctcg cctcatccgg agtcgaagca
+      241 ggggccggta caggatgaac tgtttacccc ccactcgcag gcaatctcgc ccacgctggg
+      301 ccttctgttg acttaaccat cttttccctc cacttggccg gggtgtcatc tattttaggt
+      361 gcaattaatt ttatcacaac cattattaac ataaaacccc ctgccatctc tcaatatcaa
+      421 acacccctat ttgtgtgatc cgttctaatt accgcagtgc tgctcctact atccctgccc
+      481 gttcttgccg ccggcatcac aatacttcta acagatcgca acctaaacac aaccttcttt
+      541 gaccctgccg gaggaggaga ccccatcctt taccaacact tattctgatt ctttggcca
+//
+LOCUS       OP680729                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate HLE521 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680729
+VERSION     OP680729.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="HLE521"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44074.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctctttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680719                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNF473 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680719
+VERSION     OP680719.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNF473"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44064.1"
+                     /translation="HKDIGTPYLVPGVWAWMVGTARSFMLGAAVSDPASLVGDDQIYNV
+                     IATAHGFVMILVMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaagata ttggcacccc gtatctagta cctggtgttt gagcctggat agtaggaact
+       61 gcacgaagct tcatacttgg ggctgctgta agcgatcctg catctctggt gggagacgac
+      121 cagatttata atgtaattgc aacagcacat ggtttcgtaa taattcttgt tatagtaata
+      181 ccaattataa tcggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680717                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNF460 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680717
+VERSION     OP680717.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNF460"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44062.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaagata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggcttttc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatccat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680715                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNF450 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680715
+VERSION     OP680715.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNF450"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44060.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattttt cggccaccca gaagtc
+//
+LOCUS       OP680714                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNF446 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680714
+VERSION     OP680714.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNF446"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44059.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680712                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNF443 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680712
+VERSION     OP680712.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNF443"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44057.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggcttttc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatccat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680710                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNF441 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680710
+VERSION     OP680710.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNF441"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44055.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680708                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNG425 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680708
+VERSION     OP680708.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNG425"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44053.1"
+                     /translation="HKDIGPLYLVFGTWARILGTALSLPIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggccccct ctatctagta tttggtacct gagcccgaat tctaggaact
+       61 gcactaagcc tccctattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680701                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNG402 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680701
+VERSION     OP680701.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNG402"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44046.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTARSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcacgaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680700                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNG398 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680700
+VERSION     OP680700.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNG398"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44045.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680697                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNG390 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680697
+VERSION     OP680697.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNG390"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44042.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680696                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNG387 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680696
+VERSION     OP680696.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNG387"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44041.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680695                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate PNG386 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680695
+VERSION     OP680695.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="PNG386"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK44040.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680641                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH099 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680641
+VERSION     OP680641.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH099"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43986.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccgggat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680640                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH098 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680640
+VERSION     OP680640.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH098"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43985.1"
+                     /translation="HKDIGTLYLVFGAWAGMVRTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFDHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtgcgaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tgaccaccca gaagtc
+//
+LOCUS       OP680639                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH093 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680639
+VERSION     OP680639.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH093"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43984.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg agcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680638                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH092 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680638
+VERSION     OP680638.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH092"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43983.1"
+                     /translation="HKDIGTLYLVFGAWAGVVRTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggagt agtgcgaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680637                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH091 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680637
+VERSION     OP680637.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH091"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43982.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatttctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat gcttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680636                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH090 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680636
+VERSION     OP680636.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH090"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43981.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680635                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH089 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680635
+VERSION     OP680635.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH089"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43980.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680633                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH085 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680633
+VERSION     OP680633.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH085"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43978.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaggata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatttctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat gcttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680632                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH083 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680632
+VERSION     OP680632.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH083"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43977.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaagata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatttctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat gcttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//
+LOCUS       OP680631                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH082 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680631
+VERSION     OP680631.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH082"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43976.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLDTTFFDPAGGGDPILYQE
+                     LFWSVGQREV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc tagacacaac cttctttgac cctgcaggag gaggagaccc catcctttac
+      661 caagaattat tctggtctgt gggccaacgc gaagtc
+//
+LOCUS       OP680630                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH081 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680630
+VERSION     OP680630.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH081"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43975.1"
+                     /translation="HKDIGTLYLVFGAWAGLVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggatt agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatttctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat gcttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680629                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH080 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680629
+VERSION     OP680629.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH080"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43974.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cataaagata tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tggccaccca gaagtc
+//
+LOCUS       OP680627                 696 bp    DNA     linear   VRT 24-OCT-2022
+DEFINITION  Oreochromis korogwe isolate LCH077 cytochrome c oxidase subunit I
+            (COX1) gene, partial cds; mitochondrial.
+ACCESSION   OP680627
+VERSION     OP680627.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis korogwe
+  ORGANISM  Oreochromis korogwe
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D., Katandukila,J.V. and Mwita,C.J.
+  TITLE     DNA Barcoding of Critically endangered Indigenous and Introduced
+            Tilapias (Pisces Cichlidae) of Pangani catchment, Northern Tanzania
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 696)
+  AUTHORS   Chuhila,Y.J., Chibwana,F.D. and Mwita,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2022) Zoology and Wildlife Conservation,
+            University of Dar es salaam, Zoology Building, University, Dar es
+            salaam, Dar-Es-Salaam Tanzania, Tanzania
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Oreochromis korogwe"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LCH077"
+                     /db_xref="taxon:2486989"
+     gene            <1..>696
+                     /gene="COX1"
+     CDS             <1..>696
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="UYK43972.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFGHPEV"
+ORIGIN
+        1 cacaaagata ttggcaccct ctatctagta tttggtgctt gagccggaat agtaggaacc
+       61 gcactaagcc tcctaattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctagtaccac ttatgattgg tgcaccagac
+      241 atggccttcc ctcgaatgaa taacatgagt ttttgactcc ttcccccctc atttctcctc
+      301 ctcctcgcct catccggagt cgaagcaggg gccggtacag gatgaactgt ttacccccca
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ttccctccac
+      421 ttggccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat tattaacata
+      481 aaaccccctg ccatttctca atatcaaaca cccctatttg tgtgatccgt tctaattacc
+      541 gcagtgctgc tcctactatc cctgcccgtt cttgccgccg gcatcacaat gcttctaaca
+      601 gatcgcaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt cggccaccca gaagtc
+//

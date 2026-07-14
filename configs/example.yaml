@@ -1,13 +1,14 @@
 project:
-  name: Example PrimerForge Project
-  version: 0.1.0
+  name: EnvoPrimer
+  version: 2.0.0
 
 reference_taxon:
   rank: species
-  name: Bos taurus
+  name: Oreochromis niloticus
 
 marker:
-  gene: CYTB
+  gene: COI
+
 database:
   source: NCBI
   db: nucleotide
@@ -15,18 +16,45 @@ database:
 download:
   include_complete_genomes: true
   include_partial_sequences: true
-  max_records: 1000
+  max_records: 5000
 
 ncbi:
-  email: "your_email@example.com"
+  email: "ishek619@gmail.com"
   api_key: ""
 
 primer:
   min_length: 20
   max_length: 24
+
   min_tm: 58
   max_tm: 62
+
   min_gc: 40
   max_gc: 60
-  min_product: 80
-  max_product: 150
+
+  gc_clamp: true
+
+  max_poly_x: 4
+
+  min_product: 70
+  max_product: 200
+
+  max_self_dimer: -9.0
+  max_hairpin: -2.0
+
+specificity:
+  require_species_specific: true
+  check_closest_relatives: true
+  check_all_background_species: true
+  min_terminal_mismatches: 2
+  require_3prime_mismatch: true
+
+population:
+  minimum_conservation: 0.98
+  allow_population_snps: false
+
+report:
+  html: true
+  csv: true
+  excel: true
+  json: true

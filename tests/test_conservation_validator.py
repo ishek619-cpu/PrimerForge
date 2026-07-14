@@ -4,8 +4,8 @@ Tests for primer conservation.
 
 from pathlib import Path
 
-from primerforge.models.primer import Primer
-from primerforge.validation.conservation import (
+from envoprimer.models.primer import Primer
+from envoprimer.validation.conservation import (
     PrimerConservation,
 )
 

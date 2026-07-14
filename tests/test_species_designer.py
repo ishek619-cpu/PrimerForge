@@ -2,7 +2,7 @@
 Species designer tests.
 """
 
-from primerforge.species.designer import SpeciesPrimerDesigner
+from envoprimer.species.designer import SpeciesPrimerDesigner
 
 
 def test_designer():

@@ -2,15 +2,15 @@
 Tests for pair-level specificity validator.
 """
 
-from primerforge.models.pair import PrimerPair
-from primerforge.models.primer import Primer
+from envoprimer.models.pair import PrimerPair
+from envoprimer.models.primer import Primer
 
-from primerforge.specificity.models import (
+from envoprimer.specificity.models import (
     BlastHit,
     SpecificityResult,
 )
 
-from primerforge.specificity.pair_validator import (
+from envoprimer.specificity.pair_validator import (
     PairSpecificityValidator,
 )
 

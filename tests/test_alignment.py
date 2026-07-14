@@ -4,7 +4,7 @@ Tests for MAFFT alignment.
 
 from pathlib import Path
 
-from primerforge.analysis.align import MAFFTAligner
+from envoprimer.analysis.align import MAFFTAligner
 
 
 def test_alignment(tmp_path: Path):

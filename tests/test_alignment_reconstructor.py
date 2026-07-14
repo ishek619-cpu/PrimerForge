@@ -2,8 +2,8 @@
 Tests for alignment reconstruction.
 """
 
-from primerforge.specificity.alignment import AlignmentReconstructor
-from primerforge.specificity.models import BlastHit
+from envoprimer.specificity.alignment import AlignmentReconstructor
+from envoprimer.specificity.models import BlastHit
 
 
 def test_alignment_reconstruction():

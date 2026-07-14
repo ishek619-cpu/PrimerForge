@@ -1,0 +1,201 @@
+LOCUS       MG824632                 547 bp    DNA     linear   VRT 12-AUG-2018
+DEFINITION  Oreochromis sp. LMN-2018 voucher YLMC096 cytochrome c oxidase
+            subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   MG824632
+VERSION     MG824632.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. LMN-2018
+  ORGANISM  Oreochromis sp. LMN-2018
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 547)
+  AUTHORS   Iyiola,O.A., Nneji,L.M., Mustapha,M.K., Nzeh,C.G., Oladipo,S.O.,
+            Nneji,I.C., Okeyoyin,A.O., Nwani,C.D., Ugwumba,O.A., Ugwumba,A.A.,
+            Faturoti,E.O., Wang,Y.Y., Chen,J., Wang,W.Z. and Adeola,A.C.
+  TITLE     DNA barcoding of economically important freshwater fish species from
+            north-central Nigeria uncovers cryptic diversity
+  JOURNAL   Ecol Evol 8 (14), 6932-6951 (2018)
+   PUBMED   30073057
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 547)
+  AUTHORS   Iyiola,O.A., Nneji,L.M., Mustapha,M.K., Nzeh,C.G., Oladipo,S.O.,
+            Nneji,I.C., Okeyoyin,A.O., Nwani,C.D., Ugwumba,O.A., Ugwumba,A.A.A.,
+            Faturoti,E.O., Wang,Y.-Y., Chen,J., Adeola,A.C. and Wang,W.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2018) State Key Laboratory of Genetic Resources
+            and Evolution, Kunming Institute of Zoology, Chinese Academy of
+            Sciences, No. 32 East Jiaochang Road, Kunming, Yunnan 650223, P.R.
+            China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..547
+                     /organism="Oreochromis sp. LMN-2018"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="YLMC096"
+                     /db_xref="taxon:2293267"
+                     /geo_loc_name="Nigeria: Kwara State, Jebba HEP Down stream"
+                     /collected_by="Segun O. Oladipo"
+     gene            <1..>547
+                     /gene="COI"
+     CDS             <1..>547
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="AXK69113.1"
+                     /translation="RAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWL
+                     VPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGP
+                     SVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLP
+                     VLAAGITMLLTDRNLNTT"
+ORIGIN
+        1 ttcgggcaga actaagccag cccggctctc tcctcggaga cgaccagatt tataatgtaa
+       61 ttgttacagc acatgctttt gtaataattt tctttatagt aatgccaatt atgattggag
+      121 gctttggaaa ctgactagta ccactcatga ttggtgcccc agatatggcc ttccctcgaa
+      181 tgaacaacat gagtttctga ctcctccctc cctcattcct cctcctcctc gcctcatctg
+      241 gagtcgaagc aggtgccggc acagggtgaa ctgtttaccc cccgctcgca ggcaatcttg
+      301 cccatgctgg gccttctgtc gacttaacca tcttctccct ccacttggcc ggggtgtcat
+      361 ctattctagg cgcaattaat ttcattacaa caatcattaa catgaaaccc cccgccatct
+      421 ctcaatatca aacaccccta tttgtatggt ccgttctaat taccgcagta ttacttcttc
+      481 tatccctacc cgttcttgcc gccggcatca caatacttct cacagaccga aacctaaaca
+      541 caacctt
+//
+LOCUS       MG824631                 547 bp    DNA     linear   VRT 12-AUG-2018
+DEFINITION  Oreochromis sp. LMN-2018 voucher YLMC126 cytochrome c oxidase
+            subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   MG824631
+VERSION     MG824631.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. LMN-2018
+  ORGANISM  Oreochromis sp. LMN-2018
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 547)
+  AUTHORS   Iyiola,O.A., Nneji,L.M., Mustapha,M.K., Nzeh,C.G., Oladipo,S.O.,
+            Nneji,I.C., Okeyoyin,A.O., Nwani,C.D., Ugwumba,O.A., Ugwumba,A.A.,
+            Faturoti,E.O., Wang,Y.Y., Chen,J., Wang,W.Z. and Adeola,A.C.
+  TITLE     DNA barcoding of economically important freshwater fish species from
+            north-central Nigeria uncovers cryptic diversity
+  JOURNAL   Ecol Evol 8 (14), 6932-6951 (2018)
+   PUBMED   30073057
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 547)
+  AUTHORS   Iyiola,O.A., Nneji,L.M., Mustapha,M.K., Nzeh,C.G., Oladipo,S.O.,
+            Nneji,I.C., Okeyoyin,A.O., Nwani,C.D., Ugwumba,O.A., Ugwumba,A.A.A.,
+            Faturoti,E.O., Wang,Y.-Y., Chen,J., Adeola,A.C. and Wang,W.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2018) State Key Laboratory of Genetic Resources
+            and Evolution, Kunming Institute of Zoology, Chinese Academy of
+            Sciences, No. 32 East Jiaochang Road, Kunming, Yunnan 650223, P.R.
+            China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..547
+                     /organism="Oreochromis sp. LMN-2018"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="YLMC126"
+                     /db_xref="taxon:2293267"
+                     /geo_loc_name="Nigeria: Kwara State, Jebba HEP Down stream"
+                     /collected_by="Segun O. Oladipo"
+     gene            <1..>547
+                     /gene="COI"
+     CDS             <1..>547
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="AXK69112.1"
+                     /translation="RAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWL
+                     VPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGP
+                     SVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLP
+                     VLAAGITMLLTDRNLNTT"
+ORIGIN
+        1 ttcgggcaga actaagccaa cccggctctc tcctcggaga cgaccagatt tataatgtaa
+       61 ttgttacagc acatgctttt gtaataattt tctttatagt aatgccaatt atgattggag
+      121 gctttggaaa ctgactagta ccactcatga ttggtgcccc agatatggcc ttccctcgaa
+      181 tgaacaacat gagtttctga ctcctccctc cctcattcct cctcctcctc gcctcatctg
+      241 gagtcgaagc aggtgccggc acagggtgaa ctgtttaccc cccgctcgca ggcaatcttg
+      301 cccatgctgg gccttctgtc gacttaacca tcttctctct ccacttggcc ggggtgtcat
+      361 ctattctagg cgcaattaat ttcattacaa caatcattaa catgaaaccc cccgccatct
+      421 ctcaatatca aacaccccta tttgtatggt ccgttctaat taccgcagta ttacttcttc
+      481 tatccctacc cgttcttgcc gccggcatca caatacttct cacagaccga aacctaaaca
+      541 caacctt
+//
+LOCUS       MG824630                 547 bp    DNA     linear   VRT 12-AUG-2018
+DEFINITION  Oreochromis sp. LMN-2018 voucher YLMC008 cytochrome c oxidase
+            subunit I (COI) gene, partial cds; mitochondrial.
+ACCESSION   MG824630
+VERSION     MG824630.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis sp. LMN-2018
+  ORGANISM  Oreochromis sp. LMN-2018
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 547)
+  AUTHORS   Iyiola,O.A., Nneji,L.M., Mustapha,M.K., Nzeh,C.G., Oladipo,S.O.,
+            Nneji,I.C., Okeyoyin,A.O., Nwani,C.D., Ugwumba,O.A., Ugwumba,A.A.,
+            Faturoti,E.O., Wang,Y.Y., Chen,J., Wang,W.Z. and Adeola,A.C.
+  TITLE     DNA barcoding of economically important freshwater fish species from
+            north-central Nigeria uncovers cryptic diversity
+  JOURNAL   Ecol Evol 8 (14), 6932-6951 (2018)
+   PUBMED   30073057
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 547)
+  AUTHORS   Iyiola,O.A., Nneji,L.M., Mustapha,M.K., Nzeh,C.G., Oladipo,S.O.,
+            Nneji,I.C., Okeyoyin,A.O., Nwani,C.D., Ugwumba,O.A., Ugwumba,A.A.A.,
+            Faturoti,E.O., Wang,Y.-Y., Chen,J., Adeola,A.C. and Wang,W.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2018) State Key Laboratory of Genetic Resources
+            and Evolution, Kunming Institute of Zoology, Chinese Academy of
+            Sciences, No. 32 East Jiaochang Road, Kunming, Yunnan 650223, P.R.
+            China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..547
+                     /organism="Oreochromis sp. LMN-2018"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="YLMC008"
+                     /db_xref="taxon:2293267"
+                     /geo_loc_name="Nigeria: Kwara State, Asa River"
+                     /collected_by="Segun O. Oladipo"
+     gene            <1..>547
+                     /gene="COI"
+     CDS             <1..>547
+                     /gene="COI"
+                     /codon_start=3
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="AXK69111.1"
+                     /translation="RAELSQPGSLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWL
+                     VPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGP
+                     SVDLTIFSLHLAGVSSILGAINFITTIINMKPPAISQYQTPLFVWSVLITAVLLLLSLP
+                     VLAAGITMLLTDRNLNTT"
+ORIGIN
+        1 ttcgggcaga actaagccag cccggctctc tcctcggaga cgaccagatt tataatgtaa
+       61 ttgttacagc acatgctttt gtaataattt tctttatagt aatgccaatt atgattggag
+      121 gctttggaaa ctgactagta ccactcatga ttggtgcccc agatatggcc ttccctcgaa
+      181 tgaacaacat gagtttctga ctcctccctc cctcattcct cctcctcctc gcctcatctg
+      241 gagtcgaagc aggtgccggc acagggtgaa ctgtttaccc cccgctcgca ggcaatcttg
+      301 cccatgctgg gccttctgtc gacttaacca tcttctccct ccacttggcc ggggtgtcat
+      361 ctattctagg cgcaattaat ttcattacaa caatcattaa catgaaaccc cccgccatct
+      421 ctcaatatca aacaccccta tttgtatggt ccgttctaat taccgcagta ttacttcttc
+      481 tatccctacc cgttcttgcc gccggcatca caatacttct cacagaccga aacctaaaca
+      541 caacctt
+//

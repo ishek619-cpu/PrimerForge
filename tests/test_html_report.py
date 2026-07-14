@@ -4,9 +4,9 @@ Tests for HTML report generation.
 
 from pathlib import Path
 
-from primerforge.models.pair import PrimerPair
-from primerforge.models.primer import Primer
-from primerforge.report.html import HTMLReport
+from envoprimer.models.pair import PrimerPair
+from envoprimer.models.primer import Primer
+from envoprimer.report.html import HTMLReport
 
 
 def test_html_report(tmp_path):

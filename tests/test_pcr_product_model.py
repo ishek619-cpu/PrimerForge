@@ -2,7 +2,7 @@
 Tests for PCRProduct model.
 """
 
-from primerforge.models.pcr_product import (
+from envoprimer.models.pcr_product import (
     PCRProduct,
 )
 

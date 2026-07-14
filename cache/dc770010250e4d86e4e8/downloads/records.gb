@@ -1,0 +1,68 @@
+LOCUS       MK497087                 683 bp    DNA     linear   VRT 15-JUN-2021
+DEFINITION  Oreochromis mortimeri voucher SAIAB:200479 cytochrome oxidase
+            subunit 1 (COI) gene, partial cds; mitochondrial.
+ACCESSION   MK497087
+VERSION     MK497087.1
+KEYWORDS    .
+SOURCE      mitochondrion Oreochromis mortimeri (Kariba tilapia)
+  ORGANISM  Oreochromis mortimeri
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Indigenous populations are essential for species delimitation in
+            Tilapia (Cichlidae, Oreochromini)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Mojekwu,T.O., Cunningham,M.J. and Bills,R.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2019) Biochemistry, Genetics and Microbiology,
+            University of Pretoria, Lynwood Road, Hatfield, Pretoria/Guateng
+            0028, Southafrica
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oreochromis mortimeri"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="SAIAB:200479"
+                     /db_xref="taxon:167929"
+                     /tissue_type="Fin (right back cut)"
+                     /geo_loc_name="Zimbabwe: Zambezi, Livingstone, Batoka
+                     section, middle Zambezi"
+                     /lat_lon="18.06 S 26.63 E"
+                     /collection_date="2014-11-25"
+                     /collected_by="R. Bills"
+                     /identified_by="R. Bills"
+     gene            <1..>683
+                     /gene="COI"
+     CDS             <1..>683
+                     /gene="COI"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome oxidase subunit 1"
+                     /protein_id="QIX12332.1"
+                     /translation="HKDIGTLYLVFGAWAGMVGTALSLLIRAELSQPGSLLGDDQIYNV
+                     IVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLAS
+                     SGVEAGAGTGWTVYPPLAGNLAHAGPSVDLTIFSLHLAGVSSILGAINFITTIINMKPP
+                     AISQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGDPILYQH
+                     LFWFFG"
+ORIGIN
+        1 cacaaagaca tcggcaccct ctatctagta tttggtgctt gagccggaat agtaggaact
+       61 gcactaagtc tccttattcg ggcagaacta agccagcccg gctctctcct cggagacgac
+      121 cagatttata atgtaattgt tacagcacat gctttcgtaa taattttctt tatagtaata
+      181 ccaattataa ttggaggttt tggaaactga ctggtgccac ttatgattgg ggcaccagac
+      241 atggccttcc ctcgaataaa taacatgagt ttttgactcc ttcccccctc atttctcctt
+      301 ctcctcgcct cctccggagt cgaagcagga gccggtacag gatgaactgt ttatcctccc
+      361 ctcgcaggca atctcgccca cgctgggcct tctgttgact taaccatctt ctccctccac
+      421 ttagccgggg tgtcatctat tttaggtgca attaatttta tcacaaccat cattaacata
+      481 aaaccccctg ccatctctca atatcaaaca cccctctttg tgtgatccgt tctaattacc
+      541 gcagtattac tcctactatc cctgcccgtt cttgccgccg gcatcacaat acttctaaca
+      601 gaccgaaacc taaacacaac cttctttgac cctgccggag gaggagaccc catcctttac
+      661 caacacttat tctgattctt tgg
+//

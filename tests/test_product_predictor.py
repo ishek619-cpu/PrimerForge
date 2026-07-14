@@ -2,10 +2,10 @@
 Tests for PCR product prediction.
 """
 
-from primerforge.pcr.product_predictor import (
+from envoprimer.pcr.product_predictor import (
     PCRProductPredictor,
 )
-from primerforge.specificity.models import (
+from envoprimer.specificity.models import (
     BlastHit,
 )
 

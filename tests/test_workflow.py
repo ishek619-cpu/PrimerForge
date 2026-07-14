@@ -2,7 +2,7 @@
 Workflow tests.
 """
 
-from primerforge.species.workflow import WorkflowResult
+from envoprimer.species.workflow import WorkflowResult
 
 
 def test_workflow_result():

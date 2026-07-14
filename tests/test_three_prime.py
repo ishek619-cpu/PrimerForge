@@ -2,8 +2,8 @@
 Tests for exact 3' mismatch analysis.
 """
 
-from primerforge.specificity.models import BlastHit
-from primerforge.specificity.three_prime import ThreePrimeAnalyzer
+from envoprimer.specificity.models import BlastHit
+from envoprimer.specificity.three_prime import ThreePrimeAnalyzer
 
 
 def test_three_prime_analysis():

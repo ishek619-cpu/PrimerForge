@@ -1,5 +1,5 @@
-from primerforge.species.taxonomy import TaxonomyRecord
-from primerforge.species.relatives import RelativeSpeciesFinder
+from envoprimer.species.taxonomy import TaxonomyRecord
+from envoprimer.species.relatives import RelativeSpeciesFinder
 
 
 def test_genus():
